@@ -82,6 +82,30 @@ NORTHERN_SEEDS: tuple[SeedSource, ...] = (
         "Google News: NDMA / PDMA / PMD alerts (north)",
         google_news_url('(NDMA OR PDMA OR PMD OR "Met Office")'),
     ),
+    # Rescue 1122 and road authorities. Their own sites can't be read automatically
+    # (NHA returns 403, NHMP refuses connections, Rescue 1122 GB feed is years old),
+    # so their news is followed through Google News instead.
+    SeedSource(
+        "google_news",
+        "gn-rescue1122-north",
+        "Google News: Rescue 1122 (north)",
+        google_news_url(
+            '("Rescue 1122" OR Rescue1122) (Swat OR Chitral OR Kohistan OR Mansehra OR Murree '
+            'OR Gilgit OR Skardu OR Hunza OR "Upper Dir" OR "Lower Dir" OR Shangla OR Neelum '
+            "OR Naran OR Kaghan OR Abbottabad OR Diamer)"
+        ),
+    ),
+    SeedSource(
+        "google_news",
+        "gn-roads-nha-nhmp-north",
+        "Google News: NHA / NHMP / FWO roads (north)",
+        google_news_url(
+            '(NHA OR "National Highway Authority" OR NHMP OR "Motorway Police" OR FWO) '
+            '(KKH OR "Karakoram Highway" OR Babusar OR Naran OR Kaghan OR Lowari OR Shandur '
+            'OR "Chitral road" OR "Neelum road" OR "Swat Expressway" OR "Murree Expressway" '
+            'OR "Hazara Motorway")'
+        ),
+    ),
     # Publisher RSS feeds (English + Urdu + Gilgit-Baltistan local)
     SeedSource("rss", "dawn-pakistan", "Dawn — Pakistan", "https://www.dawn.com/feeds/pakistan"),
     SeedSource(
@@ -109,6 +133,7 @@ NORTHERN_SEEDS: tuple[SeedSource, ...] = (
     ),
     SeedSource("rss", "chitral-today", "Chitral Today", "https://chitraltoday.net/feed/"),
     SeedSource("rss", "daily-k2", "Daily K2 (Gilgit-Baltistan)", "https://dailyk2.com/feed/"),
+    SeedSource("rss", "skardu-pk", "Skardu.pk (Baltistan)", "https://skardu.pk/feed/"),
     # Official advisory pages without RSS (robots.txt allows; dated links verified 2026-09-15).
     # GBDMA (PDMA Gilgit-Baltistan) is not included: gbdma.gog.pk does not resolve.
     SeedSource("advisory_page", "ndma-advisories", "NDMA", "https://www.ndma.gov.pk/advisories"),

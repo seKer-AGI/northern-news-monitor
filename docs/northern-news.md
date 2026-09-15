@@ -56,7 +56,8 @@ forecast alerts.
 | Type | Sources |
 |---|---|
 | `google_news` | 5 regional searches: Hazara/Galiyat/Kaghan · Swat/Chitral/Dir/Kohistan · Gilgit-Baltistan/KKH · Neelum/AJK · NDMA/PDMA/PMD alerts |
-| `rss` | Dawn (Pakistan), Express Tribune (Pakistan), Geo News, ARY News, Daily Jang (Urdu), Express (Urdu), Pamir Times (GB), Chitral Times (Urdu + English), Chitral Today, Daily K2 (GB) |
+| `google_news` (emergency & roads) | Rescue 1122 (north) · NHA / NHMP / FWO roads (north) |
+| `rss` | Dawn (Pakistan), Express Tribune (Pakistan), Geo News, ARY News, Daily Jang (Urdu), Express (Urdu), Pamir Times (GB), Chitral Times (Urdu + English), Chitral Today, Daily K2 (GB), Skardu.pk |
 | `advisory_page` | NDMA advisories, PDMA Khyber Pakhtunkhwa, PMD press releases |
 | `weather` | 16 Open-Meteo locations: Murree, Nathia Gali, Naran, Babusar Top, Kalam, Malam Jabba, Chitral, Chilas, Gilgit, Hunza, Khunjerab, Skardu, Astore, Deosai, Sharda (Neelum), Muzaffarabad |
 
@@ -70,7 +71,16 @@ Official pages checked but **not** used:
 - **SDMA AJK** (`sdma.pk`): returned HTTP 403 to automated requests, which is respected.
 - **PDMA KP reporting portal** (`rms.pdma.gov.pk`), **NDMA news**, **GB government news**: these pages have no dated links in their HTML, because the content is loaded by JavaScript.
 - **PMD alerts page**: HTTP 404.
-- **GB Tribune** and **NHA**: HTTP 403. **Hunza News** has had no updates in months. The **Dawn Urdu** feed is invalid.
+- **GB Tribune** and **NHA** (`nha.gov.pk`): HTTP 403, and NHA's `robots.txt` is also refused. **Hunza News** has had no updates in months. The **Dawn Urdu** feed is invalid.
+- **NHMP** (`nhmp.gov.pk`): the connection is refused, and the certificate couldn't be verified.
+- **Rescue 1122**:
+  - The GB site's feed is years old, and its alert pages are undated.
+  - The KP news page lists only administrative items.
+  - The Punjab site has no news listing.
+
+  Rescue 1122 and NHA/NHMP/FWO road news is therefore followed through Google News.
+- **PID press releases**: these cover all government topics and have no dated advisory links in the HTML.
+- **Skardu.pk road-conditions page**: it shows "no posts". The site's RSS feed is used instead.
 
 Other sources checked but **not** used:
 
