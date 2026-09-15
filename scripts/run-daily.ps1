@@ -15,6 +15,11 @@ $ErrorActionPreference = "Continue"
 $root = Split-Path -Parent $PSScriptRoot
 Set-Location $root
 
+# Keep logs and piped output UTF-8 (Windows PowerShell 5.1 defaults to UTF-16/ANSI).
+$env:PYTHONIOENCODING = "utf-8"
+[Console]::OutputEncoding = [System.Text.Encoding]::UTF8
+$OutputEncoding = [System.Text.Encoding]::UTF8
+
 $stamp = Get-Date -Format "yyyy-MM-dd"
 $exports = Join-Path $root "exports"
 $logDir = Join-Path $exports "logs"
@@ -22,6 +27,16 @@ New-Item -ItemType Directory -Force $logDir | Out-Null
 $log = Join-Path $logDir "run-$stamp.log"
 function Write-Log([string]$message) {
     "$(Get-Date -Format 'yyyy-MM-dd HH:mm:ss') $message" | Out-File -FilePath $log -Append -Encoding utf8
+}
+# Pipe a native command's output: stdout lines pass through, stderr lines go to the log.
+function Split-Output {
+    process {
+        if ($_ -is [System.Management.Automation.ErrorRecord]) {
+            $_.ToString() | Out-File -FilePath $log -Append -Encoding utf8
+        } else {
+            $_
+        }
+    }
 }
 
 Write-Log "=== daily run started ==="
@@ -53,15 +68,16 @@ if ($LASTEXITCODE -ne 0) { Write-Log "ERROR: database not ready"; exit 1 }
 
 # 3. Migrate, collect, export
 $py = Join-Path $root ".venv\Scripts\python.exe"
-& $py -m app db migrate *>> $log
+& $py -m app db migrate 2>&1 | Split-Output | Out-File -FilePath $log -Append -Encoding utf8
 
 $summary = Join-Path $logDir "collect-$stamp.json"
-& $py -m app collect 2>> $log | Out-File -FilePath $summary -Encoding utf8
+& $py -m app collect 2>&1 | Split-Output | Out-File -FilePath $summary -Encoding utf8
 $collectExit = $LASTEXITCODE
 Write-Log "collect exit code: $collectExit (0 ok, 3 partial, 1 failed)"
 
 $csv = Join-Path $exports "northern-weather-news-$stamp.csv"
-& $py -m app export news-csv --since-hours 24 --output $csv *>> $log
+& $py -m app export news-csv --since-hours 24 --output $csv 2>&1 | Split-Output |
+    Out-File -FilePath $log -Append -Encoding utf8
 if (Test-Path $csv) {
     Copy-Item $csv (Join-Path $exports "northern-weather-news-latest.csv") -Force
     Write-Log "wrote $csv"
