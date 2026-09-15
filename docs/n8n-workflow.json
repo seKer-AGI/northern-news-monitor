@@ -1,0 +1,72 @@
+{
+  "name": "Facebook Post Monitor - daily collection",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "days",
+              "daysInterval": 1,
+              "triggerAtHour": 6,
+              "triggerAtMinute": 0
+            }
+          ]
+        }
+      },
+      "name": "Every day 06:00",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [0, 0]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://host.docker.internal:8000/api/v1/collection/run",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "options": {
+          "timeout": 600000,
+          "response": {
+            "response": {
+              "fullResponse": true,
+              "neverError": true
+            }
+          }
+        }
+      },
+      "name": "Run collection",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [240, 0]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "string": [
+            {
+              "value1": "={{ $json.body.status }}",
+              "operation": "equal",
+              "value2": "success"
+            }
+          ]
+        }
+      },
+      "name": "Succeeded?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 1,
+      "position": [480, 0]
+    }
+  ],
+  "connections": {
+    "Every day 06:00": {
+      "main": [[{ "node": "Run collection", "type": "main", "index": 0 }]]
+    },
+    "Run collection": {
+      "main": [[{ "node": "Succeeded?", "type": "main", "index": 0 }]]
+    }
+  },
+  "settings": {
+    "timezone": "Asia/Karachi"
+  }
+}
