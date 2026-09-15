@@ -1,9 +1,9 @@
 """Collection engine.
 
 For each active source: validate → fetch → filter by window → extract text →
-normalize → dedupe → save, each source in its own transaction. One failing
-source never aborts the run, and a source's watermark only advances after its
-posts are committed.
+normalize → (news only) relevance filter → dedupe → save, each source in its own
+transaction. One failing source never aborts the run, and a source's watermark
+only advances after its posts are committed.
 """
 
 from __future__ import annotations
@@ -19,11 +19,19 @@ from sqlalchemy.orm import Session, sessionmaker
 from app.core.config import Settings
 from app.core.exceptions import CollectionAlreadyRunningError
 from app.core.time import Clock, utcnow
-from app.db.models import CollectionError, CollectionRun, Post, RunStatus, Source
+from app.db.models import (
+    NEWS_SOURCE_TYPES,
+    CollectionError,
+    CollectionRun,
+    Post,
+    RunStatus,
+    Source,
+)
 from app.providers.base import FacebookDataProvider, ProviderError, ProviderErrorCode, SourceRef
 from app.services.deduplication import CandidatePost, dedupe_batch, filter_new_posts
 from app.services.normalization import normalize_text
 from app.services.notifications import NotificationProvider, NullNotificationProvider
+from app.services.relevance import match_relevance, strip_publisher_suffix
 from app.services.window import FetchWindow, compute_window, filter_posts_in_window
 
 logger = logging.getLogger(__name__)
@@ -39,6 +47,7 @@ class _SourceSnapshot:
     source_type: str
     source_identifier: str
     source_name: str
+    source_url: str | None
     last_collected_at: datetime | None
 
 
@@ -231,6 +240,7 @@ class CollectionService:
                     source_type=s.source_type,
                     source_identifier=s.source_identifier,
                     source_name=s.source_name,
+                    source_url=s.source_url,
                     last_collected_at=s.last_collected_at,
                 )
                 for s in session.scalars(stmt)
@@ -262,6 +272,7 @@ class CollectionService:
             source_type=source.source_type,
             identifier=source.source_identifier,
             name=source.source_name,
+            url=source.source_url,
         )
 
         try:
@@ -314,6 +325,8 @@ class CollectionService:
         skipped = len(outside)
         missing_ids = 0
         empty_text = 0
+        not_relevant = 0
+        is_news = source.source_type in NEWS_SOURCE_TYPES
         candidates: list[CandidatePost] = []
 
         for post in in_window:
@@ -324,6 +337,18 @@ class CollectionService:
             if not normalized:
                 empty_text += 1  # e.g. photo-only post; there is no text to collect
                 continue
+            locations = hazards = None
+            if is_news:
+                relevance = match_relevance(
+                    strip_publisher_suffix(normalized)
+                    if source.source_type == "google_news"
+                    else normalized
+                )
+                if not relevance.relevant:
+                    not_relevant += 1  # not about northern-areas weather/hazards
+                    continue
+                locations = "; ".join(relevance.locations)[:500]
+                hazards = "; ".join(relevance.hazards)[:500]
             assert post.posted_at is not None  # guaranteed by the window filter
             candidates.append(
                 CandidatePost(
@@ -331,6 +356,9 @@ class CollectionService:
                     posted_at=post.posted_at,
                     text=normalized,
                     raw_text=post.text if self.settings.store_raw_text else None,
+                    url=getattr(post, "url", None),
+                    locations=locations,
+                    hazards=hazards,
                 )
             )
 
@@ -341,13 +369,14 @@ class CollectionService:
             self._record_error(run_id, source, MISSING_POST_ID, message)
 
         unique, batch_duplicates = dedupe_batch(candidates)
-        skipped += missing_ids + empty_text + batch_duplicates
+        skipped += missing_ids + empty_text + not_relevant + batch_duplicates
         logger.debug(
             "Posts prepared",
             extra={
                 **log_ctx,
                 "outside_window": len(outside),
                 "empty_text": empty_text,
+                "not_relevant": not_relevant,
                 "batch_duplicates": batch_duplicates,
             },
         )
@@ -373,6 +402,9 @@ class CollectionService:
                                 posted_at=candidate.posted_at,
                                 text=candidate.text,
                                 raw_text=candidate.raw_text,
+                                url=candidate.url,
+                                locations=candidate.locations,
+                                hazards=candidate.hazards,
                                 collected_at=collected_at,
                             )
                         )

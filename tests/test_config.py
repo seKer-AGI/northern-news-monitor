@@ -3,9 +3,10 @@ from pydantic import ValidationError
 
 from app.core.config import Settings
 from app.core.exceptions import ConfigurationError
-from app.providers.factory import build_provider
+from app.providers.factory import build_facebook_provider, build_provider
 from app.providers.meta_graph import MetaGraphAPIProvider
 from app.providers.mock import MockFacebookProvider
+from app.providers.routing import RoutingProvider
 
 
 def _settings(**kwargs) -> Settings:
@@ -15,7 +16,27 @@ def _settings(**kwargs) -> Settings:
 def test_mock_provider_needs_no_meta_credentials():
     settings = _settings(data_provider="mock")
     settings.validate_for_provider()
-    assert isinstance(build_provider(settings), MockFacebookProvider)
+    assert isinstance(build_facebook_provider(settings), MockFacebookProvider)
+
+
+def test_build_provider_routes_facebook_and_news_types():
+    provider = build_provider(_settings(data_provider="mock"))
+    try:
+        assert isinstance(provider, RoutingProvider)
+        assert provider.supported_source_types == {
+            "page",
+            "group",
+            "rss",
+            "google_news",
+            "weather",
+        }
+    finally:
+        provider.close()
+
+
+def test_news_can_be_disabled():
+    provider = build_provider(_settings(data_provider="mock", news_enabled=False))
+    assert isinstance(provider, MockFacebookProvider)
 
 
 def test_meta_provider_reports_all_missing_variables():
@@ -33,7 +54,7 @@ def test_build_provider_refuses_incomplete_meta_config():
 
 def test_meta_provider_built_when_configured():
     settings = _settings(data_provider="meta", meta_access_token="tok", meta_api_version="v25.0")
-    provider = build_provider(settings)
+    provider = build_facebook_provider(settings)
     try:
         assert isinstance(provider, MetaGraphAPIProvider)
     finally:

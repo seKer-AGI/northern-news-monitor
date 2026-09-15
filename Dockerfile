@@ -9,7 +9,8 @@ WORKDIR /srv
 
 COPY pyproject.toml README.md LICENSE alembic.ini ./
 COPY app ./app
-RUN pip install . \
+# Longer timeout + retries: slow connections to PyPI otherwise fail the build.
+RUN pip install --timeout 120 --retries 5 . \
     && useradd --create-home --uid 10001 appuser
 
 USER appuser

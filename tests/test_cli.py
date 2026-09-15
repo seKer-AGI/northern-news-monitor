@@ -14,6 +14,7 @@ def ctx(settings, session_factory, clock):
         _session_factory=session_factory,
         provider_factory=lambda _s: MockFacebookProvider(clock=clock),
         out=io.StringIO(),
+        clock=clock,
     )
 
 

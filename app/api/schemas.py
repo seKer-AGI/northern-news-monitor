@@ -6,9 +6,9 @@ import math
 from datetime import datetime
 from typing import Generic, TypeVar
 
-from pydantic import BaseModel, ConfigDict, Field
+from pydantic import BaseModel, ConfigDict, Field, model_validator
 
-from app.db.models import RunStatus, SourceType
+from app.db.models import URL_SOURCE_TYPES, RunStatus, SourceType
 
 T = TypeVar("T")
 
@@ -50,10 +50,24 @@ class SourceCreate(_Input):
         min_length=1,
         max_length=255,
         pattern=IDENTIFIER_PATTERN,
-        description="Facebook Page/Group ID or username (e.g. '123456789' or 'examplepage').",
+        description=(
+            "Facebook Page/Group ID or username, a short slug for rss/google_news "
+            "sources, or a location slug for weather sources (e.g. 'murree')."
+        ),
     )
-    source_url: str | None = Field(default=None, max_length=2048, pattern=URL_PATTERN)
+    source_url: str | None = Field(
+        default=None,
+        max_length=2048,
+        pattern=URL_PATTERN,
+        description="Required for rss and google_news: the feed URL.",
+    )
     active: bool = True
+
+    @model_validator(mode="after")
+    def _feed_sources_need_url(self) -> SourceCreate:
+        if self.source_type.value in URL_SOURCE_TYPES and not self.source_url:
+            raise ValueError("source_url is required for rss and google_news sources")
+        return self
 
 
 class SourceUpdate(_Input):

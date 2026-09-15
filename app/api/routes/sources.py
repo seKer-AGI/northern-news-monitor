@@ -94,7 +94,9 @@ def validate_source(
 ) -> SourceValidationOut:
     source = _get_or_404(db, source_id)
     result = provider.validate_source(
-        SourceRef(source.source_type, source.source_identifier, source.source_name)
+        SourceRef(
+            source.source_type, source.source_identifier, source.source_name, source.source_url
+        )
     )
     return SourceValidationOut(
         source_id=source.id,

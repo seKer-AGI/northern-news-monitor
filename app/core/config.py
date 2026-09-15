@@ -69,6 +69,16 @@ class Settings(BaseSettings):
     max_request_body_bytes: int = Field(default=1_048_576, ge=1024)
     csv_escape_formulas: bool = True
 
+    # --- News / weather sources ---------------------------------------------
+    news_enabled: bool = True
+    news_user_agent: str = "facebook-post-monitor/0.1 (northern-areas weather news monitor)"
+    news_max_response_bytes: int = Field(default=5_000_000, ge=10_000)
+    news_summary_chars: int = Field(default=600, ge=0, le=5000)
+    weather_snowfall_cm: float = Field(default=2.0, ge=0)
+    weather_precipitation_mm: float = Field(default=25.0, ge=0)
+    weather_wind_gust_kmh: float = Field(default=60.0, ge=0)
+    weather_forecast_days: int = Field(default=3, ge=1, le=7)
+
     @field_validator("meta_api_version")
     @classmethod
     def _check_api_version(cls, value: str | None) -> str | None:

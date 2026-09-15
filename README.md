@@ -16,6 +16,23 @@ Sources → Authorized provider → Fetch → Filter by window → Extract text
 > CAPTCHA. Arbitrary Facebook Groups **cannot** be read through the official
 > API. See [Meta API limitations](#3-important-facebookmeta-api-limitations).
 
+### New: northern-areas weather & hazard news
+
+The same pipeline also collects **weather and hazard news for Pakistan's northern
+areas** from public sources that need no login: regional Google News searches,
+Dawn, Tribune, Geo, ARY, Jang, Express Urdu, Pamir Times, and Open-Meteo
+forecast alerts. It keeps only items about a northern location *and* a hazard,
+then writes a daily CSV.
+
+```bash
+python -m app sources seed-northern
+python -m app collect
+python -m app export news-csv --since-hours 24 -o exports/northern-weather-news.csv
+```
+
+On Windows, `scripts\run-daily.ps1` does all of the above. See
+[docs/northern-news.md](docs/northern-news.md).
+
 ---
 
 ## Contents

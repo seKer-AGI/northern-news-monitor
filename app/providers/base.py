@@ -59,15 +59,21 @@ class SourceRef:
     source_type: str
     identifier: str
     name: str = ""
+    url: str | None = None
 
 
 @dataclass(frozen=True, slots=True)
 class ProviderPost:
-    """Minimal post payload. Providers must not return anything beyond this."""
+    """Minimal post payload. Providers must not return anything beyond this.
+
+    ``url`` is only set by news/weather providers (link to the public article);
+    Facebook providers leave it empty.
+    """
 
     external_post_id: str | None
     posted_at: datetime | None
     text: str | None
+    url: str | None = None
 
 
 @dataclass(frozen=True, slots=True)

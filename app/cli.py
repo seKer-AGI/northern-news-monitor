@@ -4,9 +4,12 @@ Examples::
 
     python -m app collect
     python -m app sources list
+    python -m app sources seed-northern
     python -m app sources add --type page --name "Example Page" --identifier examplepage
+    python -m app sources add --type rss --name "Dawn" --identifier dawn --url https://www.dawn.com/feeds/pakistan
     python -m app db migrate
     python -m app export csv --output posts.csv --start-date 2026-09-14
+    python -m app export news-csv --since-hours 24 --output exports/northern-weather-news.csv
     python -m app serve
 """
 
@@ -17,6 +20,7 @@ import json
 import sys
 from collections.abc import Callable
 from dataclasses import dataclass, field
+from datetime import timedelta
 from pathlib import Path
 
 from sqlalchemy import select
@@ -27,13 +31,13 @@ from app import __version__
 from app.core.config import Settings, get_settings
 from app.core.exceptions import AppError
 from app.core.logging import configure_logging
-from app.core.time import parse_date_param
-from app.db.models import CollectionRun, RunStatus, Source
+from app.core.time import Clock, parse_date_param, utcnow
+from app.db.models import CollectionRun, RunStatus, Source, SourceType
 from app.db.session import create_engine_from_url, make_session_factory
 from app.providers.base import FacebookDataProvider, ProviderError, SourceRef
 from app.providers.factory import build_provider
 from app.services.collection import CollectionService
-from app.services.export import csv_chunks, iter_export_rows
+from app.services.export import NEWS_EXPORT_COLUMNS, csv_chunks, iter_export_rows, iter_news_rows
 from app.services.notifications import build_notifier
 from app.services.posts import PostFilters
 
@@ -42,6 +46,8 @@ EXIT_FAILED = 1
 EXIT_USAGE = 2
 EXIT_PARTIAL = 3
 
+SOURCE_TYPE_CHOICES = [t.value for t in SourceType]
+
 
 @dataclass
 class Context:
@@ -49,6 +55,7 @@ class Context:
     _session_factory: sessionmaker[Session] | None = None
     provider_factory: Callable[[Settings], FacebookDataProvider] = build_provider
     out: object = field(default_factory=lambda: sys.stdout)
+    clock: Clock = utcnow
 
     @property
     def session_factory(self) -> sessionmaker[Session]:
@@ -67,7 +74,11 @@ def cmd_collect(args: argparse.Namespace, ctx: Context) -> int:
     provider = ctx.provider_factory(ctx.settings)
     try:
         service = CollectionService(
-            ctx.session_factory, provider, ctx.settings, notifier=build_notifier(ctx.settings)
+            ctx.session_factory,
+            provider,
+            ctx.settings,
+            notifier=build_notifier(ctx.settings),
+            clock=ctx.clock,
         )
         result = service.run(args.source_id or None)
     finally:
@@ -89,13 +100,13 @@ def cmd_sources_list(args: argparse.Namespace, ctx: Context) -> int:
         ctx.print("No sources configured." if args.all else "No active sources (use --all).")
         return EXIT_OK
     ctx.print(
-        f"{'ID':>4}  {'TYPE':<6} {'ACTIVE':<6} {'IDENTIFIER':<32} {'LAST COLLECTED':<26} NAME"
+        f"{'ID':>4}  {'TYPE':<11} {'ACTIVE':<6} {'IDENTIFIER':<28} {'LAST COLLECTED':<26} NAME"
     )
     for s in sources:
-        last = s.last_collected_at.isoformat() if s.last_collected_at else "-"
+        last = s.last_collected_at.isoformat(timespec="seconds") if s.last_collected_at else "-"
         ctx.print(
-            f"{s.id:>4}  {s.source_type:<6} {'yes' if s.active else 'no':<6} "
-            f"{s.source_identifier:<32} {last:<26} {s.source_name}"
+            f"{s.id:>4}  {s.source_type:<11} {'yes' if s.active else 'no':<6} "
+            f"{s.source_identifier:<28} {last:<26} {s.source_name}"
         )
     return EXIT_OK
 
@@ -119,6 +130,15 @@ def cmd_sources_add(args: argparse.Namespace, ctx: Context) -> int:
             ctx.print("Error: a source with this type and identifier already exists.")
             return EXIT_FAILED
         ctx.print(f"Created source {source.id}: {source.source_type} {source.source_identifier}")
+    return EXIT_OK
+
+
+def cmd_sources_seed_northern(args: argparse.Namespace, ctx: Context) -> int:
+    from app.services.seeds import seed_sources
+
+    with ctx.session_factory() as session:
+        created, existing = seed_sources(session)
+    ctx.print(f"Northern-areas news/weather sources: {created} added, {existing} already present.")
     return EXIT_OK
 
 
@@ -157,7 +177,9 @@ def cmd_sources_validate(args: argparse.Namespace, ctx: Context) -> int:
         if source is None:
             ctx.print(f"Error: source {args.id} not found.")
             return EXIT_FAILED
-        ref = SourceRef(source.source_type, source.source_identifier, source.source_name)
+        ref = SourceRef(
+            source.source_type, source.source_identifier, source.source_name, source.source_url
+        )
     provider = ctx.provider_factory(ctx.settings)
     try:
         result = provider.validate_source(ref)
@@ -183,7 +205,7 @@ def cmd_runs_list(args: argparse.Namespace, ctx: Context) -> int:
     )
     for r in runs:
         ctx.print(
-            f"{r.id:>4}  {r.status:<16} {r.started_at.isoformat():<26} "
+            f"{r.id:>4}  {r.status:<16} {r.started_at.isoformat(timespec='seconds'):<26} "
             f"{r.sources_processed:>7} {r.posts_saved:>6} {r.error_count:>6}"
         )
     return EXIT_OK
@@ -219,15 +241,33 @@ def cmd_export(args: argparse.Namespace, ctx: Context) -> int:
         start_date=parse_date_param(args.start_date) if args.start_date else None,
         end_date=parse_date_param(args.end_date, is_end=True) if args.end_date else None,
     )
+    escape = ctx.settings.csv_escape_formulas
     with ctx.session_factory() as session:
-        rows = iter_export_rows(session, filters)
-        if args.format == "csv":
-            content = "".join(csv_chunks(rows, escape_formulas=ctx.settings.csv_escape_formulas))
+        if args.format == "news-csv":
+            collected_since = (
+                ctx.clock() - timedelta(hours=args.since_hours) if args.since_hours else None
+            )
+            rows = iter_news_rows(
+                session, filters, dedupe=not args.no_dedupe, collected_since=collected_since
+            )
+            content = "".join(
+                csv_chunks(rows, escape_formulas=escape, fieldnames=NEWS_EXPORT_COLUMNS)
+            )
+        elif args.format == "csv":
+            content = "".join(
+                csv_chunks(iter_export_rows(session, filters), escape_formulas=escape)
+            )
         else:
-            content = json.dumps(list(rows), ensure_ascii=False, indent=2)
+            content = json.dumps(
+                list(iter_export_rows(session, filters)), ensure_ascii=False, indent=2
+            )
     if args.output:
-        Path(args.output).write_text(content, encoding="utf-8", newline="")
-        ctx.print(f"Wrote {args.format.upper()} export to {args.output}")
+        path = Path(args.output)
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(content, encoding="utf-8", newline="")
+        rows_written = max(content.count("\n") - 1, 0) if args.format != "json" else None
+        suffix = f" ({rows_written} lines)" if rows_written is not None else ""
+        ctx.print(f"Wrote {args.format.upper()} export to {args.output}{suffix}")
     else:
         ctx.print(content)
     return EXIT_OK
@@ -256,7 +296,10 @@ def cmd_serve(args: argparse.Namespace, ctx: Context) -> int:
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         prog="python -m app",
-        description="Facebook Post Monitor — collect post text from authorized Facebook sources.",
+        description=(
+            "Facebook Post Monitor — collect post text from authorized Facebook sources and "
+            "northern-areas weather/hazard news from public feeds."
+        ),
     )
     parser.add_argument("--version", action="version", version=f"%(prog)s {__version__}")
     sub = parser.add_subparsers(title="commands", metavar="<command>")
@@ -279,12 +322,21 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--all", action="store_true", help="Include inactive sources")
     p.set_defaults(handler=cmd_sources_list)
     p = ssub.add_parser("add", help="Add a source")
-    p.add_argument("--type", required=True, choices=["page", "group"])
+    p.add_argument("--type", required=True, choices=SOURCE_TYPE_CHOICES)
     p.add_argument("--name", required=True)
-    p.add_argument("--identifier", required=True, help="Page/Group ID or username")
-    p.add_argument("--url")
+    p.add_argument(
+        "--identifier",
+        required=True,
+        help="Page/Group ID or username; a slug for rss/google_news; a location slug for weather",
+    )
+    p.add_argument("--url", help="Feed URL (required for rss and google_news)")
     p.add_argument("--inactive", action="store_true", help="Create the source paused")
     p.set_defaults(handler=cmd_sources_add)
+    p = ssub.add_parser(
+        "seed-northern",
+        help="Add the default northern-areas weather/hazard news and forecast sources",
+    )
+    p.set_defaults(handler=cmd_sources_seed_northern)
     p = ssub.add_parser("update", help="Update a source")
     p.add_argument("id", type=int)
     p.add_argument("--name")
@@ -320,13 +372,24 @@ def build_parser() -> argparse.ArgumentParser:
     p.set_defaults(handler=cmd_db_current)
 
     # export
-    p = sub.add_parser("export", help="Export posts to CSV or JSON")
-    p.add_argument("format", choices=["csv", "json"])
+    p = sub.add_parser(
+        "export",
+        help="Export posts (csv/json) or northern-areas news (news-csv)",
+        description="news-csv columns: posted_at_pkt, source_name, source_type, locations, "
+        "hazards, text, url (newest first, same story from several outlets collapsed).",
+    )
+    p.add_argument("format", choices=["csv", "json", "news-csv"])
     p.add_argument("--output", "-o", help="File path (default: stdout)")
     p.add_argument("--source-id", type=int)
-    p.add_argument("--source-type", choices=["page", "group"])
-    p.add_argument("--start-date", help="ISO 8601 datetime or YYYY-MM-DD (inclusive)")
-    p.add_argument("--end-date", help="ISO 8601 datetime or YYYY-MM-DD (inclusive)")
+    p.add_argument("--source-type", choices=SOURCE_TYPE_CHOICES)
+    p.add_argument("--start-date", help="Posted on/after: ISO 8601 datetime or YYYY-MM-DD")
+    p.add_argument("--end-date", help="Posted on/before: ISO 8601 datetime or YYYY-MM-DD")
+    p.add_argument(
+        "--since-hours", type=int, help="news-csv: only items collected in the last N hours"
+    )
+    p.add_argument(
+        "--no-dedupe", action="store_true", help="news-csv: keep the same story from every outlet"
+    )
     p.set_defaults(handler=cmd_export)
 
     # provider

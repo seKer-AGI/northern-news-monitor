@@ -24,6 +24,9 @@ class CandidatePost:
     posted_at: datetime
     text: str
     raw_text: str | None = None
+    url: str | None = None
+    locations: str | None = None
+    hazards: str | None = None
 
 
 def dedupe_batch(posts: Iterable[CandidatePost]) -> tuple[list[CandidatePost], int]:

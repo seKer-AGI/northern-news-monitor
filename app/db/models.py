@@ -37,6 +37,17 @@ NAMING_CONVENTION = {
 class SourceType(StrEnum):
     PAGE = "page"
     GROUP = "group"
+    RSS = "rss"
+    GOOGLE_NEWS = "google_news"
+    WEATHER = "weather"
+
+
+FACEBOOK_SOURCE_TYPES = frozenset({SourceType.PAGE.value, SourceType.GROUP.value})
+NEWS_SOURCE_TYPES = frozenset(
+    {SourceType.RSS.value, SourceType.GOOGLE_NEWS.value, SourceType.WEATHER.value}
+)
+# Types whose source_url is the endpoint to read.
+URL_SOURCE_TYPES = frozenset({SourceType.RSS.value, SourceType.GOOGLE_NEWS.value})
 
 
 class RunStatus(StrEnum):
@@ -54,7 +65,10 @@ class Source(Base):
     __tablename__ = "sources"
     __table_args__ = (
         UniqueConstraint("source_type", "source_identifier", name="uq_sources_type_identifier"),
-        CheckConstraint("source_type IN ('page', 'group')", name="source_type_valid"),
+        CheckConstraint(
+            "source_type IN ('page', 'group', 'rss', 'google_news', 'weather')",
+            name="source_type_valid",
+        ),
     )
 
     id: Mapped[int] = mapped_column(Integer, primary_key=True)
@@ -90,6 +104,10 @@ class Post(Base):
     posted_at: Mapped[datetime] = mapped_column(UTCDateTime(), nullable=False, index=True)
     text: Mapped[str] = mapped_column(Text, nullable=False)
     raw_text: Mapped[str | None] = mapped_column(Text, nullable=True)
+    # News/weather sources only: article link and matched keywords.
+    url: Mapped[str | None] = mapped_column(String(2048), nullable=True)
+    locations: Mapped[str | None] = mapped_column(String(500), nullable=True)
+    hazards: Mapped[str | None] = mapped_column(String(500), nullable=True)
     collected_at: Mapped[datetime] = mapped_column(UTCDateTime(), nullable=False)
     created_at: Mapped[datetime] = mapped_column(UTCDateTime(), nullable=False, default=utcnow)
 
