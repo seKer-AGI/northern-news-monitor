@@ -21,6 +21,7 @@ from app.core.exceptions import CollectionAlreadyRunningError
 from app.core.time import Clock, utcnow
 from app.db.models import (
     NEWS_SOURCE_TYPES,
+    OFFICIAL_SOURCE_TYPES,
     CollectionError,
     CollectionRun,
     Post,
@@ -344,11 +345,13 @@ class CollectionService:
                     if source.source_type == "google_news"
                     else normalized
                 )
-                if not relevance.relevant:
+                official = source.source_type in OFFICIAL_SOURCE_TYPES
+                if not relevance.relevant and not official:
                     not_relevant += 1  # not about northern-areas weather/hazards
                     continue
                 locations = "; ".join(relevance.locations)[:500]
-                hazards = "; ".join(relevance.hazards)[:500]
+                hazard_labels = (("Official advisory",) if official else ()) + relevance.hazards
+                hazards = "; ".join(hazard_labels)[:500]
             assert post.posted_at is not None  # guaranteed by the window filter
             candidates.append(
                 CandidatePost(

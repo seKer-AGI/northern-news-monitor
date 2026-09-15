@@ -40,14 +40,24 @@ class SourceType(StrEnum):
     RSS = "rss"
     GOOGLE_NEWS = "google_news"
     WEATHER = "weather"
+    ADVISORY_PAGE = "advisory_page"
 
 
 FACEBOOK_SOURCE_TYPES = frozenset({SourceType.PAGE.value, SourceType.GROUP.value})
 NEWS_SOURCE_TYPES = frozenset(
-    {SourceType.RSS.value, SourceType.GOOGLE_NEWS.value, SourceType.WEATHER.value}
+    {
+        SourceType.RSS.value,
+        SourceType.GOOGLE_NEWS.value,
+        SourceType.WEATHER.value,
+        SourceType.ADVISORY_PAGE.value,
+    }
 )
 # Types whose source_url is the endpoint to read.
-URL_SOURCE_TYPES = frozenset({SourceType.RSS.value, SourceType.GOOGLE_NEWS.value})
+URL_SOURCE_TYPES = frozenset(
+    {SourceType.RSS.value, SourceType.GOOGLE_NEWS.value, SourceType.ADVISORY_PAGE.value}
+)
+# Official agency advisories are relevant by definition (no keyword filter).
+OFFICIAL_SOURCE_TYPES = frozenset({SourceType.ADVISORY_PAGE.value})
 
 
 class RunStatus(StrEnum):
@@ -66,7 +76,7 @@ class Source(Base):
     __table_args__ = (
         UniqueConstraint("source_type", "source_identifier", name="uq_sources_type_identifier"),
         CheckConstraint(
-            "source_type IN ('page', 'group', 'rss', 'google_news', 'weather')",
+            "source_type IN ('page', 'group', 'rss', 'google_news', 'weather', 'advisory_page')",
             name="source_type_valid",
         ),
     )

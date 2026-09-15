@@ -19,10 +19,17 @@ Sources → Authorized provider → Fetch → Filter by window → Extract text
 ### New: northern-areas weather & hazard news
 
 The same pipeline also collects **weather and hazard news for Pakistan's northern
-areas** from public sources that need no login: regional Google News searches,
-Dawn, Tribune, Geo, ARY, Jang, Express Urdu, Pamir Times, and Open-Meteo
-forecast alerts. It keeps only items about a northern location *and* a hazard,
-then writes a daily CSV.
+areas** from public sources that need no login:
+
+- regional Google News searches
+- Dawn, Tribune, Geo, ARY, Jang, Express Urdu
+- local outlets: Pamir Times, Chitral Times, Chitral Today, Daily K2
+- **official advisories** from NDMA, PDMA Khyber Pakhtunkhwa and PMD (their
+  `robots.txt` is checked first)
+- Open-Meteo forecast alerts
+
+It keeps only items about a northern location *and* a hazard (official
+advisories are always kept), then writes a daily CSV.
 
 ```bash
 python -m app sources seed-northern

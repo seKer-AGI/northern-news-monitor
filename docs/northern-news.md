@@ -56,14 +56,23 @@ forecast alerts.
 | Type | Sources |
 |---|---|
 | `google_news` | 5 regional searches: Hazara/Galiyat/Kaghan · Swat/Chitral/Dir/Kohistan · Gilgit-Baltistan/KKH · Neelum/AJK · NDMA/PDMA/PMD alerts |
-| `rss` | Dawn (Pakistan), Express Tribune (Pakistan), Geo News, ARY News, Daily Jang (Urdu), Express (Urdu), Pamir Times (GB) |
+| `rss` | Dawn (Pakistan), Express Tribune (Pakistan), Geo News, ARY News, Daily Jang (Urdu), Express (Urdu), Pamir Times (GB), Chitral Times (Urdu + English), Chitral Today, Daily K2 (GB) |
+| `advisory_page` | NDMA advisories, PDMA Khyber Pakhtunkhwa, PMD press releases |
 | `weather` | 16 Open-Meteo locations: Murree, Nathia Gali, Naran, Babusar Top, Kalam, Malam Jabba, Chitral, Chilas, Gilgit, Hunza, Khunjerab, Skardu, Astore, Deosai, Sharda (Neelum), Muzaffarabad |
 
 General publisher feeds carry all national news, so on most days few or none of
 their items are relevant. They're kept because they catch Urdu stories and
 local GB coverage.
 
-Sources checked but **not** used:
+Official pages checked but **not** used:
+
+- **GBDMA (PDMA Gilgit-Baltistan)**: `gbdma.gog.pk` doesn't resolve, so the site is down or has moved. GB advisories still arrive through Google News and the GB outlets.
+- **SDMA AJK** (`sdma.pk`): returned HTTP 403 to automated requests, which is respected.
+- **PDMA KP reporting portal** (`rms.pdma.gov.pk`), **NDMA news**, **GB government news**: these pages have no dated links in their HTML, because the content is loaded by JavaScript.
+- **PMD alerts page**: HTTP 404.
+- **GB Tribune** and **NHA**: HTTP 403. **Hunza News** has had no updates in months. The **Dawn Urdu** feed is invalid.
+
+Other sources checked but **not** used:
 
 - **Nawa-i-Waqt**: no RSS feed. Its stories still reach Google News.
 - **NDMA website**: no feed.
@@ -92,6 +101,27 @@ Arabic and Urdu letter variants (ي/ی, ك/ک) are normalised before matching. E
 the `LOCATIONS` and `HAZARDS` lists to widen or narrow the filter.
 
 Facebook `page`/`group` sources are **not** relevance-filtered.
+
+## Official advisory pages (`advisory_page`)
+
+Some agencies publish advisories only as links (usually PDFs) on a web page,
+with no RSS feed. For these sources, each run:
+
+1. Reads the site's `robots.txt` and **does not touch the page if it disallows
+   access**. A `robots.txt` answer of 403 also counts as "stay out".
+2. Fetches the page once and keeps links whose text looks like an advisory,
+   such as "Weather Advisory 11-09-2026" or "NDMA Flash Flood Advisory (KP & GB) - 22 July 2026".
+3. Dates each link from the date in its title (`11 Sep 2026`, `11-09-2026`,
+   `12th to 17th April, 2026`), treated as the end of that day in PKT.
+
+Links without a date (menus, maps, plans) get no timestamp and are dropped by
+the window filter. Official advisories skip the keyword filter, because they
+are relevant by definition. `hazards` starts with `Official advisory`, and
+`url` points to the PDF.
+
+```bash
+python -m app sources add --type advisory_page --name "NDMA" --identifier ndma-advisories --url https://www.ndma.gov.pk/advisories
+```
 
 ## Weather alerts
 

@@ -29,6 +29,7 @@ def test_build_provider_routes_facebook_and_news_types():
             "rss",
             "google_news",
             "weather",
+            "advisory_page",
         }
     finally:
         provider.close()

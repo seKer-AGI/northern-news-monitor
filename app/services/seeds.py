@@ -97,6 +97,28 @@ NORTHERN_SEEDS: tuple[SeedSource, ...] = (
     SeedSource(
         "rss", "pamir-times", "Pamir Times (Gilgit-Baltistan)", "https://pamirtimes.net/feed/"
     ),
+    # Local Chitral / Gilgit-Baltistan outlets (feeds verified 2026-09-15, robots.txt allows)
+    SeedSource(
+        "rss", "chitral-times-urdu", "Chitral Times (Urdu)", "https://chitraltimes.com/feed"
+    ),
+    SeedSource(
+        "rss",
+        "chitral-times-english",
+        "Chitral Times (English)",
+        "https://english.chitraltimes.com/feed/",
+    ),
+    SeedSource("rss", "chitral-today", "Chitral Today", "https://chitraltoday.net/feed/"),
+    SeedSource("rss", "daily-k2", "Daily K2 (Gilgit-Baltistan)", "https://dailyk2.com/feed/"),
+    # Official advisory pages without RSS (robots.txt allows; dated links verified 2026-09-15).
+    # GBDMA (PDMA Gilgit-Baltistan) is not included: gbdma.gog.pk does not resolve.
+    SeedSource("advisory_page", "ndma-advisories", "NDMA", "https://www.ndma.gov.pk/advisories"),
+    SeedSource("advisory_page", "pdma-kp", "PDMA Khyber Pakhtunkhwa", "https://www.pdma.gov.pk"),
+    SeedSource(
+        "advisory_page",
+        "pmd-press-releases",
+        "PMD Press Release",
+        "https://weather.gov.pk/nwfc/all-press-releases",
+    ),
     # Forecast alerts
     *(
         SeedSource("weather", loc.slug, f"Weather: {loc.name}")

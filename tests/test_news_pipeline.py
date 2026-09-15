@@ -224,9 +224,12 @@ def test_seed_sources_is_idempotent(session_factory):
         feeds_without_url = session.scalar(
             select(func.count())
             .select_from(Source)
-            .where(Source.source_type.in_(["rss", "google_news"]), Source.source_url.is_(None))
+            .where(
+                Source.source_type.in_(["rss", "google_news", "advisory_page"]),
+                Source.source_url.is_(None),
+            )
         )
-    assert types == {"rss", "google_news", "weather"}
+    assert types == {"rss", "google_news", "weather", "advisory_page"}
     assert feeds_without_url == 0
 
 

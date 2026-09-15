@@ -2,13 +2,14 @@
 
 `northern-weather-news-2026-09-15.csv` is the first real output of the
 northern-areas weather/hazard news collector (see
-[docs/northern-news.md](../docs/northern-news.md)). It has 12 rows: 3 news
-headlines and 9 forecast alerts.
+[docs/northern-news.md](../docs/northern-news.md)). It has 17 rows: 3 Google
+News headlines, 1 local outlet story (Chitral Times Urdu), 4 official advisories
+(NDMA, PDMA Khyber Pakhtunkhwa, PMD) and 9 forecast alerts.
 
 | Column | Meaning |
 |---|---|
 | `posted_at_pkt` | Publish time, Pakistan time |
-| `source_name` / `source_type` | Where it came from (`google_news`, `rss`, `weather`) |
+| `source_name` / `source_type` | Where it came from (`google_news`, `rss`, `advisory_page`, `weather`) |
 | `locations` / `hazards` | Matched northern locations and hazard types |
 | `text` | Headline or forecast alert text |
 | `url` | Link to the original article or forecast |
