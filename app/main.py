@@ -20,7 +20,7 @@ from app.core.config import Settings, get_settings
 from app.core.logging import configure_logging
 from app.core.time import Clock, utcnow
 from app.db.session import create_engine_from_url, make_session_factory
-from app.providers.base import FacebookDataProvider
+from app.providers.base import DataProvider
 from app.providers.factory import build_provider
 
 logger = logging.getLogger(__name__)
@@ -30,7 +30,7 @@ def create_app(
     settings: Settings | None = None,
     *,
     session_factory: sessionmaker[Session] | None = None,
-    provider_factory: Callable[[Settings], FacebookDataProvider] | None = None,
+    provider_factory: Callable[[Settings], DataProvider] | None = None,
     clock: Clock = utcnow,
     setup_logging: bool = True,
 ) -> FastAPI:
@@ -39,7 +39,7 @@ def create_app(
         configure_logging(settings.log_level, settings.log_format, settings.secret_values())
 
     app = FastAPI(
-        title="Facebook Post Monitor",
+        title="Northern News Monitor",
         version=__version__,
         description=(
             "Collects the text of new posts from configured Facebook sources through an "

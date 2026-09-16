@@ -1,5 +1,5 @@
 from app.providers.base import (
-    FacebookDataProvider,
+    DataProvider,
     ProviderError,
     ProviderErrorCode,
     ProviderHealth,
@@ -10,7 +10,7 @@ from app.providers.base import (
 from app.providers.factory import build_provider
 
 __all__ = [
-    "FacebookDataProvider",
+    "DataProvider",
     "ProviderError",
     "ProviderErrorCode",
     "ProviderHealth",

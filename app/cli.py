@@ -34,7 +34,7 @@ from app.core.logging import configure_logging
 from app.core.time import Clock, parse_date_param, utcnow
 from app.db.models import CollectionRun, RunStatus, Source, SourceType
 from app.db.session import create_engine_from_url, make_session_factory
-from app.providers.base import FacebookDataProvider, ProviderError, SourceRef
+from app.providers.base import DataProvider, ProviderError, SourceRef
 from app.providers.factory import build_provider
 from app.services.collection import CollectionService
 from app.services.export import NEWS_EXPORT_COLUMNS, csv_chunks, iter_export_rows, iter_news_rows
@@ -53,7 +53,7 @@ SOURCE_TYPE_CHOICES = [t.value for t in SourceType]
 class Context:
     settings: Settings
     _session_factory: sessionmaker[Session] | None = None
-    provider_factory: Callable[[Settings], FacebookDataProvider] = build_provider
+    provider_factory: Callable[[Settings], DataProvider] = build_provider
     out: object = field(default_factory=lambda: sys.stdout)
     clock: Clock = utcnow
 
@@ -297,7 +297,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         prog="python -m app",
         description=(
-            "Facebook Post Monitor — collect post text from authorized Facebook sources and "
+            "Northern News Monitor — collect post text from authorized Facebook sources and "
             "northern-areas weather/hazard news from public feeds."
         ),
     )

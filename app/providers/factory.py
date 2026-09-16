@@ -1,11 +1,11 @@
 from __future__ import annotations
 
 from app.core.config import ProviderName, Settings
-from app.providers.base import FacebookDataProvider
+from app.providers.base import DataProvider
 from app.providers.retry import RetryPolicy
 
 
-def build_facebook_provider(settings: Settings) -> FacebookDataProvider:
+def build_facebook_provider(settings: Settings) -> DataProvider:
     """Provider for ``page``/``group`` sources, selected by ``DATA_PROVIDER``."""
     if settings.data_provider is ProviderName.META:
         from app.providers.meta_graph import MetaGraphAPIProvider
@@ -17,7 +17,7 @@ def build_facebook_provider(settings: Settings) -> FacebookDataProvider:
     return MockFacebookProvider()
 
 
-def build_news_providers(settings: Settings) -> dict[str, FacebookDataProvider]:
+def build_news_providers(settings: Settings) -> dict[str, DataProvider]:
     """Providers for public news feeds and weather forecasts (no credentials)."""
     from app.providers.advisory_page import AdvisoryPageProvider
     from app.providers.feeds import FeedProvider
@@ -55,7 +55,7 @@ def build_news_providers(settings: Settings) -> dict[str, FacebookDataProvider]:
     }
 
 
-def build_provider(settings: Settings) -> FacebookDataProvider:
+def build_provider(settings: Settings) -> DataProvider:
     """Build the provider for all source types (validates configuration first)."""
     settings.validate_for_provider()
     facebook = build_facebook_provider(settings)

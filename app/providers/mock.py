@@ -23,7 +23,7 @@ from datetime import UTC, datetime, timedelta
 
 from app.core.time import Clock, utcnow
 from app.providers.base import (
-    FacebookDataProvider,
+    DataProvider,
     ProviderError,
     ProviderErrorCode,
     ProviderHealth,
@@ -64,7 +64,7 @@ def _stable_int(*parts: str) -> int:
     return int(digest[:12], 16)
 
 
-class MockFacebookProvider(FacebookDataProvider):
+class MockFacebookProvider(DataProvider):
     name = "mock"
     supported_source_types = frozenset({"page", "group"})
 

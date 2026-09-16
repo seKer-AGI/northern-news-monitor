@@ -21,7 +21,7 @@ from typing import Any
 from defusedxml import ElementTree as SafeET
 
 from app.providers.base import (
-    FacebookDataProvider,
+    DataProvider,
     ProviderError,
     ProviderErrorCode,
     ProviderHealth,
@@ -157,7 +157,7 @@ def _truncate(text: str, limit: int) -> str:
     return text[:limit].rsplit(" ", 1)[0] + "…"
 
 
-class FeedProvider(FacebookDataProvider):
+class FeedProvider(DataProvider):
     name = "feeds"
     supported_source_types = frozenset({"rss", "google_news"})
 

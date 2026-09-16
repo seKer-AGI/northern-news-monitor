@@ -35,7 +35,7 @@ class Settings(BaseSettings):
     log_format: str = Field(default="json", pattern="^(json|text)$")
 
     # --- Database ----------------------------------------------------------
-    database_url: str = "postgresql+psycopg://fpm:fpm@localhost:5432/facebook_post_monitor"
+    database_url: str = "postgresql+psycopg://fpm:fpm@localhost:5432/northern_news_monitor"
 
     # --- Data provider -----------------------------------------------------
     data_provider: ProviderName = ProviderName.MOCK
@@ -71,7 +71,7 @@ class Settings(BaseSettings):
 
     # --- News / weather sources ---------------------------------------------
     news_enabled: bool = True
-    news_user_agent: str = "facebook-post-monitor/0.1 (northern-areas weather news monitor)"
+    news_user_agent: str = "northern-news-monitor/0.1 (northern-areas weather news monitor)"
     news_max_response_bytes: int = Field(default=5_000_000, ge=10_000)
     news_summary_chars: int = Field(default=600, ge=0, le=5000)
     weather_snowfall_cm: float = Field(default=2.0, ge=0)

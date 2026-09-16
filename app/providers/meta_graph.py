@@ -37,7 +37,7 @@ import httpx
 from app.core.config import Settings
 from app.core.time import ensure_utc
 from app.providers.base import (
-    FacebookDataProvider,
+    DataProvider,
     ProviderError,
     ProviderErrorCode,
     ProviderHealth,
@@ -72,7 +72,7 @@ def _parse_created_time(value: Any) -> datetime | None:
             return None
 
 
-class MetaGraphAPIProvider(FacebookDataProvider):
+class MetaGraphAPIProvider(DataProvider):
     name = "meta_graph"
     supported_source_types = frozenset({"page"})
 
@@ -105,7 +105,7 @@ class MetaGraphAPIProvider(FacebookDataProvider):
         self._owns_client = client is None
         self._client = client or httpx.Client(
             timeout=settings.http_timeout_seconds,
-            headers={"User-Agent": "facebook-post-monitor/0.1"},
+            headers={"User-Agent": "northern-news-monitor/0.1"},
         )
 
     # -- interface --------------------------------------------------------

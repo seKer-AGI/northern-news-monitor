@@ -15,7 +15,7 @@ from dataclasses import dataclass
 from datetime import date, datetime
 
 from app.providers.base import (
-    FacebookDataProvider,
+    DataProvider,
     ProviderError,
     ProviderErrorCode,
     ProviderHealth,
@@ -69,7 +69,7 @@ class WeatherThresholds:
     forecast_days: int = 3
 
 
-class OpenMeteoProvider(FacebookDataProvider):
+class OpenMeteoProvider(DataProvider):
     name = "open_meteo"
     supported_source_types = frozenset({"weather"})
 

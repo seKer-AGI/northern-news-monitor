@@ -10,7 +10,7 @@ from app.api.dependencies import DbSession, get_provider, require_api_key
 from app.api.schemas import SourceCreate, SourceOut, SourceUpdate, SourceValidationOut
 from app.core.exceptions import ConflictError, NotFoundError
 from app.db.models import Source, SourceType
-from app.providers.base import FacebookDataProvider, SourceRef
+from app.providers.base import DataProvider, SourceRef
 
 router = APIRouter(
     prefix="/api/v1/sources", tags=["sources"], dependencies=[Depends(require_api_key)]
@@ -90,7 +90,7 @@ def delete_source(source_id: int, db: DbSession) -> Response:
 def validate_source(
     source_id: int,
     db: DbSession,
-    provider: Annotated[FacebookDataProvider, Depends(get_provider)],
+    provider: Annotated[DataProvider, Depends(get_provider)],
 ) -> SourceValidationOut:
     source = _get_or_404(db, source_id)
     result = provider.validate_source(

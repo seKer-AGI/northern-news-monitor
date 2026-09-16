@@ -9,7 +9,7 @@ from sqlalchemy import text
 from app import __version__
 from app.api.dependencies import AppSettings, get_provider, get_session_factory_dep, require_api_key
 from app.api.schemas import HealthOut, ProviderHealthOut
-from app.providers.base import FacebookDataProvider
+from app.providers.base import DataProvider
 
 logger = logging.getLogger(__name__)
 router = APIRouter(tags=["health"])
@@ -44,7 +44,7 @@ def health(
     summary="Check provider credentials/connectivity (no source data is read)",
 )
 def provider_health(
-    response: Response, provider: Annotated[FacebookDataProvider, Depends(get_provider)]
+    response: Response, provider: Annotated[DataProvider, Depends(get_provider)]
 ) -> ProviderHealthOut:
     result = provider.health_check()
     if not result.ok:

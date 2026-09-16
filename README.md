@@ -1,409 +1,280 @@
-# Facebook Post Monitor
+# Northern News Monitor
 
-Collects **only the text** of newly published posts from a configurable list of
-Facebook sources, using an **official or otherwise explicitly authorized data
-provider**. It's built to run once every 24 hours from n8n, cron, or Docker.
+Collects **weather and hazard news for Pakistan's northern areas** — Murree,
+Galiyat, Kaghan/Naran, Swat, Chitral, Kohistan, Gilgit-Baltistan, Neelum/AJK and
+the Karakoram Highway — from public sources that need no login, and writes a
+**daily CSV**.
 
 ```text
-Sources → Authorized provider → Fetch → Filter by window → Extract text
-        → Normalize → Deduplicate → PostgreSQL → CSV / JSON → (notification)
+Google News searches ─┐
+Publisher RSS feeds ──┤
+Official advisories ──┼─▶ fetch ─▶ window filter ─▶ relevance filter ─▶ dedupe ─▶ PostgreSQL ─▶ CSV
+Open-Meteo forecasts ─┘                          (location AND hazard)
 ```
 
-> **Read this first.** Access to Facebook data depends entirely on Meta's
-> *current* permissions, endpoints, App Review requirements and your
-> authorization for each source. This project does **not** log in to Facebook,
-> automate a browser, scrape HTML, or bypass any access control, rate limit, or
-> CAPTCHA. Arbitrary Facebook Groups **cannot** be read through the official
-> API. See [Meta API limitations](#3-important-facebookmeta-api-limitations).
+Example rows: "Karakoram Highway blocked today", "NDMA Weather Advisory – 11 Sep 2026",
+"چترال سمیت خیبرپختونخوا میں بارش، ژالہ باری اور سیلابی صورتحال",
+"Weather forecast alert – Skardu: heavy snowfall about 6 cm expected".
 
-### New: northern-areas weather & hazard news
-
-The same pipeline also collects **weather and hazard news for Pakistan's northern
-areas** from public sources that need no login:
-
-- regional Google News searches
-- Dawn, Tribune, Geo, ARY, Jang, Express Urdu
-- local outlets: Pamir Times, Chitral Times, Chitral Today, Daily K2
-- **official advisories** from NDMA, PDMA Khyber Pakhtunkhwa and PMD (their
-  `robots.txt` is checked first)
-- Open-Meteo forecast alerts
-
-It keeps only items about a northern location *and* a hazard (official
-advisories are always kept), then writes a daily CSV.
-
-```bash
-python -m app sources seed-northern
-python -m app collect
-python -m app export news-csv --since-hours 24 -o exports/northern-weather-news.csv
-```
-
-On Windows, `scripts\run-daily.ps1` does all of the above. See
-[docs/northern-news.md](docs/northern-news.md).
+The project started as a Facebook post monitor, and that part still ships as an
+optional module (Meta Graph API, Pages only). Facebook **Groups cannot** be read
+through the official API — see [docs/meta-api.md](docs/meta-api.md).
 
 ---
 
 ## Contents
 
-1. [What the project does](#1-what-the-project-does)
+1. [What it collects](#1-what-it-collects)
 2. [Architecture](#2-architecture)
-3. [Important Facebook/Meta API limitations](#3-important-facebookmeta-api-limitations)
-4. [Supported data sources](#4-supported-data-sources)
-5. [Installation](#5-installation)
-6. [Environment variables](#6-environment-variables)
-7. [PostgreSQL setup](#7-postgresql-setup)
-8. [Database migrations](#8-database-migrations)
-9. [Running locally](#9-running-locally)
-10. [Running tests](#10-running-tests)
-11. [Running the collector](#11-running-the-collector)
-12. [API documentation](#12-api-documentation)
-13. [n8n integration](#13-n8n-integration)
-14. [Docker deployment](#14-docker-deployment)
-15. [Security](#15-security)
-16. [Data minimization](#16-data-minimization)
-17. [Troubleshooting](#17-troubleshooting)
+3. [Installation](#3-installation)
+4. [Daily use](#4-daily-use)
+5. [Environment variables](#5-environment-variables)
+6. [Database and migrations](#6-database-and-migrations)
+7. [REST API](#7-rest-api)
+8. [Docker](#8-docker)
+9. [Scheduling](#9-scheduling)
+10. [Facebook / Meta module](#10-facebook--meta-module)
+11. [Tests](#11-tests)
+12. [Security](#12-security)
+13. [Data minimization and terms](#13-data-minimization-and-terms)
+14. [Troubleshooting](#14-troubleshooting)
 
 ---
 
-## 1. What the project does
+## 1. What it collects
 
-- Keeps a list of 5–50 **sources** (Facebook Pages or Groups) in PostgreSQL.
-- On each run, asks the configured **data provider** for posts published since
-  that source was last collected successfully.
-- Stores **only** the post text, the source's name and type, the post ID, and timestamps.
-- Never inserts a post twice (unique `source_id + external_post_id`).
-- Records every run, including partial failures, in `collection_runs` and
-  `collection_errors`.
-- Exposes a REST API, a CLI, and CSV/JSON exports.
-
-It ships with two providers:
-
-| Provider | `DATA_PROVIDER` | Purpose |
+| `source_type` | What it is | Default sources |
 |---|---|---|
-| `MockFacebookProvider` | `mock` (default) | Realistic fake posts. The whole pipeline works without any Facebook credentials. |
-| `MetaGraphAPIProvider` | `meta` | Official Meta Graph API, using documented endpoints only. |
+| `google_news` | Google News RSS searches, region by region | 7 searches: Hazara/Galiyat/Kaghan · Swat/Chitral/Dir/Kohistan · Gilgit-Baltistan/KKH · Neelum/AJK · NDMA/PDMA/PMD · Rescue 1122 · NHA/NHMP/FWO roads |
+| `rss` | Publisher feeds, English + Urdu | Dawn, Express Tribune, Geo, ARY, Jang (Urdu), Express (Urdu), Pamir Times, Chitral Times (Urdu + English), Chitral Today, Daily K2, Skardu.pk |
+| `advisory_page` | Official pages with no feed, read only if `robots.txt` allows | NDMA advisories, PDMA Khyber Pakhtunkhwa, PMD press releases |
+| `weather` | Open-Meteo forecast alerts (snow, rain, wind, thunderstorm) | 16 northern locations |
+| `page` / `group` | Facebook, through the optional Meta module | none by default |
+
+An item is kept only if it mentions a **northern location and a hazard**, in
+English or Urdu. Official advisories are always kept. The same story from
+several outlets is collapsed into one CSV row.
+
+Full details, including sources that were checked and rejected:
+[docs/northern-news.md](docs/northern-news.md).
 
 ## 2. Architecture
 
 ```text
-                ┌────────────────────┐
- n8n / cron ───▶│ POST /collection/run│──┐
-                │ python -m app collect │  │
-                └────────────────────┘  ▼
-                               ┌──────────────────┐     ┌───────────────────────┐
-                               │ CollectionService │───▶│ FacebookDataProvider  │
-                               └────────┬─────────┘     │  ├ MetaGraphAPIProvider│
-                                        │               │  └ MockFacebookProvider│
-          window · normalize · dedupe   │               └───────────────────────┘
-                                        ▼
-                               ┌──────────────────┐
-                               │   PostgreSQL     │ sources · posts ·
-                               │                  │ collection_runs · collection_errors
-                               └────────┬─────────┘
-                                        ▼
-                             REST API · CSV · JSON
+ Task Scheduler / cron ─▶ python -m app collect
+ n8n ─▶ POST /api/v1/collection/run
+                    │
+                    ▼
+          ┌──────────────────┐      ┌────────────────────────┐
+          │ CollectionService│ ───▶ │ RoutingProvider        │
+          └────────┬─────────┘      │  ├ FeedProvider        │
+                   │                │  ├ AdvisoryPageProvider│
+ window · relevance · dedupe        │  ├ OpenMeteoProvider   │
+                   ▼                │  └ Meta / Mock (FB)    │
+          ┌──────────────────┐      └────────────────────────┘
+          │   PostgreSQL     │ sources · posts ·
+          └────────┬─────────┘ collection_runs · collection_errors
+                   ▼
+         CSV · JSON · REST API
 ```
 
-Layers are kept separate: `app/api` (HTTP), `app/services` (business logic),
+Layers stay separate: `app/api` (HTTP), `app/services` (business logic),
 `app/providers` (data access), `app/db` (persistence), `app/core` (config,
 logging, security). See [docs/architecture.md](docs/architecture.md).
 
-**Incremental collection.** Each source keeps a watermark (`last_collected_at`).
-A run fetches `(watermark − FETCH_OVERLAP_MINUTES, run start]`. The watermark
-moves forward only after that source's posts are committed. If a run fails, or a
-single source fails, the next run retries the whole missed window, so no posts
-are lost even when the job doesn't run for 30 hours. Posts caught again by the
-overlap are removed by post ID.
+**Incremental collection.** Each source keeps its own watermark
+(`last_collected_at`). A run fetches `(watermark − FETCH_OVERLAP_MINUTES, run start]`,
+and the watermark moves only after that source's items are committed. A failed
+source, or a missed day, is retried in full on the next run, so nothing is lost.
+Items caught twice are removed by their stable ID.
 
-## 3. Important Facebook/Meta API limitations
-
-The following reflects Meta's documentation at the time of writing. **Always
-check the current [Graph API changelog](https://developers.facebook.com/docs/graph-api/changelog).**
-
-| Situation | What Meta requires | Supported here? |
-|---|---|---|
-| **A Page you manage** | Page access token with `pages_read_engagement` and `pages_read_user_content` | ✅ `MetaGraphAPIProvider` |
-| **A public Page you don't manage** | The *Page Public Content Access* feature, which requires Meta App Review | ✅ Only if your app has been approved |
-| **A Facebook Group** (even one you've joined) | The Groups API was deprecated in v19.0 and **removed from all versions on 2024‑04‑22** | ❌ Returns `SOURCE_NOT_SUPPORTED` |
-
-- Creating a Meta developer app doesn't grant access to anybody else's content.
-- The Graph API has no subscription fee, but access is governed by permissions,
-  App Review, and rate limits.
-- When a source can't be read, the provider returns a **structured error** such as
-  `PERMISSION_DENIED`, `SOURCE_NOT_SUPPORTED`, or `TOKEN_EXPIRED`. That source is
-  marked failed and every other source keeps working.
-- For Groups, the only legitimate route is a **different, explicitly authorized
-  data provider**. Implement `FacebookDataProvider` for it (see
-  [docs/architecture.md](docs/architecture.md#adding-a-provider)).
-
-Full details and the step-by-step setup are in [docs/meta-api.md](docs/meta-api.md).
-
-## 4. Supported data sources
-
-| `source_type` | Mock provider | Meta Graph API provider |
-|---|---|---|
-| `page` | ✅ | ✅ with the permissions above |
-| `group` | ✅ (fake data) | ❌ `SOURCE_NOT_SUPPORTED` |
-
-`source_identifier` is the numeric Page/Group ID or the Page username.
-
-## 5. Installation
+## 3. Installation
 
 Requirements: Python 3.12+, and PostgreSQL 14+ (or Docker).
 
 ```bash
-git clone <your-repo-url> facebook-post-monitor
-cd facebook-post-monitor
+git clone <your-repo-url> northern-news-monitor
+cd northern-news-monitor
 python -m venv .venv
-# Linux/macOS:  source .venv/bin/activate
-# Windows:      .venv\Scripts\activate
 pip install -e ".[dev]"
-cp .env.example .env          # Windows: copy .env.example .env
+cp .env.example .env
 ```
 
-Generate an internal API key and put it in `.env` as `INTERNAL_API_KEY`:
+On Windows, activate the environment with `.venv\Scripts\activate` and copy the
+file with `copy .env.example .env`.
+
+An internal API key is only needed for the REST API. Generate one and put it in
+`.env` as `INTERNAL_API_KEY`:
 
 ```bash
 python -c "import secrets; print(secrets.token_urlsafe(32))"
 ```
 
-## 6. Environment variables
+## 4. Daily use
 
-All configuration comes from environment variables or `.env`. Secrets are never
-hard-coded, logged, or returned by the API.
+```bash
+python -m app db migrate
+python -m app sources seed-northern
+python -m app collect
+python -m app export news-csv --since-hours 24 -o exports/northern-weather-news.csv
+```
+
+CSV columns: `posted_at_pkt, source_name, source_type, locations, hazards, text, url`,
+newest first, duplicates collapsed (`--no-dedupe` keeps every outlet).
+
+Other commands: `sources list|add|update|remove|validate`, `runs list`,
+`export csv|json`, `provider health`, `serve`, `db current|downgrade`.
+`collect` exit codes: `0` success, `3` partial success, `1` failed.
+
+## 5. Environment variables
 
 | Variable | Default | Description |
 |---|---|---|
-| `DATABASE_URL` | `postgresql+psycopg://fpm:fpm@localhost:5432/facebook_post_monitor` | SQLAlchemy URL |
-| `DATA_PROVIDER` | `mock` | `mock` or `meta` |
-| `META_ACCESS_TOKEN` | – | **Required if `meta`.** Page access token |
-| `META_API_VERSION` | – | **Required if `meta`.** e.g. `v25.0` |
-| `META_APP_ID` | – | Optional, for your own reference |
-| `META_APP_SECRET` | – | Optional. Enables `appsecret_proof` |
-| `META_PAGE_SIZE` | `100` | Posts per request (Meta maximum: 100) |
-| `META_MAX_PAGES` | `10` | Pagination cap per source per run |
-| `HTTP_TIMEOUT_SECONDS` | `30` | Provider request timeout |
-| `PROVIDER_MAX_RETRIES` | `3` | Retries for rate limits and transient errors |
-| `PROVIDER_BACKOFF_BASE_SECONDS` | `2` | Exponential backoff base |
-| `PROVIDER_BACKOFF_MAX_SECONDS` | `60` | Backoff cap |
+| `DATABASE_URL` | `postgresql+psycopg://fpm:fpm@localhost:5432/northern_news_monitor` | SQLAlchemy URL |
+| `NEWS_ENABLED` | `true` | News, weather and advisory sources on or off |
+| `NEWS_USER_AGENT` | `northern-news-monitor/0.1 (...)` | Sent to every public site |
+| `NEWS_MAX_RESPONSE_BYTES` | `5000000` | Response size cap |
+| `NEWS_SUMMARY_CHARS` | `600` | Summary length kept from publisher feeds |
+| `WEATHER_SNOWFALL_CM` / `WEATHER_PRECIPITATION_MM` / `WEATHER_WIND_GUST_KMH` | `2` / `25` / `60` | Forecast alert thresholds per day |
+| `WEATHER_FORECAST_DAYS` | `3` | Forecast days checked |
 | `FETCH_OVERLAP_MINUTES` | `10` | Overlap with the previous window |
 | `INITIAL_LOOKBACK_HOURS` | `24` | Window for a source's first run |
-| `COLLECTION_RUN_STALE_MINUTES` | `180` | A `running` run older than this is treated as abandoned |
-| `STORE_RAW_TEXT` | `false` | Also store the un-normalized text |
-| `REMOVE_URLS` | `false` | Strip URLs during normalization |
-| `NOTIFICATION_PROVIDER` | `console` | `console` or `none` |
-| `INTERNAL_API_KEY` | – | **Required for `/api/v1/*`.** Bearer token |
-| `CORS_ALLOWED_ORIGINS` | *(empty)* | Comma-separated origins; empty disables CORS |
-| `MAX_REQUEST_BODY_BYTES` | `1048576` | Larger requests get `413` |
-| `CSV_ESCAPE_FORMULAS` | `true` | Prefix `= + - @` cells with `'` in CSV exports |
+| `COLLECTION_RUN_STALE_MINUTES` | `180` | A `running` run older than this is abandoned |
+| `INTERNAL_API_KEY` | – | **Required for `/api/v1/*`**, bearer token |
+| `CORS_ALLOWED_ORIGINS` | *(empty)* | Comma-separated origins |
+| `CSV_ESCAPE_FORMULAS` | `true` | Prefix formula-like cells with an apostrophe |
 | `LOG_LEVEL` / `LOG_FORMAT` | `INFO` / `json` | `json` or `text` |
+| `DATA_PROVIDER` | `mock` | Facebook module: `mock` or `meta` |
+| `META_ACCESS_TOKEN` / `META_API_VERSION` | – | Required when `DATA_PROVIDER=meta` |
+| `META_APP_ID` / `META_APP_SECRET` | – | Optional; the secret enables `appsecret_proof` |
 
-When a required variable is missing, the app says exactly which one, for example:
+Missing required variables are reported by name, for example
 `Missing required environment variables: META_ACCESS_TOKEN, META_API_VERSION`.
 
-## 7. PostgreSQL setup
-
-**Using Docker** (simplest):
+## 6. Database and migrations
 
 ```bash
 docker compose up -d db
+python -m app db migrate
+python -m app db current
 ```
 
-**Using a native install:**
+Tables: `sources`, `posts`, `collection_runs`, `collection_errors`. Items are
+unique per `source_id + external_post_id`, and all timestamps are stored in UTC.
 
-```sql
-CREATE USER fpm WITH PASSWORD 'change-me';
-CREATE DATABASE facebook_post_monitor OWNER fpm;
-```
-
-Then set `DATABASE_URL=postgresql+psycopg://fpm:change-me@localhost:5432/facebook_post_monitor`.
-
-## 8. Database migrations
+## 7. REST API
 
 ```bash
-python -m app db migrate            # upgrade to latest
-python -m app db current            # show current revision
-python -m app db downgrade          # revert one revision
-alembic upgrade head                # plain Alembic works too (reads DATABASE_URL)
+python -m app serve --reload
 ```
 
-## 9. Running locally
-
-```bash
-python -m app serve --reload        # http://127.0.0.1:8000/docs
-```
-
-Quick start with the mock provider:
-
-```bash
-python -m app sources add --type group --name "AI Jobs"   --identifier ai-jobs
-python -m app sources add --type page  --name "Dev Hiring" --identifier dev-hiring
-python -m app collect               # stores posts
-python -m app collect               # posts_saved: 0 (no duplicates)
-python -m app export csv -o posts.csv
-```
-
-The mock provider also has identifiers that simulate failures:
-`mock-permission-denied`, `mock-not-supported`, `mock-invalid`,
-`mock-token-expired`, `mock-rate-limited`, `mock-unavailable`, `mock-flaky`, and
-`mock-no-id`.
-
-## 10. Running tests
-
-```bash
-pytest                              # no Facebook credentials or network needed
-pytest --cov=app --cov-report=term-missing
-ruff check app tests
-```
-
-Tests use a temporary SQLite database, so they don't need PostgreSQL. A
-migration test checks that the Alembic schema matches the ORM models.
-
-## 11. Running the collector
-
-```bash
-python -m app collect                       # all active sources
-python -m app collect --source-id 3         # one source (repeatable)
-python -m app runs list                     # recent runs
-```
-
-Exit codes: `0` success, `3` partial success, `1` failed, `2` configuration or usage error.
-The run summary is printed as JSON on stdout. Logs go to stderr.
-
-Cron example (daily at 06:00):
-
-```cron
-0 6 * * * cd /srv/facebook-post-monitor && .venv/bin/python -m app collect >> collect.log 2>&1
-```
-
-## 12. API documentation
-
-Interactive docs: `http://localhost:8000/docs` (Swagger) and `/redoc`.
-
-Every `/api/v1/*` endpoint needs `Authorization: Bearer <INTERNAL_API_KEY>`.
+Interactive docs at `http://127.0.0.1:8000/docs`. Every `/api/v1/*` endpoint
+needs `Authorization: Bearer <INTERNAL_API_KEY>`.
 
 | Method | Path | Description |
 |---|---|---|
-| GET | `/health` | Liveness + DB check (public) |
-| GET | `/api/v1/provider/health` | Verify provider credentials |
-| GET | `/api/v1/sources` | List sources (`?active=`, `?source_type=`) |
-| POST | `/api/v1/sources` | Create source |
-| GET | `/api/v1/sources/{id}` | Get source |
-| PATCH | `/api/v1/sources/{id}` | Update `source_name`, `source_url`, `active` |
-| DELETE | `/api/v1/sources/{id}` | Delete source **and its posts** (use `active=false` to pause) |
-| POST | `/api/v1/sources/{id}/validate` | Check the provider can read it |
-| POST | `/api/v1/collection/run` | Run collection now (optional body `{"source_ids": [1,2]}`) |
-| GET | `/api/v1/collection/runs` | Paginated run history (`?status=`) |
-| GET | `/api/v1/collection/runs/{id}` | Run detail with errors |
-| GET | `/api/v1/posts` | Paginated posts |
-| GET | `/api/v1/posts/{id}` | Single post |
-| GET | `/api/v1/export/csv` | CSV: `source_name, source_type, posted_at, text` |
-| GET | `/api/v1/export/json` | JSON with the same four fields |
+| GET | `/health` | Liveness and database check (public) |
+| GET | `/api/v1/provider/health` | Provider and credential check |
+| GET, POST | `/api/v1/sources` | List and create sources |
+| GET, PATCH, DELETE | `/api/v1/sources/{id}` | Read, update, delete a source |
+| POST | `/api/v1/sources/{id}/validate` | Check the source can be read |
+| POST | `/api/v1/collection/run` | Run collection now: 200 success or partial, 502 failed, 409 already running |
+| GET | `/api/v1/collection/runs`, `/runs/{id}` | Run history and errors |
+| GET | `/api/v1/posts`, `/posts/{id}` | Paginated items |
+| GET | `/api/v1/export/news-csv` | Northern news CSV (`?since_hours=24`) |
+| GET | `/api/v1/export/csv`, `/export/json` | Plain item export |
 
-Post filters (for `/posts` and both exports): `source_id`, `source_type`,
-`start_date`, `end_date`. Dates can be ISO 8601 datetimes or `YYYY-MM-DD`. A bare
-`end_date` includes the whole day. Pagination uses `page` and `page_size` (max 200).
+Filters: `source_id`, `source_type`, `start_date`, `end_date` (ISO 8601 or
+`YYYY-MM-DD`). Errors use `{"error": {"code", "message", "details"}}`.
 
-`POST /api/v1/collection/run` status codes: **200** for `success` or
-`partial_success` (check `status`), **502** if the run failed, **409** if a run is
-already in progress, **401** for a bad key.
+## 8. Docker
 
 ```bash
-curl -X POST http://localhost:8000/api/v1/sources \
-  -H "Authorization: Bearer $INTERNAL_API_KEY" -H "Content-Type: application/json" \
-  -d '{"source_type":"page","source_name":"Example Page","source_identifier":"examplepage"}'
-
-curl -X POST http://localhost:8000/api/v1/collection/run -H "Authorization: Bearer $INTERNAL_API_KEY"
-
-curl "http://localhost:8000/api/v1/posts?source_type=page&start_date=2026-09-14" \
-  -H "Authorization: Bearer $INTERNAL_API_KEY"
-```
-
-Example post:
-
-```json
-{
-  "id": 123,
-  "source_id": 1,
-  "source_name": "Example Group",
-  "source_type": "group",
-  "external_post_id": "123_456",
-  "posted_at": "2026-09-14T10:30:00Z",
-  "text": "Looking for an AI developer...",
-  "collected_at": "2026-09-15T06:00:04Z"
-}
-```
-
-Errors always use this shape:
-`{"error": {"code": "SOURCE_NOT_SUPPORTED", "message": "...", "details": {}}}`.
-
-## 13. n8n integration
-
-```text
-Schedule Trigger (daily) → HTTP Request POST /api/v1/collection/run → IF status == success → (notify)
-```
-
-See [docs/n8n.md](docs/n8n.md) for step-by-step node configuration, timezone
-and authentication setup, and an importable workflow.
-
-## 14. Docker deployment
-
-```bash
-cp .env.example .env    # set INTERNAL_API_KEY (and Meta variables if DATA_PROVIDER=meta)
+cp .env.example .env
 docker compose up -d --build
-docker compose exec api python -m app sources add --type page --name "Example" --identifier examplepage
+docker compose exec api python -m app sources seed-northern
 docker compose exec api python -m app collect
-curl http://localhost:8000/health
 ```
 
-The `api` container applies migrations on startup and runs as a non-root user.
-n8n is intentionally not part of this compose file, so the service can be
-deployed on its own. Change `POSTGRES_PASSWORD` for anything beyond local use.
+The API container applies migrations on start and runs as a non-root user.
 
-## 15. Security
+## 9. Scheduling
 
-- Secrets live only in environment variables. `.env` is git-ignored and
-  `.env.example` has no values.
-- Every `/api/v1/*` endpoint requires the internal bearer key, compared in
-  constant time. If no key is configured, those endpoints return `503`.
-- The Meta token, app secret, API key, `access_token=` / `appsecret_proof=` query
-  strings and `Bearer` headers are **redacted from all logs**. httpx request
-  logging is disabled because Graph URLs contain tokens.
-- The access token is never sent to a pagination URL on a non-Graph host.
-- Requests are validated with Pydantic: unknown fields are rejected, and
-  identifier and URL formats are enforced. Bodies are capped (`413`), CORS is
+- **Windows:** `scripts\run-daily.ps1` starts the database, collects, and writes
+  `exports\northern-weather-news-YYYY-MM-DD.csv` plus `-latest.csv`, logging to
+  `exports\logs\`. Register it in Task Scheduler as a daily task; the machine
+  must be on and the user logged in, because Docker Desktop needs a session.
+- **cron:** `0 6 * * * cd /srv/northern-news-monitor && .venv/bin/python -m app collect`
+- **n8n:** Schedule Trigger → HTTP Request `POST /api/v1/collection/run` with a
+  Header Auth credential. See [docs/n8n.md](docs/n8n.md).
+
+A missed run is not a problem: the next run collects the whole missed window.
+
+## 10. Facebook / Meta module
+
+Facebook **Pages** are still supported through the official Meta Graph API. A
+Page you manage needs `pages_read_engagement` and `pages_read_user_content`; a
+public Page you don't manage needs the *Page Public Content Access* feature,
+which requires App Review. **Groups are not available**: Meta removed the Groups
+API from all versions on 2024-04-22, so group sources return
+`SOURCE_NOT_SUPPORTED`.
+
+```bash
+# .env: DATA_PROVIDER=meta, META_ACCESS_TOKEN=..., META_API_VERSION=v25.0
+python -m app provider health
+python -m app sources add --type page --name "My Page" --identifier <PAGE_ID>
+```
+
+Step-by-step setup: [docs/meta-api.md](docs/meta-api.md).
+
+## 11. Tests
+
+```bash
+pytest
+ruff check app tests
+```
+
+The suite needs no network access and no credentials.
+
+## 12. Security
+
+- Secrets live only in environment variables; `.env` is git-ignored.
+- `/api/v1/*` requires the bearer key, compared in constant time. Without a
+  configured key those endpoints return `503`.
+- Tokens, app secrets, API keys and `access_token=` query strings are redacted
+  from logs, and httpx request logging is off.
+- Requests are validated with Pydantic, bodies are capped (`413`), CORS is
   opt-in, and CSV exports are protected against formula injection.
-- Retries are bounded and only apply to transient errors. No IP, account, or
-  cookie rotation, and no CAPTCHA handling.
+- Public sources are fetched once per run with a clear User-Agent, timeouts, a
+  size cap and bounded retries. `robots.txt` is honoured for advisory pages, and
+  HTTP 401/403 is treated as a refusal, never worked around. No login, cookies,
+  proxies or IP rotation anywhere.
 
-## 16. Data minimization
+## 13. Data minimization and terms
 
-Stored per post: `source_id`, `external_post_id`, `source_name`, `source_type`,
-`posted_at`, `text`, `collected_at`, `created_at`. `raw_text` is stored only if
-`STORE_RAW_TEXT=true`.
+Stored per item: source, stable ID, timestamps, text, link, and the matched
+locations and hazards. No media, comments, reactions, author profiles, phone
+numbers or emails.
 
-**Never collected:** images, videos or media URLs, comments, reactions, likes,
-shares, author profiles, phone numbers, or emails. The Meta provider requests
-only `fields=id,message,created_time`. Exports contain just
-`source_name, source_type, posted_at, text`. Posts with no text (for example,
-photo-only posts) are skipped.
+- **Open-Meteo** free API is **non-commercial only** (CC BY 4.0, 10,000 calls a day).
+- **Google News RSS** is meant for personal feed-reader use; check Google's terms
+  for commercial or redistributed use.
+- Headlines and links belong to their publishers; only headlines and short
+  summaries are stored.
 
-## 17. Troubleshooting
+## 14. Troubleshooting
 
 | Symptom | Cause / fix |
 |---|---|
-| `Missing required environment variables: META_ACCESS_TOKEN…` | Set them in `.env`, or use `DATA_PROVIDER=mock` |
 | `/api/v1/*` returns 503 `CONFIGURATION_ERROR` | `INTERNAL_API_KEY` is not set |
-| 401 `UNAUTHORIZED` | The header must be exactly `Authorization: Bearer <key>` |
-| Source fails with `SOURCE_NOT_SUPPORTED` | A group source on the Meta provider. Meta removed the Groups API |
-| `PERMISSION_DENIED` | The token lacks `pages_read_engagement` / `pages_read_user_content`, or Page Public Content Access isn't approved |
-| `TOKEN_EXPIRED` | Generate a new token. See [docs/meta-api.md](docs/meta-api.md#tokens) |
-| `INVALID_SOURCE` | Wrong Page ID/username, or the object isn't visible to your token |
-| `RATE_LIMITED` persists | Reduce sources or pages per run and wait. The failed window is retried next run |
-| 409 `COLLECTION_ALREADY_RUNNING` | Another run is active. Stale runs auto-expire after `COLLECTION_RUN_STALE_MINUTES` |
-| `MISSING_POST_ID` error rows | The provider returned posts without IDs. They are skipped rather than deduplicated by text |
-| `connection refused` to the DB | Start PostgreSQL (`docker compose up -d db`) and check `DATABASE_URL` |
-| Port 5432 already in use | Set `POSTGRES_PORT=5433` in `.env` and adjust `DATABASE_URL` |
-| n8n in Docker can't reach the API | Use `http://host.docker.internal:8000` rather than `localhost` |
+| 401 `UNAUTHORIZED` | Header must be exactly `Authorization: Bearer <key>` |
+| CSV has only forecast alerts | Nothing hazard-related was published that day, which is normal |
+| A source fails with `PERMISSION_DENIED` | The site returned 401/403, or `robots.txt` disallows it. Not bypassed by design |
+| `SOURCE_NOT_SUPPORTED` | A Facebook group on the Meta provider |
+| `RATE_LIMITED` persists | Wait; the failed window is retried on the next run |
+| 409 `COLLECTION_ALREADY_RUNNING` | Another run is active; stale runs expire after `COLLECTION_RUN_STALE_MINUTES` |
+| `connection refused` to the database | Start PostgreSQL (`docker compose up -d db`) and check `DATABASE_URL` |
+| Port 5432 already in use | Set `POSTGRES_PORT=5433` in `.env` and update `DATABASE_URL` |
 
 ## Project structure
 
@@ -412,11 +283,13 @@ app/
   api/            routes/, schemas, dependencies, errors, middleware
   core/           config, logging, security, exceptions, time
   db/             models, session, types, migrate, migrations/
-  providers/      base, meta_graph, mock, retry, factory
-  services/       collection, normalization, deduplication, window, posts, export, notifications
+  providers/      base, feeds, advisory_page, weather, meta_graph, mock, routing, http_fetch, retry
+  services/       collection, relevance, normalization, deduplication, window, posts, export, seeds, notifications
   cli.py  main.py
-docs/             architecture.md · meta-api.md · n8n.md · n8n-workflow.json
-tests/            pytest suite (no credentials required)
+docs/             northern-news.md · architecture.md · meta-api.md · n8n.md
+data/             sample CSV output
+scripts/          run-daily.ps1
+tests/            pytest suite
 ```
 
 ## License

@@ -17,7 +17,7 @@ from app.db.models import Post, Source
 from app.db.session import create_engine_from_url, make_session_factory
 from app.main import create_app
 from app.providers.base import (
-    FacebookDataProvider,
+    DataProvider,
     ProviderHealth,
     ProviderPost,
     SourceValidation,
@@ -31,7 +31,7 @@ from app.services.seeds import NORTHERN_SEEDS, seed_sources
 from tests.conftest import TEST_API_KEY
 
 
-class FakeNewsProvider(FacebookDataProvider):
+class FakeNewsProvider(DataProvider):
     name = "fake_news"
     supported_source_types = frozenset({"rss", "google_news", "weather"})
 

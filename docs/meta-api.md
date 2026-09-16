@@ -104,7 +104,7 @@ source. Watch `GET /api/v1/collection/runs?status=failed` or add an n8n alert.
 
 - **Groups are not supported** by the official API. Don't work around this. If
   you have a legitimately authorized group-data provider, implement
-  `FacebookDataProvider` for it.
+  `DataProvider` for it.
 - The Page feed documentation mentions limits on how many posts can be read
   (for example, `limit` max 100 per request and caps on posts returned per
   year). For a 24-hour window this is rarely a problem.

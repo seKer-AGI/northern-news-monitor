@@ -6,7 +6,7 @@
 |---|---|---|
 | API | `app/api` | HTTP routing, request validation, auth, error envelope, body limit |
 | Services | `app/services` | Collection pipeline, windowing, normalization, dedup, queries, export, notifications |
-| Providers | `app/providers` | Access to an authorized data source behind `FacebookDataProvider` |
+| Providers | `app/providers` | Access to an authorized data source behind `DataProvider` |
 | Persistence | `app/db` | SQLAlchemy models, UTC datetime type, sessions, Alembic migrations |
 | Core | `app/core` | Settings, structured logging with redaction, security, exceptions, time |
 
@@ -120,7 +120,7 @@ this run and its window is retried on the next run.
 
 ## Adding a provider
 
-1. Implement `app.providers.base.FacebookDataProvider`:
+1. Implement `app.providers.base.DataProvider`:
    - `fetch_posts(source, since, until) -> list[ProviderPost]`
    - `validate_source(source) -> SourceValidation`
    - `health_check() -> ProviderHealth`

@@ -1,6 +1,6 @@
 """Data-provider abstraction.
 
-The collection engine depends only on :class:`FacebookDataProvider`. Any
+The collection engine depends only on :class:`DataProvider`. Any
 authorized data source (Meta Graph API, a licensed data vendor, a mock) can be
 plugged in by implementing this interface.
 """
@@ -92,7 +92,7 @@ class ProviderHealth:
     details: dict[str, Any] = field(default_factory=dict)
 
 
-class FacebookDataProvider(ABC):
+class DataProvider(ABC):
     name: str = "base"
     supported_source_types: frozenset[str] = frozenset()
 

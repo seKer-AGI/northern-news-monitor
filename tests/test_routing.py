@@ -3,7 +3,7 @@ from datetime import UTC, datetime
 import pytest
 
 from app.providers.base import (
-    FacebookDataProvider,
+    DataProvider,
     ProviderError,
     ProviderErrorCode,
     ProviderHealth,
@@ -17,7 +17,7 @@ from app.providers.routing import RoutingProvider
 NOW = datetime(2026, 9, 15, 12, 0, tzinfo=UTC)
 
 
-class FakeNews(FacebookDataProvider):
+class FakeNews(DataProvider):
     name = "fake_news"
     supported_source_types = frozenset({"rss"})
 

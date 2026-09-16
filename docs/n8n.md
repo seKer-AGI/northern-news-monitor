@@ -1,7 +1,7 @@
 # n8n integration
 
 n8n only **schedules and triggers** the collector. All Facebook access happens
-inside Facebook Post Monitor through the configured authorized provider.
+inside Northern News Monitor through the configured authorized provider.
 
 ```text
 Schedule Trigger (every 24h)
@@ -33,7 +33,7 @@ In n8n, go to **Credentials → New → Header Auth**:
 - **Name:** `Authorization`
 - **Value:** `Bearer <INTERNAL_API_KEY>`
 
-Save it as `Facebook Post Monitor API`. Don't paste the key directly into node
+Save it as `Northern News Monitor API`. Don't paste the key directly into node
 parameters, because it would then be visible in workflow exports.
 
 ## 3. Schedule Trigger node
@@ -54,7 +54,7 @@ collection.
 
 - **Method:** `POST`
 - **URL:** `{API_URL}/api/v1/collection/run`
-- **Authentication:** `Generic Credential Type` → `Header Auth` → select `Facebook Post Monitor API`
+- **Authentication:** `Generic Credential Type` → `Header Auth` → select `Northern News Monitor API`
 - **Send Body:** off. To limit the run to specific sources, turn it on and send
   JSON `{"source_ids": [1, 2]}`.
 - **Options:**

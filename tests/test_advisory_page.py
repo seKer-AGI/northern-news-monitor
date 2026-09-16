@@ -22,7 +22,7 @@ from app.providers.http_fetch import HttpFetcher
 from app.providers.retry import RetryPolicy
 from app.services.collection import CollectionService
 
-UA = "facebook-post-monitor/0.1 (test)"
+UA = "northern-news-monitor/0.1 (test)"
 PAGE_URL = "https://www.ndma.gov.pk/advisories"
 PAGE = """
 <nav><a href="https://ndma.gov.pk/advisories">Advisories</a>

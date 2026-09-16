@@ -3,9 +3,9 @@ requires = ["setuptools>=69", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "facebook-post-monitor"
+name = "northern-news-monitor"
 version = "0.1.0"
-description = "Collects the text of new posts from configured Facebook Pages via an authorized data provider."
+description = "Collects northern-Pakistan weather and hazard news from public feeds, official advisories and forecasts into a daily CSV."
 readme = "README.md"
 license = { text = "MIT" }
 requires-python = ">=3.12"
@@ -29,7 +29,7 @@ dev = [
 ]
 
 [project.scripts]
-fpm = "app.cli:main"
+nnm = "app.cli:main"
 
 [tool.setuptools.packages.find]
 include = ["app*"]

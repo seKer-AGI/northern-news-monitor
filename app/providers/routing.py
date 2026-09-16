@@ -5,7 +5,7 @@ from __future__ import annotations
 from datetime import datetime
 
 from app.providers.base import (
-    FacebookDataProvider,
+    DataProvider,
     ProviderError,
     ProviderErrorCode,
     ProviderHealth,
@@ -15,14 +15,14 @@ from app.providers.base import (
 )
 
 
-class RoutingProvider(FacebookDataProvider):
-    def __init__(self, routes: dict[str, FacebookDataProvider]) -> None:
+class RoutingProvider(DataProvider):
+    def __init__(self, routes: dict[str, DataProvider]) -> None:
         self._routes = dict(routes)
         self._unique = list({id(p): p for p in self._routes.values()}.values())
         self.supported_source_types = frozenset(self._routes)
         self.name = "+".join(p.name for p in self._unique)[:50]
 
-    def _route(self, source_type: str) -> FacebookDataProvider:
+    def _route(self, source_type: str) -> DataProvider:
         provider = self._routes.get(source_type)
         if provider is None:
             raise ProviderError(

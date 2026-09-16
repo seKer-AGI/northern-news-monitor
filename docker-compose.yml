@@ -1,4 +1,4 @@
-name: facebook-post-monitor
+name: northern-news-monitor
 
 services:
   db:
@@ -7,7 +7,7 @@ services:
     environment:
       POSTGRES_USER: ${POSTGRES_USER:-fpm}
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-fpm}
-      POSTGRES_DB: ${POSTGRES_DB:-facebook_post_monitor}
+      POSTGRES_DB: ${POSTGRES_DB:-northern_news_monitor}
     volumes:
       - pgdata:/var/lib/postgresql/data
     ports:
@@ -25,7 +25,7 @@ services:
       - path: .env
         required: false
     environment:
-      DATABASE_URL: postgresql+psycopg://${POSTGRES_USER:-fpm}:${POSTGRES_PASSWORD:-fpm}@db:5432/${POSTGRES_DB:-facebook_post_monitor}
+      DATABASE_URL: postgresql+psycopg://${POSTGRES_USER:-fpm}:${POSTGRES_PASSWORD:-fpm}@db:5432/${POSTGRES_DB:-northern_news_monitor}
     depends_on:
       db:
         condition: service_healthy

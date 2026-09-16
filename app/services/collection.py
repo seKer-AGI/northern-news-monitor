@@ -28,7 +28,7 @@ from app.db.models import (
     RunStatus,
     Source,
 )
-from app.providers.base import FacebookDataProvider, ProviderError, ProviderErrorCode, SourceRef
+from app.providers.base import DataProvider, ProviderError, ProviderErrorCode, SourceRef
 from app.services.deduplication import CandidatePost, dedupe_batch, filter_new_posts
 from app.services.normalization import normalize_text
 from app.services.notifications import NotificationProvider, NullNotificationProvider
@@ -89,7 +89,7 @@ class CollectionService:
     def __init__(
         self,
         session_factory: sessionmaker[Session],
-        provider: FacebookDataProvider,
+        provider: DataProvider,
         settings: Settings,
         *,
         notifier: NotificationProvider | None = None,

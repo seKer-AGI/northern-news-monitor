@@ -21,7 +21,7 @@ from datetime import UTC, date, datetime, time, timedelta, timezone
 from urllib.parse import urljoin, urlsplit
 
 from app.providers.base import (
-    FacebookDataProvider,
+    DataProvider,
     ProviderError,
     ProviderErrorCode,
     ProviderHealth,
@@ -114,7 +114,7 @@ def extract_advisory_links(page_html: str, base_url: str) -> list[tuple[str, str
     return links
 
 
-class AdvisoryPageProvider(FacebookDataProvider):
+class AdvisoryPageProvider(DataProvider):
     name = "advisory_pages"
     supported_source_types = frozenset({"advisory_page"})
 

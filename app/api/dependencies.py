@@ -13,7 +13,7 @@ from app.core.exceptions import ValidationError
 from app.core.security import verify_bearer_token
 from app.core.time import Clock, parse_date_param
 from app.db.models import SourceType
-from app.providers.base import FacebookDataProvider
+from app.providers.base import DataProvider
 from app.services.notifications import NotificationProvider, build_notifier
 from app.services.posts import PostFilters
 
@@ -42,7 +42,7 @@ def get_db(
 
 def get_provider(
     request: Request, settings: Annotated[Settings, Depends(get_app_settings)]
-) -> Iterator[FacebookDataProvider]:
+) -> Iterator[DataProvider]:
     provider = request.app.state.provider_factory(settings)
     try:
         yield provider

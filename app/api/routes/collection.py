@@ -26,7 +26,7 @@ from app.api.schemas import (
 )
 from app.core.exceptions import NotFoundError
 from app.db.models import CollectionError, CollectionRun, RunStatus
-from app.providers.base import FacebookDataProvider
+from app.providers.base import DataProvider
 from app.services.collection import CollectionService
 from app.services.notifications import NotificationProvider
 
@@ -47,7 +47,7 @@ router = APIRouter(
 def run_collection(
     response: Response,
     settings: AppSettings,
-    provider: Annotated[FacebookDataProvider, Depends(get_provider)],
+    provider: Annotated[DataProvider, Depends(get_provider)],
     notifier: Annotated[NotificationProvider, Depends(get_notifier)],
     factory=Depends(get_session_factory_dep),
     clock=Depends(get_clock),
