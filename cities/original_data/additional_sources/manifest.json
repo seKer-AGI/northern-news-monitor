@@ -1,0 +1,13 @@
+[
+  {
+    "id": "osm_overpass_pk",
+    "file": "osm_overpass_pk_places.json",
+    "format": "osm_overpass_json",
+    "rank": 4,
+    "description": "OpenStreetMap place nodes/ways/relations with a name inside the Pakistan boundary (ISO3166-1=PK), via Overpass API; query in query_osm_pk_places.overpassql; OSM data timestamp 2026-09-20T11:46:36Z",
+    "url": "https://overpass-api.de/api/interpreter (data (c) OpenStreetMap contributors, ODbL 1.0)",
+    "name_column": "tags.name (fallback tags.name:en / int_name when name is Urdu script)",
+    "scope": "Pakistan only (boundary-filtered)",
+    "notes": "Kept place=city/town/village/hamlet. Dropped suburb/neighbourhood/quarter/locality/isolated_dwelling (dependent neighbourhoods / unpopulated). Urdu-only names without a Latin name tag are skipped. Coordinates used only for validation, never output."
+  }
+]

@@ -1,0 +1,6445 @@
+﻿_id,Area_Name,Postal_code
+1,Maloot,10031
+2,Dab Sandoha,10041
+3,Malki,10021
+4,Mangloora,10031
+5,Bharing (A.K),10030
+6,Khaliq Nagar,10031
+7,Ahla,10021
+8,Gherara,10021
+9,Kangra,10031
+10,Watala,10010
+11,Patni,10021
+12,Sokasan,10041
+13,Kadhala,10034
+14,Saryala Chappar,10011
+15,Barnala,10020
+16,Thub,10021
+17,Mora Sadha,10031
+18,Barsali,10031
+19,Bhimber,10040
+20,Randian,10041
+21,Jandi Chountra,10041
+22,Dhal Khumba,10101
+23,Daoora,10041
+24,Baghsar,10051
+25,Sammani,10060
+26,Dana,10081
+27,Darhal Gaggan,10061
+28,Bindi,10061
+29,Bangla Sadabad,10050
+30,Khanda,10101
+31,Mirpur City P.O,10250
+32,Chitter Pari (Ak),10230
+33,Chowki,10080
+34,Mangla Dam,10200
+35,Haripur,10101
+36,Potha Bungish,10301
+37,Mirpur Agency Npo,10250
+38,Khurmanabad,10251
+39,Chandrali,10251
+40,Kharak,10251
+41,Kandore,10311
+42,Khaliqabad,10251
+43,Samlotha,10311
+44,Siakh,10300
+45,Khadimabad (A.K.),10310
+46,Afzal Pur,10360
+47,Batli,10321
+48,Bheli,10301
+49,Janglian Kotla,10361
+50,Chechian (Ak),10350
+51,Poona,10100
+52,Sanwal Sharif,10361
+53,Chhattroh,10320
+54,Jatli (Ak),10380
+55,Sohang,10381
+56,Banni,10370
+57,Ali Beg,10381
+58,Kalri,10381
+59,Baroh,10081
+60,Sukh Chainpur,10381
+61,Mirpur Gpo,10250
+62,Dhamawa,10460
+63,Barjah,10070
+64,Panjeri,10400
+65,Fakrot,10401
+66,Jhailla,10401
+67,Rahian,10381
+68,Gora Nakka,10381
+69,Gurha Kunjal,10401
+70,Sanyah,10481
+71,Kalyal Bainsi,10471
+72,Jatti Dheri,10480
+73,Mawa,10471
+74,Akal Garh,10470
+75,Kanel,10501
+76,Sehar,10481
+77,Boha Dhangri (Ak),10490
+78,Panwam,10501
+79,Potha Bainsi,10450
+80,Asif Abad,10491
+81,Perahi,10521
+82,Chak Sawari,10500
+83,Khan Abad,10521
+84,Rajdhani,10521
+85,Dadyal Khurd,10530
+86,Palak (A.K.),10520
+87,Pind Kalan,10501
+88,Chhanni Kuntal,10401
+89,Toneen,10081
+90,Thathi,10451
+91,Khadora Kalan,10381
+92,Balloh,10531
+93,Chowk Sahiban,10521
+94,Haveli Begal,10531
+95,Doliah Jattan,10521
+96,Onah,10531
+97,Raipur,10531
+98,Jarahi,10521
+99,Thub,10531
+100,Sandai,10541
+101,Sanwala Piran,10545
+102,Ghaneer,10545
+103,Holar,11015
+104,Baran Bhatta,11015
+105,Sanot,10551
+106,Chhochh,10531
+107,Hajiabad,11011
+108,K.D. Khan,10550
+109,Thara,10544
+110,Barigurha,11011
+111,New Afzalpur,11011
+112,Baroian,11011
+113,Ratta,10540
+114,Darruni Bathroi,10531
+115,Sorakhi,10541
+116,Potha,11014
+117,Sochani,10531
+118,Sehnsa,11010
+119,Kaljoor,10551
+120,Tarala,11015
+121,Durlian Gujran,11031
+122,Kritot,11015
+123,Ainti,11015
+124,Pateri,11041
+125,Gulpur (Ak),11030
+126,Kajlani,11031
+127,Nar,11040
+128,Khawas,11031
+129,Pilat Pian,11015
+130,Samror,11101
+131,Seher Mandi,11020
+132,Doongh,11101
+133,Sarhota,11101
+134,Roli,11101
+135,Danna,11101
+136,Kotli (A.K.),11100
+137,Aghar,11101
+138,Qamrooti,11101
+139,Kurti,11101
+140,Chowki Tinda,11101
+141,Sarsawa,11110
+142,Sawar,11161
+143,Chhani,11121
+144,Tatta Pani,11160
+145,Siah Sharif,11121
+146,Gunni Malni,11150
+147,Goi,11161
+148,Anhoi Sarhota,11111
+149,Odeh Sharif,11121
+150,Panjera,11120
+151,Datoot,11171
+152,Narali,11161
+153,Fatehpur Thakiala,11170
+154,Dhanwan,11161
+155,Karela Majhan,11171
+156,Chowki Mong,11190
+157,Bihal,11201
+158,Khui Ratta (A.K.),11200
+159,Jandrot,11171
+160,Andarla Kothera,11211
+161,Dabsi,11171
+162,Bal Brahmana,11220
+163,Ghian Gujran,11201
+164,Manjwal Sharif,11201
+165,Bharot Gala,11211
+166,Dhanna,11201
+167,Dargoti,11211
+168,Khor Rachhala,11211
+169,Ghaura,11201
+170,Seri,11210
+171,Khankah Kothera,11251
+172,Kala Dab,11260
+173,Juna,11221
+174,Azad Pattan A.K.,12000
+175,Charhoi,11250
+176,Jhenjal Hill,12011
+177,Bong Colony,12010
+178,Sehr Hajnal Kot,12071
+179,Namb,12011
+180,Palandri,12010
+181,Mandhether,11201
+182,Barohi,12001
+183,Phalian,12011
+184,Sawa,12001
+185,Betran,12011
+186,Gohr Bazar,12071
+187,Kuliah Bazar,12011
+188,Biliannar,12011
+189,Dhar Dharachb,12011
+190,Barian,12030
+191,Jhanda Cagla,12011
+192,Manoota,12071
+193,Mungriot,12011
+194,Panthal,12011
+195,Sehr Bosata,12071
+196,Tarar Khel,12080
+197,Nalian,12070
+198,Sehr Hafizabad,12011
+199,Dhar Dharachn,12011
+200,Habib Abad,12081
+201,Pakhonar,12130
+202,Qillan,12090
+203,Tangi Gala,12081
+204,Jandali,12081
+205,Baluch,12120
+206,Baithak Bazar,12100
+207,Chamba Gali,12121
+208,Garala,12081
+209,Barriot,12081
+210,Hajeera,12160
+211,Hamruta,12151
+212,Natha Gala,12081
+213,Narrian,12081
+214,Anhari,12081
+215,Rahimabad,12110
+216,Char Biar,12151
+217,Darbar Sharif Narian,12081
+218,Gala Kaniyata,12150
+219,Gran Dhamikan,12121
+220,Kot Gala Kawali,12151
+221,Akramabad,12161
+222,Rakkar,12184
+223,Maindla,12170
+224,Bessari,12161
+225,Aakhorban,12161
+226,Kathira,12161
+227,Narian,12161
+228,Tanda,12171
+229,Tatrinote,12171
+230,Darikot,12161
+231,Ghambir,12171
+232,Sarrari,12161
+233,Thandi Kassi,12181
+234,Devi Gali,12161
+235,Thai,12181
+236,Darra Sher Khan,12175
+237,Karichroon,12161
+238,Kakuta,12171
+239,Mandhole,12180
+240,Sehra,12174
+241,Palangi,12201
+242,Abbas Pur,12200
+243,Chirikot,12201
+244,Aliabad,12211
+245,Gogdar,12201
+246,Mandher,12211
+247,Suli,12211
+248,Kalali,12211
+249,Kahoota(A.K),12210
+250,Behdi,12211
+251,Tangeraam,12201
+252,Tangari,12211
+253,Degwar Terwan,12211
+254,Khurshid Abad,12211
+255,Bassian,12211
+256,Kangran,12211
+257,Dothan,12251
+258,Khaigala,12250
+259,Kohkot,12251
+260,Ban Baikh Bazar,12251
+261,Androte,12301
+262,Alisojal,12251
+263,Chotta Gala,12260
+264,Muslinabad,12301
+265,Jewar,12260
+266,Nur,12311
+267,Gali Bazar Jandali,12261
+268,Mong,12300
+269,Pattan Sher Khan,12301
+270,Bossa Gala,12311
+271,Banjoosa,12261
+272,Islampura,12301
+273,Rehera,12320
+274,Thorar,12310
+275,Bhalgran Surdari,12311
+276,Lunjgran,12330
+277,Rawalakot Gpo,12350
+278,Chappri Bazar,12331
+279,Tian,12311
+280,Dhamni,12351
+281,Mohri Farman Shah,12400
+282,Tarar,12351
+283,Hussain Kot,12351
+284,Singola,12351
+285,Kharik,12351
+286,Drake,12351
+287,Chitra Topi,12351
+288,Paniola,12420
+289,Jandala,12421
+290,Thalla,12421
+291,Jandathi Bazar,12421
+292,Sanghar Bazar,12411
+293,Khud Bazar,12421
+294,Musta Nara,12421
+295,Hurnamaira,12410
+296,Bengion,12421
+297,Chak Dhamni,12380
+298,Upper Sudhan,12501
+299,Pachiot,12430
+300,Bana Kha,12421
+301,Chattar No.1,12501
+302,Bagh Gpo,12500
+303,Datoot,12440
+304,Salian Maldayalan,12501
+305,Paddar Gulsher Khan,12501
+306,Arja Apo,12460
+307,Dhondhar,12501
+308,Harighel,12480
+309,Sudhan Gali,12501
+310,Sambalri Gala,12441
+311,Behari,12441
+312,Kharl Panayali,12501
+313,Banni Minhasan,12501
+314,Kotala,12501
+315,Chattar No.2,12501
+316,Meiman Pura,12501
+317,Naryola,12501
+318,Barikot,12560
+319,Birpani,12510
+320,Kharal Abbasian,12520
+321,Dhulli,12570
+322,Jaglari,12503
+323,Thub,12503
+324,Sangir Bathara,12601
+325,Mallote,12502
+326,Bees Bagla,12503
+327,Reera Bazar,12550
+328,Raikot,12571
+329,Dhirkot,12600
+330,Kanyati,12601
+331,Hans Chowki,12601
+332,Makhyala,12601
+333,Paddor Master Khan,12601
+334,Jhala Bazar,12601
+335,Jolie Cheer,12601
+336,Ghani Abad,12601
+337,Chamyati,12631
+338,Rangla Apo,12610
+339,Sohawa Sharif,12621
+340,Kohala,13000
+341,Seri Bandi,12621
+342,Chamankot,12630
+343,Donga Kahutter,12621
+344,Isakhumari,12639
+345,Chirala,12620
+346,Dana Kachilli,13020
+347,Ambore,13101
+348,Sikandar Abad,12621
+349,Muzaffarabad Gpo,13100
+350,Kundi,12639
+351,Rajpothi,13021
+352,Bhan,13001
+353,Cherh,12351
+354,Kottarala,13021
+355,Masina Kalan,13101
+356,Langarpura,13101
+357,Rara,13101
+358,Pattan Khurd,13101
+359,Saran,13151
+360,Majhorte,13101
+361,Nambal,13101
+362,Tarrachh Bazar,13101
+363,Dhanni Bore,13101
+364,Khunbandi,13101
+365,Soi Bazar,13101
+366,Garahi Dupatta,13150
+367,Jessoa Bazar,13101
+368,Chirkpura,13101
+369,Pattan Kalan,13101
+370,Pakgali,12351
+371,Shujahabad,12351
+372,Mong Bajri,12470
+373,Salolbandi,13101
+374,Nagri Mujahidabad,13101
+375,Qulian Bazar,13101
+376,Majoohan,13101
+377,Phulair Bazar,13101
+378,Koomi Kot,13151
+379,Kakarwara,13151
+380,Leepa,13161
+381,Jhand Gran,13151
+382,Azizabad,12311
+383,Chikar,13170
+384,Dachore Miran,13151
+385,Noon Bagla,13171
+386,Sulmia,13171
+387,Pajja Sharif,13171
+388,Mushtamba,13171
+389,Rahim Kot,13171
+390,Reshian,13181
+391,Lamnia,13181
+392,Chenari,13190
+393,Hattian Bala,13180
+394,Jandali Janoobi,13171
+395,Phagwan Dopatta,13151
+396,Mera Khurd,13171
+397,Chattian,13151
+398,Maira Saru,13171
+399,Sharian,13181
+400,Saidpur,13201
+401,Pattika,13210
+402,Gujarbandi,13191
+403,Rajpain,13201
+404,Chokothi,13191
+405,Devlian,13211
+406,Kahuri,13200
+407,Battal,13201
+408,Saryan,13201
+409,Bat Dara,13211
+410,Kunkian,13211
+411,Behari,13211
+412,Athmaqam,13230
+413,Dudnial,13231
+414,Bhalgran,13221
+415,Kel,13231
+416,Machira,13211
+417,Jura Bazar,13221
+418,Dosute,13231
+419,Kutton,13231
+420,Kundal Shah,13231
+421,Samagial,14101
+422,Chilas (Lsg),14100
+423,Sharda,13231
+424,Gunner Form,14101
+425,Sargan,13231
+426,Thore,14101
+427,Lawat,13231
+428,Dawarian,13231
+429,Phulwaih,13231
+430,Neelam,13231
+431,Bunji,14200
+432,Harcho,14201
+433,Lower Doyan,14201
+434,Astore,14300
+435,Gudai,14301
+436,Dashkin,14201
+437,Jaglot Tangir,14101
+438,Tharisling,14301
+439,Minimarg,14301
+440,Rampur,14301
+441,Gultari (Seasonal),14301
+442,Mir Malik,14301
+443,Rattu,14301
+444,Pakora,14301
+445,Nomal,15101
+446,Jutal,15101
+447,Gilgit Gpo,15100
+448,Chilam,14400
+449,Bubar,15101
+450,Darela Bala,14301
+451,Gurikot,14301
+452,Ghulapur,15101
+453,Peena,14301
+454,Singal,15101
+455,Jagir Basin,15101
+456,Rahimabad,15101
+457,Minawar,15101
+458,Khangrol,14301
+459,Karnah,13220
+460,Gumari,14101
+461,Shyrote,15101
+462,Jaglote Sai,15101
+463,Jutial,15150
+464,Sher Qilla,15101
+465,Sassi,15101
+466,Ashkomen,15201
+467,Khalti,15301
+468,Immit,15201
+469,Naltar,15101
+470,Chhashi,15301
+471,Sumal,15201
+472,Phander,15301
+473,Gupis,15300
+474,Yasin,15301
+475,Qurqulti,15301
+476,Pingal,15301
+477,Chatore Khand,15201
+478,Gulddas,15201
+479,Gahkooch,15200
+480,Harf,15301
+481,Burkulti,15301
+482,Sindhi,15301
+483,Sumayar,15601
+484,Mina Pin,15401
+485,Thole,15401
+486,Sikandarabad,15400
+487,Aliabad,15600
+488,Askurdos,15601
+489,Nasirabad,15550
+490,Teru,15350
+491,Hussainabad,15401
+492,Hoper,15651
+493,Ghulmit,15401
+494,Mayun,15401
+495,Nagar,15650
+496,Phikar,15601
+497,Budlos,15501
+498,Murtizabad,15601
+499,Chhalat,15500
+500,Chaprote,15501
+501,Ahmad Abad,15701
+502,Sust,15800
+503,Sarrat,15701
+504,Altit,15701
+505,Karimabad,15700
+506,Chundah,16201
+507,Skardu Hsg,16100
+508,Skardu Airport,16200
+509,Sirmik,16101
+510,Nar,16101
+511,Hussainabad,16101
+512,Misgar,15900
+513,Kirmin,15801
+514,Gole,16101
+515,Kuwardu,16101
+516,Kachoora,16201
+517,Qumrah,16201
+518,Strangdongmo,16101
+519,Sundus,16101
+520,Basho,16201
+521,Thowar,16201
+522,Tormik,16201
+523,Stack,16201
+524,Churka,16301
+525,Shigar,16300
+526,Wazirpur,16301
+527,Dasu,16301
+528,Gulabpur,16301
+529,Tisser,16301
+530,Alchori,16301
+531,Yunu,16301
+532,Chatrooni,16301
+533,Manthoka,16401
+534,Kharmang,16401
+535,Mayurdu,16401
+536,Pari,16401
+537,Katisho,16401
+538,Kamango,16401
+539,Murkun,16401
+540,Mehdiabad,16400
+541,Baghicha,16500
+542,Toltibroq,16401
+543,Ghowari,16701
+544,Bilargo,16601
+545,Tarkati,16501
+546,Tolti,16450
+547,Olding,16600
+548,Fransat,16501
+549,Yogo,16701
+550,Gone,16701
+551,Moral,16501
+552,Doghani,16801
+553,Kuru,16701
+554,Kiris,16700
+555,Ghursay,16801
+556,Machloo,16801
+557,Thaley,16701
+558,Hasanabad,16801
+559,Pharawa,16801
+560,Pion,16801
+561,Surmon,16801
+562,Khaplu(Lsg),16800
+563,Dumsum,16901
+564,Seeno,16901
+565,Barah Bala,16801
+566,Siksa,16801
+567,Thagus,16900
+568,Brep,17010
+569,Koach,17011
+570,Birzoz,17011
+571,Barg,17011
+572,Shust,17011
+573,Broghab,17011
+574,Dizk,17011
+575,Lasht,17011
+576,Pawar,17011
+577,Zapao,17011
+578,Meragram,17011
+579,Mastuj,17020
+580,Harichin,17030
+581,Chunch,17021
+582,Marting,17011
+583,Chappari,17021
+584,Kargeen,17021
+585,Gosht,17021
+586,Oveer (Charun),17051
+587,Khubbala,17021
+588,Sarlaspur,17021
+589,Awi,17051
+590,Baleem,17031
+591,Parkosap,17021
+592,Ramon,17031
+593,Astaro,17051
+594,Sano Ghore,17051
+595,Zand Garam,17061
+596,Booni,17050
+597,Booni Gool,17051
+598,Verkop,17051
+599,Mazgul,17061
+600,Trich Payan,17061
+601,Sahrt,17061
+602,Kosht,17100
+603,Nishku,17061
+604,Zait,17111
+605,Surwhoth,17081
+606,Murdar,17101
+607,Shut Khar,17081
+608,Ujnu,17081
+609,Rech,17081
+610,Warkku,17081
+611,Shah Gram,17080
+612,Rain,17081
+613,Mehr,17081
+614,Muzgule,17101
+615,Khot,17081
+616,Rogh,17121
+617,Baram Oveer,17111
+618,Dronga,17111
+619,Kaghuzi,17120
+620,Chitral,17200
+621,Murdan,17131
+622,Garam Chashma,17130
+623,Kari,17201
+624,Kuju,17121
+625,Bagushit,17131
+626,Golean,17121
+627,Mori,17201
+628,Paira Baig,17131
+629,Birzin,17131
+630,Reshun,17110
+631,Para Beg,17140
+632,Shangosh Lotoveer,17111
+633,Overbala,17111
+634,Loan,17111
+635,Mogh,17131
+636,Kesu,17201
+637,Gobor,17131
+638,Barenis,17201
+639,Faiz Abad,17201
+640,Sangor,17201
+641,Arkari,17201
+642,Chamar Ron,17201
+643,Denin,17201
+644,Bakerabad,17201
+645,Ayun,17210
+646,Kalashfi,17201
+647,Khasgram,17201
+648,Jagor,17201
+649,Karimabad,17201
+650,Pareet,17201
+651,Kalas,17221
+652,Madak Lasht,17221
+653,Mada Shel,17201
+654,Taar,17221
+655,Bamborat,17211
+656,Shughur,17201
+657,Mori Lasht,17201
+658,Mustajaban Deh,17201
+659,Drosh,17220
+660,Jing Reet,17221
+661,Saweer,17221
+662,Birga Nisar,17221
+663,Ursoon,17221
+664,Azardam,17221
+665,Broz,17230
+666,Nagar,17240
+667,Ashrait,17260
+668,Sair Door,17234
+669,Bela,18001
+670,Charun,17501
+671,Kalkot,18001
+672,Patrak,18001
+673,Mirkhani,17261
+674,Parwak,17501
+675,Beyar,18001
+676,Dir,18000
+677,Arandu,17250
+678,Thall,18001
+679,Mara Gram,17501
+680,Qualandi,18001
+681,Biar Darangal,18051
+682,Sawni,18001
+683,Darora,18150
+684,Jan Batti,18001
+685,Chukyatan,18001
+686,Barawal Bandi Edso,18100
+687,Usheri Dara,18151
+688,Shiringal Edso,18050
+689,Gandegar,18151
+690,Patan,18201
+691,Sera,18151
+692,Almas,18151
+693,Jagam,18201
+694,Barikot,18001
+695,Sharingal,18050
+696,Ganori,18001
+697,Tarpatar,18151
+698,Wari,18200
+699,Bibyour,18151
+700,Sahibabad Edso,18201
+701,Gamseer,18151
+702,Jelar,18201
+703,College,18301
+704,Danwaa,18301
+705,Haya Serai,18301
+706,Seer,18251
+707,Akhagram,18251
+708,Shekolai,18251
+709,Munjai,18301
+710,Toormang,18251
+711,Doryal,18251
+712,Hajiabad,18301
+713,Khall,18250
+714,Jogabanj,18201
+715,Shin Khyari,18251
+716,Koto,18301
+717,Timergara,18300
+718,Latbook Dara,18301
+719,Rabat,18301
+720,Sado,18301
+721,Kandar Bala,18301
+722,Sher Khane,18301
+723,Sangolai,18301
+724,Akakher,18351
+725,Malakand Dara,18301
+726,Rehanpur,18301
+727,Maidan Bandi,18351
+728,Dara Manial,18351
+729,Khungi,18301
+730,Odi Gram,18301
+731,Bashigram,18351
+732,Zaimdara,18450
+733,Lal Qilla,18350
+734,Gumbat Banda,18351
+735,Manda Banda,18301
+736,Munda,18500
+737,Takor,18501
+738,Gardai,18501
+739,Khazana,18501
+740,Dara Manyali,18400
+741,Seri Payan,18701
+742,Turkhomalan Gai,18651
+743,Nawa Gai,18651
+744,Inayat Killi,18651
+745,Bandagai,18701
+746,Khar Bajaur,18650
+747,Seri Bala,18701
+748,Samar Bagh,18600
+749,Miskinai,18551
+750,Raghagan,18651
+751,Mayar Jandol,18550
+752,Bagh Dushkhel,18701
+753,Barikab,18551
+754,Shul Kandi,18501
+755,Tangi Payeen,18601
+756,Shuntala,18601
+757,Loy Sum,18651
+758,Kambat,18601
+759,Ziarat,18700
+760,Ouch,18750
+761,Shamshi Khan,18701
+762,Kalam,19011
+763,Koti Gram,18751
+764,Tazagram,18801
+765,Aspanr,18801
+766,Shewa,18801
+767,Kithyari,18801
+768,Bahrain,19010
+769,Adam Dheri,18801
+770,Khanpur,18801
+771,Chakdara,18800
+772,Usho,19011
+773,Utror,19011
+774,Chail,19021
+775,Madyan,19020
+776,Shin,19031
+777,Chamgarhi,19011
+778,Mian Adam,19031
+779,Qandil,19021
+780,Matta,19040
+781,Shanguatai,19041
+782,Kalakot,19051
+783,Fatehpur,19030
+784,Rahatkot,19051
+785,Biha,19041
+786,Labat,19041
+787,Barthana,19041
+788,Roringar,19041
+789,Nalkot,19041
+790,Chupriyal,19041
+791,Gat,19041
+792,Baidara,19041
+793,Sakhra,19051
+794,Gurra,19041
+795,Barsherpalam,19041
+796,Bara Drush Khela,19050
+797,Koz Shower,19041
+798,Shower,19041
+799,Nokhara,19051
+800,Sijban,19041
+801,Kabal,19060
+802,Devlai,19070
+803,Sersenai,19061
+804,Dardyal,19071
+805,Shah Dheri,19071
+806,Aligrama,19061
+807,Kalakelley,19071
+808,Shalhand,19071
+809,Caluch,19071
+810,Tootano Bandi,19071
+811,Karora,19101
+812,Alpurai,19100
+813,Banr,19101
+814,Chouga,19101
+815,Shikolai,19101
+816,Kana,19101
+817,Dheri,19101
+818,Ganshal,19101
+819,Saluch,19071
+820,Kotkay,19101
+821,Belay Baba,19101
+822,Bilkani,19101
+823,Martoong,19101
+824,Charbagh,19120
+825,Gulibagh,19121
+826,Kokarai,19131
+827,Damorat,19101
+828,Ahengro Dheri,19131
+829,Chagum,19101
+830,Chamtali,19111
+831,Jambeel,19131
+832,Puran,19101
+833,Chkisar,19101
+834,Kuzpao,19101
+835,Lilonai,19101
+836,Khawaza Khela,19110
+837,Farhatabad,19111
+838,Mingora,19130
+839,Aman Kot,19140
+840,Nawan Kellay,19131
+841,Damorai,19201
+842,Kotanai,19111
+843,Dherai Baba,19201
+844,Aloch,19150
+845,Saidu Sharif G.P.O.,19200
+846,Kanju,19201
+847,Hazara,19201
+848,Ningolai,19201
+849,Bilkani,19201
+850,Koza Bandi,19201
+851,Ganshal,19201
+852,Kana,19201
+853,Mang Lore,19201
+854,Faiz Abad,19201
+855,Puran,19201
+856,Islampur,19201
+857,Chagum,19201
+858,Goli Gram,19201
+859,Martung,19201
+860,Chouga,19201
+861,Shikolai,19201
+862,Belogram,19211
+863,Punjigram,19211
+864,Karora,19201
+865,Manyar,19241
+866,Rahim Abad,19210
+867,Bara Bandi,19201
+868,Barikot,19240
+869,Odi Gram,19211
+870,Chakisar,19201
+871,Tindodog,19211
+872,Kota,19241
+873,Parrai,19241
+874,Tariq Abad,19211
+875,Qamber,19211
+876,Zara Khela,19250
+877,Aboha,19241
+878,Garhi,19251
+879,Ghalegi,19230
+880,Guratai,19241
+881,Dokada,19281
+882,Torwarsak,19270
+883,Pir Baba,19280
+884,Nagrai,19291
+885,Bam Pokha,19281
+886,Ghazi Khani,19281
+887,Kinger Gali,19281
+888,Shall Band,19291
+889,Daggar,19290
+890,Sultan Was,19281
+891,Topi,19291
+892,Sawaraj,19291
+893,Battara,19291
+894,Budal,19291
+895,Ellai,19291
+896,Baj Kata,19291
+897,Kalpani,19291
+898,Dewana Baba,19291
+899,Bagra,19291
+900,Angha Pur,19291
+901,Kurgokand,19291
+902,Sura,19301
+903,Tarinon,19301
+904,Nagri,19301
+905,Nawagai,19300
+906,Kanrohi,19301
+907,Sazine,20000
+908,Koga,19301
+909,Dullan Wala,20210
+910,Shang,20501
+911,Ranolia,20300
+912,Dassu,20100
+913,Seo,20101
+914,Besham,20500
+915,Shakan Abad,20201
+916,Jalkot,20101
+917,Batera,20501
+918,Sholgara,20400
+919,Jijal,20301
+920,Pattan,20200
+921,Nogram,21011
+922,Pashto,21011
+923,Gantar,21011
+924,Rupkani,21011
+925,Bojrai,21011
+926,Ashar Ban,21011
+927,Nili Shang,21021
+928,Nehar,21011
+929,Batila,21011
+930,Muslim Abad,21020
+931,Koyar,21011
+932,Bai Bala,21021
+933,Thakot,21030
+934,Lachi Mong,21021
+935,Koshagram,21011
+936,Changal,21031
+937,Biari Ayub Khan,21010
+938,Matai,21011
+939,Sajbair,21031
+940,Kauh Brachar,21011
+941,Dandai,21031
+942,Kucha,21011
+943,Maira,21031
+944,Hill,21051
+945,Battagram,21040
+946,Dhundara,21011
+947,Kanai,21031
+948,Uttal,21041
+949,Jham Bera,21031
+950,Jesole,21041
+951,Shinggali Bala,21041
+952,Raj Maira,21041
+953,Phogora,21041
+954,Nelli Shang,21041
+955,Bansir,21050
+956,Kakar Shang,21041
+957,Largram,21031
+958,Malkan,21091
+959,Kuza Banda,21060
+960,Paimal Sharif,21041
+961,Thikri Bala,21061
+962,Peeriari,21061
+963,Banian,21061
+964,Baland Kot,21061
+965,Bali Mang,21080
+966,Chapper Gram,21041
+967,Gijbori,21061
+968,Trand,21061
+969,Mano Maira,21061
+970,Chatar Plain,21070
+971,Bando Go,21061
+972,Gidri,21061
+973,Bajmera,21061
+974,Sarkheli Banda,21061
+975,Ahal,21091
+976,Battal,21090
+977,Hil Kot,21091
+978,Jalgali,21091
+979,Chinar Kot,21091
+980,Bai Tarli,21091
+981,Baffa,21110
+982,Malookra,21091
+983,Qazi Abad,21091
+984,Tarrangri Bala,21111
+985,Hajiabad,21100
+986,Kotli Pain,21101
+987,Sabir Shah,21111
+988,Mair Chutar,21111
+989,Mangon Machhi Pole,21131
+990,Shinkar Camp,21150
+991,Mental Hospital,21131
+992,Banda Piran,21111
+993,Guli Bagh,21111
+994,Dhudial,21130
+995,Jabbar,21161
+996,Dadar,21160
+997,Panjool,21161
+998,Banda Gesach,21161
+999,Shinkari,21140
+1000,Jabori,21170
+1001,Devli,21161
+1002,Balakot,21230
+1003,Shani Bala,21131
+1004,Bedadi,21141
+1005,Kaghan,21210
+1006,Sachan Kalan,21161
+1007,Bhogar Mang,21161
+1008,Indrasi,21161
+1009,Manda Gocha,21161
+1010,Rajwal,21211
+1011,Nawaz Abad,21161
+1012,Mahandri Bazar,21220
+1013,Naran (Seasonal),21200
+1014,Phagal,21221
+1015,Bhunja,21231
+1016,Sangar,21231
+1017,Paras,21231
+1018,Manoor,21221
+1019,Hangrai,21231
+1020,Ochri,21231
+1021,Darha,21241
+1022,Kawai,21231
+1023,Ghanool,21231
+1024,Farid Abad,21231
+1025,Debrian,21231
+1026,Bhungian,21231
+1027,Kashian,21231
+1028,Jareed,21231
+1029,Ghari Habib Ullah,21240
+1030,Sugdar,21241
+1031,Jaba Sheep Farm,21261
+1032,Kot Gali,21231
+1033,Dalola,21241
+1034,Batora,21241
+1035,Dogah,21241
+1036,Chakia,21270
+1037,Pateka,21241
+1038,Talhata,21241
+1039,Batrasi Camp,21250
+1040,Utter Shisha,21260
+1041,Mansehra G.P.O.,21300
+1042,Rashang,21300
+1043,Chuhan,21300
+1044,Mansehra City Npo (Nd),21300
+1045,Khangiri,21301
+1046,Dab Bazar (Nd),21300
+1047,Mansehra City Nd,21300
+1048,Sadin Meira,21300
+1049,Ogra,21301
+1050,Bisian,21301
+1051,Peshowra,21300
+1052,Kalgan,21301
+1053,Tanda,21301
+1054,Khawari,21301
+1055,Bajna,21301
+1056,Shohal Najaf Khan,21301
+1057,Mohayan Khori,21301
+1058,Shohal Mazulla Khan,21301
+1059,Kotli Bala,21301
+1060,Bedra,21301
+1061,Labarkot,21301
+1062,Debgran,21301
+1063,Chitta Batta,21301
+1064,Shehalia,21301
+1065,Dharyal,21301
+1066,Mair Amjad Ali,21301
+1067,Gangwal,21301
+1068,Gandhian,21301
+1069,Govt College,21301
+1070,Ptha,21301
+1071,Lassan Thakral,21331
+1072,Mangloor,21330
+1073,Sum Elahi Mang,21301
+1074,Naukot,21341
+1075,Tinkiari,21331
+1076,Hari Maira,21351
+1077,Susal,21351
+1078,Morbafa Khurd,21331
+1079,Khaki,21350
+1080,Bher Kund,21340
+1081,Tarha Bala,21341
+1082,Timbar Khola,21341
+1083,Tatar,21361
+1084,Kehinian,21351
+1085,Malik Pur,21351
+1086,Kotkey,21301
+1087,Mari Khan Khel,21341
+1088,Morbafa Kalan,21331
+1089,Murad Pur,21360
+1090,Phulra,21380
+1091,Gidar Pur,21361
+1092,Choki,21361
+1093,Perahena,21370
+1094,Timber Katta,21351
+1095,Sher Pur,21351
+1096,Jhangi,21371
+1097,Khawajan,21351
+1098,Moorat Maira,21371
+1099,Chunial,21371
+1100,Thathi Kalan,21371
+1101,Matserian,21381
+1102,Khaliala,21391
+1103,Tehanger,21381
+1104,Lassan Nawab,21390
+1105,Tarappi,21381
+1106,Mohair Khurd,21391
+1107,Jhukain,21391
+1108,Maira,21391
+1109,Jabba,21391
+1110,Kathai,21401
+1111,Bai,21391
+1112,Palsala,21391
+1113,Arbora,21401
+1114,Khabal Banglow,21401
+1115,Chajar,21401
+1116,Oghi,21400
+1117,Bandi Parao,21401
+1118,Dhara,21401
+1119,Khamian,21391
+1120,Bandi Feroz Khan,21401
+1121,Tatali,21401
+1122,Qila Gay,21420
+1123,Nika Pani,21401
+1124,Khabal Pain,21401
+1125,Kolaka,21401
+1126,Salabat,21451
+1127,Maira Kalan,21451
+1128,Shamdhera,21410
+1129,Tarawra,21401
+1130,Belian,21440
+1131,Usual Gali,21401
+1132,Dilbori,21430
+1133,Shergrah,21450
+1134,Kherori Pain,21451
+1135,Dandi Pain,21451
+1136,Malkana,21451
+1137,Qalander Abad,22000
+1138,Darband,21460
+1139,Galibdral,21451
+1140,Nellabattla,21451
+1141,Behali,22001
+1142,Loon Patian,22001
+1143,Desal,22011
+1144,Sajji Kot,22001
+1145,Lunda,22011
+1146,Data,22011
+1147,Tarnowai,22001
+1148,Karer,22001
+1149,Tanan,22001
+1150,Bandi Dhundan,22001
+1151,Narian,22011
+1152,Biga Kot,22011
+1153,Dobather,22011
+1154,Mochi Kot,22001
+1155,Banda Phagwarian,22011
+1156,Abbottabad Gpo,22010
+1157,Mohar Kalan,22011
+1158,Azizabad,22011
+1159,Pawa,22011
+1160,Sando Gali,22011
+1161,Sarbhana,22011
+1162,Bandi Phullan,22011
+1163,Banda Pir Khan,22011
+1164,Janglan,22011
+1165,Tarhana,22011
+1166,Tootni,22011
+1167,Salhad,22011
+1168,Jhaffar,22011
+1169,Mandian,22044
+1170,Karhala,22001
+1171,Jhangi,22050
+1172,Pairan,22011
+1173,Kakul,22070
+1174,Mir Pur Village,22011
+1175,Abbottabad Public School,22030
+1176,Khair Abad,22011
+1177,Ayub Medical College,22040
+1178,Nawan Shahr,22080
+1179,Kakul Village,22071
+1180,Toba Camp,22060
+1181,Kuthwal,22081
+1182,Kuthiala,22100
+1183,Chhatri,22081
+1184,Kangar Bala,22131
+1185,Sheikhul Bandi,22090
+1186,Thathi,22131
+1187,Jalalia,22101
+1188,Pachhban,22101
+1189,Pando Thana,22101
+1190,Gali Banian,22081
+1191,Chamhatti,22130
+1192,Sher Wan,22120
+1193,Pind Kargo Khan,22110
+1194,Bandi Mutharach,22101
+1195,Shahid Abad,22121
+1196,Kakot,22101
+1197,Lassan Nawab,22131
+1198,Thandiani (Seasonal),22150
+1199,Khair Pir,22131
+1200,Lakhala,22121
+1201,Kotlian,22161
+1202,Samli Dheri,22181
+1203,Boi,22180
+1204,Chamyali,22160
+1205,Sialkot,22161
+1206,Sarhan,22181
+1207,Rankot,22181
+1208,Khokhriala,22161
+1209,Mohri Maira,22181
+1210,Bagnotar,22210
+1211,Chham Rajput,22211
+1212,Kukmar,22181
+1213,Tharyati,22220
+1214,Kadora Maira,22181
+1215,Bara Maira,22211
+1216,Bagh,22211
+1217,Dhamtaur,22200
+1218,Bandi Maira,22211
+1219,Kukmang,22181
+1220,Talkandi,22181
+1221,Malsa,22221
+1222,Namli Maira,22250
+1223,Phulkot,22221
+1224,Nagri Bala,22260
+1225,Kutla,22231
+1226,Biran Gali,22230
+1227,Tarhat,22231
+1228,Tajwal,22291
+1229,Nakrah,22231
+1230,Jootmang,22221
+1231,Dunga Gali,22300
+1232,Kassala,22271
+1233,Tatila,22261
+1234,Sammunder Katha,22271
+1235,Maklol Pain,22261
+1236,Nagri Tarly,22261
+1237,Nathia Gali,22280
+1238,Malach,22281
+1239,Kala Bagh (Hazara),22270
+1240,Bagan,22290
+1241,Ayubia,22310
+1242,Lora,22360
+1243,Chhangla Gali (Seasonal),22320
+1244,Rahi,22361
+1245,Kaira Gali,22330
+1246,Pallak,22331
+1247,Chanali,22351
+1248,Seer,22340
+1249,Ghambir,22370
+1250,Tarala Bagla,22371
+1251,Mari Sharqi,22351
+1252,Phalla,22371
+1253,Summa,22371
+1254,Riyala,22401
+1255,Khoyan,22361
+1256,Darwaza,22401
+1257,Birote,22400
+1258,Rupar,22371
+1259,Malkot,22401
+1260,Abbasian,22401
+1261,Khan Kalan,22411
+1262,Termuthian,22401
+1263,Banda Sahib Khan,22501
+1264,Mulya,22420
+1265,Garhi Phul Garan,22501
+1266,Dabran,22501
+1267,Nalla,22501
+1268,Khan Khurd,22411
+1269,Kiala,22501
+1270,Havelian,22500
+1271,Bakote,22410
+1272,Aliabad,22421
+1273,Jabri,22501
+1274,Sangal,22421
+1275,Langra,22501
+1276,Batolni,22501
+1277,Mujahid,22501
+1278,Dakhan Paisar,22501
+1279,Hajia Gali,22501
+1280,Bodla,22501
+1281,Faqir Mohd,22501
+1282,Takiya Sheikhan,22501
+1283,Langrial,22501
+1284,Bandi Attia Khan,22501
+1285,Muslimabad,22501
+1286,Jhangra,22501
+1287,Pak Ordinance Factory Havelian,22510
+1288,Kokal Barsin,22501
+1289,Rajoya,22530
+1290,Dheri Kehal,22531
+1291,Goher Abad,22501
+1292,Chehr,22551
+1293,Ammunition Depot Havelian,22520
+1294,Chamba,22511
+1295,Dewal,22551
+1296,Nagritutial,22350
+1297,Ghora Baz Gran,22531
+1298,Nowshera,22511
+1299,Nara,22550
+1300,Dakhan,22571
+1301,Maira Bala,22560
+1302,Ghoran,22551
+1303,Barkot,22581
+1304,Chinjah,22571
+1305,Sajji Kot,22551
+1306,Satura,22570
+1307,Halli,22580
+1308,Bheri Luban Bandi,22591
+1309,Baldher,22584
+1310,Kohmal,22581
+1311,Bagra,22585
+1312,Garhi Serian,22585
+1313,Dewan Farooq,22585
+1314,Kailag,22585
+1315,Rehana,22600
+1316,Sarai Saleh,22590
+1317,Moonan,22591
+1318,Kholian Bala,22585
+1319,Gandhian,22601
+1320,Govt.Poly Tech.Instt.,22591
+1321,Nurdi,22601
+1322,Haripur City Nd,22620
+1323,Bandi Munim,22621
+1324,Dhinda,22621
+1325,Gumawan,22601
+1326,Kaag,22621
+1327,Mang,22621
+1328,Haripur G.P.O.,22620
+1329,Suraj Gali,22621
+1330,Swabi Maira,22621
+1331,Chhajian,22601
+1332,Dobandi Makhan Wali,22621
+1333,Bhatt,22621
+1334,Kohala Paeen,22621
+1335,Alloli,22621
+1336,Darwesh,22621
+1337,Goraki,22621
+1338,Pind Kamal Khan,22621
+1339,Khoinara,22621
+1340,Haripur Telephone Factory,22630
+1341,Mirpur,22631
+1342,Haripur Central Jail,22640
+1343,Khanpur (Hazara),22650
+1344,Khan Pur Dam Colony,22651
+1345,Garam Thoon,22651
+1346,Kot Najibullah,22660
+1347,Julian,22651
+1348,Babootri,22651
+1349,Najaf Pur,22651
+1350,Kahal Bala,22631
+1351,Bandi Seran,22631
+1352,Dartian,22651
+1353,Bhera,22651
+1354,Chhoi,22651
+1355,Farooqia,22670
+1356,Baghpur Dheri,22651
+1357,New Pind Khan Khel,22661
+1358,Dingi,22661
+1359,Hattar,22671
+1360,Usman Khatar Edso,22671
+1361,Sarai Gadai,22661
+1362,Bhoi Ghar,22671
+1363,Pindi Mehri,22671
+1364,Kangra Township,22680
+1365,Teer,22721
+1366,Mankarai,22700
+1367,Nartopa,22711
+1368,Baram Gali,22721
+1369,Panian,22690
+1370,Pharhala,22701
+1371,Bandi Mian Pirdad,22721
+1372,Dharam Pani,22721
+1373,Pind Hasham Khan,22710
+1374,Bhera,22691
+1375,Sarai Niamat Khan,22720
+1376,Mohra Mamdooh,22701
+1377,Pherari,22711
+1378,Jhata Usman Khattar,22671
+1379,Nurpur Paswal,22721
+1380,Jarral,22760
+1381,Bayan Ahmed Ali Khan,22711
+1382,Chamhad,22721
+1383,Karlan Serian,22721
+1384,Sehki Bala,22781
+1385,Bir,22751
+1386,Kassaki Kalan,22721
+1387,Dalari,22781
+1388,Kakotri,22750
+1389,Kachhi,22751
+1390,Chantri,22781
+1391,Chanda,22781
+1392,Bai Noora,22721
+1393,Karipilian,22781
+1394,Hall Judal,22751
+1395,Hassan Bai,22781
+1396,Badhora,22780
+1397,Indra Doga,22751
+1398,Hall Kalu,22781
+1399,Khuliala,22761
+1400,Kund Kalu Khan,22781
+1401,Jabbi,22761
+1402,Jum,22811
+1403,Sarri,22831
+1404,Gudwalian,22830
+1405,Sirikot,22840
+1406,Kheri Marri,22811
+1407,Khalabat Township,22800
+1408,Jama,22801
+1409,New Kharkot,22811
+1410,Bail,22841
+1411,Kalangar,22810
+1412,Jhamra,22861
+1413,New Jagul,22801
+1414,Ghazi,22860
+1415,Galai,22841
+1416,Salam Khand,22861
+1417,Kheroch,22841
+1418,Basso Mira,22831
+1419,Kundi Umar Khana,22861
+1420,Dheri Naqarchian,22861
+1421,Ghazi Hamlet,22861
+1422,Qazi Pur,22861
+1423,Thana,23000
+1424,Batkhela G.P.O.,23020
+1425,Tarbela Dam Colony,22850
+1426,Nara,22831
+1427,Jalala,23001
+1428,Manjawari,23021
+1429,Garhan,22841
+1430,Kamala,23021
+1431,Inzargai,23021
+1432,Kandako,23021
+1433,Tauda China,23021
+1434,Gunyar,23001
+1435,Aman Dana,23021
+1436,Null,23001
+1437,Mayar,23021
+1438,Dheri Alla Dhand,23010
+1439,Badwan,23021
+1440,Pingal,23021
+1441,Loya Agra,23021
+1442,Dheri,23051
+1443,Dargai,23060
+1444,Mian Bran Gola,23021
+1445,Maina,23061
+1446,Khadikzai,23021
+1447,Jolagram,23051
+1448,Totakan Edso,23030
+1449,Jabban,23051
+1450,Khar,23051
+1451,Pir Khel Edso,23051
+1452,Qulangi,23051
+1453,Matkani,23051
+1454,Malakand,23050
+1455,Qaldara,23061
+1456,Makhband,23051
+1457,Piran,23051
+1458,Kharkai,23061
+1459,Selai Patti,23061
+1460,G.F. Gunj Bazar,23061
+1461,Warter,23061
+1462,Garhi Usman Khel,23061
+1463,Totai,23061
+1464,Kupar(Malakand Agency),23101
+1465,Haryan Kot,23061
+1466,Baizu Kharki,23090
+1467,Meher Dai,23061
+1468,Old Sakhakot,23081
+1469,Sakhakot,23080
+1470,Khan Garhi,23081
+1471,Musa Maina,23061
+1472,Kot Edso,23061
+1473,Yarabad,23081
+1474,Wazirabad,23061
+1475,Qutab Garh,23101
+1476,Kalu Shah,23081
+1477,Ghawar Killi,23081
+1478,Bahram Khan Killi,23081
+1479,Ghani Dheri,23081
+1480,Kand Agency,23101
+1481,Hathian,23120
+1482,Shamoon Kalay,23101
+1483,Sher Garh,23100
+1484,Gud Rai,23121
+1485,Jewar,23121
+1486,Spilanodhe,23121
+1487,Hero Shah,23101
+1488,Lund Khawar,23130
+1489,Dar Giwal,23121
+1490,Gul Purkal,23121
+1491,Sadat Baba,23131
+1492,Gulmaira,23131
+1493,Shah Dhand,23131
+1494,Shafiabad,23121
+1495,Chailtazagram,23131
+1496,Shero Dheri,23131
+1497,Moti Banda,23131
+1498,Kalo,23131
+1499,Alo,23131
+1500,Kotki,23131
+1501,Jalala,23150
+1502,Qasmi,23131
+1503,Umar Abad,23151
+1504,Takht Bhai,23160
+1505,Ganjai,23161
+1506,Arif Khan Killi,23151
+1507,Pump Korona,23161
+1508,Gardai,23161
+1509,Amirzada Killi,23161
+1510,Pir Saddu,23151
+1511,Parkho Dheri,23151
+1512,Lalazar,23161
+1513,Tordher,23151
+1514,Sheikhano Killi,23131
+1515,Saro Shah,23161
+1516,Garo Shah,23161
+1517,Kati Garhi,23131
+1518,Railway Station,23161
+1519,Yousaf Zai Industries,23161
+1520,Seri Behlool,23161
+1521,Aslam Kalay,23161
+1522,Maday Baba,23161
+1523,Narai Fazal Abad,23161
+1524,Khadi Killi,23161
+1525,Gharib Abad,23161
+1526,Pati Kagan,23161
+1527,Cham Dheri,23201
+1528,Dako Baba,23161
+1529,Chanchano Khat,23161
+1530,Jehangir Abad,23161
+1531,Fatima,23201
+1532,Baghdada,23201
+1533,Mardan G.P.O.,23200
+1534,Afzalabad,23201
+1535,Qazi Abad,23201
+1536,Gujar Garhi,23170
+1537,Mamookhan Banda,23161
+1538,Kot Jhungra,23161
+1539,Dagai,23201
+1540,Narshak,23201
+1541,Khan Jar,23201
+1542,Adina,23201
+1543,Tootkilli,23201
+1544,Baghicha Dheri,23201
+1545,Gaddar,23201
+1546,Mohib Banda,23201
+1547,Manga,23201
+1548,Dheribaba,23201
+1549,Khuda Noor Killi,23201
+1550,Chamtar,23201
+1551,Sheikh Yousaf,23201
+1552,Khawaja Rashakh,23201
+1553,Shagai,23201
+1554,Kalpani R.S.,23201
+1555,Sikandari Koroona,23201
+1556,Zando Dheri,23201
+1557,Babeni,23201
+1558,Gulbahar Banda,23201
+1559,Bakri Banda,23201
+1560,Ibrahim Khan Killi,23201
+1561,Sharif Abad,23201
+1562,Military Form,23201
+1563,Sadiq Abad,23201
+1564,Pir Abad,23201
+1565,Mardan Sugar Crops,23210
+1566,Jhubgara,23221
+1567,Ghala,23241
+1568,Bakhshali,23220
+1569,Fobisns Ffs,23221
+1570,Kaka Abad,23241
+1571,Landakai,23221
+1572,Katlang,23240
+1573,Musakhat,23221
+1574,Charchoor,23241
+1575,Jamal Garhi,23230
+1576,Shamo Zai,23241
+1577,Babu Zai,23250
+1578,Badar Banda,23241
+1579,Shikrai Bara,23241
+1580,Ghundo,23241
+1581,Sangao,23251
+1582,Seri Bacha Khel,23241
+1583,Dheri Likpani,23241
+1584,Pipal,23261
+1585,Toru,23300
+1586,Mura Banda,23261
+1587,Bazdara Bala,23261
+1588,Nodeh,23301
+1589,Garhi Kapura,23310
+1590,Garh Garh,23301
+1591,Kohi Barmol,23260
+1592,Qasim,23301
+1593,Mian Khan,23251
+1594,Bazdara Payan,23261
+1595,Ghazi Baba,23261
+1596,Hashamabad,23301
+1597,Mayar,23290
+1598,Shamshad Abad,23301
+1599,Urmal Dheri,23341
+1600,Swaryan,23301
+1601,Gumbat,23311
+1602,Dobian,23330
+1603,Kandar,23311
+1604,Daulat,23331
+1605,Agai,23340
+1606,Jaganath Canal Bangla,23341
+1607,Plai,23270
+1608,Bazargai,23331
+1609,Sardchina,23331
+1610,Giddar Pur,23311
+1611,Sikandri,23341
+1612,Mathra,23341
+1613,Rustam,23370
+1614,Unwan Abad,23341
+1615,Kutarpan,23371
+1616,Machai,23371
+1617,Gujrat,23350
+1618,Bachai,23341
+1619,Cheena,23371
+1620,Ayub Killi,23331
+1621,Saidabad,23371
+1622,Hamzakot,23371
+1623,Sheh Tore,23371
+1624,Naudeh,23371
+1625,Allilandi,23371
+1626,Surkh Dheri,23371
+1627,Shah Baz Garhi,23390
+1628,Char Gulai,23371
+1629,Surkani,23371
+1630,Khaira Bad,23391
+1631,Hussai,23391
+1632,Kalu Khan,23410
+1633,Narangi,23421
+1634,Parmulai,23421
+1635,Boot Seri,23391
+1636,Nawan Killi,23420
+1637,Bhai Khan,23391
+1638,Ismaila,23400
+1639,Garyala,23391
+1640,Sodher,23341
+1641,Shewa,23421
+1642,Chak Naudeh,23421
+1643,Spin Kani,23421
+1644,Char Bagh,23431
+1645,Mansabdar,23421
+1646,Tara Kai,23421
+1647,Saleem Khan,23431
+1648,Qazi Abad,23431
+1649,Sawabi G.P.O.,23430
+1650,Sheikh Jana,23421
+1651,Gohati,23431
+1652,Turlandi,23421
+1653,Managai,23421
+1654,Qadra,23431
+1655,Yousaf Zai,23431
+1656,Chingiai,23430
+1657,Shah Mansoor,23431
+1658,Maneri Payan,23431
+1659,Thand Kohi,23431
+1660,Kala Dara,23431
+1661,Baja,23431
+1662,Ghur Ghushti,23431
+1663,Jamal Abad,23431
+1664,Kaddai,23431
+1665,Boqa,23451
+1666,Right Bank (Tarbella),23470
+1667,Pabini,23451
+1668,Kala,23431
+1669,Panjman,23451
+1670,Doaher,23431
+1671,Bamkhel,23440
+1672,Qasimabad,23451
+1673,Topi,23460
+1674,Pehur Hamlet,23461
+1675,Gandaf,23480
+1676,Deval,23490
+1677,Besak,23481
+1678,Kupri,23491
+1679,Ziarat Bela,23491
+1680,Jhanda,23451
+1681,Zaida,23540
+1682,Utla,23491
+1683,Marghuz,23530
+1684,Khunda,23560
+1685,Sheikh Dheri,23571
+1686,Ghabasni,23491
+1687,Batta Kora,23461
+1688,Maini,23450
+1689,Lahor Chhota,23570
+1690,Zarobi,23510
+1691,College Campus Kotha,23501
+1692,Galli,23491
+1693,Kotha,23500
+1694,Ambar,23561
+1695,Chanai,23491
+1696,Hund,23561
+1697,Takail,23491
+1698,Garmanara,23550
+1699,Tordher,23610
+1700,Kalabat,23520
+1701,Beka,23591
+1702,Nara Amazai,23491
+1703,Manki,23590
+1704,Jalbai,23600
+1705,Inzari,24001
+1706,Jabbi,24001
+1707,Beka Dheri,23591
+1708,Jalsai,23580
+1709,Bazar,23611
+1710,Nisar Tang,24001
+1711,Allah Bakhash Colony,24020
+1712,Tano,23611
+1713,Jehan Gira,23620
+1714,Kahi,24001
+1715,Amir,24011
+1716,Manduri,24001
+1717,Nizam Pur,24010
+1718,Pir Sabaq,24050
+1719,Nandrak,24021
+1720,Garo,24011
+1721,Mali Khel,24041
+1722,Shagai,24011
+1723,Khair Abad,24000
+1724,Shaidu,24030
+1725,Mughal Ki,24041
+1726,Akora Khattak,24040
+1727,Khawrai,24021
+1728,Kotar Pane,24081
+1729,Zara Miana,24041
+1730,Adam Zai,24041
+1731,Misri Banda,24041
+1732,Narai,24021
+1733,Zando Banda,24081
+1734,Mian Isa,24031
+1735,Rashakai,24081
+1736,Jamia Islamia,24041
+1737,Ghalla Dher,24081
+1738,Chowki,24081
+1739,Risal Pur,24080
+1740,Bara Banda,24081
+1741,Sadu Khel,24101
+1742,Nowshera G.P.O.,24100
+1743,Khesari,24101
+1744,Feroz Sons Nowshera,24160
+1745,Aza Khel Payan,24181
+1746,Adamjee Paper Board Mills,24170
+1747,Palosi Payan,24101
+1748,Shekhi,24101
+1749,Khesh Ki Payan,24111
+1750,Dagai Banda,24200
+1751,Walai,24131
+1752,Nowshera Khurd,24101
+1753,Pirpai,24180
+1754,Pabbi,24210
+1755,Azakhel,24190
+1756,Ziarat Kaka Sahib,24130
+1757,Phari Katti Khel,24101
+1758,Nowshera City,24110
+1759,Colony Sarhad Textile Mills,24150
+1760,Manki Sharif,24140
+1761,Peshongri,24211
+1762,Dag Besud,24221
+1763,Aman Kot,24221
+1764,Pabbi Railway Station,24220
+1765,Wazir Garhi,24221
+1766,Jaroba,24251
+1767,Banda Mohib,24221
+1768,Spin Kani Kalan,24241
+1769,Chandan Ghari,24251
+1770,Spin Khak,24250
+1771,Panakot,24221
+1772,Jallozai,24240
+1773,Shamshatoo,24251
+1774,Jana Kurk,24251
+1775,Bakhtai,24271
+1776,Shah Kot Payan,24271
+1777,Chapari,24261
+1778,Saleh Khana,24270
+1779,Sam Badbher,24251
+1780,Dak Ismail Khel,24260
+1781,Urmar Payan,24300
+1782,Urmar Bala,24301
+1783,Cherat,24280
+1784,Mera Katchori,24301
+1785,Urmar Maina,24301
+1786,Ali Baig,24311
+1787,Ghari Naubat Khan,24301
+1788,Khush Muqam,24311
+1789,Tarnab Farm,24330
+1790,Tarkha,24311
+1791,Daud Zai,24400
+1792,Akbar Pura,24320
+1793,Shakra Pura,24401
+1794,Tarujabba,24310
+1795,Takhtabad Awal,24401
+1796,Lala,24331
+1797,Budni,24321
+1798,Charsadda Npo (Nd),24420
+1799,Musa Zai,24360
+1800,Abazai (Nd),24420
+1801,Umar Maira,24301
+1802,Niami,24401
+1803,Banda Sheikh Ismail,24311
+1804,Naguman,24401
+1805,Amir Abad (Nd),24420
+1806,Mandani (Nd),24420
+1807,Agra Payan,24421
+1808,Dhakki (Nd),24420
+1809,Danan Afghani,24401
+1810,Gul Bela,24401
+1811,Agra Miana,24421
+1812,Kula Dher,24421
+1813,Shaghai Bala,24401
+1814,Charsadda G.P.O.,24420
+1815,Barister Koroona,24421
+1816,Sheikh Kalay,24421
+1817,Sheikhabad (Nd),24420
+1818,Kamran Kalay Edso Nd,24421
+1819,Parang So (Nd),24421
+1820,Khat Killay,24421
+1821,Sardheri Bazar,24460
+1822,Garhi Abdul Wahid,24401
+1823,Charsadda Town (Nd),24430
+1824,Dheri Zardad,24451
+1825,Palosa,24461
+1826,Muftipur,24461
+1827,Kalyas,24451
+1828,Nisatta,24450
+1829,Prang (Nd),24451
+1830,Hindu Kalli,24451
+1831,Turlandai,24451
+1832,Khan Mahi,24461
+1833,Dargai,24461
+1834,Boobak,24451
+1835,Zarinabad,24461
+1836,Pm Nari,24461
+1837,Gulabad,24461
+1838,Azizabad,24451
+1839,Ibrahimzai,24461
+1840,Khullay,24461
+1841,Surkhatki,24461
+1842,Rajjar Edso (Nd),24480
+1843,Bahlula,24461
+1844,Najeemabad,24461
+1845,Azim Khan Pur,24461
+1846,Dosehra,24461
+1847,Hikmatabad,24461
+1848,Rasoolabad,24501
+1849,Sheikho,24461
+1850,Chitral Karoona,24501
+1851,Hajiabad,24461
+1852,Umarzai,24510
+1853,Utmanzai,24500
+1854,Ijara Kalli,24511
+1855,Ghazgi,24511
+1856,Taurangzai,24490
+1857,M. Zahir Khan Kalli,24461
+1858,Akbarabad,24511
+1859,Nawab Khan,24511
+1860,Kula Dand Payan,24511
+1861,Harichand,24520
+1862,Harichand Banglow,24511
+1863,Zarbab Ghari,24511
+1864,Amirabad Puli,24531
+1865,Koroona,24511
+1866,Shokatabad,24511
+1867,Tangi,24540
+1868,Merajanoki,24541
+1869,Sherpao,24530
+1870,Hawara,24531
+1871,Gandheri,24541
+1872,Shakh No.6,24511
+1873,Saadabad,24531
+1874,Ziambanglow,24531
+1875,Kot,24601
+1876,Mian Khel,24631
+1877,Cheena,24601
+1878,Kangra,24620
+1879,Battgram,24631
+1880,Kharakai,24631
+1881,Shabqadar Fort,24630
+1882,Zareef Koroona,24631
+1883,Sheikhan,24631
+1884,Nasrat Zai,24631
+1885,Mirza Dher,24601
+1886,Jura,24541
+1887,Shodag,24511
+1888,Attaki,24631
+1889,Mandezai,24631
+1890,Dheri Sikandar Khan,24631
+1891,Haji Zai,24631
+1892,Kotak Tarnab,24631
+1893,Sariekh,24631
+1894,Mirzai,24631
+1895,Amba Dher,24631
+1896,Qilla Shah Baig,24631
+1897,Shabqadar Village,24631
+1898,Pir Qilla,24631
+1899,Gunda,24631
+1900,Yakka Ghund,24631
+1901,Yaghi Bandi Payan,24631
+1902,Ghalani,24650
+1903,Kotozai,24641
+1904,Hassanzai,24641
+1905,Nawan Kalli,24651
+1906,Warsak Colony,24680
+1907,Matta Mughal Khel,24640
+1908,Kandar,24631
+1909,Lakarai,24651
+1910,H.Yarjan Kalli,24651
+1911,Wocha Jawara,24651
+1912,Yousaf Khel,24651
+1913,Malikabad,24641
+1914,Sando Khel,24651
+1915,Ghazi Beg,24651
+1916,Dab Koroona,24681
+1917,Pandi Lalma,24681
+1918,Mian Mandi,24651
+1919,Garhi Sher Dad,24681
+1920,Badi Zai,24701
+1921,Lala China,24731
+1922,Malik Zada Adam,24731
+1923,Kafoor Dheri,24701
+1924,Loi Shalman,24741
+1925,Khatki Sharif,24681
+1926,Landi Kotal,24740
+1927,Malikzada Adam Khan,24741
+1928,Lawara Maina,24681
+1929,Jabba,24731
+1930,Jamal Abad,24681
+1931,Nasir Bagh,24700
+1932,Shahi Bala,24701
+1933,Regi Village Edso,24710
+1934,Khan Kalay,24731
+1935,Rawal Koroona,24681
+1936,Lakarai,24701
+1937,Ali Masjid,24731
+1938,Jamrud,24730
+1939,Mushtar Zai,24801
+1940,Nawai Kamar,24801
+1941,Pawaka,24820
+1942,Bara Fort,24800
+1943,Kam Shalman,24741
+1944,Mulazai,24701
+1945,Sangoo,24801
+1946,Surizai Miana,24831
+1947,Toda China,24801
+1948,Mashoo Khel,24810
+1949,Sheikhan,24801
+1950,Haji Abdullah Jan Kalli,24801
+1951,Sheikh Mohammadi,24841
+1952,Zangali,24841
+1953,Kala Khel,24851
+1954,Kagawal,24841
+1955,Maryamzai,24851
+1956,Peshawar City,25000
+1957,Adizai,24851
+1958,Karimpura,25000
+1959,Badbher,24840
+1960,Kohi,24861
+1961,Faridi,24861
+1962,P.A.F. Camp Badhber,24830
+1963,Nishtar Abad,25000
+1964,Tela Band,24851
+1965,Sherikira,24860
+1966,Hassan Khel,24861
+1967,Khyber Bazar,25000
+1968,Surizai Payan,24831
+1969,Peshawar Airport,24820
+1970,Bora,24861
+1971,Ahmed Khel,24831
+1972,Pakhi,24861
+1973,Aza Khel,24861
+1974,Kandow,24861
+1975,Gul Bahar,25000
+1976,Peshawar Cantt (N.P.O.),25000
+1977,High Court,25000
+1978,Mathani,24850
+1979,Express Post Center University Town,25000
+1980,Peshawar Saddar Bazar,25000
+1981,Ramdas Bazar,25000
+1982,Childern Hospital,25000
+1983,District Head Quarter,25000
+1984,Peshawar City Railway Station,25000
+1985,Peshawar Kutchery,25000
+1986,Shaghali Bala,25001
+1987,Qissa Khawani,25000
+1988,Shah Qabool Aulia,25000
+1989,Lady Reading Hospital,25000
+1990,Peshawar Secretariat,25000
+1991,Budhni,25001
+1992,Nauthia Jadeed,25000
+1993,Qissa Khawani (Npo),25000
+1994,Peshawar G.P.O.,25000
+1995,Shah Qabool Aulia N.P.O.,25000
+1996,Peshawar City (N.P.O.),25000
+1997,Shaheen Muslim Town,25000
+1998,Defence Colony,25000
+1999,Gul Bahar,25001
+2000,Mian Gujar,25001
+2001,Hazur Khawani,25001
+2002,Kakshal,25001
+2003,Pir Bala,25001
+2004,Abdur Rahima,25001
+2005,Pishta-Khara Payan,25001
+2006,Gilji Kandar Khel,25001
+2007,Deh Bahadur,25001
+2008,Chaghar Matti,25001
+2009,Mathra,25001
+2010,Dag,25001
+2011,Khazana,25001
+2012,Pando Payan,25001
+2013,Chughal Pura,25001
+2014,Fort Slop,25001
+2015,Char Pariza,25001
+2016,Rahim Abad,25001
+2017,Sar-Band,25001
+2018,Bhudo,25001
+2019,Gullo Zai,25001
+2020,Teri Payan,25001
+2021,Ade Zai,25001
+2022,Bakshi Pull,25001
+2023,Wada Paga,25001
+2024,B.I.& S.E. Peshawar,25120
+2025,Regilalma Town Ship,25111
+2026,Safaid Dheri,25121
+2027,Industrial Estate,25100
+2028,Acheeni Payan,25121
+2029,Makk Beverages,25001
+2030,Police Housing Colony,25121
+2031,Head Postoffice,25121
+2032,Hindu Kassay,25001
+2033,Tekhal Bala,25140
+2034,Peshawar University G.P.O.,25120
+2035,Shagai Hindyan,25171
+2036,Palosai Atozai,25121
+2037,Tehkal Payan,25150
+2038,Pajagi,25171
+2039,C.T.Training School,25160
+2040,Sakhi Chashma,25170
+2041,Afghan Colony,25180
+2042,Shaheen Town,25190
+2043,Govt. College Of Tech Peshawar,25210
+2044,Kohat G.P.O.,26000
+2045,Barh,26001
+2046,Chorlaki,26001
+2047,Landi Arbab,25220
+2048,Parshai,26001
+2049,Darshi Khel,26001
+2050,Chakar Kot Bala,26001
+2051,Kiri Sheikhan,26001
+2052,Shadipur,26001
+2053,Tappi,26001
+2054,Bahadur Khel,26001
+2055,Sheraki,26001
+2056,Ziarat Sheikh Allahdad,26001
+2057,Gadda Khel,26001
+2058,Nak Band,26001
+2059,Gamkol Sharif,26001
+2060,Jabbar,26001
+2061,Khushal Garh,26001
+2062,Khad Zai,26001
+2063,Police Recruit Training Centre,26020
+2064,Akhorwal B.O,26101
+2065,Billi Tang S.O,26110
+2066,Dara Adam Khel S.O,26100
+2067,Kamal Khel B.O,26111
+2068,P.A.F.,26080
+2069,Cadet College Kohat S.O,26030
+2070,Babri Banda B.O,26111
+2071,Officers Training School Kohat,26090
+2072,Dhoda B.O,26111
+2073,Kotian B.O,26111
+2074,Govt. College,26101
+2075,Kharmatoo .B.O,26111
+2076,Kot B.O,26111
+2077,Gunner Line S.O,26050
+2078,J.D.M.T.Mills,26070
+2079,Torki Ismail Khel B.O,26111
+2080,Uster Zai Payan,26170
+2081,Eni Gumbat,26120
+2082,P.T.S.Hangu,26180
+2083,Mohammad Khawaja,26191
+2084,Hangu S.O,26190
+2085,Nasrat Khel,26160
+2086,Shadi Khel B.O,26111
+2087,Bilyamina,26191
+2088,Khazina Banda,26191
+2089,Ibrahim Zai,26191
+2090,Gulistan,26191
+2091,Togh Sarai,26200
+2092,Kahi,26220
+2093,Saiful Darra,26191
+2094,Ghiljo,26221
+2095,Zargeri(E.D.S.O.),26210
+2096,Fort Lakhart (E.D.S.O.),26194
+2097,Naryab,26230
+2098,Gurguri,26241
+2099,Jawar Ghundi B.O,26241
+2100,Darsamand,26241
+2101,Uchat,26281
+2102,Sarozai,26250
+2103,Karbogha Sharif B.O,26241
+2104,Mammu Banda,26271
+2105,Dallan,26271
+2106,Karoona,26271
+2107,Thull Fort,26260
+2108,Torawari B.O,26241
+2109,Doaba S.O,26240
+2110,Baggan,26281
+2111,Thull City,26270
+2112,Toot Kas,26271
+2113,Alizai,26280
+2114,Sadda,26290
+2115,Manduri,26281
+2116,Bil Yamin,26281
+2117,Sakhi Ahmad Shah,26291
+2118,Arawali Fort,26291
+2119,Parachinar G.P.O.,26300
+2120,Lalmay,26301
+2121,Ghurizai Payan,26121
+2122,Ghar Bina,26301
+2123,Jallandar,26301
+2124,Kirman,26301
+2125,Zeeran,26301
+2126,Samir,26301
+2127,Bushera,26301
+2128,Usterzai Bala,26171
+2129,Ibrahim Zai,26291
+2130,Tarimangal,26301
+2131,Muzaffar Kot,26291
+2132,Khawaja Khizer,26171
+2133,Satellite Town,26054
+2134,Shingak,26301
+2135,Kharlachi,26301
+2136,Pewar,26301
+2137,College Colony,26301
+2138,Shakar Dara,26301
+2139,Shallo Zan,26301
+2140,Kubad Shah Khel,26301
+2141,Mahora,26301
+2142,Kamar Dhand,26351
+2143,Boghaki,26301
+2144,Shaikhan Ammunition Depot,26340
+2145,Sultan,26301
+2146,Alamsher,26301
+2147,Mir Kalam Banda,26361
+2148,Sadra,26301
+2149,Lachi,26360
+2150,Surgul,26350
+2151,Malgin,26361
+2152,Banda Fateh Khan,26361
+2153,Jatta Ismail Khel,26361
+2154,Sumari Bala,26361
+2155,Manduri,26361
+2156,Mohsin Khel,26361
+2157,Surdal,26361
+2158,Dartappi,26361
+2159,Khaddar Khel,26361
+2160,Shewaki,26361
+2161,Shakar Dara,26380
+2162,Boori Saghri,26381
+2163,Biland Killa,27001
+2164,Isak Khumari,26391
+2165,Darshai,26391
+2166,Makori B.O,26401
+2167,Shakar Khel B.O,26401
+2168,Nari Panos,26411
+2169,Kundi,26391
+2170,Ter,26390
+2171,Khurram B.O,26401
+2172,Mami Khel B.O,26401
+2173,Palosa Sar,27001
+2174,Nandraka,26381
+2175,Dagar Nari,26410
+2176,Sabir Abad,27000
+2177,Dely Mela,27001
+2178,E.I.D.C.Bahadur Khel B.O,26401
+2179,Banda Daud Shah S.O,26400
+2180,Badin Khel,27001
+2181,Kurd Sharif,27001
+2182,Kandu Khel,27101
+2183,Ghundi Mir Khan Khel,27001
+2184,Karak G.P.O.,27200
+2185,Karak City,27201
+2186,Inzar Banda,27500
+2187,Mitha Khel,27100
+2188,Bogara,27301
+2189,Shanawa Guddi Khel,27401
+2190,Toor Dhand,27201
+2191,Ghundikilla,27301
+2192,Tarkhakhol,27101
+2193,Chokara,27300
+2194,Turki Khel,27001
+2195,Thatti Nasrati,27400
+2196,Ghundi Shamshaki,27001
+2197,Gruzi,27201
+2198,Shah Danbanda,27401
+2199,Shah Salim,27501
+2200,Sarki Lawaghar,27401
+2201,Bangi Killa,27501
+2202,Kari Dhand,27501
+2203,Sarat Khel,27901
+2204,Land Kamar,27600
+2205,Tattar Khel,27601
+2206,Latamber,27800
+2207,Zara Gandi,27601
+2208,Paloski Banda,27601
+2209,Manzini,27601
+2210,Khojaki Killa,27601
+2211,Surdog,27801
+2212,Alam Shari Kalla,27601
+2213,Dab Begu Khel,27900
+2214,Warana Mir Hassan Khel,27801
+2215,Jandri,27901
+2216,Warana,27801
+2217,Dab,27901
+2218,Jehangiri,27501
+2219,Manda Wah,27801
+2220,Dab Sangini,27901
+2221,Domel,28010
+2222,Khadar Khan Khel,28020
+2223,Kotka Muhammad Din,28021
+2224,Zarki Khoragai,28011
+2225,Kotka Abdullah Jan,28021
+2226,Kotka Muhammad Khan,28021
+2227,Dandi Kotka Azim Abad,28021
+2228,Murghali,28021
+2229,Nizam Bazar,28030
+2230,Fazal Haq Malwana,28041
+2231,Mandozai,28041
+2232,Bannu G.P.O,28100
+2233,Torka,28040
+2234,Landi Jalandher,28021
+2235,Zarki Pirba Khel,28021
+2236,Wazir Umarzai,28041
+2237,Banda Sheri Khel,28021
+2238,Koti Sadat,28031
+2239,Pak Ismail Khel,28031
+2240,Dhandi Killa,28021
+2241,Hayat Khel,28101
+2242,Shah Jahan Shah,28101
+2243,Matora,28101
+2244,Khawaja Mad Mandan,28101
+2245,Kala Khel Masti Khan,28101
+2246,Jhandu Khel,28101
+2247,Ismail Mama Khel,28101
+2248,Ismail Khel,28101
+2249,Mandi Sheikh Amir,28101
+2250,Asperka Wazir,28101
+2251,Hussain Abad,28101
+2252,Fatima Khel,28101
+2253,Haved Gate,28101
+2254,Phori Bazar,28101
+2255,Bezan Khel,28101
+2256,Adami Nawaz Shah,28101
+2257,Darul Aloom Muhammadia Matora,28101
+2258,Tittar Kehl,28101
+2259,Fazal Shah Mita Khel,28101
+2260,Aqlim Khan Killa,28101
+2261,Tajwee-Ul-Quran,28101
+2262,Syed Tughal Khel,28101
+2263,Sabu Khel Khattak,28101
+2264,Fiaz Talab Abbas Mandan,28101
+2265,Taji Khel,28101
+2266,Masha Mansoor,28101
+2267,Shakrullah Beri Khel,28101
+2268,Shadev,28101
+2269,Pipal Bazar,28150
+2270,Hassan Khel Isaki,28111
+2271,Bazar Ahmad Khan,28110
+2272,Kotka Malik Ayaz,28151
+2273,Mama Khel Banochi,28101
+2274,Haved,28101
+2275,Mamesh Khel,28140
+2276,Kurram Garhi,28151
+2277,Masti Khel,28130
+2278,Surangi Adda,28141
+2279,Mir Alam Daud Shah,28151
+2280,Shahbaz Azmat Khel,28120
+2281,Mir Ali,28170
+2282,Shewa,28181
+2283,Spinwam,28181
+2284,Thandy,28181
+2285,Matashi Khushali,28181
+2286,Dosali,28191
+2287,Boya,28210
+2288,Cadet College Razmak,28260
+2289,Mir Ali Adda,28180
+2290,Miran Shah,28190
+2291,Adda Mir Abbas,28300
+2292,Khajori,28181
+2293,Habib Noor Kot,28271
+2294,Data Khel,28200
+2295,Idak,28191
+2296,Darpa Khel,28191
+2297,Ghori Wala,28330
+2298,Distt. Court Post Office L/Marwat,28250
+2299,Land Jan Bahadar,28311
+2300,Shamshi Khel,28331
+2301,Khojari Khas,28311
+2302,Sarai Miran Shah,28200
+2303,Kakki,28320
+2304,Landkhojari,28321
+2305,Kotka Gul Khan,28301
+2306,Sarai Naurang,28350
+2307,Almarkaz Islami Sadat,28331
+2308,Nar Najeeb,28351
+2309,Takht Khel,28351
+2310,Nar Jafar Khan,28331
+2311,Nar Muzaffar Khan,28340
+2312,Multani Landi Dak,28321
+2313,Nar Shukrullah,28351
+2314,Amin Mughal Khel,28331
+2315,Hafiz Khel,28331
+2316,Kotka Muhammad Surrana,28351
+2317,Bangi Khan Mughal,28331
+2318,Sarai Gambila,28370
+2319,Mir Madni Multani,28351
+2320,Baz Killa,28351
+2321,Taja Zai,28360
+2322,Abbasa,28411
+2323,Gandi Khan Khel,28371
+2324,Passani,28371
+2325,Nar Azad,28371
+2326,Nar Mohammad Ayaz,28351
+2327,Wanda Khawas,28371
+2328,Tajori,28380
+2329,Wanda Mash,28411
+2330,Kotka Gidar,28371
+2331,Wanda Mir Salam,28411
+2332,Land Muhammad Khel,28211
+2333,Razmak,28270
+2334,Bharat,28310
+2335,Lakki Marwat,28420
+2336,Abdul Khel,28421
+2337,Kachi Kamar,28421
+2338,Jhang Khel,28421
+2339,Nawar Khel,28421
+2340,Kot Kashmir,28371
+2341,Lande Wah,28410
+2342,Nouroz Bhittani,28371
+2343,Wanda Shab Khel,28411
+2344,Mela Shab Khel,28421
+2345,Chouki Jand,28421
+2346,Land Ahmad Khel,28421
+2347,Wanda Amir,28421
+2348,Ahmed Khel,28421
+2349,Lakki R.Station,28421
+2350,Wanda Mughal Khel,28421
+2351,Ghazni Khel,28450
+2352,Mela Mandra Khel,28441
+2353,Abba Khel,28440
+2354,Dalo Khel,28441
+2355,Begu Khel,28430
+2356,Wanda Langar Khel,28421
+2357,Thandar Wala,28421
+2358,Zargi Khel,28441
+2359,Haqdad Abad,28421
+2360,Dobak Mandra Khel,28421
+2361,Jabu Khel Edbo,28451
+2362,Kheru Khel Pacca,28460
+2363,Langer Khel Edbo,28451
+2364,Khawaja Khel Edbo,28451
+2365,Dara Pezu,28470
+2366,Ghazi Khel Edbo,28451
+2367,Yasin Zai,29001
+2368,Sheri Khel Edbo,28451
+2369,Katta Khel,29011
+2370,Rahim Bazar,29050
+2371,Kaka Khel Edbo,28451
+2372,Wanda Jugi,28471
+2373,Shah Hassan Khel,29011
+2374,Wanda Gandir,29011
+2375,Wanda Kali,28471
+2376,Paniala,29000
+2377,Wanda Khan Mohd,29010
+2378,Chota Bazar,29050
+2379,Yarik,29020
+2380,Kuti Kehl,29011
+2381,District Court,29050
+2382,Dvisional Headquarters,29050
+2383,Jhok Mohana,29051
+2384,Dera Ismail Khan G.P.O.,29050
+2385,Hathala,29051
+2386,Tijarat Ganj,29050
+2387,Dera Ismail Khan City,29050
+2388,Wapda Academy,29050
+2389,Shah Alamabad,29050
+2390,Thatta Baluchan,29051
+2391,Garah Mohabbat,29051
+2392,M.O.D.C.,29050
+2393,Dera Ismail Khan N.P.O.,29050
+2394,Saggu,29051
+2395,Bazar Kalan,29050
+2396,Hassa,29051
+2397,Malana,29051
+2398,Nawaz Abad,29051
+2399,Shero Kohna,29051
+2400,Jatta,29051
+2401,Besti Ustarana,29051
+2402,Budh,29051
+2403,Daraban Khurd,29051
+2404,Pota,29051
+2405,Tareen Abad,29051
+2406,Chahikan,29051
+2407,Giloti,29051
+2408,Wandha Mochian Wala,29051
+2409,Haji Mora,29084
+2410,Kohthi,29051
+2411,Saeedabad,29070
+2412,Bahaderi,29051
+2413,Polytechnical Institute,29090
+2414,Shor Kot,29051
+2415,Mula Isa,29051
+2416,Kot Isa Khan,29051
+2417,Tribal Textile Mills,29110
+2418,Govt-Training School,29051
+2419,Muryali,29080
+2420,Din Pur,29100
+2421,Zafar Abad Colony,29111
+2422,Agricultural Research Station,29120
+2423,Kachi Paind Khan,29130
+2424,Bilot,29170
+2425,Kiri Khaisor,29180
+2426,Jara,29211
+2427,Kambo Sharif,29161
+2428,Saddar Bazar,29140
+2429,Katch,29161
+2430,Kath Garh,29161
+2431,Band Korai,29161
+2432,Bagwani Shumali,29161
+2433,Mandhara,29200
+2434,Paharpur,29160
+2435,Wanda Madat,29161
+2436,Jabbar Wala,29201
+2437,Wapda C.R.B.C.Staff Colony,29190
+2438,Kot Jai,29210
+2439,Mandhra Saidan,29201
+2440,Rajan Pur,29211
+2441,Fazal Abad,29201
+2442,Dhaki,29211
+2443,Paroa,29230
+2444,Hazara,29231
+2445,Gandi Ashiq,29311
+2446,Gomal University New Campus,29220
+2447,Khanu Khel,29211
+2448,Fateh,29221
+2449,Kot Isa Khan,29311
+2450,Kotla Lodhian,29211
+2451,Mahra,29231
+2452,Daraban,29310
+2453,Kohi Bahara,29250
+2454,Aminabad,29231
+2455,Musazai,29311
+2456,Gara Haji Isa Khan,29311
+2457,Gandi Umar Khan,29311
+2458,Ramak S.O.,29320
+2459,Miran,29231
+2460,Gandi Isab Khan,29311
+2461,Kiri Shawozai,29321
+2462,Landi Matawar,29341
+2463,Tijiri,29341
+2464,Sheikh Mela,29341
+2465,Darazinda,29340
+2466,Choudhwan,29330
+2467,Darazinda City,29341
+2468,China,29341
+2469,Raghasar,29341
+2470,Kulachi,29350
+2471,Loono,29351
+2472,Nawan Tezha Rogha,29341
+2473,Kot Attal Sharif,29351
+2474,Takwara,29380
+2475,An-Gheza,29341
+2476,Halim Abad,29401
+2477,Kiri Behlol Khel,29351
+2478,Sheikh Utar,29401
+2479,Sobati Kuch,29401
+2480,Kiri Janaki,29401
+2481,Ranwal,29401
+2482,Garah Baluch,29401
+2483,Amakhel,29401
+2484,Shah Alam,29401
+2485,Kiri Haider,29401
+2486,Dabara,29401
+2487,Garah Budha,29401
+2488,Gomal Bazar,29410
+2489,Bazai,29401
+2490,Kiri Tator,29401
+2491,Daraki,29401
+2492,Rohri,29360
+2493,Tank G.P.O,29400
+2494,Maddi,29351
+2495,Chashion Kuch,29401
+2496,Kiri Marwati,29401
+2497,Kot Nawaz,29401
+2498,Gul Imam,29420
+2499,Tijori,29421
+2500,Umer Khel Gharbi,29441
+2501,Umer Adda,29401
+2502,Pai,29430
+2503,Kand Killa,29441
+2504,Umer Khel,29441
+2505,Mullazai,29440
+2506,Ping,29441
+2507,Kiri Wadati,29441
+2508,Mani Khel,29441
+2509,Pir Tangi,29461
+2510,Shooza,29461
+2511,Daulat Koruna,29441
+2512,Jandola,29470
+2513,Babar Mulla Khel,29441
+2514,Hassan Khel Koroona,29441
+2515,Girni,29461
+2516,Manzai,29460
+2517,Khir Gi,29461
+2518,Kotka Muhammad Baig,29461
+2519,Chalarai,29471
+2520,Meziwam,29471
+2521,Shakai,29471
+2522,Alam Abad,29471
+2523,Moosar Khel Abad,29471
+2524,Sararogha,29480
+2525,Karama Bobai,29471
+2526,Wari Khawa,29471
+2527,Ladha,29490
+2528,Saraghar Haibat Khel,29471
+2529,Faqir Mela Kheecha,29471
+2530,Spin Kai Raghazi,29471
+2531,Siplatoi,29500
+2532,Momi Karama,29491
+2533,Kot Kai,29471
+2534,Karama,29491
+2535,Kot Jamal,29511
+2536,Spin Kamar,29491
+2537,Kani Guram,29491
+2538,Sargana Dani Khel,29511
+2539,Bhakkar Mandi Nt,30000
+2540,Nano,29511
+2541,Barwand Raham Kot,29511
+2542,Bhakkar G.P.O.,30000
+2543,Kiri Kot,29541
+2544,Sinatiha,29531
+2545,Wana,29540
+2546,Tanai,29520
+2547,Shakai,29531
+2548,Bhakkar Npont,30000
+2549,Bhakkar City Nt,30000
+2550,Oss Pass,29511
+2551,Azam Warsak,29541
+2552,Barwand Zahoor Kot,29511
+2553,Shahoor,29511
+2554,Sarwakai,29510
+2555,Tiarza,29530
+2556,Dog,29541
+2557,Dajal,30001
+2558,Shahani,30001
+2559,Sial,30001
+2560,Chhina,30001
+2561,Razai Shah,30001
+2562,Haider Abad,30001
+2563,Alam Abad,30001
+2564,Chak 57 58 Ml,30001
+2565,Chak 43 T.D.A,30001
+2566,Khan Sar,30001
+2567,Chak 186 T.D.A.,30001
+2568,Islamabad,30001
+2569,Chak 183 T.D.A.,30001
+2570,Kenari,30001
+2571,Bakkar Bazar,30001
+2572,Chak 41 T.D.A.,30001
+2573,Godela,30001
+2574,Chupsandi,30001
+2575,Basti Daya Murad,30001
+2576,Sarai Mohajir,30001
+2577,Chak 36 T.D.A.,30001
+2578,Behal,30040
+2579,Karari Kot,30001
+2580,Basti Mian Punja,30001
+2581,Chak 55 T.D.A.,30041
+2582,Notak,30041
+2583,Chak 63 T.D.A.,30051
+2584,Bangla Firdaus,30041
+2585,Dhandla (Basti Bakhtawar),30041
+2586,Chak 79 M.L.,30041
+2587,Chak 73 T.D.A.,30051
+2588,Yousaf Shah,30041
+2589,Chak 53 T.D.A.,30051
+2590,Chak 67 Ml,30052
+2591,Chak 47/T.D.A.,30050
+2592,Chak 69 Ml,30053
+2593,Chak 61 T.D.A.,30051
+2594,Chak 62-64 Ml,30053
+2595,Chak 215 T.D.A.,30053
+2596,Chak 72 Ml,30053
+2597,Khan Pur,30051
+2598,Chak 71 Ml,30053
+2599,Daggar Kotli,30053
+2600,Chak 70 Ml,30053
+2601,Kotla Jam,30101
+2602,Chak 60-61 Ml,30053
+2603,Mankera,30060
+2604,Karlo,30061
+2605,Dhingana,30061
+2606,Kisanwala,30061
+2607,Littan,30061
+2608,Kohawer Kala,30101
+2609,Darya Khan R.S.,30100
+2610,Hussain Shah,30101
+2611,Chak 54/Ml,30101
+2612,Amir Abad,30101
+2613,Murshad Abad,30111
+2614,Dullewala,30110
+2615,Adda Barkat Wala,30101
+2616,Jhamat Shumali,30111
+2617,Darya Khan Bazar,30101
+2618,Joyian Wala,30111
+2619,Kapahi,30111
+2620,Koroobamb,30111
+2621,Goher Wala,30111
+2622,Jhok Qalander Bux,30131
+2623,Chak 9 T.D.A,30131
+2624,Chiragh Kal Wal,30131
+2625,Basti Mian Roshan,30131
+2626,Chapsandi,30131
+2627,Maible,30131
+2628,Khasoor,30141
+2629,Kallur Kot,30140
+2630,Tibbanainan Wala,30130
+2631,Panjgiran,30141
+2632,Ghulaman,30141
+2633,Umerwali,30141
+2634,Hafiz Abad,30141
+2635,Rapri,30141
+2636,Chak 33 M.L.,30141
+2637,Saeed Wala,30141
+2638,Zambey Wala,30141
+2639,Rodi,30141
+2640,Daily Namdar,30141
+2641,Dhudhian Wala,30141
+2642,Mulana Dager,30141
+2643,Common Wealth Form,30141
+2644,Tibba Meharban Shah,30141
+2645,Fazil,30141
+2646,Haitoo,30141
+2647,Shahian Wala,30151
+2648,Sasgoo Shumali,30141
+2649,Chak 55 D.B.,30151
+2650,Chak 32 M.L.,30141
+2651,Chak 56 D.B.,30151
+2652,Abbasian Wala,30141
+2653,Chak 35.36 M.L,30151
+2654,Jandan Wala,30150
+2655,Chak 75 A Tda,31001
+2656,Chak 61 D.B.,30151
+2657,Shahidan,30151
+2658,Ali Khel C.C.,30151
+2659,Chak 47 D.B.,30151
+2660,Chak 94 Ml,31001
+2661,Chak 90/Ml,31000
+2662,Chak 93 Ml,31001
+2663,Qazi Abad,31051
+2664,Chak 219 Tda,31001
+2665,Karor,31100
+2666,Chak 239 Tda,31051
+2667,Fateh Pur,31050
+2668,Chak 306 Tda,31051
+2669,Din Pur,31101
+2670,Chak 217 Tda,31001
+2671,Chak 77 Tda,31001
+2672,Taja Shumali,31051
+2673,Chak 317 Tda,31051
+2674,Layyah Mandi N.P.O.,31100
+2675,Chak 92 Ml,31001
+2676,Layyah Mandi,31100
+2677,Chak 86 Ml,31001
+2678,Chak 236 Tda,31051
+2679,Chak 241 Tda,31051
+2680,Tibbi Khurd,31101
+2681,Tibbi Kalan,31101
+2682,Jharkal,31101
+2683,Nehri Colony,31101
+2684,Chak 99 Ml,31101
+2685,Karor R.S.,31101
+2686,Sargani,31101
+2687,Marah Wali,31101
+2688,Laskani Wala,31101
+2689,Chak 87 Tda,31101
+2690,Chak 103 Ml,31101
+2691,Chak 94 Tda,31101
+2692,Chak 84 Tda,31101
+2693,Chak 99 Tda,31101
+2694,Hassan Abad Thal,31101
+2695,Chak 98 Ml,31101
+2696,Chak 82 Tda,31101
+2697,Chak 89 Tda,31101
+2698,Bagh Wala,31101
+2699,Chak 111 Ml,31101
+2700,Chak 100 Ml,31101
+2701,Karor N.P.O.,31110
+2702,Chak 111 Tda,31151
+2703,Rana Nagar,31151
+2704,Layyah G.P.O.,31200
+2705,Chak 136 Tda,31201
+2706,Basti Sabani,31151
+2707,Rajan Shah,31151
+2708,Kotla Qureshi,31201
+2709,Kotla Haji Shah,31201
+2710,Shah Pur,31150
+2711,Chak 110 Tda,31151
+2712,Chak 103 Tda,31151
+2713,Nurey Wala,31151
+2714,Sanjh Isra,31151
+2715,Chak 271 Tda,31201
+2716,Chak 150 Tda,31201
+2717,Leiah Bazar,31201
+2718,Sumera Nashaib,31201
+2719,Chak 273 Tda,31201
+2720,Chak No.124 Tda,31201
+2721,Layyah Sugar Mills,31300
+2722,Chak 152 Tda,31351
+2723,Chak 388 Tda,31351
+2724,Chak 275 Tda,31401
+2725,Ladhana,31350
+2726,Chowk Azam,31450
+2727,Chak 463-A Tda,31451
+2728,Chak 283 Tda,31401
+2729,Mianwala Jadid,31401
+2730,Chak 464 Tda,31451
+2731,Chak 287 Tda,31401
+2732,Chak 270 Tda Edso,31250
+2733,Chak 349 Tda,31451
+2734,Chak 399 Tda,31451
+2735,Chak 332 Tda,31451
+2736,Chak 315 Tda,31451
+2737,Chak 319 Tda,31451
+2738,Chak 471 Tda,31451
+2739,Chak 279 Tda,31400
+2740,Chak 366 Tda,31451
+2741,Head Mast Ali,31451
+2742,Nawan Kot,31501
+2743,Choubara,31500
+2744,Dhori Adda,31451
+2745,Chak 432 Tda,31451
+2746,Rakh Khairy Wala,31501
+2747,Dera Ch.Bashirwaraich,31501
+2748,Chak 325 Tda,31451
+2749,Chak 407/Tda,31501
+2750,Latra,32000
+2751,Kot Sultan,31650
+2752,Pahar Pur Thal,31651
+2753,Khokhar Abad,31651
+2754,Tarkoo Adda,31501
+2755,Jaman Shah,31600
+2756,Bait Dabli,31651
+2757,Jaidal Thal,31651
+2758,Khokhar Wala,31601
+2759,Chak 162 Tda,31601
+2760,Chak 479 Tda,31501
+2761,Daulat Wala,32011
+2762,Mithi Wali,32011
+2763,Jhangra,32011
+2764,Jakhariman,32001
+2765,Haji Kamand,32001
+2766,Vehoa,32010
+2767,Retra,32040
+2768,Jindu Khan Mirani,32031
+2769,Tibbi Qaisrani,32030
+2770,Lakhani,32011
+2771,Triman,32011
+2772,Nutkani,32020
+2773,Basti Azeem,32021
+2774,Kath Garh,32021
+2775,Kotani,32011
+2776,Kohar,32011
+2777,Litri Janubi,32031
+2778,Jatwala,32041
+2779,Fateh Khan,32021
+2780,Hairo Sharqi,32101
+2781,Nari,32050
+2782,Taunsa Sharif,32100
+2783,Mangrotha,32120
+2784,Bohar,32101
+2785,Babi,32021
+2786,Bindi,32101
+2787,Fazla Katch,32131
+2788,Nakwal Kalan,32101
+2789,Mundrani,32121
+2790,Berthi,32101
+2791,Kheya Ban-I-Sarwar(D),32131
+2792,Basti Buzdar,32131
+2793,Bughlani,32141
+2794,Shadan Lund,32150
+2795,Qaziwali,32101
+2796,Phugla,32131
+2797,Taksher,32131
+2798,Jhoke Bodoo,32131
+2799,Kot Qaisrani,32130
+2800,Sokar,32140
+2801,Ghuman,32151
+2802,Churh Atta Pachad,32151
+2803,Dera Ghazi Khan N.P.O.(Nd),32200
+2804,Dera Ghazi Khan G.P.O.,32200
+2805,Shah Sadar Din,32201
+2806,Dera Ghazi Khan City(Nd),32200
+2807,Jhoke Uttra,32200
+2808,Kala,32160
+2809,Grain Market(Nd),32200
+2810,Khaki,32201
+2811,Samina,32201
+2812,Wadoor,32201
+2813,Jalbani(Nd),32200
+2814,Pir Adil,32201
+2815,Batil,32201
+2816,Paigan,32201
+2817,Mauza Dagar Chit,32201
+2818,Dalana,32201
+2819,Lohar Wala,32201
+2820,Chowk Churhatta,32201
+2821,Kot Haibat,32201
+2822,Chabri Bala,32201
+2823,Bastti Malkani,32201
+2824,Basti Khowar,32201
+2825,Baghal Chur,32201
+2826,Gadai,32201
+2827,Kharar Buzdar,32201
+2828,Jamna Khan Chandia,32201
+2829,Industrial Area,32201
+2830,Basti Johan Khan,32201
+2831,Yaroo Edso Ahmadani(D),32201
+2832,Pakha Shah Nawaz,32201
+2833,D.G.Khan Cement Factory,32250
+2834,Drahma,32201
+2835,Bawata,32321
+2836,Board O F Intermediate & Scnd.Education,32260
+2837,Sakhi Sarwar,32300
+2838,Air Port,32201
+2839,Basti Rehman,32201
+2840,Fort Munroo,32320
+2841,Hazara,32331
+2842,Ali Wala,32331
+2843,Ghausabad,32330
+2844,Dakhast Jamal Khan,32381
+2845,Hassan Abad,32381
+2846,Kot Chutta,32350
+2847,Kotla Jam Ahmed,32351
+2848,Noor Wala,32351
+2849,Basti Khosa,32381
+2850,Noor Pur,32331
+2851,Choti,32380
+2852,Basti Aslam Khan,32381
+2853,Bando Wani,32381
+2854,Thatta Gabolan,32381
+2855,Mana,32400
+2856,Nawan Janubi,32381
+2857,Basti Fauja,32401
+2858,Basti Talpur,32381
+2859,Choti Bala,32381
+2860,Mamori,32381
+2861,Jam Pur,33000
+2862,Ara Jafar,32401
+2863,Notakmehmeed,32401
+2864,Shero Jadeed,32401
+2865,Khan Pur Janubi,32401
+2866,Basti China,32401
+2867,Basti Shah Ali,32401
+2868,Khan Pur Shumali,32401
+2869,Basti Rindan,33001
+2870,Jampur N.P.O.(Nd),33000
+2871,Kotla Mughlan,33001
+2872,Kot Bodla,33001
+2873,Kotla Diwan,33001
+2874,Basti China,33001
+2875,Bakhara,33001
+2876,Islam Pur,33001
+2877,Saleem Abad,33001
+2878,Rasul Pur,33001
+2879,Kot Tahir,33001
+2880,Allah Abad,33001
+2881,Mastoi Wala,33001
+2882,Bambli,33100
+2883,Harrand,33101
+2884,Nowshera,33101
+2885,Basti Hajoo,33101
+2886,Tibbi Lundan,33101
+2887,Basti Sardar Khan,33101
+2888,Fazil Pur,33400
+2889,Kotla Sher Muhammad,33401
+2890,Dajal,33100
+2891,Muhammad Pur,33300
+2892,Kotla Androon,33401
+2893,Ludi Saidan,33101
+2894,Tibbi Solgian,33101
+2895,Mehre Wala,33401
+2896,Lal Garh,33200
+2897,Hazrat Wala,33401
+2898,Noor Pur Manjho Wala,33401
+2899,Haji Pur,33401
+2900,Mithan Kot,33600
+2901,Pir Bakhsh Khas,33401
+2902,Sadan Wala,33401
+2903,Kotla Isan,33501
+2904,Chak Jindoo Shah,33501
+2905,Bagh Wala,33401
+2906,Rajan Pur N.P.O.(Nd),33500
+2907,Rajan Pur,33500
+2908,Nur Pur Machiwala,33501
+2909,Sikhani Wala,33401
+2910,Kotla Naseer,33501
+2911,Umarkot,33601
+2912,Rojhan,33700
+2913,Shikar Pur,33501
+2914,Ahsan Pur,34000
+2915,Badli Mazari,33701
+2916,Wang,33601
+2917,Kotla Hamal,33601
+2918,Miran Pur Janubi,33701
+2919,Chak 521 Tda,34011
+2920,Murghai,33601
+2921,Chak 116 M,34011
+2922,Dera Din Panah,34010
+2923,Chak 514 Tda,34011
+2924,Chak 148 Ml,34011
+2925,Chak 518 Tda,34011
+2926,Chak 172 Tda,34011
+2927,Chak 145 Ml,34011
+2928,Chak 574 Tda,34031
+2929,Riaz Abad,34031
+2930,Chak 599 Tda,34031
+2931,Chak 567 Tda,34031
+2932,Chak 626 Tda,34031
+2933,Chak 632 Tda,34031
+2934,Chak 544 Tda,34031
+2935,Chak 644 Tda,34031
+2936,Chak 649/Tda,34031
+2937,Chak 550 Tda,34031
+2938,Chak 595 Tda,34031
+2939,Chak 612 Tda,34031
+2940,Chowk Sarwar Shaheed,34030
+2941,Chak 569 Tda,34031
+2942,Basti Perhar Gharbi,34051
+2943,Mehmood Kot R.S.,34110
+2944,Thatta Gurmani,34101
+2945,Noor Shah Talae,34051
+2946,Kot Adu,34050
+2947,Daya Chokha Gharbi,34101
+2948,Chak 150 Ml,34051
+2949,Canal Colony,34051
+2950,Shadi Khan Munda,34051
+2951,Choudhry,34051
+2952,Taunsa Barrage,34080
+2953,Sheikh Umer,34051
+2954,Muhammad Ashrafia,34051
+2955,Khhokar Abad,34051
+2956,Haji Pur,34051
+2957,Basti Kharyog,34101
+2958,Sina Wan,34100
+2959,Ara Akbar Shah,34111
+2960,Gurmani,34101
+2961,Patti Ghulam Ali,34101
+2962,Alurid,34111
+2963,Mehmood Kot Town,34111
+2964,Haji Shah,34121
+2965,Jan Khan Samundri,34111
+2966,Muradabad,34201
+2967,Basti Kahiri,34111
+2968,Saeed Suknera Abad,34121
+2969,Azadabad,34121
+2970,Basti Naseer Wala,34121
+2971,Gujrat,34120
+2972,Gujja,34201
+2973,Khangan Shumali,34201
+2974,Hamdani Wala,34111
+2975,Darbar Pir M. Musa,34201
+2976,Khudai,34201
+2977,Muzaffargarh G.P.O.,34200
+2978,Kallar Wali,34201
+2979,Elementry College,34201
+2980,Budh,34201
+2981,Jhallarin Shumali,34201
+2982,Peer Barkhudar,34201
+2983,Lungar Sarai,34201
+2984,Alipur Shumali,34201
+2985,Basti Shadi Khan,34311
+2986,Wasande Wali,34201
+2987,Hamdani Wala,34201
+2988,Qureshi,34310
+2989,Har Pallo,34201
+2990,Lutkaran,34201
+2991,Din Pur,34311
+2992,Bhakhar Noon,34201
+2993,Ghazi Ghat,34320
+2994,Basira,34300
+2995,Ali Daha,34311
+2996,Karimabad,34201
+2997,Noor Kuba,34301
+2998,Sultan Colony,34201
+2999,Ayub Araian,34301
+3000,Pathan Wala,34321
+3001,Daona,34311
+3002,Basti Drigh,34351
+3003,Shah Jamal,34370
+3004,Khan Garh,34350
+3005,Thatta Qureshi,34351
+3006,Chanwala,34321
+3007,Mond,34351
+3008,Chowk Sandila,34371
+3009,Basti Waseem Almani,34321
+3010,Basti Choharh Pur,34351
+3011,Juggat Pur,34351
+3012,Mehar Pur,34371
+3013,Usman Koria,34371
+3014,Mondka,34371
+3015,Bashir Sinawan,34371
+3016,Dareen,34371
+3017,Hassan Pur Tarrund,34371
+3018,Basti Dewala,34371
+3019,Sohara Chandia,34371
+3020,Bangla Wali,34401
+3021,Basti Mandorin,34371
+3022,Alude Wali,34401
+3023,Chandar Wala,34371
+3024,Kande Wala,34411
+3025,Shehar Sultan,34410
+3026,Makhan Balla,34401
+3027,Sharif Chajra,34371
+3028,Rohilan Wali,34400
+3029,Binda Ishaq,34401
+3030,Mahra,34401
+3031,Mochi Wali,34401
+3032,Miran Pur,34401
+3033,Birahem Wali,34401
+3034,Ber Band,34411
+3035,Maskin Pur,34411
+3036,Shahbaz Pur,34421
+3037,Damar Wala Shumali,34411
+3038,Kotla Rahim Ali Shah,34421
+3039,Jahanpur,34421
+3040,Wadowala,34421
+3041,Kotla Gamun,34411
+3042,Basti Sathari,34421
+3043,Basti Changwani,34441
+3044,Bet Hazari,34441
+3045,Baqar Shah Shumali,34451
+3046,Ali Pur,34450
+3047,Jatoi,34430
+3048,Bet Mir Hazar Khan,34440
+3049,Fatehpur Janubi,34421
+3050,Phulen Sharif,34421
+3051,Bet Daryai,34441
+3052,Ram Pur,34421
+3053,Bakaini,34441
+3054,Kamdh Sharif,34431
+3055,Jhuggi Wala,34421
+3056,Ramzan Abad,34441
+3057,Bela Wala,34441
+3058,Utra Sandila,34441
+3059,Bande Shah,34451
+3060,Ghalwan,34451
+3061,Chowk Petrol Pump,34451
+3062,Mithanwali,34471
+3063,Mao Wala,34451
+3064,Khairpur Sadat,34470
+3065,Jhallarin,34451
+3066,Yaki Wali,34451
+3067,Urla,34471
+3068,Murad Pur Janubi,34471
+3069,Choski School,34451
+3070,Damarwala Janubi,34451
+3071,Bazwala,34471
+3072,Kotla Mehr Ali,34471
+3073,Sultan Pur,34471
+3074,Khan Garh Janubi,34481
+3075,Kundai,34481
+3076,Sit Pur,34480
+3077,Ghiri,34471
+3078,Basti Bidani,34471
+3079,Gabbar Araian,34471
+3080,Sarki,34481
+3081,Jarian Wala,34651
+3082,Bhutta Pur,34500
+3083,Shor Kot Cantt,35010
+3084,P.A.F. Colony,35020
+3085,Chak 5 Ml,34651
+3086,Malik Araian,34481
+3087,Rang Pur,34650
+3088,Kalu Wala,35021
+3089,Noor Pur Chak 331 Jb,35011
+3090,Chak 327 Jb,35011
+3091,Noada Chak No.328 Jb,35011
+3092,Chak 313 Jb Pir Pur,35011
+3093,Chak 494/Jb,35021
+3094,Chak 509 Tda,34651
+3095,Chak 312 Jb Kaluvahar,35011
+3096,Khawaja Baju Chak 326/Jb,35011
+3097,Khan Pur Narraka,34481
+3098,Chak 330 Jb Rahlon,35011
+3099,Chak 331 Jb Salim-Pur,35011
+3100,Chak 500/Jb,35021
+3101,Chak 497/Jb,35021
+3102,Cologian Wala Chak 36/694 Gb,35031
+3103,Qaim Bharwana,35051
+3104,Chak 692/34,35031
+3105,Chak 696/38,35031
+3106,Chak 653/35 Gb,35031
+3107,Chak 17 Gagh,35051
+3108,P.A.F. Base Rafiqi,35030
+3109,Budho Ana,35051
+3110,Khaki Lakhi,35051
+3111,Dharopa,35051
+3112,Merik Sial,35051
+3113,Shor Kot City,35050
+3114,Allah Yar Toota,35051
+3115,Chak 501/Jb,35051
+3116,Sadiq Nihang,35051
+3117,Dab Kalan,35051
+3118,Basti Hyderabad,35051
+3119,Basti Qasim Abad,35051
+3120,Kaki Kohan,35051
+3121,Garh Maha Raja,35080
+3122,Bind Sarbana,35051
+3123,Samando Ana,35091
+3124,Kaki Nao,35060
+3125,Rafi Abad,35081
+3126,Sultan Bahu,35081
+3127,Chak 5/3-L,35081
+3128,Nekokara,35081
+3129,Pir Abdur Rahman,35081
+3130,Douloand,35081
+3131,Mad Rajbana,35081
+3132,Kasso Ana,35081
+3133,Jai Wan,35081
+3134,Ahmad Pur Sial,35090
+3135,Mehdi Abad,35081
+3136,Waryam,35100
+3137,Dull,35081
+3138,Chak 485/Jb,35101
+3139,Chak No.490 Jb,35101
+3140,Luda Mahni,35101
+3141,Chak 483/Jb,35101
+3142,Sharif Abad,35081
+3143,Haveli Bahadur Shah,35150
+3144,Lashari,35161
+3145,Chak No.489 Jb,35101
+3146,Chak No.493,35101
+3147,Majhi Sultan,35151
+3148,Rudo Sultan,35160
+3149,Chak 481/Jb,35151
+3150,Luda Mahni,35151
+3151,Rustam Sargana,35151
+3152,Duree Gondal,35161
+3153,Gilmala,35151
+3154,Hassu Blail,35161
+3155,Chak 478/Jb,35151
+3156,Bahar,35161
+3157,Fateh Pur Prathy,35161
+3158,Pir Wala,35151
+3159,Dagree,35161
+3160,Kot Bahadur,35161
+3161,Nawazish Naghar,35170
+3162,Atharan Hazari,35180
+3163,Kotli Baqir Shah,35181
+3164,Rashid Pur,35181
+3165,Kot Maldev,35181
+3166,Trimmu,35181
+3167,Kot Naulan,35181
+3168,Mouza Mundey Syed,35181
+3169,Thal Bharari,35181
+3170,Ali Textile Mills,35181
+3171,Subhi Ana Gharbi,35181
+3172,Wasu Astana,35181
+3173,Satiana,35201
+3174,Pahar Pur,35181
+3175,Kot Khaira,35201
+3176,Khanuana,35201
+3177,Sheikh Choohar,35201
+3178,Jabbo Ana,35181
+3179,Jhang G.P.O.,35200
+3180,Mukhiana,35201
+3181,Chak 233/Jb,35201
+3182,Karimabad,35201
+3183,Ashaba,35201
+3184,Chak 446/Jb,35201
+3185,Chak 232/Jb,35201
+3186,Mudoki,35201
+3187,Chak 220/Jb,35201
+3188,Chak 250/Jb,35201
+3189,Chak 444/Jb,35201
+3190,Wer Banglow,35201
+3191,Haveli Lal,35201
+3192,Vighlana,35201
+3193,Chak 167/Jb,35201
+3194,Kot Sai Singh,35201
+3195,Khewa,35201
+3196,Pakewala,35201
+3197,Chak 260/Jb Wajhalan,35201
+3198,Chak 214/Jb Mochian Wala,35201
+3199,Chak 257/Jb,35201
+3200,Chak 262/Jb,35201
+3201,Ali Abad,35201
+3202,Chak 451/Jb,35201
+3203,Chak 459/Jb,35201
+3204,Chak 161/Jb,35201
+3205,Ada Shabbirabad,35201
+3206,Ada Hospital Mochiwala,35201
+3207,Basti Ghazi Shah,35301
+3208,Chak 255/Jb,35201
+3209,Raran Wali,35301
+3210,Dhill Bagh,35300
+3211,Chak 463/Jb,35301
+3212,Chak 475/Jb,35301
+3213,Lakh Bhadal,35301
+3214,Chak 187/Jb,35351
+3215,Chak 245/Jb,35351
+3216,Chak 466/Jb,35351
+3217,Chak 240/Jb,35351
+3218,Chak 243/Jb,35351
+3219,Chak 184/Jb,35351
+3220,Thatta Mohd Shah,35351
+3221,Bhawana,35350
+3222,Chak 230/Jb,35351
+3223,Chak 200/Jb,35351
+3224,Chak 225/Jb,35351
+3225,Chak 226/Jb,35351
+3226,Chak 223/Jb,35351
+3227,Chak 221/Jb,35351
+3228,Chak 220/Jb,35351
+3229,Nitherke,35351
+3230,Chak 227/Jb,35351
+3231,Chak 202/Jb,35351
+3232,Chak 195/Jb,35351
+3233,Chak 192/Jb,35351
+3234,Darbar Dhundhe Shah,35351
+3235,Chak 199/Jb,35351
+3236,Chak 203/Jb,35351
+3237,Chak 198/Jb,35351
+3238,Chak 205/Jb,35351
+3239,Chak 246/Jb,35351
+3240,Chak 209/Jb,35351
+3241,Mouza Mangini,35351
+3242,Kot Amir Shah,35401
+3243,Ramzan Sugar Mills,35361
+3244,Adlana,35361
+3245,Chak 132/Jb,35401
+3246,Chak 144-Jb,35361
+3247,Jamia Mohammadi Sharif,35360
+3248,Thatta Fateh Ali,35361
+3249,Chiniot,35400
+3250,Dauratta,35361
+3251,Chak 13/Jb,35401
+3252,Chak 125/Jb,35401
+3253,Behari Colony,35401
+3254,Rajoya,35401
+3255,Chak 11/Jb,35401
+3256,Chak 127/Jb,35401
+3257,Chak 126/Jb,35401
+3258,Wadi-E-Aziz Sharif,35401
+3259,Chak 128/Jb,35401
+3260,Chak 133/Jb,35401
+3261,Chak 153 Jb,35401
+3262,Chak 152/Jb,35401
+3263,Ahmad Abad,35401
+3264,Rabwah,35460
+3265,Chak 147/Jb,35401
+3266,Sangra,35461
+3267,Lalian,35470
+3268,Ahmed Nagar,35461
+3269,Changran Wala,35461
+3270,Brahmanan Wala,35461
+3271,Bakhsh Wala,35461
+3272,Chak 149 Jb,35401
+3273,Kanwian Wala,35471
+3274,Khokharan Wala,35461
+3275,Langar Makhdoom,35461
+3276,Vigilley,35471
+3277,Thatti Bala Raja,35471
+3278,Massan,35501
+3279,Dawar,35461
+3280,Mohsin Abad,35471
+3281,Wallah,35471
+3282,Rajana,35501
+3283,Chund Bharwana,35500
+3284,Ali Pur,35501
+3285,Kot Khan,35501
+3286,Saliana,35501
+3287,Shah Jewana Mandi,35550
+3288,Havili Shekh Rajoo,35501
+3289,Hassan Khan,35501
+3290,Chela,35501
+3291,Machi Wal,35501
+3292,Kalera,35551
+3293,Sajhowal,35501
+3294,Thatta Sandrana,35501
+3295,Pir Kot Sadhana,35501
+3296,Pubber Wala,35501
+3297,Iqbal Nagar,35501
+3298,Lau,35551
+3299,Bullo,35551
+3300,Nikkey Baloch,35501
+3301,Turbat Haji Shah,35551
+3302,Chatta,35551
+3303,New Delhi,35551
+3304,Aura,35551
+3305,Mouza Bhone,35551
+3306,Chak 163/Nb,35551
+3307,Chak 349 Gb,36001
+3308,Chak 316 Gb Qadir Abad,36000
+3309,Chak 315 Gb,36001
+3310,Akrian Wala,35551
+3311,Jamal Wala,35551
+3312,Bhamb,35551
+3313,Chak 313 Gb,36001
+3314,Chak 405 Jb,36001
+3315,Long Shumali,35551
+3316,Chak 347 G.B,36001
+3317,Chak 344 Gb,36001
+3318,Chak 346 Gb,36001
+3319,Kot Isa Shah,35551
+3320,Chak 403 Jb,36001
+3321,Chak 408 Jb,36001
+3322,Chak 301 Gb,36001
+3323,Chak 305 Gb.,36001
+3324,Chak 302 Gb,36001
+3325,Chak 393 Jb,36051
+3326,Chak 306 Gb.,36001
+3327,Chak 401 Jb,36051
+3328,Chak 298 G.B,36001
+3329,Chak 312 Gb,36001
+3330,Chak 311 Gb,36001
+3331,Bhagat,36051
+3332,Chak 402 Jb,36051
+3333,Chak 382 Jb,36051
+3334,Chak 294 Gb,36051
+3335,Chak 394 Jb,36051
+3336,Toba Take Singh G.P.O.,36050
+3337,Chak 359 Gb,36051
+3338,Chak 386 Jb,36051
+3339,Chak 383 Jb,36051
+3340,Chak 351 Gb,36051
+3341,Chak 391 Jb,36051
+3342,Chak 294 Jb,36051
+3343,Chak 295 Jb,36051
+3344,Chak 324 Jb,36051
+3345,Chak 331 Jb,36051
+3346,Chak 338 Gb,36051
+3347,Chak 295 Gb,36051
+3348,Chak 350 Gb,36051
+3349,Chak 321 Jb,36051
+3350,Chak 388 Jb,36051
+3351,Chak 335 Gb,36051
+3352,Chak 387 Jb,36051
+3353,Chak 323 Jb,36051
+3354,Chak 296 Gb,36051
+3355,Chak 395 Jb,36051
+3356,Chak 293 Jb,36051
+3357,Chak 742 Gb,36051
+3358,Chak 521 Gb,36051
+3359,Chak Islah Nagar,36051
+3360,Chak 399 Jb,36051
+3361,Chak 297 Gb,36051
+3362,Chak 519 Gb,36051
+3363,Chak 152 Gb,36051
+3364,Chak 151 Gb,36051
+3365,Chak 150 Gb,36051
+3366,Chak 292 Gb,36051
+3367,Chak 183 Gb,36051
+3368,Chak 396 Jb,36051
+3369,Chak 358 Gb Gunjo,36051
+3370,Chak 397 Jb,36051
+3371,Chak 358 Gb Mogli,36051
+3372,Chak 389 Jb,36051
+3373,Chak 148 Gb,36051
+3374,Chak 285 Gb,36071
+3375,Chak 337 Gb,36071
+3376,Chak 287 Gb,36071
+3377,Rajana Road,36070
+3378,Chak 290 Gb,36071
+3379,Chak 256 Gb.,36080
+3380,Chak 536 Gb,36071
+3381,Chak 361 Gb,36071
+3382,Chak 289 Gb,36071
+3383,Chak 286 Gb,36071
+3384,Chak 350 Gb,36071
+3385,Chak 288 Gb,36071
+3386,Chak 291 Gb,36071
+3387,Chak 517 Gb,36071
+3388,Chak 182 Gb,36081
+3389,Chak 260 Gb.,36081
+3390,Chak 336 Gb,36071
+3391,Chak 254 Gb.,36081
+3392,Chak 284 Gb,36071
+3393,Chak 258 Gb.,36081
+3394,Chak 252 Gb,36081
+3395,Chak 253 Gb.,36081
+3396,Chak 257 Gb.,36081
+3397,Marusi Pur,36081
+3398,Chak 520 Gb.,36081
+3399,Chak 381 Jb,36101
+3400,Chak 289 Jb,36101
+3401,Chak 255 Gb. Mede Pur Kalan,36081
+3402,Chak 378 Jb,36101
+3403,Chak 385 Jb,36101
+3404,Chak 255 Gb. Khurd,36081
+3405,Chak 375 Jb,36101
+3406,Jani Wala,36100
+3407,Chak 315 Jb,36101
+3408,Chak 291 Jb,36101
+3409,Chak 438 Jb,36101
+3410,Chak 374 Jb,36101
+3411,Chak 183 Gb. Mian Kot,36081
+3412,Chak 425 Jb,36101
+3413,Chak 286 Jb,36101
+3414,Chak 379 Jb,36101
+3415,Chak 317 Jb,36101
+3416,Chak 284 Jb,36101
+3417,Chak 285 Jb,36101
+3418,Chak 355 Jb,36121
+3419,Chak 377 Jb,36101
+3420,Chak 376 Jb,36101
+3421,Chak 296 Rb,36121
+3422,Chak 251 Gb.,36081
+3423,Chak 362 Jb,36121
+3424,Chak 250 Gb,36081
+3425,Chak 181 Gb.,36081
+3426,Chak 416 Jb,36121
+3427,Chak 361 Jb,36121
+3428,Canal Rest House,36121
+3429,Chak 307 Gb,36121
+3430,Chak 367 Jb,36121
+3431,Gojra,36120
+3432,Chak 297 Jb,36121
+3433,Chak 364 Jb,36121
+3434,Chak 310 Jb Thatta,36121
+3435,Chak 357 Jb,36121
+3436,Chak 369 Jb,36121
+3437,Chak 97 Jb,36121
+3438,Chak 417 Jb,36121
+3439,Chak 310 Jb Bhopal Wala,36121
+3440,Chak 350 Gb,36121
+3441,Chak 278 Rb,36121
+3442,Chak 360 Jb,36121
+3443,Chak 352 Jb,36121
+3444,Gojra Cotton Textile Mills,36121
+3445,Chak 312 Jb,36121
+3446,Chowk Anarkali,36121
+3447,Chak 349 Jb,36121
+3448,Chak 353 Jb,36121
+3449,Chak 370 Gb,36121
+3450,Chak 316 Jb,36121
+3451,Chak 415 Jb,36121
+3452,Chak 313 Jb,36121
+3453,Chak 354 Jb,36121
+3454,Chak 308 Jb,36121
+3455,Chak 306 Jb,36121
+3456,Chak 351 Jb,36121
+3457,Chak 311 Jb,36121
+3458,Chak 301 Jb,36121
+3459,Chak 303 Jb,36121
+3460,Chak 99 Jb,36121
+3461,Chak 241 Gb.,36151
+3462,Chak 178 Gb.,36151
+3463,Chak 179 Gb.,36151
+3464,Chak 159 Gb (Cpol-982),36150
+3465,Chak 180 Gb.,36151
+3466,Chak 245 Gb.,36151
+3467,Chak 157 Gb.,36151
+3468,Chak 431 Jb,36161
+3469,Chak 160 Gb.,36151
+3470,Chak 164 Gb.,36151
+3471,Chak 424 Jb,36160
+3472,Chak 244 Gb.,36151
+3473,Chak 154 Gb.,36151
+3474,Chak 162 Gb.,36151
+3475,Chak 242 Gb.,36151
+3476,Chak 161 Gb.,36151
+3477,Chak 298 Jb,36121
+3478,Chak 430 Jb,36161
+3479,Chak 423 Jb,36161
+3480,Chak 433 Jb,36161
+3481,Chak 356 Jb,36161
+3482,Chak 336 Jb,36201
+3483,Chak 333 Jb,36201
+3484,Chak 339 Jb,36201
+3485,Chak 335 Jb,36201
+3486,Chak 277 Jb,36201
+3487,Chak 96 Jb,36201
+3488,Chak 342 Jb,36201
+3489,Chak 338 Jb,36201
+3490,Chak 280 Jb,36201
+3491,Pacca Anna,36200
+3492,Chak 347 Jb,36201
+3493,Chak 281 Rb Khalil Pur,36201
+3494,Chak 414 Jb,36201
+3495,Chak 337 Jb,36201
+3496,Chak 91 Jb,36201
+3497,Chak 334 Jb,36201
+3498,Chak 345 Jb,36201
+3499,Chak 279 Jb,36201
+3500,Chak 344 Jb,36201
+3501,Chak 283 Jb,36201
+3502,Chak 278 Jb,36201
+3503,Chak 26/685 Gb,36301
+3504,Chak 332 Jb,36201
+3505,Chak 90 Jb,36201
+3506,Pir Mahal,36300
+3507,Chak 281 Jb,36201
+3508,Chak 348/Jb,36250
+3509,Chak 11/670 Gb,36301
+3510,Chak 27/686 Gb,36301
+3511,Chak 323 Gb,36301
+3512,Chak 2/660 Gb,36301
+3513,Chak 31/689 Gb,36301
+3514,Chak 32/690 Gb,36301
+3515,Chak 25/684 Gb,36301
+3516,Chak 33/691 Gb,36301
+3517,Chak 324 Gb,36301
+3518,Chak 28/688 Gb,36301
+3519,Chak 22/681 Gb,36301
+3520,Chak 322 Gb,36301
+3521,Chak 35/693 Gb,36301
+3522,Chak 36/694 Gb,36301
+3523,Chak 721 Gb,36301
+3524,Chak 34/692 Gb,36301
+3525,Chak 16/675 Gb,36301
+3526,Chak 705 Gb,36301
+3527,Chak 1/660 Gb,36301
+3528,Chak 722 Gb,36301
+3529,Chak 15/674 Gb,36301
+3530,Chak 718 Gb,36301
+3531,Chak 13/672 Gb,36301
+3532,Chak 720 Gb,36301
+3533,Chak 6/665 Gb,36301
+3534,Chak 5/664 Gb,36301
+3535,Chak 745 Gb,36301
+3536,Chak 12/671 Gb,36301
+3537,Chak 7/666 Gb,36301
+3538,Chak 21/680 Gb,36301
+3539,Nanka Gider,36321
+3540,Nawaz Kot,36321
+3541,Chak 746 Gb,36301
+3542,Chak 24/683 Gb,36301
+3543,Aruti,36321
+3544,Chak 17/676 Gb,36301
+3545,Chak 19/678 Gb,36301
+3546,Gill Acor Plot,36301
+3547,Chak 125 Gb,36301
+3548,Chak 755 Gb,36321
+3549,Shah Pur,36321
+3550,Chak 309 Gb,36331
+3551,Kot Karam Shah,36321
+3552,Mai Safooran,36321
+3553,Sandhlian Wali,36320
+3554,Chak 18/677 Gb,36301
+3555,Dargahi Pur,36321
+3556,Nasir Nagar,36321
+3557,Chak 759 Gb,36321
+3558,Chak 333 Gb,36330
+3559,Chak 342 Gb,36331
+3560,Chak 326 Gb,36331
+3561,Chak 343 Gb,36331
+3562,Chak 327 Gb,36331
+3563,Chak 332 Gb,36331
+3564,Chak 331 Gb Nurpur,36331
+3565,Chak 330 Gb,36331
+3566,Chak 308 Gb,36331
+3567,Chak 331 Gb Saleem Pur,36331
+3568,Chak 307 Gb,36331
+3569,Chak 328 Gb,36331
+3570,Kamalia,36350
+3571,Chak 325 Gb,36331
+3572,Chak 334 Gb,36331
+3573,Dholri Sharif,36351
+3574,Mal Fatiana,36351
+3575,Chak 715 Gb,36351
+3576,Cheera Bhojia,36351
+3577,Chak 341 Gb,36331
+3578,Chak 10/669 Gb,36340
+3579,Ravi Khokhar,36351
+3580,Kalera Kalan,36391
+3581,Chak 713 Gb,36351
+3582,Chak 269 Gb,36381
+3583,Basti Piran,36351
+3584,Chak 711 Gb,36351
+3585,Qadir Bux Sharif,36351
+3586,Baghaiwala,36351
+3587,Chak 266 Gb,36381
+3588,Chak 714 Gb,36351
+3589,Suger Mills Kamalia,36380
+3590,New Bazar Kamalia,36351
+3591,Chak 187/Gb,36351
+3592,Chak 262 Gb,36381
+3593,Jakhar,36390
+3594,Chak 264 Gb,36381
+3595,Chak 736 Gb,36391
+3596,Chak 740 Gb,36391
+3597,Chak 725 Gb,36391
+3598,Chak 728 Gb,36391
+3599,Chak 735 Gb,36391
+3600,Chak 724 Gb,36391
+3601,Chak 491 Gb,37001
+3602,Chak 490 Gb,37001
+3603,Chak 742 Gb,36391
+3604,Chak 492 Gb,37001
+3605,Chak 496 Gb,37001
+3606,Chak 493 Gb,37001
+3607,Chak 497 Gb,37001
+3608,Chak 741 Gb,36391
+3609,Mamu Kanjan,37000
+3610,Chak 494 Gb,37001
+3611,Chak 546 Gb,37001
+3612,Chak 550 Gb,37001
+3613,Chak 487 Gb,37001
+3614,Chak 495 Gb,37001
+3615,Chak 488 Gb,37001
+3616,Chak 489 Gb,37001
+3617,Chak 544 Gb,37001
+3618,Chak 195 Gb,37001
+3619,Chak 486 Gb,37001
+3620,Chak 199 Gb,37001
+3621,Chak 483 Gb,37001
+3622,Chak 200 Gb,37001
+3623,Chak 196 Gb,37001
+3624,Darbar Pir Salahuddin,37001
+3625,Chak 193 Gb S),37021
+3626,Chak 249 Gb,37021
+3627,Chak 507 Gb,37001
+3628,Chak 225 Gb Chagawan,37001
+3629,Killian Wala,37001
+3630,Chak 189 Gb,37021
+3631,Chak 188 Gb,37021
+3632,Chak 191 Gb,37021
+3633,Chak 508 Gb,37001
+3634,Chak 547 Gb,37001
+3635,Chak 545 Gb,37001
+3636,Chak 197 Gb,37021
+3637,Chak 190 Gb,37021
+3638,Chak 247 Gb,37021
+3639,Chak 193 Gb (N),37021
+3640,Murid Wala,37020
+3641,Chak 184 Gb,37021
+3642,Chak 207 G.B.,37050
+3643,Chak 248 Gb,37021
+3644,Torian Wala,37051
+3645,Chak 206 Gb,37040
+3646,Chak 192 Gb Kotla,37021
+3647,Chak No.246 Gb Basti Partab Pur,37051
+3648,Chak 484 Gb,37061
+3649,Chak No.201 Gb,37051
+3650,Chak No.210 Gb,37051
+3651,Chak 211 Gb,37061
+3652,Chak No.246 Gb Basti Danishmandan,37051
+3653,Chak No.209 Gb,37051
+3654,Chak No.243 Gb,37051
+3655,Chak No.205 Gb,37051
+3656,Chak No.208 Gb,37051
+3657,Chak 482 G.B.(Jagranwan),37060
+3658,Chak No.204 Gb,37051
+3659,Chak No.202 Gb,37051
+3660,Chak 477 Gb,37061
+3661,Chak 479 Gb,37061
+3662,Chak 214 Gb,37061
+3663,Chak 451 Gb,37101
+3664,Chak 478 Gb East,37061
+3665,Chak 203 Gb,37061
+3666,Chak 621 Gb,37101
+3667,Chak 541 Gb,37101
+3668,Chak 611 Gb,37101
+3669,Kanjwani,37100
+3670,Chak 476 Gb,37061
+3671,Chak 485 Gb,37101
+3672,Chak 212 Gb,37061
+3673,Chak 448 Gb,37101
+3674,Chak 540 Gb,37101
+3675,Chak 612 Gb,37101
+3676,Jalli Fatiana Shadi,37101
+3677,Chak 615 Gb,37101
+3678,Khidar Wala,37061
+3679,Chak 277 Gb West,37061
+3680,Chak 213 Gb,37061
+3681,Chak 452 Gb,37101
+3682,Garh,37110
+3683,Chak 177 Gb,37151
+3684,Chanar Sugar Mills,37134
+3685,Chak 607-Gb,37135
+3686,Chak 481 Gb,37101
+3687,Chak 410 Gb,37151
+3688,Chak No.447 Gb,37130
+3689,Chak 454 Gb,37101
+3690,Kanian,37151
+3691,Chak 423 Gb,37151
+3692,Chak 428 Gb,37151
+3693,Tandlian Wala,37150
+3694,Chak 453 Gb,37101
+3695,Chak 405 Gb,37151
+3696,Chak 411 Gb,37151
+3697,Chak 427 Gb,37151
+3698,Chak 480 Gb,37101
+3699,Chak 414 Gb,37151
+3700,Chak 543 Gb,37101
+3701,Chak 400 Gb,37151
+3702,Chak 174 Gb,37151
+3703,Chak 600 Gb,37151
+3704,Chak 399 Gb,37151
+3705,Chak 403 Gb,37151
+3706,Chak 116 Gb,37201
+3707,Chak 176 Gb,37151
+3708,Chak 118 Gb,37201
+3709,Chak 276 Gb,37201
+3710,Chak 415 Gb,37151
+3711,Chak 175 Gb,37151
+3712,Chak 438 Gb,37151
+3713,Chak 602 Gb,37151
+3714,Chak 392 Gb,37151
+3715,Chak 115 Gb,37201
+3716,Chak 280 Gb,37201
+3717,Chak 437 Gb,37151
+3718,Chak 275 Gb,37201
+3719,Chak 27 Gb,37201
+3720,Chak 273 Gb,37201
+3721,Rorala Road,37200
+3722,Chak 34 Gb,37201
+3723,Chak 376 Gb,37201
+3724,Chak 29 Gb,37201
+3725,Chak 279 Gb,37201
+3726,Chak 374 Gb,37201
+3727,Chak 117 East,37201
+3728,Chak 28 Gb,37201
+3729,Chak 128 G.B.,37220
+3730,Chak 272 Gb,37201
+3731,Chak No.26 Gb,37221
+3732,Chak 277 Gb,37201
+3733,Chak 282 Gb,37201
+3734,Chak No.23 Gb,37221
+3735,Chak 281 Gb,37201
+3736,Chak 117 Gb (W),37201
+3737,Chak No.21 Gb,37221
+3738,Chak No.22 Gb,37221
+3739,Chak No.24 Gb,37221
+3740,Chak 111-Gb,37231
+3741,Chak No.25 Gb,37221
+3742,Chak 353 Gb,37224
+3743,Chak 105-Gb,37231
+3744,Chak No.240 Gb Mor,37221
+3745,Chak 93 Gb,37251
+3746,Chak 69-Gb,37231
+3747,Chak 97 Gb,37251
+3748,Chak 68-Gb,37231
+3749,Chak 106-Gb,37231
+3750,Chak 66 Gb,37230
+3751,Chak 107-Gb,37231
+3752,Chak 96 Gb,37251
+3753,Chak 67-Gb,37231
+3754,Chak 108-Gb,37231
+3755,Chak 112-Gb,37231
+3756,Chak 109-Rb Workshop,37231
+3757,Chak 57-Gb,37231
+3758,Chak 98 Gb,37251
+3759,Chak 99/Gb,37251
+3760,Jaranwala,37250
+3761,Chak 109-Gb,37231
+3762,Chak 63 Gb (West),37251
+3763,Chak 378 Gb,37251
+3764,Jhangara Wala,37251
+3765,Chak 275 Jb,37251
+3766,Chak 273 Jb,37251
+3767,Chak 54 Gb,37251
+3768,Chak 120 Gb,37251
+3769,Chak 104 Gb,37251
+3770,Chak 53 Gb,37251
+3771,Chak 60 Gb,37251
+3772,Chak 103 Gb,37251
+3773,Chak 631/Gb/4,37251
+3774,Chak 276 Jb,37251
+3775,Chak 63 Gb (East),37251
+3776,Chak 56 Gb,37251
+3777,Chak 58 Gb,37251
+3778,Chak 62 Gb (E),37251
+3779,Chak 124 Gb,37251
+3780,Chak 62 Gb (West),37251
+3781,Chak 580/Gb,37251
+3782,Chak 654/5 Gb,37251
+3783,Chak 236/Gb,37251
+3784,Chak 122 Gb,37251
+3785,Ganga Pur,37280
+3786,Chak 583 Gb,37251
+3787,Chak 569 Gb,37281
+3788,Chak 123 Gb,37251
+3789,Chak 61 Gb,37251
+3790,Chak 630 Gb,37251
+3791,Chak 94 Gb,37251
+3792,Chak 658/9 Gb,37281
+3793,Chak 648 Gb,37251
+3794,Chak 383 Gb,37251
+3795,Chak 628 Gb,37251
+3796,Chak 565 Gb,37281
+3797,Chak 274 Jb,37251
+3798,Chak 95 Gb,37251
+3799,Chak 559 Gb,37281
+3800,Chak 146 Gb,37251
+3801,Chak 653 Gb/4,37251
+3802,Chak 566 Gb,37281
+3803,Chak 563/Gb (E),37281
+3804,Chak 642 Gb,37281
+3805,Chak 644 Gb,37281
+3806,Chak 568 Gb,37281
+3807,Chak 656/6 Gb,37281
+3808,Chak 643 Gb,37281
+3809,Chak 233/Gb,37281
+3810,Buchiana Canal Rest House,37281
+3811,Chak 567 Gb,37281
+3812,Chak 563 Gb (W),37281
+3813,Chak 624 Gb,37281
+3814,Lundian Wala,37281
+3815,Chak 564 Gb,37281
+3816,Chak 562 Gb,37281
+3817,Chak 560 Gb,37281
+3818,Samundri,37300
+3819,Chak 449 Gb,37301
+3820,Chak 561 Gb,37281
+3821,Chak 441 Gb Sadan Wala,37301
+3822,Chak 217 Gb,37301
+3823,Chak 143 Gb,37301
+3824,Chak 138 Gb,37301
+3825,Chak 470 Gb,37301
+3826,Chak 472 Gb,37301
+3827,Chak 439 Gb,37301
+3828,Chak 471 Gb,37301
+3829,Chak 475 Gb,37301
+3830,Chak 442 Gb,37301
+3831,Chak 440 Gb,37301
+3832,Chak 140 Gb,37301
+3833,Chak 142 Gb,37301
+3834,Chak 474 Gb,37301
+3835,Chak 137 Gb,37301
+3836,Chak 444 Gb,37301
+3837,Chak 465 Gb,37301
+3838,Chak 469 Gb,37301
+3839,Chak 219 Gb,37301
+3840,Chak 139 Gb,37301
+3841,Chak 218 Gb,37301
+3842,Chak 461 Gb,37301
+3843,Chak 443 Gb,37301
+3844,Chak 390 Gb,37301
+3845,Chak 49 Gb,37341
+3846,Chak 463 Gb,37301
+3847,Chak 45 Gb,37340
+3848,Chak 389 Gb,37301
+3849,Chak 441 Gb Bhuchoki,37301
+3850,Chak 267 Rb,37360
+3851,Chak 41 Gb,37341
+3852,Chak 42 Gb,37341
+3853,Chak 86 Jb,37361
+3854,Chak 44 Gb,37341
+3855,Chak 281 Rb,37361
+3856,Chak 271 Rb,37361
+3857,Chak 528 Gb,37361
+3858,Chak 277 Rb,37361
+3859,Chak 530 Gb,37361
+3860,Dich Kot,37370
+3861,Chak 276 Rb,37361
+3862,Chak 270 Rb,37361
+3863,Chak 272 Rb,37361
+3864,Chak 273 Rb,37361
+3865,Chak 275 Rb,37361
+3866,Chak 264 Rb,37361
+3867,Chak 261 Rb Bhago Wali,37371
+3868,Chak 274 Rb,37361
+3869,Chak 268 Rb,37371
+3870,Chak 260 Rb,37371
+3871,Chak 269 Rb,37371
+3872,Chak 258 Rb,37371
+3873,Chak 259 Rb,37371
+3874,Chak 265 Rb,37371
+3875,Chak 153 Gb,37371
+3876,Chak 462 Gb,37301
+3877,Chak 261 Rb Udho Wali,37371
+3878,Chak 136 Gb,37371
+3879,Chak 88 Gb,37371
+3880,Chak 535 Gb,37371
+3881,Chak 85/Gb,37421
+3882,Chak 527 Gb,37371
+3883,Chak 91/Gb,37421
+3884,Chak 47 Gb,37341
+3885,Chak 388 Gb,37301
+3886,Chak 48 Gb,37341
+3887,Chak 247 Rb,37401
+3888,Chak 253 Rb Islam Nagar,37401
+3889,Chak 243 Rb Roshan Wala,37431
+3890,Chak 252 Rb,37401
+3891,Chak 86/Gb,37421
+3892,Chak 232 Rb,37431
+3893,Dasuha,37430
+3894,Chak 233 Rb,37431
+3895,Chak 296 Rb,37431
+3896,Chak 231 Rb,37431
+3897,Chak 242 Rb,37431
+3898,Chak 229 Gb,37451
+3899,Chak 255/Rb,37421
+3900,Chak 248/Rb,37420
+3901,Satiana Banglow,37450
+3902,Chak 31 Gb,37451
+3903,Chak 129 Gb,37451
+3904,Chak 32 Gb,37451
+3905,Chak 30 Gb,37451
+3906,Chak 251 Rb,37401
+3907,Chak 253 Rb,37400
+3908,Chak 435/Gb,37451
+3909,Chak 434 Gb Jhamra,37451
+3910,Chak 90 Gb,37451
+3911,Chak 368 Gb,37451
+3912,Chak 509/Gb,37451
+3913,Chak 231 Gb,37451
+3914,Chak 363 Gb Hossoky,37451
+3915,Chak 36 Gb,37451
+3916,Chak 38 Gb,37451
+3917,Chak 37 Gb,37451
+3918,Chak 83 Gb,37421
+3919,Chak 33 Gb,37451
+3920,Chak 254 Rb,37401
+3921,Chak 89 Gb,37451
+3922,Chak 232 G.B.,37500
+3923,Chak 167 Gb,37460
+3924,Chak 130 Gb,37501
+3925,Chak 172 Gb,37501
+3926,P.A.F.,37510
+3927,Chak 71 Jb,37521
+3928,Chak 170 Gb,37501
+3929,Chak 171 Gb,37501
+3930,Chak 64 Jb,37521
+3931,Chak 272 Jb,37521
+3932,Chak 37 Jb,37521
+3933,Chak 271 Jb,37521
+3934,Chak 72 Jb,37521
+3935,Chak 230 Jb,37521
+3936,Chak 63 Jb,37521
+3937,Chak 89 Jb,37521
+3938,Chak 167 Gb,37501
+3939,Chak 253 Rb Kalan,37501
+3940,Chak 41 Jb,37521
+3941,Thikri Wala,37520
+3942,Chak 73 Jb,37521
+3943,Chak 70 Jb,37521
+3944,Chak 40 Gb,37501
+3945,Chak 38 Jb,37521
+3946,Chak 88 Jb,37521
+3947,Chak 66 Jb,37521
+3948,Chak 84 Jb,37521
+3949,Chak 85 Jb,37521
+3950,Chak 80 Jb,37521
+3951,Chak 81 Jb,37521
+3952,Chak 83 Jb,37521
+3953,Chak 82 Jb,37521
+3954,Chak 67 Jb,37521
+3955,Chak 79 Jb,37521
+3956,Chak 69 Jb,37521
+3957,Chak 87 Jb,37521
+3958,Chak 68 Jb,37521
+3959,Chak 75 Jb,37521
+3960,Chak No.202 Rb,37621
+3961,Chak 58 Rb,37631
+3962,Chak 68 Rb,37631
+3963,Chak 107 Rb,37631
+3964,Chak No.199 Rb,37620
+3965,Khurrian Wala,37630
+3966,Chak 61 Rb,37631
+3967,Chak 67 Rb,37631
+3968,Chak No.198 Rb,37621
+3969,Chak 53 Rb,37631
+3970,Chak 200 Rb,37631
+3971,Chak 62 Rb,37631
+3972,Chak No.201 Rb,37621
+3973,Chak 206 Rb,37631
+3974,Chak 117/J.B.,37600
+3975,Chak 196 Rb,37611
+3976,Chak 106 Rb,37631
+3977,Chak 203 Rb,37610
+3978,Chak 195 Rb,37611
+3979,Chak 93 Rb,37631
+3980,Chak 121 Jb,37611
+3981,Chak No.197 Rb,37621
+3982,Chak 91 Rb,37631
+3983,Chak 194 Rb,37631
+3984,Chak 77 Rb,37631
+3985,Chak 69 Rb,37631
+3986,Chak 90 Rb,37631
+3987,Chak 96 Rb Mari,37661
+3988,Chak 70 Rb,37631
+3989,Chak 73 Rb,37631
+3990,Chak 101 Gb,37661
+3991,Chak 71 Rb,37631
+3992,Chak 100 Gb,37661
+3993,Chak 75 Rb,37631
+3994,Chak 72 Rb,37631
+3995,Chak 150 Rb,37631
+3996,Chak 102 Rb,37661
+3997,Chak 156-Rb,37701
+3998,Chak No.164 Rb,37691
+3999,Chak 105 Rb,37661
+4000,Chak 189 R.B.(Rasulpur),37690
+4001,Chak 108 Rb,37661
+4002,Chak 108-Jb,37701
+4003,Chak 185-Rb,37701
+4004,Chak No.193 Rb,37691
+4005,Chak 155-Rb,37701
+4006,Chak No.192 Rb,37691
+4007,Chak 186-Rb,37701
+4008,Chak Jhumra,37700
+4009,Chak 293-Rb,37701
+4010,Chak 100 Rb,37661
+4011,Chak 103 Rb,37660
+4012,Chak 116-Jb,37701
+4013,Chak 94 Rb,37661
+4014,Chak 99 Rb,37661
+4015,Chak 190-Rb,37701
+4016,Chak 95 Rb,37661
+4017,Chak 102 Gb,37661
+4018,Chak 188-Rb,37701
+4019,Chak 153-Rb,37701
+4020,Chak 159-Rb,37701
+4021,Chak 160-Rb,37701
+4022,Chak 65 Rb,37751
+4023,Kot Khudayar,37721
+4024,Chak 159-Rb West,37701
+4025,Burj Mandi,37730
+4026,Chak 24/Jb,37731
+4027,Chak 16/Jb,37731
+4028,Chak 152/Rb,37731
+4029,Chak 163-Rb,37701
+4030,Chak 111 Jb,37721
+4031,Chak 105 Jb,37721
+4032,Chak 191-Rb,37701
+4033,Chak 110 Jb,37721
+4034,Chak 104 Jb,37721
+4035,Sahuwala (Chak 132/R.B),37750
+4036,Chak 133 Rb,37751
+4037,Chak 103/Jb,37720
+4038,Chak 157/Rb,37731
+4039,Chak 102/Jb,37731
+4040,Chak 20/Jb,37731
+4041,Chak 205/M,62381
+4042,Chak 130/M,62381
+4043,Chak 206/M,62381
+4044,Chak 428/6-R,62381
+4045,Chak 207/M,62381
+4046,Bakhshan Khan,62400
+4047,Chak 165/M,62381
+4048,Chak 180/M,62381
+4049,Chak 143/Murad,63001
+4050,Chak 52/F,62401
+4051,Sethan Wala,62401
+4052,Chak 200/M,62381
+4053,Hasil Pur Mandi,63000
+4054,Chak 172/M,62381
+4055,Chak 10/F,62401
+4056,Chak 61/F,63001
+4057,Dullah Bhedera,62401
+4058,Chak 148-M,63001
+4059,Chak 95/F,62401
+4060,Chak 50/F,62401
+4061,Khairodheh,63001
+4062,Chak 157/M,63001
+4063,Chak 89/F,63001
+4064,Chak 73/F,63001
+4065,Chak 188/M,63001
+4066,Chak 83/F,63001
+4067,Shahpur Sharif,63001
+4068,Chak 153-M,63001
+4069,Chak 64/F,63001
+4070,Chak 76/F,63001
+4071,Chak 156/M,63001
+4072,Chak 88/F,63001
+4073,Chak 71/F,63001
+4074,Chak 155-M,63001
+4075,Chak 90/F,63001
+4076,Chohan,63001
+4077,Chak 19/Fw,63001
+4078,Khankah Mohd Panah,63001
+4079,Chak 79/F,63001
+4080,Chhonawala,63020
+4081,Chak 92/F,63001
+4082,Chak 190/M,63021
+4083,Chak 161/M,63021
+4084,Chak 181/M,63021
+4085,Chak 194/M,63021
+4086,Chak 192/M,63021
+4087,Jamalpur,63041
+4088,Chak 188/M,63021
+4089,Kotla Qaim Khan,63061
+4090,Sheikhwahan,63041
+4091,Khairpur Tamiwali,63060
+4092,Chakjhangran Wala,63041
+4093,Kot Azam,63061
+4094,Inaiti,63041
+4095,Lal Suharan,63061
+4096,Dera Bakha,63070
+4097,Pallah,63030
+4098,Qaim Pur,63040
+4099,Goth Noor Mohammad,63061
+4100,Tali Talbani,63061
+4101,Sanjar,63071
+4102,Bahawalpur Cantt,63080
+4103,Abbas Nagar,63071
+4104,Israni,63061
+4105,Islami Colony,63101
+4106,Chak 23/Bc,63101
+4107,Fazal Abad,63101
+4108,Model Town A,63100
+4109,Islamia University,63100
+4110,Bahawalpur G.P.O.,63100
+4111,Bahawalpur Cantt N.P.O.,63080
+4112,Bahawalpur N.P.O.,63100
+4113,Basti Haji,63101
+4114,Karna,63101
+4115,Bahawalpur City,63100
+4116,Chak 13/Bc,63101
+4117,Mohajir Colony Bhadad,63101
+4118,Bindra,63101
+4119,Himatian,63101
+4120,Chak 11/Bc,63101
+4121,Ghani Pur,63101
+4122,Chak 99/D.B.,63211
+4123,Chak 6/Bc,63101
+4124,Chak 26/Bc,63101
+4125,Chak 12/Bc,63101
+4126,Chak 42/Db,63101
+4127,Islamiauniversitycampus,63120
+4128,Chak 57-58/D.B.,63211
+4129,Sadiq Public School,63180
+4130,Chak 41/Db,63101
+4131,Yazman,63210
+4132,Intermediate Secondry Board,63170
+4133,Chak 93/D.B.,63211
+4134,Chak 49/D.B.,63211
+4135,Small Industries Estate,63160
+4136,Chak 106/D.B.,63211
+4137,Chak 59/D.B.,63211
+4138,Chak 46/D.B.,63211
+4139,Chak 88/D.B.,63211
+4140,Chak 105/D.B.,63211
+4141,Chak 104/D.B.,63211
+4142,Chak 102/D.B.,63211
+4143,Chak 55/D.B.,63211
+4144,Jhok Punar,63231
+4145,Chak 51/D.B.,63211
+4146,Chak 107/D.B.,63211
+4147,Chak 110/D.B.,63211
+4148,Chak 54/D.B.,63211
+4149,Kudwala Banglow,63211
+4150,Chak 103/D.B.,63211
+4151,Chak 50/D.B.,63211
+4152,Chak 101/D.B.,63211
+4153,Chak 109/D.B.,63211
+4154,Chak 108/Db,63220
+4155,Chak 8/Dnb,63231
+4156,Chak 61/Db,63231
+4157,Chak 112/D.B.,63211
+4158,Chak 111/D.B.,63211
+4159,Chak 48/D.B.,63211
+4160,Chak 117/Db,63230
+4161,Chak 1/Dnb,63231
+4162,Chak 7/Dnb,63231
+4163,Chak 116/Db,63231
+4164,Chak 11/Dnb,63231
+4165,Chak 119/Db,63231
+4166,Chak 118/Db,63231
+4167,Chak 65/Db,63231
+4168,Chak 17/D.N.B.,63237
+4169,Chak 115/Db,63231
+4170,Chak 62/Db,63231
+4171,Chak 14/Dnb,63231
+4172,Chak 16/Dnb,63231
+4173,Chak 139/Db,63231
+4174,Chak 36/D.N.B.,63237
+4175,Chak 38/D.N.B.,63237
+4176,Head Rajkan,63236
+4177,Chak 34/D.N.B.,63237
+4178,Nahar Wali,63251
+4179,Chak 114/D.N.B.,63237
+4180,Samasatta,63250
+4181,Paras Textile Mills,63260
+4182,Ali Kharak,63291
+4183,Khanqah Mubarik,63270
+4184,Shafi Abad,63271
+4185,Rehman Abad,63301
+4186,Musafir Khana,63275
+4187,Klanchwala,63275
+4188,Janu Wali,63291
+4189,Pipli Rajon,63291
+4190,Dera Masti,63261
+4191,Chak 22/Dnb,63310
+4192,Karani,63271
+4193,Aminabad,63271
+4194,Khalil Abad,63291
+4195,Mubarikpur,63290
+4196,Ahmad Pur East,63350
+4197,Noor Pur Nauranga,63300
+4198,Khan Pur Naurang,63301
+4199,Chak Naurang,63291
+4200,Chak 19/D.N.B.,63301
+4201,Kulab,63351
+4202,Ahmad Pur East City,63351
+4203,Chak 24/Dnb,63351
+4204,Uch Sharif,63410
+4205,Tibbi Izzat,63351
+4206,Kotla Musa Khan,63400
+4207,Basti Sokhial,63351
+4208,Ahmed Pur S.Town,63351
+4209,Mehrabwala,63361
+4210,Joya Abad,63401
+4211,Sadiq Garh Palace,63360
+4212,Wahi Jogian,63401
+4213,Ghouspur,63401
+4214,Gumani,63411
+4215,Nalka Adda,63411
+4216,Panjnad,63420
+4217,Khair Pur Dwan,63411
+4218,Haider Pur,63411
+4219,Sultan Pur,63411
+4220,Uch Mughlan,63411
+4221,Channi Goth Rs,63451
+4222,Mahand,63451
+4223,Chani Goth,63450
+4224,Liaqat Pur,64000
+4225,Zero Mori,64001
+4226,Chak 49/A,64001
+4227,Chak 31/A,64001
+4228,Chak 42/A,64001
+4229,Chak 24/A,64001
+4230,Chak 88/A,64001
+4231,Dera Faridi,64021
+4232,Chak 47/A,64001
+4233,Chak 12/A,64001
+4234,Chak 10/Abbasia,63451
+4235,Chak 26/A,64001
+4236,Janpur,64021
+4237,Chak 50/A,64001
+4238,Chak 6/A,64001
+4239,Allah Abad,64020
+4240,Chak 45/A,64001
+4241,Metela,64021
+4242,Trinda Muhammad Panah,64030
+4243,Jagir Chaneli,64021
+4244,Khan Bela,64040
+4245,Dahsti,64021
+4246,Unran,64041
+4247,Amin Abad,64021
+4248,Jehelan Wali,64031
+4249,Basti Gul Muhammad,64031
+4250,Ghumbran,64041
+4251,Shidani Sharif,64041
+4252,Thull Hamza,64021
+4253,Malkani,64041
+4254,Nizam Wali,64021
+4255,Bismillah Pur Ghumbran,64041
+4256,Kandani,64071
+4257,Shahiabad,64041
+4258,Chak 35/A,64071
+4259,Chak 37/A,64071
+4260,Feroza,64070
+4261,Chak 74/A,64071
+4262,Pacca Laran,64071
+4263,Sahja,64101
+4264,Head Jetha Bhutta,64081
+4265,Chak 66/A,64071
+4266,Moeen Abad,64081
+4267,Chak 81/A,64071
+4268,Basti Panwaran,64081
+4269,Chak 34/A,64071
+4270,Chak 67/A,64071
+4271,Nawan Kot,64101
+4272,Nullah Mosani,64071
+4273,Heysons Sugar Mills Jetha Bhutta,64080
+4274,Rehman Estate,64081
+4275,Jampur,64101
+4276,Khan Pur,64100
+4277,Noor Wah,64101
+4278,Havli Gharib Shah,64081
+4279,Chak 1/P,64081
+4280,Satellite Town Khan Pur,64100
+4281,Chak 103/1l,64101
+4282,Sh.Abdul Sattar,64101
+4283,Saidpur,64101
+4284,Dunya Pur,64101
+4285,B.T.M.,64101
+4286,Agricultural Research Station 4-P,64101
+4287,Mad Mangla,64101
+4288,Halim Abad,64101
+4289,Chak 121/1l,64101
+4290,Chak 107/1l,64101
+4291,Lat Ko,64101
+4292,Mad Bhoora,64101
+4293,Farid Nagar,64101
+4294,Ghari Ikhttar Khan,64101
+4295,Mari Allah Bachya,64101
+4296,Kot Phatan,64101
+4297,Mad Kaloo,64101
+4298,Jajja Abbadian,64101
+4299,Chak 129/1l,64101
+4300,Chak 23/P,64101
+4301,Zahir Peer,64130
+4302,Bismillah Pur,64101
+4303,Ghous Pur,64131
+4304,Ghazi Pur,64131
+4305,Chak 15/P,64101
+4306,Chak 92/P,64101
+4307,Chak 45/P,64101
+4308,Prochran,64131
+4309,Chak 131/1l,64101
+4310,Chak 94/P,64101
+4311,Chak 7/P,64101
+4312,Rukan Pur,64150
+4313,Chak 17/P,64101
+4314,Chachran Sharif,64140
+4315,Missan Abad,64131
+4316,Chak 47/P,64101
+4317,Heran,64151
+4318,Tarinda Molvian,64131
+4319,Thull Khair Mohd,64151
+4320,Haji Pur,64151
+4321,Chak-73/P,64171
+4322,Bagho Bahar,64160
+4323,Basti Sialan,64171
+4324,Isa Khel Estate,64171
+4325,Chak Aslam Abad,64171
+4326,Tibi Gul Mohd,64171
+4327,Madnuroo,64171
+4328,Kot Somaba,64170
+4329,Mauza Shahgarh,64181
+4330,Bhag Vela,64171
+4331,Dari Azeem Khan,64181
+4332,Tarinda Ali Murad,64181
+4333,Chak 78/P,64181
+4334,Maou Mubarak,64181
+4335,Rahim Yar Khan Npo,64200
+4336,Satellite Town R-Y-Khan,64200
+4337,Tarinda R.S.,64180
+4338,Canal Colony,64200
+4339,Colony Amanat Ali,64200
+4340,Rahimyar Khan G.P.O.,64200
+4341,Chak 94/P,64201
+4342,Alkuliatul Islamta,64201
+4343,Chak 95/P,64201
+4344,Rahim Yar Khan City,64200
+4345,Noor-E-Wali,64200
+4346,Chak Abbas,64201
+4347,Chak 72/Np,64201
+4348,Chak 97/P,64201
+4349,Chowk Makki Masjid,64200
+4350,Aliakbar Sangi,64201
+4351,Bastirasulpur,64201
+4352,Abuzahbi Colony,64201
+4353,Chak 103/P,64201
+4354,Adam Sahaba,64201
+4355,Amin Garh,64201
+4356,Bheel Nagar,64201
+4357,Bindor,64201
+4358,Chak 113/P,64201
+4359,Rashid Abad,64201
+4360,Chak 101/P,64201
+4361,Chak 90/P,64201
+4362,Chak 136/P,64201
+4363,Chak 117/P,64201
+4364,Chak 107/P,64201
+4365,Chak 53/P,64201
+4366,Kot Daraya,64201
+4367,Chak 82/P,64201
+4368,Chak 118/P,64201
+4369,Chak 125/P,64201
+4370,Chak 105/P,64201
+4371,Chak 114/P,64201
+4372,Chak 56/P,64201
+4373,Chak 88/P,64201
+4374,Chak 123/P,64201
+4375,Chak 106/P,64201
+4376,Chak 109/1l,64201
+4377,Chak 102/P,64220
+4378,Chak 51/P,64201
+4379,Basti Pir Abdul Malik,64301
+4380,Ghausia Colony,64201
+4381,Old Sadik Abad,64250
+4382,Iqbalabad,64310
+4383,Chak 99/P,64201
+4384,Chak 87/P,64201
+4385,Akram Abad,64301
+4386,Chowk Bahadar Pur,64301
+4387,Chak 86/P,64201
+4388,Chak 91/P,64201
+4389,Chak 85/P,64201
+4390,Kot Haq Nawaz,64311
+4391,Chak 116/P,64220
+4392,Kot Karam Khan,64311
+4393,Chak 100/P,64201
+4394,Ranjen Khan,64301
+4395,Badli,64311
+4396,Roshan Bheet,64301
+4397,Palu Shah,64311
+4398,Dera Shams,64311
+4399,Jadeed Sk. Wahan,64311
+4400,Rajakot,64311
+4401,Main Wali Sheikhan,64321
+4402,Jind Wali,64321
+4403,Rajanpur Kalan,64311
+4404,Yousaf Abad,64321
+4405,Mian Wali Qureshian,64320
+4406,Chak 137/P,64201
+4407,Thul Wazir,64311
+4408,Chak 52/P,64201
+4409,Thalwari,64201
+4410,Abad Pur,64311
+4411,Wapda Scarp Colony,64300
+4412,Basti Molvian,64311
+4413,Toba Machhian,64321
+4414,Taj Garh,64311
+4415,Dolatpur Qureshia,64311
+4416,Rajanpur Khurd,64311
+4417,Head Lungiwar,64331
+4418,Lakarwali,64351
+4419,Anwar Abad,64311
+4420,Trind Sahib Yar Khan,64321
+4421,Sardar Garh,64321
+4422,Jhoran,64331
+4423,Fateh Pur Kamal,64330
+4424,Frid Abad,64331
+4425,Sadikabad Npo,64350
+4426,Sadik Abad,64350
+4427,Zafar Abad,64331
+4428,Ihsan Pur,64321
+4429,Mehboob Abad,64351
+4430,Bhutta Wahan,64351
+4431,Fatta Katta,64351
+4432,Kot Mehtab,64351
+4433,Basti Abdul Rehman,64351
+4434,Chak 217/P,64351
+4435,Chak 216/P,64351
+4436,Kaman Bhutta,64351
+4437,Chak 21/Np,64351
+4438,Chak 24/Np,64351
+4439,Chak 206/P,64351
+4440,Chak 199/P,64351
+4441,Chak 197/P,64351
+4442,Chak 208/P,64351
+4443,Chak 211/P,64351
+4444,Chak 203/P,64351
+4445,Chak 204/P,64351
+4446,Basti Talib Hussain,64351
+4447,Chak 156/P,64351
+4448,Chak 151/P,64351
+4449,Muhammadnawaz Wasa,64351
+4450,Chak 148/P,64351
+4451,Chak 150/P,64351
+4452,Basti Khumbran,64351
+4453,Chak 195/P,64351
+4454,Shahbaz Pur,64351
+4455,Muhammad Pur,64351
+4456,Chak 173/P,64351
+4457,Chak 194/P,64351
+4458,Tibba Zahir Peer,64351
+4459,Chak 149/P,64351
+4460,Chak 178/P,64351
+4461,Chak 119/P,64351
+4462,Chadrami,64351
+4463,Roti Sharif,64371
+4464,Jamal Din Wali,64370
+4465,Kot Fazil,64371
+4466,Ahmadpur Lama,64380
+4467,Basti Arian,64381
+4468,Chak 129/P,64351
+4469,Chowk Mahi,64381
+4470,Kucha Bhutta,64381
+4471,Bangla Ichha,64371
+4472,Shirin Bagla,64371
+4473,Mitha Dandom,64381
+4474,Chak Nasirabad,64381
+4475,Soon Miani,64385
+4476,Nawazabad,64381
+4477,Chak 25/Np,64381
+4478,Rahimabad,64385
+4479,Bangla Manthar,64410
+4480,Mauza Allahabad,64385
+4481,Chak 175/P,64354
+4482,Mire Shah,64351
+4483,Chak 186/P,64411
+4484,Chak 253/P,64411
+4485,Chak 288/P,64411
+4486,Chak 187/P,64411
+4487,Walhar,64461
+4488,Chak 152/P,64411
+4489,Chak 160/P,64411
+4490,Sanjar Pur,64460
+4491,Chak 228/P,64411
+4492,Basti Rehmani,64461
+4493,Chak 158/P,64411
+4494,Machi Goth,64450
+4495,Chak 130/P,64411
+4496,Chak 140/P,64411
+4497,Chak 181/P,64461
+4498,Chak 188/P,64411
+4499,Goth Aldo,64461
+4500,Chak 141/P,64411
+4501,Kot Karam Khan Metla,64461
+4502,Karak,65031
+4503,Ubauro,65030
+4504,Langho,65031
+4505,Kot Subzal,64470
+4506,Dharki,65010
+4507,Maruwala,65011
+4508,Reti,65031
+4509,Sui Sharif,65011
+4510,Bago Bhutto,65011
+4511,Kamoo Shaheed,65031
+4512,Naukot,65011
+4513,Fertilizer Factory Dharki,65020
+4514,Raharki,65011
+4515,Kehar Khan Dahar,65031
+4516,Dr. Haji Abdul Sattar,65031
+4517,Bhar Chundi Sharif,65011
+4518,Khambara,65034
+4519,Dauwala,65035
+4520,Shabaz Pur,65041
+4521,Dhadhi,64461
+4522,Ranwati,65031
+4523,Muhammad Abad,64461
+4524,Centre Mohammad,65071
+4525,Darvesh Naich,65041
+4526,Malook Wali,65041
+4527,Chakar Khan Kulachi,65041
+4528,Dino Mako,65041
+4529,Mirpur Mathelo,65040
+4530,Dad Laghari,65052
+4531,Hayat Pitaei,65061
+4532,Gerhi Chachar,65061
+4533,Jarwar,65060
+4534,Ghulam Hussain Laghari,65053
+4535,Yaro Lund,65061
+4536,Saman Abad,65071
+4537,Pak Saudi Fertilizer Mirpur Mathelo,65050
+4538,Jivan Khan Pitafi,65053
+4539,Jahanpur,65101
+4540,Ghotki Npo (Nd),65110
+4541,Dari,65111
+4542,Walrah,65111
+4543,Allah Dito Kolachi,65111
+4544,Sarhad,65100
+4545,Ahmed Ki,65101
+4546,Goth Ali Mehar,65111
+4547,Bereri,65111
+4548,Ghotki,65110
+4549,Qadir Bux Kalwar,65111
+4550,S.K Dhandhu,65111
+4551,Kadirpur,65111
+4552,Mathelo,65111
+4553,Thekratho,65071
+4554,Ali Khan Naich,65053
+4555,Choudhry Jan Mohammad Abad,65111
+4556,Dost Mohammad Bullo,65111
+4557,Ruk Farm,65111
+4558,Muhammad Pur,65111
+4559,Wadan Mehar,65111
+4560,Baiji Sharif,65121
+4561,Pano Akil,65120
+4562,S.H.K. Chacher,65121
+4563,Pano Akil Npo (Nd),65120
+4564,Nauraja,65121
+4565,Sultan Pur,65121
+4566,Mullah Ali,65121
+4567,Yousaf Khaledi,65121
+4568,Pano Akil Contonment,65130
+4569,Moulidi,65121
+4570,Kot Bullo Kot Muhammad Murad M.Bull,65121
+4571,Hussain Kalwar,65121
+4572,Dad Loi,65121
+4573,Samo Chacher,65121
+4574,Bhellar,65121
+4575,Deh Torian,65151
+4576,Choongha,65121
+4577,Saleh Pat,65150
+4578,Haleji Sharif,65121
+4579,Soomra,65121
+4580,Rohri Npo (Nd),65170
+4581,Dholwaro,65151
+4582,Tarechani,65168
+4583,Hussain Abad Chaki,65171
+4584,Rohri,65170
+4585,Kundi Form,65171
+4586,Fakirabad,65171
+4587,Patni,65181
+4588,Mando Dero,65171
+4589,New Cloth Market Npo (Nd),65200
+4590,Sangrar,65171
+4591,Dubar,65171
+4592,Ali Whan,65171
+4593,Rohri Cement Works,65180
+4594,Bhiro,65171
+4595,Minara Road Sukkur (Nd),65200
+4596,Mehran Markaz (Nd),65200
+4597,Nawan Goth (Nd),65200
+4598,New Sabzi Mandi (Nd),65200
+4599,Adil Pur,65200
+4600,New Cloth Market (Nd),65200
+4601,Shah Ladhani,65201
+4602,Old Sukkur (Nd),65200
+4603,Bachal Shah Minai (Nd),65200
+4604,Mumbrani,65290
+4605,Site (Nd) Industrial Area,65200
+4606,Jamia Mashid Sukkur (Nd),65200
+4607,Sukkur Npo (Nd),65200
+4608,D.S. Pak Railway (Nd),65200
+4609,Dara Wahan,65301
+4610,Adam Shah (Nd),65200
+4611,Mehran Markaz Npo (Nd),65200
+4612,Agha Qadirdad,65200
+4613,Dodanko,65301
+4614,Sukkur Barrage (Nd),65200
+4615,Kandira Kandhra,65300
+4616,Central Prision,65280
+4617,Kandri,65301
+4618,A.K. Sarohi,65301
+4619,Sukkur G.P.O.,65200
+4620,Arain Road,65320
+4621,Babarloi,65270
+4622,Arain,65321
+4623,Paf Airport,65310
+4624,Mori,66001
+4625,Trimooh,65301
+4626,Khair Pur N.P.O.,66020
+4627,Pir Yaloi,66000
+4628,Kot Mir Mohammad,66001
+4629,Khairpur Bazar,66020
+4630,Kando Wahan,65321
+4631,Khairpur Textile Mills,66020
+4632,Mubarak Ali Verak,66021
+4633,Mustafai,66021
+4634,Manghan Wari,66021
+4635,Khairpur Mirs G.P.O.,66020
+4636,Rafiq Mahesar,66021
+4637,Luqman,66020
+4638,Lung Fakir,66021
+4639,Tando Masti,66021
+4640,L.B. Kandhro,66021
+4641,Dawood-Jo-Goth,66021
+4642,Kot Diji,66060
+4643,Pir Jo Goth,66030
+4644,Bunglo,66061
+4645,Bhatyoon,66031
+4646,Fateh Ali Chandio,66031
+4647,Jani Burero,66061
+4648,Machyoon,66031
+4649,Deh Sohu,66061
+4650,Hadal Shah Jo Goth,66031
+4651,Ahmadpur,66031
+4652,Khanpur,66021
+4653,Hamayoon Khan,66061
+4654,Gambal Shah,66061
+4655,Chundko,66061
+4656,Lyari,66061
+4657,Bahar Larik,66031
+4658,Old Ahmedpur,66031
+4659,Kolab Jail,66021
+4660,Bakhar Kanasora,66061
+4661,Munshi Abdullah Arain,66071
+4662,Jado Wahan,66075
+4663,F.S. Mills Gambat,66080
+4664,Khan Pur Mahar,65070
+4665,Hajitafial Khan,66081
+4666,Lakha,66075
+4667,Gambat,66070
+4668,Agra,66074
+4669,Khuhra,66090
+4670,F.M. Lakho,66071
+4671,Derip Pir Mehar Shah,66091
+4672,Elharo,66075
+4673,Sajjan Khaskheli,66061
+4674,Ripri,66091
+4675,Satabo,66091
+4676,E.B.Uner,66075
+4677,Malhar Khaskheli,66061
+4678,G.M. Bhatti,66091
+4679,Faizal Mahara,66081
+4680,Kamal Dero,66091
+4681,Raider,66091
+4682,Shah Abdul Latif University Khairpur,66111
+4683,Nasir Fakir Jalani,66121
+4684,Sobho Dero,66110
+4685,Kumb,66120
+4686,Pir Hayat Shah,66101
+4687,Sorah Edso,66111
+4688,Daraza Sharif,66101
+4689,Mut,66121
+4690,Khurd Khan Khuro,66101
+4691,Garhi Khan Samatia,66101
+4692,Malir Pata,66121
+4693,M. Arab Solangi,66121
+4694,Dargah Niwaro Sharif,66101
+4695,Jan Mohammmad Vondiar,66101
+4696,Gadeji,66101
+4697,Jaskani,66121
+4698,Sabar Rind,66121
+4699,D.H.Sanitio,66101
+4700,Talpur Wada,66121
+4701,Board Of Intermediate & Secondary Education,66130
+4702,Amir Hayat,66151
+4703,Rais Bakht Ali,66151
+4704,Ahmadabad,66151
+4705,Dubi,66151
+4706,Sabir Rind,66151
+4707,Kharrah,66151
+4708,Mulla Banohan,66151
+4709,Bozsar Edso,66130
+4710,Mirwah,66150
+4711,Hashim Khan,66151
+4712,Mandan,66151
+4713,Mehrab Ali Sodhro,66121
+4714,Qaimuddin Solangi,66121
+4715,Dato Dasti,66151
+4716,Rasoolpur,66151
+4717,Seri,66151
+4718,Mulla Bux Shar,66151
+4719,Hindyari,66151
+4720,Mengho Sher,66151
+4721,Thehri,66160
+4722,Sikandar Abad,66151
+4723,Pir Mangio,66161
+4724,Maula Bux Sher,66151
+4725,Khalifa Harya,66191
+4726,Goth Channa,66161
+4727,Nawa Goth,66191
+4728,Hingorja,66190
+4729,Setharja,66200
+4730,Sagyoon,66191
+4731,Rasool Abad,66191
+4732,M.Makhan Khan Lashari,66151
+4733,Bolani Setha,66191
+4734,Wisro Wahan,66161
+4735,Nandi Thari,66151
+4736,Lal Bux Solangi,66191
+4737,Mirak,66191
+4738,Bachal Bham Bhoro,66191
+4739,Sami,66191
+4740,Walidad,66201
+4741,Chowk Sui Gas,66201
+4742,Mehar Veesar,66201
+4743,Haji Hasan Ahmed,66301
+4744,Agri Farm,66201
+4745,Nehal Khan,66201
+4746,Setharja Village,66201
+4747,Deparja,66201
+4748,Mohammad Siddiq Kuber,66201
+4749,Chang,66300
+4750,Rajpur,66301
+4751,Zafarabad,66301
+4752,Mohib Shah,66301
+4753,Shah Abad,66301
+4754,Akri Chow Dagi,66301
+4755,Fakir Ali Nawaz,66301
+4756,Ch. Mohammad Ramzan,66301
+4757,Balouch Khan Sher,66301
+4758,B.K.Halipota,66301
+4759,Karundi,66301
+4760,Rani Pur,66100
+4761,Kandiari,66301
+4762,Shahan Khan,66301
+4763,Khan Wahan,67030
+4764,Jiando Rajpur,67001
+4765,Sahib Khan Jalbani,67001
+4766,Baqi Khan,67001
+4767,Hussain Pota,66301
+4768,Bhango Bahan,66301
+4769,Mahrab Pur,67000
+4770,Sher Mohammad,67001
+4771,M.B.Bhaio,67031
+4772,Goth Ali Khan,67001
+4773,Ramzan Rajpar,67001
+4774,Khan Mohammad Shar,66301
+4775,Hafizabad,67001
+4776,Saindad Jalbani,67031
+4777,Kotri Kabir,67010
+4778,Mirza Pur,67041
+4779,Dehat,67031
+4780,Saeed Khan Khushk,67031
+4781,Baharo Mullan,67001
+4782,Allah Wassayo Uner,67031
+4783,Aqil Shah,67040
+4784,Jaro Khan Ran.,67031
+4785,Amir Bux Rajpar,67001
+4786,Nihan,67001
+4787,Kandiaro,67050
+4788,Dodha,67051
+4789,Sain Dino Chang,67041
+4790,Tunia,67031
+4791,Bhelani,67041
+4792,Mohd Nawaz Khwhak,67031
+4793,Ali Sher Chang,67041
+4794,Hakim Sahito,67041
+4795,Ghangro,67051
+4796,Kandhar,67051
+4797,Khenato Mehesser,67041
+4798,Ghazi Khan Gopang,67051
+4799,H.K. Gopang,67051
+4800,Alla Bux Tanwari,67061
+4801,Amb Fakir,66301
+4802,Allahabad Sharif,67051
+4803,Mohabat Dero,67060
+4804,Kania Kalhora,67051
+4805,Sommar Channa,67071
+4806,Mehmudabad,67061
+4807,Molhan,67081
+4808,Saeedpur,67051
+4809,Bakhri,67061
+4810,Bago Dero,67071
+4811,Sher Kahn Khoso,67051
+4812,Fazal Sehto,67051
+4813,Saido Bagh,67051
+4814,Palano,67081
+4815,Bhorti,67081
+4816,Umed Ali Lakho,67051
+4817,Tharu Shah,67080
+4818,K.M.Dasti,67071
+4819,Darbelo,67070
+4820,Agra Village,67061
+4821,Fakir Mohammad Usman Tunia,67081
+4822,Kauro Ujjan,67081
+4823,Motmal,67081
+4824,Manjhut,67081
+4825,Dali Pota,67081
+4826,That Goraho,67101
+4827,Larik,67081
+4828,Kot Bahadur,67081
+4829,Mithiani,67100
+4830,Palyo Khan Mastoi,67081
+4831,Let,67101
+4832,Khan Mohd Mastoi,67081
+4833,Mohammad Murad Koreja,67101
+4834,Azmat Dero,67081
+4835,Sarao Shafi Mohammad Sial,67081
+4836,Shadi Khan Bhan,67081
+4837,Punhoo Solangi,67081
+4838,Ali Mohammad Solangi,67081
+4839,Sehra,67101
+4840,Bran,67101
+4841,Haji Hasanullah Aoji,67101
+4842,Sakhi Dadwahi,67081
+4843,Nazir Abad,67101
+4844,New Jatoi,67110
+4845,Dadan Khan Chandio,67101
+4846,Salehpur,67111
+4847,Dilu Shah,67111
+4848,Ubrio Shah,67111
+4849,Buriro,67111
+4850,Moro,67130
+4851,K.B.Buriro,67111
+4852,Old Jatoi,67111
+4853,Ghulam Muhammad Jamali,67131
+4854,Sharifabad,67131
+4855,Long Korija,67111
+4856,Malak,67111
+4857,Sadoja,67120
+4858,Manahi,67131
+4859,Mari,67131
+4860,Gachero,67131
+4861,Lalia,67131
+4862,Sardar Khan Lund,67131
+4863,Pir Bux Pur,67131
+4864,New Kandhara,67131
+4865,Imamabad,67131
+4866,Kahekatabad,67131
+4867,Dalchand,67131
+4868,Tando Khan Lashari,67131
+4869,Mir Mohd Lashari,67131
+4870,Puran,67131
+4871,M.K Buriro,67150
+4872,Ghanwar Khan Almani,67131
+4873,Dheeran,67131
+4874,Daras,67131
+4875,Qamarabad,67160
+4876,Goth Jalundri,67131
+4877,Noor Jahania,67180
+4878,Ghulam Muhammad Punjabi,67181
+4879,Jam Mohammad Rahim,67131
+4880,Quba Noor Mohammad,67181
+4881,Haji Abdul Ghafoor,67181
+4882,Sobho Dehari,67181
+4883,Syed Kando,67191
+4884,M.K.Unner,67191
+4885,Daulatpur,67190
+4886,Ali Abad,67191
+4887,Shahpur Jahania,67181
+4888,Mir Mohd Juno,67201
+4889,Sakrand,67210
+4890,Fatohal Lardari,67201
+4891,Rahimabad,67201
+4892,Sakrand Agricultural Training Institute,67210
+4893,Ghulam Qadir Jokhio,67191
+4894,Karimabad,67201
+4895,Allah Rakhio Kanio,67201
+4896,Mashakh,67201
+4897,Phulaile,67191
+4898,Nawab Wali Mohammad Khan,67201
+4899,Qazi Ahmed,67200
+4900,Sakrand Npo,67210
+4901,Mehrab Pur,67211
+4902,Haji Hamzo Jamali,67211
+4903,Sukhio Manhijo,67211
+4904,Lakha Road,67300
+4905,Bhiria Road,67310
+4906,Sabu Rahu,67211
+4907,Shah Mir Rahu,67211
+4908,Chanhi Suleman,67311
+4909,Hot Khan Jamali,67311
+4910,Goth Abdul Aziz,67311
+4911,Khuda Bux Buriro,67311
+4912,Arainabad,67311
+4913,Fateh Mohammad Punjabi,67311
+4914,Majid Keriyo,67211
+4915,Ch. Shah Nawaz67211,67211
+4916,Ghulam Abad,67311
+4917,Allah Jurio Rajpar,67311
+4918,N.K.Maree,67311
+4919,Haji Rahim Dino Sangi,67311
+4920,D.F.Wighio,67311
+4921,Hashim Aro,67311
+4922,Chanhi Manumal,67311
+4923,Muhammad Rajper,67311
+4924,Solangiabad,67311
+4925,Bhiria City,67320
+4926,Chiho,67331
+4927,Shadi Khan Chandio,67211
+4928,Khahi Qasim,67321
+4929,Pir Siddique,67331
+4930,Toow Khan,67321
+4931,Padidan Town,67340
+4932,Haji Imam Bux Mari,67211
+4933,Larhi,67321
+4934,Miranpur,67331
+4935,G.K. Wassan,67331
+4936,Dali,67321
+4937,Padidan,67330
+4938,Shah Baig Chandio,67321
+4939,Hakim Ali Naz,67341
+4940,Al-Mehran Cyala Mandi,67311
+4941,Auman Chowdagi,67341
+4942,Gul Mohammad Mobiejo,67371
+4943,Naushahro Feroz,67370
+4944,Allah Rakhio Maree,67381
+4945,Gher Gaju,67371
+4946,Kalhora,67350
+4947,Allah Ditto Jatoi,67381
+4948,Razabad,67391
+4949,Khai Rahu,67371
+4950,Noorpur,67371
+4951,Hafiz Yakoob Tunia,67371
+4952,Kher Mohammad Bhio,67371
+4953,Talib Hussain Maree,67381
+4954,Haji Beg Mohammad,67371
+4955,Phul,67380
+4956,Darya Khan Mari,67390
+4957,Machur,67371
+4958,Nawab Sabki,67381
+4959,Chenari,67391
+4960,Molvi Ghulam Muhammad,67391
+4961,Gharibabad,67391
+4962,Kot Laloo,67391
+4963,Abdul Hakim Manghrio,67391
+4964,Maser Jiwah,67401
+4965,H. Khan Jamali,67401
+4966,Bandhi,67400
+4967,Nawabshah Npo Nd,67400
+4968,Sakrand Road Nawabshah,67400
+4969,Bhali Dino,67401
+4970,Baloch Pur,67411
+4971,Daur,67410
+4972,Latifabad Camp-2,67400
+4973,Nathiani,67411
+4974,Liary,67411
+4975,Budlo Dahri,67401
+4976,Asgarabad,67411
+4977,Deh Makhand,67401
+4978,Rahi M. Dad Kerio,67411
+4979,Goth Khushal,67411
+4980,Sawi Khan Rind,67411
+4981,Sadiq Bhatti,67421
+4982,Pubjo,67421
+4983,Colonal Staff,67431
+4984,Chak-5 Okhari Sawri,67431
+4985,Sanswari,67421
+4986,Haberi,67420
+4987,Khadar,67451
+4988,Goth Akil Rahu,67421
+4989,Suleman Rahu,67421
+4990,Haji Abdul Rauf Dhari,67421
+4991,Nawabshah G.P.O.,67450
+4992,Nawabshah Airport,67451
+4993,Hasan Jamali,67451
+4994,Nusrat 60 Mile Mori,67430
+4995,Bucheri,67451
+4996,Syed Khan Shah,67451
+4997,Timore Mori,67451
+4998,Gupchani,67451
+4999,Syed Peer Shah,67451
+5000,Mohammad Khan Jamali,67451
+5001,Saeed Khan Jamali,67451
+5002,Haji Wali Muhammad Rind,67451
+5003,Dost Muhammad Khoso,67451
+5004,Alam Khan Zardari,68011
+5005,Goth Gh Mustaj Shah,67451
+5006,Mirkhan Kalor,67451
+5007,Shafiabad,67501
+5008,Jam Sahib,67500
+5009,Chak-3 Shelo,67451
+5010,H. Noor Mohd Keerio,68011
+5011,Jhanddo Khan Cargali,68011
+5012,Sarwar Nagar,67501
+5013,Tando Sarwar,67501
+5014,Sarhari,68010
+5015,Shahabad,68011
+5016,Shadi Khan Zardari,68011
+5017,Taj Khan Jamali,68011
+5018,Monojamali,68011
+5019,68 Mile Mori,67451
+5020,Jafar Khan Laghari,68031
+5021,Lundo,68031
+5022,Shuja Jakhro,68031
+5023,Duthro,68031
+5024,Gul Muhammad Leghari,68011
+5025,Shahdad Pur,68030
+5026,Rokhan Buriro,68031
+5027,Rais Brohi,68031
+5028,Solangiabad,68031
+5029,Tando Adam,68080
+5030,Shahdadpur Pts,68040
+5031,Soomer Faqir Hingoro,68031
+5032,Baqar Nazamani,68031
+5033,Maqsood Rind,68031
+5034,Bago Wadadani,68031
+5035,Tharu Khan Lighari,68031
+5036,Jam Nawaz Ali,68081
+5037,Berani,68060
+5038,Tando Adam Npo,68080
+5039,Tando Adam Mills Area,68080
+5040,Wahab Shah,68081
+5041,Ahmed Buriro,68081
+5042,Mir Hasan Mari,68081
+5043,Sanjhar Khan Jonejo,68081
+5044,Sachidino Warayo,68081
+5045,Kamal Khan Buriro,68081
+5046,Peer Faqir Shoro,68081
+5047,Soomar Khan Chakrani,68081
+5048,Mulla Makhon,68081
+5049,Bakhsha Khan Kaloi,68081
+5050,Sanchgar Npo,68100
+5051,Chak 6,68101
+5052,Sanghar,68100
+5053,Jamrao Head,68101
+5054,Sanghar Collectorate Nd,68100
+5055,Grang Bandlow,68101
+5056,Sanghar Market Nd,68100
+5057,Gul Beg Mari,67501
+5058,Chak 41,68101
+5059,Kot Nawab,68101
+5060,Chak 57,68101
+5061,Chak 31 Jamrao,68101
+5062,Padri Jo Goht,68101
+5063,Molvi Khair Mohammad,68101
+5064,Noor Md. Bhambro,68101
+5065,Chak 2 Pathan,68101
+5066,Shahpur Chakar,68200
+5067,Chak 5,68101
+5068,Deh 22 Araf,68101
+5069,Tando Mitha Khan,68101
+5070,Goth Haji Mohd Azim,68201
+5071,Gulab Palh,68201
+5072,Chak 11,68101
+5073,Dil Shakh,68101
+5074,Sikandarabad,68101
+5075,Barhoon,68201
+5076,Amanullah Dahri,68201
+5077,Chowdaggi,68201
+5078,Chak 9,68101
+5079,Fathepur,68101
+5080,Chulariyan Sharif,68101
+5081,Karim Dino Wasan,68221
+5082,Deh 4 Dad,68201
+5083,Nabipur,68211
+5084,Sinjhoro,68220
+5085,Faqir Ji Khoi,68211
+5086,Allah Dad Zardari,68201
+5087,Khadro,68210
+5088,Diwan Wali Ram,68221
+5089,Jhol,68230
+5090,Chak 39,68221
+5091,Junejo Farm,68300
+5092,Rahimabad,68231
+5093,Goth Sher Jang,68231
+5094,Ghundan,68231
+5095,Kurkali,68231
+5096,Khipro,68330
+5097,Alamabad,68331
+5098,Kandiari,68310
+5099,Sindhri,68311
+5100,Goth Bassi,68311
+5101,Kubar Goth,68331
+5102,Baqa-E-Mohammad,68331
+5103,Mohammad Usman,68331
+5104,Khan,69001
+5105,Jhurbi,69001
+5106,Ghulam Mohammad Arbab,68331
+5107,Jhando Mari,69001
+5108,Hatango,68350
+5109,Ghulam Haider Shah,69001
+5110,Hingorno,69001
+5111,Bobi,69001
+5112,Mirpur Khas G.P.O,69000
+5113,Dhalyar,68351
+5114,Bhit Bhitai,68331
+5115,Mirabad,69001
+5116,Abdullahabad,69001
+5117,Mir Pur Old,69001
+5118,Kot Mir Jan Mohammad,69001
+5119,78 Miles Moree,69001
+5120,Kambro,68331
+5121,Girhar Sharif,69061
+5122,Sabit Ali Shah,69061
+5123,Dhoro Naro,69070
+5124,Khani,69061
+5125,Saindad,69061
+5126,Hasisar,69071
+5127,Mohammad Saleh Palli,69071
+5128,Ghulam Nabi Shah,69071
+5129,Sadhar,69071
+5130,Soofi Faqir,69071
+5131,Akheraj Singh,69091
+5132,Moula Bux Rajar,69071
+5133,Muhammad Alam Palli,69080
+5134,Chhor,69090
+5135,Raja Karam Elahi,69071
+5136,Atta Mohammad Palli,69071
+5137,Tabhri,69091
+5138,Haveli,69091
+5139,Chanesar Soomro,69091
+5140,Soomra Abad,69091
+5141,Bandho,69091
+5142,Mandero Jopar,69101
+5143,Vasarbah,69121
+5144,Jan Mohd Rahmoon,69101
+5145,Kharoro Syed,69101
+5146,Valhat,69101
+5147,Umar Kot,69100
+5148,Rana Jagir,69101
+5149,Jan Horo Sand,69101
+5150,New Chhor,69094
+5151,Kunri,69160
+5152,Shahaniabad,69101
+5153,Kazi Md Sultan,69161
+5154,Nabisar Village,69161
+5155,Gogasar,69101
+5156,Gapna,69161
+5157,Abdullah Kapri,69161
+5158,Mohammad Rahim Kalro,69161
+5159,Mehmoodabad,69161
+5160,Khokhropar,69120
+5161,Nasirabad Estate,69161
+5162,Cheel,69161
+5163,Jhinjhi,69171
+5164,Farooqabad,69161
+5165,Rawatsar,69171
+5166,Karooro,69171
+5167,Chachro,69170
+5168,Goth Devan Ali,69161
+5169,Nab-Isir Road,69200
+5170,Mubarak Rind,69171
+5171,Bhonio,69171
+5172,Talhi,69210
+5173,Hayat Halepota,69171
+5174,Kantio,69171
+5175,Tar Hamir,69171
+5176,Danisar Farm,69201
+5177,Shakh Darelo,69201
+5178,Hassan Rind,69201
+5179,Deh Damberlo,69201
+5180,Mehmoodabad,69211
+5181,Khararo Dal,69171
+5182,Bhurilo,69221
+5183,Nau Kot,69220
+5184,Goth Jaffar Khan Chandio,69211
+5185,Ahori,69211
+5186,Goth Ch.Barkatullah,69211
+5187,Kaloi,69221
+5188,Fazal Bhambhro,69221
+5189,Goth Rahim Khan Notkani,69221
+5190,Hussain Bux Barrar,69221
+5191,Gurrabah,69221
+5192,Chelhar,69221
+5193,Adejo Tar,69241
+5194,Tigusar,69241
+5195,Rehmanabad,69221
+5196,Saindadalyani,69221
+5197,Nafees Nagar,69221
+5198,Islamkot,69240
+5199,Mithi,69230
+5200,Bo-E-Ali,69241
+5201,Verhi Jhap,69281
+5202,Nagar Parkar,69260
+5203,Verhar,69281
+5204,Layakhro,69281
+5205,Goth Mubarak Khan,69311
+5206,Diplo,69280
+5207,Pharaho,69311
+5208,Roshan Abad,69311
+5209,Qaim Khan Laghari,69311
+5210,Dano Dhandal,69261
+5211,Virawah,69261
+5212,Arokhi,69281
+5213,Jhudo,69310
+5214,Nasir Abad Farm,69311
+5215,Kaisar Khan Laghari,69311
+5216,Tando Kolachi,69311
+5217,Khairpur Gambo,69311
+5218,Malkani Sharif,69311
+5219,Tando Jan Muhammad,69320
+5220,Deh 194,69321
+5221,Deh 190,69321
+5222,Abdullah Kahn Jarwar,69321
+5223,Amanabad,69321
+5224,Haji Ghulam Muhammad,69331
+5225,Ghulam Mohammad Mehar,69331
+5226,Rano Ramdan,69331
+5227,Digri,69330
+5228,Khan Md Jaskani,69331
+5229,Khair Mohammad,69331
+5230,Soofi Abad,69331
+5231,Kingoro Shakh,69331
+5232,Haji Dodo Khan,69331
+5233,Deh-143/A,69331
+5234,Mehro Khan Dhankai,69341
+5235,Deh-155/Mandranwala,69331
+5236,Faqir Ghulam Ali,69331
+5237,Dehgan,69341
+5238,Syed Qaim Mohammad Shah,69331
+5239,Khalidabad,69341
+5240,Jhelorol,69341
+5241,Ch.Ghulam Rasool,69341
+5242,Kot Ghulam Mohammad,69340
+5243,Saleh Bhambro,69351
+5244,Mohalla Gharibabad.,69341
+5245,Tando Vassu,69340
+5246,Samad Kachelo,69341
+5247,Dayal Garh,69341
+5248,Meh Mohammad Boota,69341
+5249,Samaro,69350
+5250,Rahimabad,69351
+5251,Bodar Farm,69351
+5252,Mohammad Hashni Bhurgari,69341
+5253,Gulzar-E-Khalil,69351
+5254,Deh 324 Mahajir Goth,69351
+5255,Haji Saeed Khan Laghari,69371
+5256,Do Do Khan Laghari,69371
+5257,Samaro Road,69351
+5258,Kot Mirs. Edsi,69360
+5259,Mir Wah Gorchani,69370
+5260,Wahaghreji,69371
+5261,Tando Allahyar Npo,70010
+5262,Tando Allahyar Npo,70010
+5263,Tando Allahyar Npo,70010
+5264,Tando Allahyar Npo,70010
+5265,Tando Allahyar Npo,70010
+5266,Tando Allahyar Npo,70010
+5267,Tando Allahyar Npo,70010
+5268,Tando Allahyar Npo,70010
+5269,Tando Allahyar Npo,70010
+5270,Tando Allahyar Npo,70010
+5271,Tando Allahyar Npo,70010
+5272,Tando Allahyar Npo,70010
+5273,Tando Allahyar Npo,70010
+5274,Tando Allahyar Npo,70010
+5275,Tando Allahyar Npo,70010
+5276,Tando Allahyar Npo,70010
+5277,Tando Allahyar Npo,70010
+5278,Tando Allahyar Npo,70010
+5279,Tando Allahyar Npo,70010
+5280,Tando Allahyar Npo,70010
+5281,Koro Khan Daidano,70011
+5282,Nasarpur,70040
+5283,Dhin Gani Bozdar,70011
+5284,Khawaja Goth,70011
+5285,Khair Mohammad Jarwar,70011
+5286,Bahar Khan Mirjat,70011
+5287,Jarrar Thebo,70011
+5288,Goth Shahnawaz,70030
+5289,Haji K.K.Laghari,70011
+5290,Dhaloo Khaskheli,70011
+5291,Mehran Sugar Mills Tando Allahyar,70020
+5292,Huri Usman Shah,70011
+5293,Khokhar,70011
+5294,G.O.R. Shahnawaz,70030
+5295,Yarar Thebo,70011
+5296,Bukera Sharif,70011
+5297,Tando Jam N.P.O,70050
+5298,Tajpur,70041
+5299,Tando Jam,70050
+5300,Goth Umer Jan,70041
+5301,Pali Jani,70091
+5302,Tando Kaiser,70051
+5303,Hussaini Thoro,70051
+5304,Shahpur Tahir Hingoro,70091
+5305,Moula Dino Mir Behar,70051
+5306,Odero Lal Village,70091
+5307,Moosa Khatian,70051
+5308,Khesano Mori,70051
+5309,Sindh Agriculture University Tando Jam,70060
+5310,Sawan Khan Gopang,70051
+5311,Oderolal R.S.,70090
+5312,Allah Dino Sand,70091
+5313,Saeedpur Thebo,70051
+5314,Jamaluddin Lashari,70051
+5315,Saeedabad,70100
+5316,Dargah Sharif,70101
+5317,Shah Pur,70051
+5318,Bago Rind,70101
+5319,Bakhar Jamali,70101
+5320,Agro Rahu,70101
+5321,Mehar Shah,70101
+5322,Pir Jhanoo,70101
+5323,Bhalle Dino Kaka,70101
+5324,Panj Moro,70101
+5325,Old Saeedabad,70101
+5326,Seera Choon Kaka,70101
+5327,Bhanote,70121
+5328,Hala Old,70130
+5329,Hala,70120
+5330,Goth Peer Jhando,70101
+5331,Karam Khan Nizamani,70121
+5332,D.K. Talpur,70141
+5333,Luqman Koreja,70121
+5334,Mehmood Thaheem,70141
+5335,Khando,70141
+5336,Saeed Khan Leghari,70121
+5337,Bhitshah,70140
+5338,Matiari,70150
+5339,Sekhat,70151
+5340,Fauji Sugar Mills T.M.Khan Nd,70220
+5341,Tando Mohammad Khan Npo,70220
+5342,Saeedabad Npo Nd,70100
+5343,Ilyas Abrejo,70101
+5344,Suleman Soomro,70221
+5345,Husri,70210
+5346,Mulla Katiar,70221
+5347,Khyber,70151
+5348,Seri,70221
+5349,Rajo Nizamani,70221
+5350,Hussaini Chowk,70211
+5351,F.B.C Power Station Nd,70220
+5352,Sayed Qadir Dino Shah,70221
+5353,Bijar Khan Talpur,70221
+5354,Phal Kara,70221
+5355,Saeedpur,70221
+5356,Janhan,70221
+5357,Nizam Sama,70221
+5358,Kot Jamali,70151
+5359,Sumar Kininor,70221
+5360,Shah Abuddin Shah,70151
+5361,Dhandi,70221
+5362,Tando Mohammad Khan,70220
+5363,Sachal Sarmast Colony,70211
+5364,Hyderabad G.P.O.,71000
+5365,Abdul Rahim Katiar,70221
+5366,Baqar Khan Nizamani,70221
+5367,Cloth Market Nd,71000
+5368,Naukarji Farm,70221
+5369,West Kutcha,71000
+5370,Nimlayar,70221
+5371,Mohsin Farm,70221
+5372,Tikkur,70221
+5373,Shamasabad,70221
+5374,Hyderabad N.P.O.,71000
+5375,Cloth Market N.P.O. Nd,71000
+5376,Hyderabad Market,71000
+5377,Board Of Intermediate And Sec. Education,71000
+5378,Hyderabad R.S.,71000
+5379,Fort Area Nd,71000
+5380,Hyderabad City Nd,71000
+5381,Hyderabad City Npo Nd,71000
+5382,Kali Road,71000
+5383,Dewan Sugar Mills Nd,71000
+5384,Jama Masjid,71000
+5385,Soldier Bazar,71000
+5386,Soldier Bazar N.P.O,71000
+5387,Masu Bhurgari,71001
+5388,Manjhu,71001
+5389,Budhapur,71001
+5390,Khattar,71001
+5391,Peroz Laghari,70221
+5392,Hyderabad Market N.P.O,71000
+5393,Hasnain Square Nd,71000
+5394,Sayed Matto Shah,70221
+5395,Goth Mohabat Khan Bhurgari,70221
+5396,Commisionery Nd,71000
+5397,Qasimabad,71000
+5398,Thermal Power Station,71000
+5399,Hatri,71001
+5400,Shaikh Bharkio,71001
+5401,Bhendoo Sharif,71001
+5402,Arif Kaka,71001
+5403,Manzoorabad,71001
+5404,Akro Sharif,71001
+5405,Bahawal Zour,71001
+5406,M.Ismail Qazi,71001
+5407,Marvi Garden,71001
+5408,Bukhsho Leghari,71001
+5409,Aliabad,71001
+5410,Mohammad Khan Bagrani,71001
+5411,Karan Khan Shoro,71001
+5412,Rahim Abad,71001
+5413,Jendo Halepota,71001
+5414,Uner Pur,71001
+5415,Haji Mehrab Talpur,71001
+5416,Tando Hyder,71001
+5417,Mori Mangar,71001
+5418,Bagh Haji Bhatti,71001
+5419,Hala Npo Nd,71020
+5420,Latifabad No.2 Npo,71800
+5421,Sindh Regimental Centre,71850
+5422,Civil Aviation Trgg.Institute,71810
+5423,Sindh University,71000
+5424,Tando Ghulam Hyder,72011
+5425,Latifabad H.O,71800
+5426,Latifabad No.2,71800
+5427,Liaqat Colony,71800
+5428,Latifabad No.10,71801
+5429,Ahmad Dars,72011
+5430,Matli,72010
+5431,Sindh Industrial Trading Estate Hyderabad,71900
+5432,Goth Ghulam Ali,72011
+5433,Tando Ghulam Ali,72050
+5434,Tharee,72011
+5435,Moya,72011
+5436,Dundo,72011
+5437,Thano Khan Leghari,72011
+5438,Bero Lanjwani,72011
+5439,Kario Ghanwar,72020
+5440,Nabi Bux Punjabi,72011
+5441,Kot Ahamadia,72051
+5442,Suleman Pahore,72051
+5443,Goth Ghulam Ali,72051
+5444,Ghulam Rasool Arain,72071
+5445,Haji Ali Mohammad,72070
+5446,Tando Iqbal,72111
+5447,Gudho Kambrani,72071
+5448,Balouchabad,72051
+5449,Goth Shukardin,72131
+5450,Talhar,72100
+5451,Bhitai Nagar (Nd),72200
+5452,Ghulam Shah Mori,72121
+5453,Rajo Khanani,72110
+5454,Tando Bago,72120
+5455,Chutto Mandrani,72051
+5456,Dei,72121
+5457,Badin,72200
+5458,Pangrio,72130
+5459,Goth Chaudri Din Mohammad,72131
+5460,Khadro,72121
+5461,Badin N.P.O.,72200
+5462,Luahi Sharif,72201
+5463,Tando Ikram,72220
+5464,Chak-44,72221
+5465,Arifabad,72221
+5466,P.A.F. Badin,72210
+5467,Bughra Memon,72201
+5468,Rip,72201
+5469,Shah Abdullah Shah,72201
+5470,Gharo,72201
+5471,Tarai,72221
+5472,Peeru Lashari,72201
+5473,Yousuf Shah,72201
+5474,Sirani,72201
+5475,Chak-5 (Ahmad Abad),72221
+5476,Fateh Abad Talpur,72201
+5477,Chak-40,72221
+5478,Open Jail,72201
+5479,Morjhar Shahji Mori,72201
+5480,Ahmed Khan Jamali,72201
+5481,Nando Shahar,72250
+5482,Chak-5,72221
+5483,Fauji Sugar Mills Khoski,72260
+5484,Signal Chak,72261
+5485,Punjab Chak,72261
+5486,Laik Pur,73041
+5487,Navy Chak-I,72261
+5488,Artiller Corp Chak,72261
+5489,Bulri Shah Karim,73020
+5490,Khadhan,72270
+5491,Mirpur Bathoro,73030
+5492,Darro,73040
+5493,Deh Katado(Navy Chak-Ii),72261
+5494,P.A.F. Chak,72261
+5495,Jhock Sharif,73010
+5496,Sindh Abadgar Sugar Mills T.M. Khan,73024
+5497,Frontier Force Regiment Chak,72261
+5498,Korewah,73031
+5499,Bunno,73041
+5500,Syed Pur,73051
+5501,Belo,73051
+5502,Sujawal,73050
+5503,Koreja,73091
+5504,Jhimpir R.S.,73100
+5505,Daragah Shah Aqiq,73081
+5506,Jhokia Village,73111
+5507,Jati,73060
+5508,Choretani,73051
+5509,Chuhar Jamali,73070
+5510,Lodiun,73080
+5511,Jangshahi,73110
+5512,Nooriabad,73090
+5513,Tar Khawaja,73061
+5514,Mal Mari,73111
+5515,K.D.A Camp (Haleji),73111
+5516,Latifabad No.11,73081
+5517,Zeal Pak Cement Factory,73130
+5518,Thatta,73130
+5519,Thatta Npo,73130
+5520,M. Safar Kokhio,73131
+5521,Ali Muhammad Jokhio,73111
+5522,Gujjo,73131
+5523,Dhandari,73131
+5524,Chato Chand,73131
+5525,Ongar,73131
+5526,Thatta Cement Factory,73160
+5527,Abral,73041
+5528,Ghail Mori,73131
+5529,Dhabeji,73200
+5530,Hashimabad,73150
+5531,Ghulamullah,73131
+5532,Sonda,73131
+5533,Jhirruk,73131
+5534,Wapda Residential Colony Lakhra,73170
+5535,Ghorabari,73131
+5536,Wahdat Colony,73170
+5537,Vur,73170
+5538,Bhambore,73201
+5539,Dhabeji Npo Nd,73200
+5540,Fulleli,73200
+5541,Raw-Water Pumping Station,73201
+5542,Dhabeji Village,73201
+5543,Mehran University,76020
+5544,Bholari,76001
+5545,Site Kotri,76010
+5546,Behar Colony Kotri,76040
+5547,Kotri N.P.O,76000
+5548,Gharo,73210
+5549,Garho,73241
+5550,Mirpur Sakro,73240
+5551,Mirza Khan Gabool,73241
+5552,Shafiabad,73230
+5553,Ahmad Khan Blouch,73241
+5554,Locoshed Kotri,76020
+5555,Thana Bula Khan,76050
+5556,Keti Bunder,73241
+5557,Telegraph Workshop Kotri,76030
+5558,Khuda Ki Basti,76001
+5559,Midway Workshop,76051
+5560,Amri,76131
+5561,Saru,76051
+5562,Liaqat Medical College Jamshoro,76090
+5563,Lakki Shah,76131
+5564,Goth Ali Murad Koreja,76051
+5565,Thana Ahmed Khan,76051
+5566,Railway Crossing Jamshoro,76060
+5567,Majhand,76131
+5568,Bajara,76141
+5569,Sehwan Sharif,76140
+5570,Karam Pur,76141
+5571,Kachho Wahan,76141
+5572,Channa,76141
+5573,University New Campur Colony,76080
+5574,Jhangara,76141
+5575,Bubak,76150
+5576,Kotri,76000
+5577,Gahar,76151
+5578,Arazi,76151
+5579,Bakhtiar Bux,76151
+5580,Khuda Abux Brohi,76171
+5581,Lakha,76131
+5582,Sann,76130
+5583,Samtiani Village,76171
+5584,Petaro Cadet College,76120
+5585,Wahi Pandhi,76191
+5586,Chinni,76191
+5587,Drigh Bala,76191
+5588,Duri Dero,76151
+5589,Haji Khan,76191
+5590,Lal Khan Lashari,76151
+5591,Mukhtar Nagar,76171
+5592,Tando Rahim Khan,76191
+5593,Pat Gul Muhammad,76191
+5594,Filter Plant Gharo,73220
+5595,Hairo Khan,76191
+5596,Bhan Saeedabad,76170
+5597,Sukhio Channa,76191
+5598,Talti,76160
+5599,Hotkhan Shahni,76191
+5600,Shah Hassan,76191
+5601,Johi,76190
+5602,Mounder,76201
+5603,Pir Gonio,76201
+5604,Fakir Muhammad Jamali,76201
+5605,Dadu,76200
+5606,Dost Muhammad,76201
+5607,Muradabad,76201
+5608,Khudabad,76201
+5609,Duabo,76201
+5610,Wazeer Khan Gopang,76201
+5611,Chaunglani,76201
+5612,Ibrahim Laghari,76201
+5613,Amirani,76201
+5614,Bahalwal Pur,76201
+5615,Sher Muhammad Solangi,76201
+5616,Sorajabad,76201
+5617,Karimabad,76201
+5618,Birmani,76201
+5619,Purano Dero,76210
+5620,Pukha,76201
+5621,Phulji,76220
+5622,Rukkan,76231
+5623,Kandi Fazal Mohammad,76221
+5624,Kazi Pir Mohammad,76221
+5625,Tagar,76231
+5626,Dhootra Panwar,76201
+5627,Shahi Bazar,76201
+5628,Makhdoom Bilawel,76201
+5629,Sacharo,76231
+5630,Ghulam Panhwar,76221
+5631,Ibrahim Kachhi,76221
+5632,Pat,76231
+5633,Allahabad,76221
+5634,Ahmad Khan Dawach,76221
+5635,Rasulpur,76231
+5636,Phulji Village,76221
+5637,Sita,76250
+5638,Mureed Khan Lakher,76251
+5639,Budhal Fakir,76221
+5640,Dadu Sugar Mills,76230
+5641,Rahijja,76251
+5642,Dhani Bux Bughi,76251
+5643,Tajo Pan-Whar,76221
+5644,Dangar,76251
+5645,Site Village,76251
+5646,Kara Bhan,76251
+5647,Dera,76261
+5648,Goth Nazimabad,76251
+5649,Murad Chandio,76261
+5650,Mado,76261
+5651,Kolachi,76261
+5652,Sohrab Khan Bacho,76261
+5653,Beroi Khan Gadhi,76261
+5654,Khairpur Nathan Shah,76260
+5655,Baggo Dero,76261
+5656,Thallo,76261
+5657,Borehi,76261
+5658,Khairpur Nathan Shah Npo,76260
+5659,Mir Hassan Gadhi,76261
+5660,Rawal Khan Leghari,76261
+5661,Bali Shah,76311
+5662,Khudadad Khan Chandio,76261
+5663,Bela Pathan,76265
+5664,Sultani Chandio,76261
+5665,Radhan,76310
+5666,Khanpur,76264
+5667,Burera,76280
+5668,Shah Panjoo,76311
+5669,Gozo,76270
+5670,Feroz Shah,76311
+5671,Gul Mohd Chandio,76265
+5672,Tharri Jado Shaheed,76265
+5673,Kakar,76290
+5674,Subho Khan Magsi,76311
+5675,Aghamani,76311
+5676,But Sarai,76311
+5677,Dargah Faiz Pur,76311
+5678,Masoo Sher,76311
+5679,Nari Lashari,76311
+5680,Seehar,76311
+5681,Bedi Lashari,76311
+5682,Mehar,76330
+5683,Sobdar Sargani,76311
+5684,Qaim Jatoi,76331
+5685,Tharri Mohammad,76320
+5686,Radhan Village,76311
+5687,Nago Goth,76311
+5688,Safar Lashari,76311
+5689,Mahi Khan Sial,76331
+5690,Sajharo Borer,76331
+5691,Faridabad,76331
+5692,Sanwal Kartia,76331
+5693,Balal Dani,76331
+5694,Aghmani,76331
+5695,Loung Tunio,76331
+5696,Sajhro Mirwani,76331
+5697,Ali Mardand Jatoi,76331
+5698,Kazi Mohammad Arif,76331
+5699,Shah Goorio,76331
+5700,Gahi Mahessor,76331
+5701,Butra Sindhi,76331
+5702,Dara,77011
+5703,Badah,77010
+5704,Akhoond Mohalla,76331
+5705,Mangwani,76331
+5706,Detto,76331
+5707,Somtia,77011
+5708,Issa Khan Thebo,76331
+5709,Noor Pur,77011
+5710,Gund,77011
+5711,Veehar,77011
+5712,Tatri,77011
+5713,Ismailabad,77011
+5714,Thorhar,76331
+5715,Vadi Vahani,77011
+5716,Boboori,77011
+5717,Dawood Kandhro,77011
+5718,Maroo Khan Dero,77011
+5719,Haji Zakario Jonejo,77011
+5720,Kot Mirza Kaloo,77011
+5721,Nasirabad,77020
+5722,Hetam Sohu,77021
+5723,Jarpa Wahocha,77021
+5724,Hamzo Bhutti,77021
+5725,Nabi Bux Kandhrio,77021
+5726,Goth Abad,77021
+5727,Mounder Lakha,77021
+5728,Data Tiwana,77021
+5729,Sanhani,77021
+5730,Khuda Bux Khutto,77021
+5731,Hakim Depar,77021
+5732,Bund Jani,77021
+5733,Kario Sabar Khan,77021
+5734,Khan Mohammad Khunawar,77021
+5735,Adi Jagri,77021
+5736,Hamal,77041
+5737,Maid,77041
+5738,Gaji Khuhawar,77030
+5739,Warah,77040
+5740,Junani,77041
+5741,Anwarabad,77041
+5742,Noorpur,77041
+5743,Jakhar,77041
+5744,Ghazi Khan Marrand,77041
+5745,Goth Gurgage,77041
+5746,Sarwat Kot,77041
+5747,Noorabad,77041
+5748,Dokri,77060
+5749,Hakim Sandilo,77061
+5750,Chatto Wahan,77061
+5751,Khando,77041
+5752,Vakro,77061
+5753,Moenjodaro,77070
+5754,Ahsan Wahan,77061
+5755,Rice Research Institute Dokri,77080
+5756,Bagi,77061
+5757,Faiz Mohd Khokar,77061
+5758,Qafila,77081
+5759,Bashirabad,77081
+5760,Chamber,77080
+5761,New Gud,77111
+5762,Madbahoo,77111
+5763,Doulat Khokar,77111
+5764,Wada Wahan,77111
+5765,Haji Mahboob Khan Brohi,77121
+5766,Rirwad Shah,77121
+5767,Garelo,77120
+5768,Dargah Hafiz Imam Bux,77111
+5769,Mehrab Sandilo,77121
+5770,Rashid Wagan,77121
+5771,Puranoabad,77111
+5772,Aliabad,77111
+5773,Syed Bachal Shah,77111
+5774,Matto,77121
+5775,Qadir Bux Khan Bhutto,77121
+5776,Ramzan Khan Kalhoro,77121
+5777,Fazal Kalhoro,77121
+5778,Mohammad Khan Mashoori,77121
+5779,Choohar Pur,77151
+5780,Ghulam Ali Zuhrani,77121
+5781,Tharacha,77121
+5782,Dhamraha,77151
+5783,Mashori Sharif,77151
+5784,Khan Umrani,77151
+5785,Kehar,77151
+5786,Umar Bhayo,77121
+5787,Miani Nihal,77151
+5788,Tarari,77121
+5789,Haji Murad Wahan,77151
+5790,Safar Jatoi,77151
+5791,Kanga,77151
+5792,Arija,77151
+5793,Larkana Gpo.,77150
+5794,Agani,77151
+5795,Zakrio Mahiesar,77151
+5796,Goth Haji Dhadhro,77151
+5797,Dodaie,77151
+5798,Akil,77151
+5799,Fatehpur,77151
+5800,Mahar Wada,77151
+5801,Bero Chandio,77200
+5802,Sache Bux Jagirani,77151
+5803,Sano Jatoi,77151
+5804,Thori Sohrab,77211
+5805,Allah Rakhio Junejo,77211
+5806,Bachal Mahasser,77151
+5807,Umed Ali Jonejo,77151
+5808,Latifabad Colony,77151
+5809,Chandka Medical College,77170
+5810,Chajra,77211
+5811,Abbas Colony T.So.,77190
+5812,Khahi Hen Hoon,77211
+5813,Kambar,77210
+5814,Jina Abro,77211
+5815,Bhutti Lashkar Khan,77211
+5816,Ghaibi Dero,77211
+5817,Abri,77211
+5818,Kando Khan Buledi,77211
+5819,Gul Mohd Chachar,77211
+5820,Miandad Gurmani Pir Mohammad Metlo,77211
+5821,Miran Machi,77214
+5822,Thori Bijar,77211
+5823,Mehmoodabad,77271
+5824,Khwar Kalhoro,77211
+5825,Ghogharo,77231
+5826,Dhingano Maheiar,77271
+5827,Pir Nusrullah Shah,77211
+5828,Thriri Hashim,77231
+5829,Bahram,77260
+5830,Buthi,77271
+5831,Bhamboo Khan Chandio,77271
+5832,Khair Pur Joso,77240
+5833,Miro Khan,77270
+5834,Goth Bhatti Hakar,77271
+5835,Lalu Raunk,77250
+5836,Wagan,77230
+5837,Bahadur Khan Bhand,77271
+5838,Tharo Wadho,77271
+5839,Sijawal,77271
+5840,Qadera Bad,77301
+5841,Arzi Bhutto,77271
+5842,Shahdad Kot,77300
+5843,Kotlal Bux Mehaser,77271
+5844,Chak Yani,77320
+5845,Sain Dad Lashari,77271
+5846,Muhammad Khan Bozdar,77271
+5847,Bakhshio Sariyo,77271
+5848,Ripo Wato Khan Chandio,77301
+5849,Dhing,77301
+5850,Umed Ali Junejo,77306
+5851,Aitbar Khan Chando,77301
+5852,Darya Khan Mastoi,77301
+5853,Kubbo Saeed Khan,77301
+5854,Naodero,77360
+5855,Mahota,77350
+5856,Garhi Khuda Bux Bhutto,77361
+5857,Saidu Dero,77361
+5858,Sikender Abad,77301
+5859,Phul Pata,77361
+5860,Burra,77361
+5861,Panjoo Dero,77361
+5862,Nabi Shah Wagan,77381
+5863,Mohil Pir,77361
+5864,Phul Pota,77381
+5865,Lashari,77390
+5866,Jumo Aghan,77381
+5867,Tayyab,77381
+5868,Khan Wah,77361
+5869,Izat Ji Wand,77361
+5870,Bangul Dero,77400
+5871,Wasayo Bhutto,77381
+5872,Ratodero,77380
+5873,Maqbool Shah,77381
+5874,Korejo,77361
+5875,Hyder Chadio,77381
+5876,Abad Bhutto,77371
+5877,Walidad Veesar,77381
+5878,Pir Bux Butio,77370
+5879,Khairo Dero,77381
+5880,Rato Dero Npo,77380
+5881,Jahan Khan,78001
+5882,Mena,77410
+5883,Bagarji,78000
+5884,Bichaji,78001
+5885,Qasim Goth,78001
+5886,Jindo Dero,78031
+5887,Chak,78050
+5888,Madiji,78030
+5889,Bado,78031
+5890,Chatto Mangi,78031
+5891,Mehmooda Bagh,78051
+5892,Jami Qubo,78051
+5893,Wazirabad,78061
+5894,Rustam,78051
+5895,Rustam Ji Wandh,78051
+5896,Gaheja,78031
+5897,Abdoo,78051
+5898,Nim Horo,78061
+5899,Lakhi Ghulam Shah,78060
+5900,Habib Kot,78061
+5901,Rajo Chohan,78061
+5902,Soomer Goth,78061
+5903,Jamra,78101
+5904,Shikarpur City (Nd),78100
+5905,Garhi Yasin,78150
+5906,Sehekaji,78061
+5907,Ruk,78064
+5908,Mubarak Pur,78101
+5909,Karan Sharif,78101
+5910,Mirza Pur,78061
+5911,Shikarpur Npo (Nd),78100
+5912,Mianjo Goth,78101
+5913,Pir Zubair,78101
+5914,Shikarpur Gpo,78100
+5915,Shikarpur Saddar (Nd),78100
+5916,Deeha,78101
+5917,Lodra,78101
+5918,M.K.Bhutto,78101
+5919,Hamyoon,78101
+5920,Neem,78151
+5921,Mureed Sethar,78101
+5922,Ishaq Dero,78151
+5923,Kakepota,78151
+5924,Sehta Kazi,78151
+5925,Amort Sharif,78151
+5926,Qaim Khan Wadayo,78151
+5927,Wada Kehar,78151
+5928,Chato Odho,78151
+5929,Jado Kalhoro,78151
+5930,Sultan Kot,78250
+5931,Karam Pur,78220
+5932,Jacobabad Shahi Bazar (Nd),79000
+5933,Khanpur,78200
+5934,Haji Khan Kalhoro,78201
+5935,Rahim Abad,78201
+5936,Anaj Mandi (Nd),79000
+5937,Jaffarabad Mohalla (Nd),79000
+5938,Jacobabad G.P.O.,79000
+5939,Jacobabad N.P.O. (Nd),79000
+5940,Gharibabad (Nd),79000
+5941,Dil Murad,79001
+5942,Bahadurabad,79001
+5943,Kamil Shah,79001
+5944,Navra,79001
+5945,Muhammad Pur Odho,79001
+5946,Rahim Bux Soomro,79001
+5947,Old Jangoo,79001
+5948,Chachar R.S,79001
+5949,Sheran Pur,79001
+5950,Jahan Pur,79051
+5951,Mohammad Usman,79051
+5952,Gulab Mari,79051
+5953,Garhi Khairo,79050
+5954,Bangla Syedan,79001
+5955,Miran Pur,79001
+5956,Bahadurpur,79001
+5957,Kadir Pur,79001
+5958,Karim Bux,79001
+5959,Doda Pur,79051
+5960,Tajo Dero,79051
+5961,Thul,79100
+5962,Piyaro Khan Khoso,79101
+5963,Soofi Gul Bahar,79001
+5964,Ghulam Khan Dhani,79130
+5965,Uner Wah,79101
+5966,Jamia Mahmoodia Chowk,79101
+5967,Kandhkot,79160
+5968,Bahu,79101
+5969,Garhi Syed,79121
+5970,Tangwani,79150
+5971,Mirpur Buriro,79120
+5972,Limo Lashari,79101
+5973,Garhi Hassan,79101
+5974,Shahimir,79151
+5975,Tangwari,79151
+5976,Arbab Bajkani,79161
+5977,Risaldar,79161
+5978,Bhannar,79161
+5979,Abdul Gafoor,79161
+5980,Ghous Pur,79180
+5981,Khahi,79191
+5982,Hamzo Oghahi,79181
+5983,Jan M. Merheto,79161
+5984,Ahmad Ali,79181
+5985,Dari,79181
+5986,Tori,79181
+5987,Pir Jan,79181
+5988,Fazil Ogahi,79181
+5989,Jamsoonharo,79181
+5990,Badani,79191
+5991,Buxapur,79190
+5992,Giddu Barrage,79220
+5993,Dera Bugti,80100
+5994,Kashmore,79200
+5995,Giddu Nd,79220
+5996,Kashmor Colony,79210
+5997,Rasoolpur Chachar,79191
+5998,Sui Gas Field,80000
+5999,Mirwah,80301
+6000,Phehl Wagh,80101
+6001,Kahan,80101
+6002,Goth Piyara Khan,80301
+6003,Goth Rustam Khan,80301
+6004,Goth Ali Mohd Kunri,80201
+6005,Usta Muhammad N.P.O.,80300
+6006,Mehopur,80201
+6007,Manjhi Pur,80200
+6008,Pirkoh,80101
+6009,Jan Minho Khan,79191
+6010,Usta Mohammad,80300
+6011,Nooti,80101
+6012,Sohnami Nope,80101
+6013,Faizal Faqir,80301
+6014,Sang Seela,80101
+6015,Ali Ahmed Buledi,80301
+6016,Tamboo,80301
+6017,Sibi Jadeed,80301
+6018,Jabbal Pur,80401
+6019,Ahmed Abad,80301
+6020,Dera Allayyar,80500
+6021,Goth Mohd Amin Kundrani,80201
+6022,Goth Mohd Nawaz Marri,80301
+6023,Nushki Jadeed,80301
+6024,Gandakha,80400
+6025,Baghtial,80401
+6026,Goth Nasir Khan,80501
+6027,Baghtail,80301
+6028,Bhand,80501
+6029,Fatehpur Umrani,80301
+6030,Goth Abdul Rashid,80501
+6031,Dirgi,80501
+6032,Rojhan,80501
+6033,Goth Mir Dost Ali,80501
+6034,Goth Muhammad Bakhsh Khosa,80501
+6035,Balo Pur,80501
+6036,Goth Jiya Khan,80501
+6037,Goth Amanullah Khosa,80501
+6038,Sohbat Pur,80600
+6039,Adam Pur,80501
+6040,Goth Murad Ali,80501
+6041,Goth Mehtab Shah,80701
+6042,Goth Said Khan,80701
+6043,Dera Murhd Jamali,80700
+6044,Shori Data,80701
+6045,Shahpur,80701
+6046,Aziz Abad,80701
+6047,Phuleji,80701
+6048,Goth Juma Khan Umrani,80701
+6049,Dault Gari,80701
+6050,Goth Haji Noor Mohd Mengal,80701
+6051,Gandawa,81050
+6052,Mangal Kot Tampo,80701
+6053,Goth Sahib Dad Khan,80701
+6054,Goth Imdad Hussain,80701
+6055,Chattar,80800
+6056,Goth Naseer Khan Khosa,80701
+6057,Goth Abdul Majid Khan Lehri,80701
+6058,Goth Juma Khan,80701
+6059,Mir Hasan Camp,80701
+6060,Jhal Magsi,81100
+6061,Goth Jamal Khan Bugti,80701
+6062,Panjuk,81051
+6063,Fatehpur,81051
+6064,Mir Pur,81051
+6065,Goth Shabani,81101
+6066,Goth Yousaf Ali,81101
+6067,Lehri,81200
+6068,Kotra,81051
+6069,Tunia,81201
+6070,Khairwah,81201
+6071,Bhag,81250
+6072,Treher,81201
+6073,Jalal Khan,81251
+6074,Shadran,81251
+6075,Chalgari,81251
+6076,Mithri Village,81350
+6077,Khattan,81251
+6078,Haji Sher,81300
+6079,Dhadar,81400
+6080,Pirchatta,81051
+6081,Sultan Kot,82001
+6082,Kolpur,81550
+6083,Sibi G.P.O.,82000
+6084,Gajan,81051
+6085,Chandar,82001
+6086,Harnai,82300
+6087,Sibbi Railway Colony,82100
+6088,Chandia,82001
+6089,Babar Kachh,82001
+6090,Sibi Petrol Pump,82200
+6091,Sanni,81450
+6092,Damboli,82001
+6093,Talli,82001
+6094,Much,81500
+6095,Spin Tangi,82301
+6096,Depal Kalan,82001
+6097,Tangan,82001
+6098,Mian Kachh,82301
+6099,Nakus,82301
+6100,Sharigh,82400
+6101,Nutal,82001
+6102,Hoshab,82601
+6103,Zardloo,82401
+6104,Kalag,82601
+6105,Khost,82401
+6106,Nodiz,82601
+6107,Nazar Abad,82601
+6108,Sharik,82601
+6109,Doshat Kuddan,82601
+6110,Sami,82601
+6111,Hironk,82601
+6112,Solband,82601
+6113,Ginnah,82601
+6114,Jusk,82601
+6115,Absar,82601
+6116,Kosh Kalat,82601
+6117,Balnigore,82601
+6118,Pidrak,82601
+6119,Degari Kehn,82601
+6120,Tajaban,82601
+6121,Khair Abad,82601
+6122,Mewand,83001
+6123,Tamboo,83001
+6124,Chasar,82601
+6125,Killi Habib,84201
+6126,Kohlu,83000
+6127,Chutiali Sharif,84100
+6128,Sinjawi,84300
+6129,Balozai,84301
+6130,Basti Karam Jan,84501
+6131,Duki,84200
+6132,Baghaoo,84301
+6133,Rakhni,84500
+6134,Poi,84301
+6135,Barkhan,84400
+6136,Lode Mar,84501
+6137,Basti Azam Jan,84501
+6138,Moma Samad Khan,84501
+6139,Saranan,84600
+6140,Chapper,84501
+6141,Killi Shadozai,84701
+6142,Shadezai,84601
+6143,Chutiar,84301
+6144,Kandely Qambarani,84501
+6145,Rara Sham,84600
+6146,Killi Afzal,84701
+6147,Tandwani,84301
+6148,Gorgoji,84701
+6149,Tagaoo Hassani,84501
+6150,Ghar Shinan,84601
+6151,Bohanilli Kuchh,84601
+6152,Drug,84701
+6153,Nilli Kachh,84701
+6154,Zangiwal,84801
+6155,Kot Khan Muhammad,84701
+6156,Musa Khel,84700
+6157,Loralai,84800
+6158,Chutwal,84701
+6159,Anzar Gut,84801
+6160,Ghin Ghin,84801
+6161,Mekhtar,84801
+6162,Yaru Sher,84801
+6163,Dargaikude Zai,84801
+6164,Asgara,84801
+6165,Basti Amir Muhammad,84801
+6166,Killi Lahore,84801
+6167,Pathan Kot,84801
+6168,Shah Karez,84801
+6169,Hosri,84801
+6170,Gambaz,84801
+6171,Murgha,85100
+6172,Zhob,85200
+6173,China Ali Zai,84801
+6174,Mohsin Abad,84801
+6175,Ismail Sher,84801
+6176,Shiger,85201
+6177,Bori Viyalla,84801
+6178,Aghbarg,84801
+6179,Under Pur Patra,84801
+6180,Sim Zai,85201
+6181,Mir Ali Khel,85201
+6182,Qalandar,85201
+6183,Marghazikraya Zai,85501
+6184,Mani Khawa,85201
+6185,Shegaloo,85201
+6186,Kul Kach,85201
+6187,Sharan Jogezai,85401
+6188,Qamar-Ud-Din Karez,85300
+6189,Kajir,85501
+6190,Ghazloona,85501
+6191,Terkha,85501
+6192,Khul Gai,85401
+6193,Kalu Killa,85401
+6194,Sambaza,85201
+6195,Ashewat,85201
+6196,Appozai,85201
+6197,Chashma Norozai Khan,85201
+6198,Babu Hinna,85501
+6199,Kan Maler Zai,85501
+6200,Nasai,85501
+6201,New Abadi Chaman,86001
+6202,Killi Habib,85201
+6203,Maizai Adda,86201
+6204,Daman,86001
+6205,Murgha Faqir Zai,85501
+6206,Sirki Karez,85501
+6207,Chaman,86000
+6208,Koz Kachh,85501
+6209,Muslim Bagh,85500
+6210,Killa Saifullah,85400
+6211,Badani,85501
+6212,Keshatoo,85501
+6213,Murda Karez,86001
+6214,Shella Bagh,86100
+6215,Hurram Zai,86201
+6216,Killi Karam Khan,86001
+6217,Old Chaman,86001
+6218,Lund Karez,86001
+6219,Killi Abdul Rehman Zai,86301
+6220,Killa Abdullah,86200
+6221,Killi Malik Rozi,86001
+6222,Killi Lajbar,86301
+6223,Taragundi,86701
+6224,Gulistan,86300
+6225,Killi Kamat,86201
+6226,Pishin,86700
+6227,Chakwal Killi,86501
+6228,Gangal Zai,86701
+6229,Pir Ali Zai,86201
+6230,Hai Kal Zai,86701
+6231,Mula Zai,86701
+6232,Gulistan R.S.,86301
+6233,Bostan,86500
+6234,Killi Kamal Zai,86701
+6235,Khanozai,86600
+6236,Master Zai,86701
+6237,Manzari,86701
+6238,Manzeki,86701
+6239,New Qila Bazai,86701
+6240,Killi Abdullah Jan,86701
+6241,Killi Ali Zai,86701
+6242,Simli,87001
+6243,Killi Ibrahim Zai,86701
+6244,Killi Malik Yar,86701
+6245,Killi Bathozai,86701
+6246,Killi Maghat,87001
+6247,Hajian Shakar Zai,86701
+6248,Barshore,86800
+6249,Killi Kabir Tajak,87000
+6250,Quetta G.P.O.,87300
+6251,Kuchlak,87000
+6252,Ghousabad,87301
+6253,Baleli,87100
+6254,Yaru,87301
+6255,Panjpai,87301
+6256,Urak,87301
+6257,Ghazaband Scouts,87101
+6258,Tozegi,87301
+6259,Kotwal,87301
+6260,Killi Kateer,87001
+6261,Nokcha,87301
+6262,Killi Umar,87301
+6263,Killi Sabzal,87301
+6264,Sandak Copper,87301
+6265,Spezand,87301
+6266,Kishingi,87301
+6267,Shafi Colony,87301
+6268,Killi Badani,87301
+6269,Umar Abad,87301
+6270,Galangoor,87301
+6271,Sheikh Wasal,87301
+6272,Dhiwar,87301
+6273,Haider Zai,87301
+6274,Killi Bangalzai,87301
+6275,Painmal,87301
+6276,Rud Mulla Zai,87301
+6277,Kirdgap Village,87301
+6278,Killi Talbi,87301
+6279,Sorangzai,87301
+6280,Balochistan Civil Sectt,87310
+6281,Killi Kambrani,87551
+6282,Killi Sheikh Hussain,87301
+6283,Air Port Quetta,87650
+6284,Killi Fateh Muhammad,87301
+6285,New Baloch Colony,87501
+6286,Sariab Road,87550
+6287,Kirdgap Station,87301
+6288,Killi Mura Jan,87501
+6289,Yekmach,87301
+6290,Samungli Town,87601
+6291,Hazara Town,87330
+6292,Azad,87301
+6293,Killi Pudgali,87551
+6294,Padag Road,87301
+6295,Lower Kurez,87551
+6296,Infantory School,87750
+6297,Mastung Road,88100
+6298,Staff Collete (Quetta),87800
+6299,Karbala,87700
+6300,Samungli,87600
+6301,Dasht Daman,88201
+6302,Killi Kirani,87301
+6303,Degari,88150
+6304,Satellite Town,87500
+6305,Tareengari,88101
+6306,Mastung,88200
+6307,Sariab,87900
+6308,Pring Abad,88101
+6309,Ispalinji,88201
+6310,Sorange,88050
+6311,Killi Nawab Raisani,88101
+6312,Sheriab,88201
+6313,Dullay,88201
+6314,Mango Char,88250
+6315,Pingore,88201
+6316,Kaboo,88201
+6317,Sinjibi,88251
+6318,Khad Kucha,88201
+6319,Johan,88251
+6320,Darzak,88301
+6321,Lakhorian,88401
+6322,Ahmed Abad,88301
+6323,Killi Zaroz,88251
+6324,Nimergh,88301
+6325,Toba,88401
+6326,Iskalkoo,88301
+6327,Haji Kasher,88401
+6328,Zehri,88450
+6329,Sheikhri,88301
+6330,Sorab,88400
+6331,Nichara,88350
+6332,Kalat,88300
+6333,Zehri Hat,88451
+6334,Bajawi,89101
+6335,Khuzdar G.P.O.,89100
+6336,Karkh,89101
+6337,Ahmad Khan Zai,87301
+6338,Jiwa,89101
+6339,Nokjo,89101
+6340,Hazar Gangi,89101
+6341,Zehri Kathan,89101
+6342,Ornach,89101
+6343,Baghbana,89101
+6344,Gresha,89101
+6345,Nokjo Karkh,89101
+6346,Rawa,89101
+6347,Tootak,89101
+6348,Zeedi,89101
+6349,Feroz Abad,89101
+6350,Sarona,89101
+6351,Khuzdar Cantt.,89150
+6352,Khirzan,89101
+6353,Goth Burya,90051
+6354,Arif Wala,90051
+6355,Niruji,90051
+6356,Ismalani,90051
+6357,Wayaroo,90100
+6358,Kunraj,90151
+6359,Hub Chowki,90250
+6360,Bela,90050
+6361,Mashke,89200
+6362,Kalwan,89300
+6363,Jibbri,89101
+6364,Uthal,90150
+6365,Bhawani,90251
+6366,Miani Beach,90200
+6367,Dureji,90251
+6368,Sakran,90251
+6369,Surbander,91201
+6370,Gawadar,91200
+6371,Jiwani,91100
+6372,Mand,92100
+6373,Ormara,91400
+6374,Gadani,90300
+6375,Kalagkulanch,91301
+6376,Daro Hotel,90251
+6377,Durraji,90251
+6378,Bullo,92101
+6379,Gawak,92101
+6380,Tump,92300
+6381,Gomazai,92301
+6382,Sarawan,93001
+6383,Shahi Tump,92500
+6384,Balicha,92350
+6385,Geshkore,92700
+6386,Panjgur,93000
+6387,Turbat G.P.O.,92600
+6388,Turbat Npo,92600
+6389,Badizamran,92801
+6390,Buleda,92800
+6391,Pasni,91300
+6392,Mehnaz,92801
+6393,Peshkan,91201
+6394,Nag Zamran,92801
+6395,Pullabad,92301
+6396,Soolo,92801
+6397,Kalatuk,92400
+6398,Kohebun,93001
+6399,Proom,93001
+6400,Kalug,93001
+6401,Nasir Abad,92900
+6402,Surdo,93001
+6403,Ghichk,93001
+6404,Jandala,93401
+6405,Washbood,93001
+6406,Patak,93100
+6407,Zarabad,94101
+6408,Bonistan,93001
+6409,Gawak,93001
+6410,Gramkan,93001
+6411,Patkan,94101
+6412,Issai,93001
+6413,Kharan,94100
+6414,Basima,94050
+6415,Khuda Bandan,93001
+6416,Guzgi,94101
+6417,Katagari,93200
+6418,Nag,94051
+6419,Kunri,94101
+6420,Balnigore,94051
+6421,Topian,94101
+6422,Washuk,94101
+6423,Sarrawan Village,94101
+6424,Toja Zai,94101
+6425,Ziarat,96000
+6426,Ladgasht,94150
+6427,Kanbanglow,96001
+6428,Kohi Taftan,95000
+6429,Kachh,96001
+6430,Killi Shakar,94101
+6431,Pechi,96001
+6432,Nok Kundi,95050
+6433,China,96001
+6434,Ahmedwal,95150
+6435,Nushki,95200
+6436,Mano,96001
+6437,Dalbandin,95100
+6438,Mashani Kalat,94101
+6439,Killi Chatak,94101
+6440,Bohmulk,94101
+6441,Zendra,96001
+6442,Vare Hoom,96001
+6443,Sumbalgah,97320
+6444,Ahmadoon,96001

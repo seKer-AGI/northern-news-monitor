@@ -1,0 +1,1890 @@
+source,raw_name,cleaned_name,changes
+geonames_PK,Khān Sāfa,Khan Safa,diacritics-folded
+geonames_PK,Allāhdad,Allahdad,diacritics-folded
+geonames_PK,Ali Khan Bānda,Ali Khan Banda,diacritics-folded
+geonames_PK,Chīnai,Chinai,diacritics-folded
+geonames_PK,Chīnike Zāwar,Chinike Zawar,diacritics-folded
+geonames_PK,Uāerolāl,Uaerolal,diacritics-folded
+geonames_PK,Goth Ïsaj,Goth Isaj,diacritics-folded
+geonames_PK,Brāhim Tok,Brahim Tok,diacritics-folded
+geonames_PK,Perjadāb,Perjadab,diacritics-folded
+geonames_PK,Jea Chāh,Jea Chah,diacritics-folded
+geonames_PK,Khairpur Mir’s,Khairpur Mir's,punctuation-unicode
+geonames_PK,Bakhshāpur,Bakhshapur,diacritics-folded
+geonames_PK,Ziarāt,Ziarat,diacritics-folded
+geonames_PK,Wazīr Kot,Wazir Kot,diacritics-folded
+geonames_PK,Wasāyo,Wasayo,diacritics-folded
+geonames_PK,Wāndu,Wandu,diacritics-folded
+geonames_PK,Wāgah,Wagah,diacritics-folded
+geonames_PK,Tatlānwāla,Tatlanwala,diacritics-folded
+geonames_PK,Tatagār,Tatagar,diacritics-folded
+geonames_PK,Tāndu,Tandu,diacritics-folded
+geonames_PK,Takāl,Takal,diacritics-folded
+geonames_PK,Sūi,Sui,diacritics-folded
+geonames_PK,Sharīfāni,Sharifani,diacritics-folded
+geonames_PK,Shāhzada Kot,Shahzada Kot,diacritics-folded
+geonames_PK,Sarfarāz,Sarfaraz,diacritics-folded
+geonames_PK,Sardārgarh,Sardargarh,diacritics-folded
+geonames_PK,Sāmti,Samti,diacritics-folded
+geonames_PK,Rashīd Waggan,Rashid Waggan,diacritics-folded
+geonames_PK,Rāmisha,Ramisha,diacritics-folded
+geonames_PK,Rāmrang,Ramrang,diacritics-folded
+geonames_PK,Rakh Jalālpur,Rakh Jalalpur,diacritics-folded
+geonames_PK,Rabāna,Rabana,diacritics-folded
+geonames_PK,Pīr Tangi,Pir Tangi,diacritics-folded
+geonames_PK,Pīr Jaggi,Pir Jaggi,diacritics-folded
+geonames_PK,Pir Ïbu,Pir Ibu,diacritics-folded
+geonames_PK,Pīrān Ziārat,Piran Ziarat,diacritics-folded
+geonames_PK,Parāo,Parao,diacritics-folded
+geonames_PK,Nindāni,Nindani,diacritics-folded
+geonames_PK,Nainākot,Nainakot,diacritics-folded
+geonames_PK,Muzaffarābād,Muzaffarabad,diacritics-folded
+geonames_PK,Mochīwāla,Mochiwala,diacritics-folded
+geonames_PK,Miāna,Miana,diacritics-folded
+geonames_PK,Maral Wār,Maral War,diacritics-folded
+geonames_PK,Mānosar,Manosar,diacritics-folded
+geonames_PK,Māhla,Mahla,diacritics-folded
+geonames_PK,Lunjwāni,Lunjwani,diacritics-folded
+geonames_PK,Lashkar Khān Bahishti,Lashkar Khan Bahishti,diacritics-folded
+geonames_PK,Lalwān,Lalwan,diacritics-folded
+geonames_PK,Lāla Bānda,Lala Banda,diacritics-folded
+geonames_PK,Lakhiān,Lakhian,diacritics-folded
+geonames_PK,Kwāna,Kwana,diacritics-folded
+geonames_PK,Kund Ālam Shah,Kund Alam Shah,diacritics-folded
+geonames_PK,Kot Muhammad Aslan Khān,Kot Muhammad Aslan Khan,diacritics-folded
+geonames_PK,Kot Mela Rām,Kot Mela Ram,diacritics-folded
+geonames_PK,Kot Āgha,Kot Agha,diacritics-folded
+geonames_PK,Khushāb,Khushab,diacritics-folded
+geonames_PK,Khiāriun,Khiariun,diacritics-folded
+geonames_PK,Khālsāpur,Khalsapur,diacritics-folded
+geonames_PK,Khajūra,Khajura,diacritics-folded
+geonames_PK,Kirpāl,Kirpal,diacritics-folded
+geonames_PK,Kamangarān,Kamangaran,diacritics-folded
+geonames_PK,Kālu Khuhar,Kalu Khuhar,diacritics-folded
+geonames_PK,Jhok Āluwali,Jhok Aluwali,diacritics-folded
+geonames_PK,Jhok Ādhawali,Jhok Adhawali,diacritics-folded
+geonames_PK,Jatwāl,Jatwal,diacritics-folded
+geonames_PK,Jātlan,Jatlan,diacritics-folded
+geonames_PK,Jandiāl Mamhūd,Jandial Mamhud,diacritics-folded
+geonames_PK,Jander Niāziwāla,Jander Niaziwala,diacritics-folded
+geonames_PK,Jandiala Malkān,Jandiala Malkan,diacritics-folded
+geonames_PK,Jalālābād,Jalalabad,diacritics-folded
+geonames_PK,Hon Dhamiāl,Hon Dhamial,diacritics-folded
+geonames_PK,Hattiān Bāla,Hattian Bala,diacritics-folded
+geonames_PK,Gulāb Laghāri,Gulab Laghari,diacritics-folded
+geonames_PK,Goth Sohrāb,Goth Sohrab,diacritics-folded
+geonames_PK,Goth Muhammad Khān Chāndio,Goth Muhammad Khan Chandio,diacritics-folded
+geonames_PK,Goth Ïsa Khan,Goth Isa Khan,diacritics-folded
+geonames_PK,Goth Amīr Khān,Goth Amir Khan,diacritics-folded
+geonames_PK,Ghulām,Ghulam,diacritics-folded
+geonames_PK,Garhi Halīm,Garhi Halim,diacritics-folded
+geonames_PK,Gajiāna,Gajiana,diacritics-folded
+geonames_PK,Gagrewāli,Gagrewali,diacritics-folded
+geonames_PK,Fateh Kot Tāja,Fateh Kot Taja,diacritics-folded
+geonames_PK,Dhūrkot,Dhurkot,diacritics-folded
+geonames_PK,Dhok Ājri,Dhok Ajri,diacritics-folded
+geonames_PK,Dhingāna,Dhingana,diacritics-folded
+geonames_PK,Dhauriānwāla,Dhaurianwala,diacritics-folded
+geonames_PK,Derān,Deran,diacritics-folded
+geonames_PK,Dāowāla,Daowala,diacritics-folded
+geonames_PK,Dalāi,Dalai,diacritics-folded
+geonames_PK,Dāgai,Dagai,diacritics-folded
+geonames_PK,Chānga,Changa,diacritics-folded
+geonames_PK,Chabutra Ādha,Chabutra Adha,diacritics-folded
+geonames_PK,Roshan Bhīlā,Roshan Bhila,diacritics-folded
+geonames_PK,Basti Ārif,Basti Arif,diacritics-folded
+geonames_PK,Bāgh,Bagh,diacritics-folded
+geonames_PK,Bāad,Baad,diacritics-folded
+geonames_PK,Āwagat,Awagat,diacritics-folded
+geonames_PK,Ārjangarh,Arjangarh,diacritics-folded
+geonames_PK,Ānandsar,Anandsar,diacritics-folded
+geonames_PK,Aghwān,Aghwan,diacritics-folded
+geonames_PK,Afghānān,Afghanan,diacritics-folded
+geonames_PK,Ābu,Abu,diacritics-folded
+geonames_PK,Abdullāhwāli Khūi,Abdullahwali Khui,diacritics-folded
+geonames_PK,Sandrāna,Sandrana,diacritics-folded
+geonames_PK,Mangowāli,Mangowali,diacritics-folded
+geonames_PK,Khanna Rangrān,Khanna Rangran,diacritics-folded
+geonames_PK,Jhuggiān Ladha Singh,Jhuggian Ladha Singh,diacritics-folded
+geonames_PK,Lakhowāl,Lakhowal,diacritics-folded
+geonames_PK,Kānjra,Kanjra,diacritics-folded
+geonames_PK,Bandoke Purāna,Bandoke Purana,diacritics-folded
+geonames_PK,Bandoke Nawān,Bandoke Nawan,diacritics-folded
+geonames_PK,Bahūmān,Bahuman,diacritics-folded
+geonames_PK,Chak Forty-nine (Nazai),Chak Forty-nine,stripped-parenthetical
+geonames_PK,Ghāwindi,Ghawindi,diacritics-folded
+geonames_PK,Lalūwāl,Laluwal,diacritics-folded
+geonames_PK,Shādipur,Shadipur,diacritics-folded
+geonames_PK,Uthwāl Khālsa,Uthwal Khalsa,diacritics-folded
+geonames_PK,Jogiāna,Jogiana,diacritics-folded
+geonames_PK,Mīr Akbar Khān,Mir Akbar Khan,diacritics-folded
+geonames_PK,Mīra Khel,Mira Khel,diacritics-folded
+geonames_PK,Sher Khān,Sher Khan,diacritics-folded
+geonames_PK,Yāqūb Khān Korūna,Yaqub Khan Koruna,diacritics-folded
+geonames_PK,Shekalwāh,Shekalwah,diacritics-folded
+geonames_PK,Kachānwāli,Kachanwali,diacritics-folded
+geonames_PK,Muhammad Khānwāla,Muhammad Khanwala,diacritics-folded
+geonames_PK,Guddi Khelānwāla,Guddi Khelanwala,diacritics-folded
+geonames_PK,Knayālayānwāla,Knayalayanwala,diacritics-folded
+geonames_PK,Sher Khān Khelānwāla,Sher Khan Khelanwala,diacritics-folded
+geonames_PK,Begu Khelānwāla,Begu Khelanwala,diacritics-folded
+geonames_PK,Muzaffar Khelānwāla,Muzaffar Khelanwala,diacritics-folded
+geonames_PK,Adam Khelānwāla,Adam Khelanwala,diacritics-folded
+geonames_PK,Miān Kili,Mian Kili,diacritics-folded
+geonames_PK,Katāmīr Wazīr,Katamir Wazir,diacritics-folded
+geonames_PK,Mīr Khawāza,Mir Khawaza,diacritics-folded
+geonames_PK,Muzaffar Khān,Muzaffar Khan,diacritics-folded
+geonames_PK,Mandat Khān,Mandat Khan,diacritics-folded
+geonames_PK,Īsa Khan Banda,Isa Khan Banda,diacritics-folded
+geonames_PK,Multān Kili,Multan Kili,diacritics-folded
+geonames_PK,Kassewāli,Kassewali,diacritics-folded
+geonames_PK,Akhtar Miān Kili,Akhtar Mian Kili,diacritics-folded
+geonames_PK,Rāzam Dherai,Razam Dherai,diacritics-folded
+geonames_PK,Bāzārgai,Bazargai,diacritics-folded
+geonames_PK,Kārez,Karez,diacritics-folded
+geonames_PK,Pāyo Kili,Payo Kili,diacritics-folded
+geonames_PK,Maqadmewāli,Maqadmewali,diacritics-folded
+geonames_PK,Kāk,Kak,diacritics-folded
+geonames_PK,Diāl,Dial,diacritics-folded
+geonames_PK,Miāni Mela,Miani Mela,diacritics-folded
+geonames_PK,Ghatta Tīzhā,Ghatta Tizha,diacritics-folded
+geonames_PK,Shān Khel,Shan Khel,diacritics-folded
+geonames_PK,Sikandari Bānda,Sikandari Banda,diacritics-folded
+geonames_PK,Dhok Fazal Khān,Dhok Fazal Khan,diacritics-folded
+geonames_PK,Kot Nawab Khān,Kot Nawab Khan,diacritics-folded
+geonames_PK,Nādir Ali Shāh,Nadir Ali Shah,diacritics-folded
+geonames_PK,Pīr Abdullāh Shāh Ziārat,Pir Abdullah Shah Ziarat,diacritics-folded
+geonames_PK,Jandrān,Jandran,diacritics-folded
+geonames_PK,Dhok Dabriwāli,Dhok Dabriwali,diacritics-folded
+geonames_PK,Murād Khān,Murad Khan,diacritics-folded
+geonames_PK,Garah Mūsa Khān,Garah Musa Khan,diacritics-folded
+geonames_PK,Marāo,Marao,diacritics-folded
+geonames_PK,Mashiān,Mashian,diacritics-folded
+geonames_PK,Goth Nihā Khān,Goth Niha Khan,diacritics-folded
+geonames_PK,Sumār Shāh,Sumar Shah,diacritics-folded
+geonames_PK,Alāno,Alano,diacritics-folded
+geonames_PK,Nazar Shāh,Nazar Shah,diacritics-folded
+geonames_PK,Azīm Bānda,Azim Banda,diacritics-folded
+geonames_PK,Dāoke,Daoke,diacritics-folded
+geonames_PK,Kot Mirāli Uttār,Kot Mirali Uttar,diacritics-folded
+geonames_PK,Garah Mehrbān,Garah Mehrban,diacritics-folded
+geonames_PK,Taragar wāla,Taragar wala,diacritics-folded
+geonames_PK,Quraishīwāla,Quraishiwala,diacritics-folded
+geonames_PK,Pāhrewāli,Pahrewali,diacritics-folded
+geonames_PK,Māchhīwāla,Machhiwala,diacritics-folded
+geonames_PK,Bismiilāhpur,Bismiilahpur,diacritics-folded
+geonames_PK,Āqilpur,Aqilpur,diacritics-folded
+geonames_PK,Basti Māchhiān,Basti Machhian,diacritics-folded
+geonames_PK,Basti Golanwāli,Basti Golanwali,diacritics-folded
+geonames_PK,Garhi Ikhtiār Khān,Garhi Ikhtiar Khan,diacritics-folded
+geonames_PK,Basti Ātma Singh,Basti Atma Singh,diacritics-folded
+geonames_PK,Ditta Sandilāwāla,Ditta Sandilawala,diacritics-folded
+geonames_PK,Amīrpur Sarbāna,Amirpur Sarbana,diacritics-folded
+geonames_PK,Jūta,Juta,diacritics-folded
+geonames_PK,Sāhl Chāwān,Sahl Chawan,diacritics-folded
+geonames_PK,Kotla Mutribān,Kotla Mutriban,diacritics-folded
+geonames_PK,Ghāzi Khān,Ghazi Khan,diacritics-folded
+geonames_PK,Ghuläm Ali Chawar,Ghulam Ali Chawar,diacritics-folded
+geonames_PK,Phati Bilāwal,Phati Bilawal,diacritics-folded
+geonames_PK,Jalāb Jatoi,Jalab Jatoi,diacritics-folded
+geonames_PK,Goth Waddādāni,Goth Waddadani,diacritics-folded
+geonames_PK,Goth Māli Shāh,Goth Mali Shah,diacritics-folded
+geonames_PK,Goth Pīr Muhammad Ghaus,Goth Pir Muhammad Ghaus,diacritics-folded
+geonames_PK,Goth Sachu Sānd,Goth Sachu Sand,diacritics-folded
+geonames_PK,Goth Bakhsh Balādi,Goth Bakhsh Baladi,diacritics-folded
+geonames_PK,Ziārat,Ziarat,diacritics-folded
+geonames_PK,Dra Khān jo Goth,Dra Khan jo Goth,diacritics-folded
+geonames_PK,Jamesābād,Jamesabad,diacritics-folded
+geonames_PK,Dingān Bhurgari,Dingan Bhurgari,diacritics-folded
+geonames_PK,Shekhānwāla,Shekhanwala,diacritics-folded
+geonames_PK,Inzargāt,Inzargat,diacritics-folded
+geonames_PK,Bāli,Bali,diacritics-folded
+geonames_PK,Jānan Chāp,Janan Chap,diacritics-folded
+geonames_PK,Gachewāla,Gachewala,diacritics-folded
+geonames_PK,Chāh Hotnīwāla,Chah Hotniwala,diacritics-folded
+geonames_PK,Golewāla,Golewala,diacritics-folded
+geonames_PK,Chak Mahata Khānsar,Chak Mahata Khansar,diacritics-folded
+geonames_PK,Chak Mahuta Khānsar,Chak Mahuta Khansar,diacritics-folded
+geonames_PK,Naurangwāla,Naurangwala,diacritics-folded
+geonames_PK,Naurangwāla,Naurangwala,diacritics-folded
+geonames_PK,Juthiānwāla,Juthianwala,diacritics-folded
+geonames_PK,Ahmadwāla,Ahmadwala,diacritics-folded
+geonames_PK,Ahmad Bakhshwāla,Ahmad Bakhshwala,diacritics-folded
+geonames_PK,Khandowāla,Khandowala,diacritics-folded
+geonames_PK,Jānewāla,Janewala,diacritics-folded
+geonames_PK,Shāhwāla,Shahwala,diacritics-folded
+geonames_PK,Bandūwāla,Banduwala,diacritics-folded
+geonames_PK,Nawān Ahmadwāla,Nawan Ahmadwala,diacritics-folded
+geonames_PK,Shāhwāla,Shahwala,diacritics-folded
+geonames_PK,Sāhewāla,Sahewala,diacritics-folded
+geonames_PK,Pakkawāla,Pakkawala,diacritics-folded
+geonames_PK,Nawān Melo,Nawan Melo,diacritics-folded
+geonames_PK,Karārwāla,Kararwala,diacritics-folded
+geonames_PK,Bhānewāla,Bhanewala,diacritics-folded
+geonames_PK,Pīpalwāla,Pipalwala,diacritics-folded
+geonames_PK,Tāju Laghāri,Taju Laghari,diacritics-folded
+geonames_PK,Mīr Bakhsh Brohi,Mir Bakhsh Brohi,diacritics-folded
+geonames_PK,Purano Thāre,Purano Thare,diacritics-folded
+geonames_PK,Māhi Wagan,Mahi Wagan,diacritics-folded
+geonames_PK,Rāwal Māchhi,Rawal Machhi,diacritics-folded
+geonames_PK,Miān Nūr Muhammad,Mian Nur Muhammad,diacritics-folded
+geonames_PK,Hāji Ismāīl,Haji Ismail,diacritics-folded
+geonames_PK,Murīd Bakhsh Dāhri,Murid Bakhsh Dahri,diacritics-folded
+geonames_PK,Chāndio,Chandio,diacritics-folded
+geonames_PK,Goth Bakhshan Lashāri,Goth Bakhshan Lashari,diacritics-folded
+geonames_PK,Muhammad Khān Rāho,Muhammad Khan Raho,diacritics-folded
+geonames_PK,Rate Dandwāli,Rate Dandwali,diacritics-folded
+geonames_PK,Thikrāl,Thikral,diacritics-folded
+geonames_PK,"Gahora, Awan Pur",Gahora,comma-qualifier-stripped
+geonames_PK,Pind Azīz,Pind Aziz,diacritics-folded
+geonames_PK,Sindhāriān,Sindharian,diacritics-folded
+geonames_PK,Pindi Bajūāh,Pindi Bajuah,diacritics-folded
+geonames_PK,Māchhiāna,Machhiana,diacritics-folded
+geonames_PK,Basti Mir Bharwāna,Basti Mir Bharwana,diacritics-folded
+geonames_PK,Chāh Lālwāla,Chah Lalwala,diacritics-folded
+geonames_PK,Khānoāna,Khanoana,diacritics-folded
+geonames_PK,Jhok Sāhowāli,Jhok Sahowali,diacritics-folded
+geonames_PK,Sāhowāla,Sahowala,diacritics-folded
+geonames_PK,Bambai Nawān,Bambai Nawan,diacritics-folded
+geonames_PK,Usmān Dhuddi,Usman Dhuddi,diacritics-folded
+geonames_PK,Kūz Katan,Kuz Katan,diacritics-folded
+geonames_PK,Goth Imām Bakhsh,Goth Imam Bakhsh,diacritics-folded
+geonames_PK,Kili Jamāldini,Kili Jamaldini,diacritics-folded
+geonames_PK,Yazmān Mandi,Yazman Mandi,diacritics-folded
+geonames_PK,Deh Two Hundred Seventy-four (e),Deh Two Hundred Seventy-four,stripped-parenthetical
+geonames_PK,Deh Two Hundred Sixty-seven (c),Deh Two Hundred Sixty-seven,stripped-parenthetical
+geonames_PK,Phangāria,Phangaria,diacritics-folded
+geonames_PK,Tīr,Tir,diacritics-folded
+geonames_PK,Sar Bānda,Sar Banda,diacritics-folded
+geonames_PK,Shnai Bānda,Shnai Banda,diacritics-folded
+geonames_PK,Kharāwai,Kharawai,diacritics-folded
+geonames_PK,Rānāsar,Ranasar,diacritics-folded
+geonames_PK,Zāra Churrai,Zara Churrai,diacritics-folded
+geonames_PK,Bāshkal,Bashkal,diacritics-folded
+geonames_PK,Nīnd,Nind,diacritics-folded
+geonames_PK,Ghamsīr,Ghamsir,diacritics-folded
+geonames_PK,Kāshora,Kashora,diacritics-folded
+geonames_PK,Sinjāllai,Sinjallai,diacritics-folded
+geonames_PK,Chhanniāna,Chhanniana,diacritics-folded
+geonames_PK,Māna Gondal,Mana Gondal,diacritics-folded
+geonames_PK,Dhali Rānjha,Dhali Ranjha,diacritics-folded
+geonames_PK,Ahmad Ali Miān,Ahmad Ali Mian,diacritics-folded
+geonames_PK,Bukkhuwāla,Bukkhuwala,diacritics-folded
+geonames_PK,Hasanābād,Hasanabad,diacritics-folded
+geonames_PK,Lāla Mūsa,Lala Musa,diacritics-folded
+geonames_PK,Kākeāli,Kakeali,diacritics-folded
+geonames_PK,Pīr Muhammad,Pir Muhammad,diacritics-folded
+geonames_PK,Sher Girwān,Sher Girwan,diacritics-folded
+geonames_PK,Munshiwāla,Munshiwala,diacritics-folded
+geonames_PK,Goth Khair Muhammad Laghāri,Goth Khair Muhammad Laghari,diacritics-folded
+geonames_PK,Goth Nūr Muhammad Muhājir,Goth Nur Muhammad Muhajir,diacritics-folded
+geonames_PK,Goth Saiyid Matāra Shāh,Goth Saiyid Matara Shah,diacritics-folded
+geonames_PK,Thatta Warbiān,Thatta Warbian,diacritics-folded
+geonames_PK,Torewāla Khu,Torewala Khu,diacritics-folded
+geonames_PK,Chakliār,Chakliar,diacritics-folded
+geonames_PK,Bahadur Khan Khóso,Bahadur Khan Khoso,diacritics-folded
+geonames_PK,Pīr Bakhsh Farm,Pir Bakhsh Farm,diacritics-folded
+geonames_PK,Hamīrābah,Hamirabah,diacritics-folded
+geonames_PK,Kāmdala,Kamdala,diacritics-folded
+geonames_PK,Kotāranrai,Kotaranrai,diacritics-folded
+geonames_PK,Mīr Dai,Mir Dai,diacritics-folded
+geonames_PK,Tabībāno Dheri,Tabibano Dheri,diacritics-folded
+geonames_PK,Bāqar Karūna,Baqar Karuna,diacritics-folded
+geonames_PK,Sāsīdu Dheri,Sasidu Dheri,diacritics-folded
+geonames_PK,Khāmcha Dheri,Khamcha Dheri,diacritics-folded
+geonames_PK,Amīri Kili,Amiri Kili,diacritics-folded
+geonames_PK,Gohāti,Gohati,diacritics-folded
+geonames_PK,Mīr Shāh Dheri,Mir Shah Dheri,diacritics-folded
+geonames_PK,Aūr Sadri,Aur Sadri,diacritics-folded
+geonames_PK,Sahdat Khān Kili,Sahdat Khan Kili,diacritics-folded
+geonames_PK,Khāna Dheri,Khana Dheri,diacritics-folded
+geonames_PK,Bāj Dheri,Baj Dheri,diacritics-folded
+geonames_PK,Kānezai Dheri,Kanezai Dheri,diacritics-folded
+geonames_PK,Pīr Khān,Pir Khan,diacritics-folded
+geonames_PK,Bāhri Dheri,Bahri Dheri,diacritics-folded
+geonames_PK,Akhūn Dheri,Akhun Dheri,diacritics-folded
+geonames_PK,Kāfirkot,Kafirkot,diacritics-folded
+geonames_PK,Salān Dheri,Salan Dheri,diacritics-folded
+geonames_PK,Nandār Dheri,Nandar Dheri,diacritics-folded
+geonames_PK,Ibrāhīm Khān Bānda,Ibrahim Khan Banda,diacritics-folded
+geonames_PK,Rattap̄r Deri,Rattapr Deri,diacritics-folded
+geonames_PK,Chaksawāri,Chaksawari,diacritics-folded
+geonames_PK,Chhināwān,Chhinawan,diacritics-folded
+geonames_PK,Hardo Sahāran,Hardo Saharan,diacritics-folded
+geonames_PK,Pind Rasūl,Pind Rasul,diacritics-folded
+geonames_PK,Bundāniān,Bundanian,diacritics-folded
+geonames_PK,Lukkonwāliān di Bastī,Lukkonwalian di Basti,diacritics-folded
+geonames_PK,Wān Dilāwar,Wan Dilawar,diacritics-folded
+geonames_PK,Purāna,Purana,diacritics-folded
+geonames_PK,Gopi Rāi,Gopi Rai,diacritics-folded
+geonames_PK,Desūwāla,Desuwala,diacritics-folded
+geonames_PK,Kot Sardār Kāhan Singh,Kot Sardar Kahan Singh,diacritics-folded
+geonames_PK,Hākūwāla,Hakuwala,diacritics-folded
+geonames_PK,Bhagiāna Khurd,Bhagiana Khurd,diacritics-folded
+geonames_PK,Atāri Bhūp Singh,Atari Bhup Singh,diacritics-folded
+geonames_PK,Miānwāla,Mianwala,diacritics-folded
+geonames_PK,Gulzar Jāgīr,Gulzar Jagir,diacritics-folded
+geonames_PK,Āloke,Aloke,diacritics-folded
+geonames_PK,Jāmke,Jamke,diacritics-folded
+geonames_PK,Hākim Singhwāla,Hakim Singhwala,diacritics-folded
+geonames_PK,Siāl,Sial,diacritics-folded
+geonames_PK,Malowāni Khurd,Malowani Khurd,diacritics-folded
+geonames_PK,Phulkewāla,Phulkewala,diacritics-folded
+geonames_PK,Jhok Burhān,Jhok Burhan,diacritics-folded
+geonames_PK,Hariāl Gharbi,Harial Gharbi,diacritics-folded
+geonames_PK,Bandāla Kalān,Bandala Kalan,diacritics-folded
+geonames_PK,Rawāwāla,Rawawala,diacritics-folded
+geonames_PK,Nāsāpai,Nasapai,diacritics-folded
+geonames_PK,Būra,Bura,diacritics-folded
+geonames_PK,Sardān,Sardan,diacritics-folded
+geonames_PK,Sardān,Sardan,diacritics-folded
+geonames_PK,Qādar Chana,Qadar Chana,diacritics-folded
+geonames_PK,Mīmi,Mimi,diacritics-folded
+geonames_PK,Pīrodai,Pirodai,diacritics-folded
+geonames_PK,Jalāla,Jalala,diacritics-folded
+geonames_PK,Tāngo,Tango,diacritics-folded
+geonames_PK,Maliār,Maliar,diacritics-folded
+geonames_PK,Ziārat,Ziarat,diacritics-folded
+geonames_PK,Awārai,Awarai,diacritics-folded
+geonames_PK,Kāla,Kala,diacritics-folded
+geonames_PK,Ghwai Bānda,Ghwai Banda,diacritics-folded
+geonames_PK,Kohistāni Bānda,Kohistani Banda,diacritics-folded
+geonames_PK,Pānai,Panai,diacritics-folded
+geonames_PK,Pāgaldām,Pagaldam,diacritics-folded
+geonames_PK,Kapo Bānda,Kapo Banda,diacritics-folded
+geonames_PK,Nātai,Natai,diacritics-folded
+geonames_PK,Lāl Bela,Lal Bela,diacritics-folded
+geonames_PK,Āghuz,Aghuz,diacritics-folded
+geonames_PK,Shalādar,Shaladar,diacritics-folded
+geonames_PK,Gārai,Garai,diacritics-folded
+geonames_PK,Shāi,Shai,diacritics-folded
+geonames_PK,Kār Bānda,Kar Banda,diacritics-folded
+geonames_PK,Bījai,Bijai,diacritics-folded
+geonames_PK,Ghafarbān,Ghafarban,diacritics-folded
+geonames_PK,Sar Bānda,Sar Banda,diacritics-folded
+geonames_PK,Shār Bānda,Shar Banda,diacritics-folded
+geonames_PK,Ghūzāno Bānda,Ghuzano Banda,diacritics-folded
+geonames_PK,Bārai,Barai,diacritics-folded
+geonames_PK,Kīt,Kit,diacritics-folded
+geonames_PK,Iīra,Iira,diacritics-folded
+geonames_PK,Bahniūm,Bahnium,diacritics-folded
+geonames_PK,Kārandūkai,Karandukai,diacritics-folded
+geonames_PK,Dīwānwāla,Diwanwala,diacritics-folded
+geonames_PK,Chānīwāla,Chaniwala,diacritics-folded
+geonames_PK,Malānewāla,Malanewala,diacritics-folded
+geonames_PK,Nambarwāla,Nambarwala,diacritics-folded
+geonames_PK,Lohārwāla,Loharwala,diacritics-folded
+geonames_PK,Basti Ārif,Basti Arif,diacritics-folded
+geonames_PK,Sobhewāl,Sobhewal,diacritics-folded
+geonames_PK,Mullānwāla,Mullanwala,diacritics-folded
+geonames_PK,Melwāla,Melwala,diacritics-folded
+geonames_PK,Nāi,Nai,diacritics-folded
+geonames_PK,Kalandar Khān,Kalandar Khan,diacritics-folded
+geonames_PK,Dalor Viāla,Dalor Viala,diacritics-folded
+geonames_PK,Āndal Malik,Andal Malik,diacritics-folded
+geonames_PK,Abdul Karīm,Abdul Karim,diacritics-folded
+geonames_PK,Goth Aliābād,Goth Aliabad,diacritics-folded
+geonames_PK,Jān Muhammad,Jan Muhammad,diacritics-folded
+geonames_PK,Murād Ali,Murad Ali,diacritics-folded
+geonames_PK,Gadāp,Gadap,diacritics-folded
+geonames_PK,Kārchhāp,Karchhap,diacritics-folded
+geonames_PK,Jamāl Kalhora,Jamal Kalhora,diacritics-folded
+geonames_PK,Basti Rendān,Basti Rendan,diacritics-folded
+geonames_PK,Kotu Māl,Kotu Mal,diacritics-folded
+geonames_PK,Malkān,Malkan,diacritics-folded
+geonames_PK,Kaleriwāla,Kaleriwala,diacritics-folded
+geonames_PK,Bakainwāla,Bakainwala,diacritics-folded
+geonames_PK,Gudarewāla,Gudarewala,diacritics-folded
+geonames_PK,Masuwāla,Masuwala,diacritics-folded
+geonames_PK,Goth Basīro,Goth Basiro,diacritics-folded
+geonames_PK,Shāh Mīr,Shah Mir,diacritics-folded
+geonames_PK,Jām Sāhib,Jam Sahib,diacritics-folded
+geonames_PK,Rāhwāli Bangla,Rahwali Bangla,diacritics-folded
+geonames_PK,Goth Qabūl Shāh,Goth Qabul Shah,diacritics-folded
+geonames_PK,Miānānwāla,Miananwala,diacritics-folded
+geonames_PK,Sherwāla,Sherwala,diacritics-folded
+geonames_PK,Shāhniwāzwāla,Shahniwazwala,diacritics-folded
+geonames_PK,Natālānwāla,Natalanwala,diacritics-folded
+geonames_PK,Zarīf Khelānwāla,Zarif Khelanwala,diacritics-folded
+geonames_PK,Mehr Khān Jahāngirwāla,Mehr Khan Jahangirwala,diacritics-folded
+geonames_PK,Sultanwāla,Sultanwala,diacritics-folded
+geonames_PK,Bhacharwāla,Bhacharwala,diacritics-folded
+geonames_PK,Bhattiānwāla,Bhattianwala,diacritics-folded
+geonames_PK,Mehr Khānwāla,Mehr Khanwala,diacritics-folded
+geonames_PK,Shāhniwāzwāla,Shahniwazwala,diacritics-folded
+geonames_PK,Kumārānwāli,Kumaranwali,diacritics-folded
+geonames_PK,Kotsatābo,Kotsatabo,diacritics-folded
+geonames_PK,Archīna,Archina,diacritics-folded
+geonames_PK,Jāl,Jal,diacritics-folded
+geonames_PK,Ashraf Khānwāla,Ashraf Khanwala,diacritics-folded
+geonames_PK,Kakrāwāla,Kakrawala,diacritics-folded
+geonames_PK,Bhattiwāla,Bhattiwala,diacritics-folded
+geonames_PK,Haleliwāla,Haleliwala,diacritics-folded
+geonames_PK,Nūrwāla,Nurwala,diacritics-folded
+geonames_PK,Burrewāla,Burrewala,diacritics-folded
+geonames_PK,Basti Pachār,Basti Pachar,diacritics-folded
+geonames_PK,Basti Somrāh,Basti Somrah,diacritics-folded
+geonames_PK,Basti Jaskāni,Basti Jaskani,diacritics-folded
+geonames_PK,Gurmāniwāla,Gurmaniwala,diacritics-folded
+geonames_PK,Basti Chandiawāla,Basti Chandiawala,diacritics-folded
+geonames_PK,Dur Muhammad Khānwāla,Dur Muhammad Khanwala,diacritics-folded
+geonames_PK,Shoranwāla,Shoranwala,diacritics-folded
+geonames_PK,Sukhewāla,Sukhewala,diacritics-folded
+geonames_PK,Chirāghwāla,Chiraghwala,diacritics-folded
+geonames_PK,Shakruwāla,Shakruwala,diacritics-folded
+geonames_PK,Piroāna Janūbi,Piroana Janubi,diacritics-folded
+geonames_PK,Kamar Shāh,Kamar Shah,diacritics-folded
+geonames_PK,Mansūr Dab,Mansur Dab,diacritics-folded
+geonames_PK,Khāwand Bakhsh,Khawand Bakhsh,diacritics-folded
+geonames_PK,Ārah,Arah,diacritics-folded
+geonames_PK,Sultāb Abro,Sultab Abro,diacritics-folded
+geonames_PK,Marnāt,Marnat,diacritics-folded
+geonames_PK,Kālu Arāīnwāla,Kalu Arainwala,diacritics-folded
+geonames_PK,Alāwalwāla,Alawalwala,diacritics-folded
+geonames_PK,Chāhāt Hodah,Chahat Hodah,diacritics-folded
+geonames_PK,’Ali Mian,Ali Mian,punctuation-unicode
+geonames_PK,Kaniāl,Kanial,diacritics-folded
+geonames_PK,Dhok Rajyān,Dhok Rajyan,diacritics-folded
+geonames_PK,Leri Hajjiāl,Leri Hajjial,diacritics-folded
+geonames_PK,Upāna Khurd,Upana Khurd,diacritics-folded
+geonames_PK,Mīr Khān Mahmūnka,Mir Khan Mahmunka,diacritics-folded
+geonames_PK,Ādu,Adu,diacritics-folded
+geonames_PK,Nūr Muhammad,Nur Muhammad,diacritics-folded
+geonames_PK,Bābiānwāla,Babianwala,diacritics-folded
+geonames_PK,Plot Islāmpur,Plot Islampur,diacritics-folded
+geonames_PK,Thākar Singhwāla,Thakar Singhwala,diacritics-folded
+geonames_PK,Rattiān Tibbiān,Rattian Tibbian,diacritics-folded
+geonames_PK,Salihowāl,Salihowal,diacritics-folded
+geonames_PK,Tawakkal Rahmūnke,Tawakkal Rahmunke,diacritics-folded
+geonames_PK,Nūr Shāh,Nur Shah,diacritics-folded
+geonames_PK,Saddha Hithār,Saddha Hithar,diacritics-folded
+geonames_PK,Roriwāla,Roriwala,diacritics-folded
+geonames_PK,Kītan Khurd,Kitan Khurd,diacritics-folded
+geonames_PK,Chak Murād Mamand,Chak Murad Mamand,diacritics-folded
+geonames_PK,Chāh Ilāhi Shāh,Chah Ilahi Shah,diacritics-folded
+geonames_PK,Jandowāl Khurd,Jandowal Khurd,diacritics-folded
+geonames_PK,Kānwani Kalān,Kanwani Kalan,diacritics-folded
+geonames_PK,Berwāla,Berwala,diacritics-folded
+geonames_PK,Lāliānwāla,Lalianwala,diacritics-folded
+geonames_PK,Abbāsnagar,Abbasnagar,diacritics-folded
+geonames_PK,One R/Two R Kirānj Minor,One R/Two R Kiranj Minor,diacritics-folded
+geonames_PK,Jarwār,Jarwar,diacritics-folded
+geonames_PK,Miān Dāna,Mian Dana,diacritics-folded
+geonames_PK,Dāk Stage,Dak Stage,diacritics-folded
+geonames_PK,Qalandarābād,Qalandarabad,diacritics-folded
+geonames_PK,Sher Khān,Sher Khan,diacritics-folded
+geonames_PK,Jhok Mahmūd Khān,Jhok Mahmud Khan,diacritics-folded
+geonames_PK,Dhondlawāli Jhok,Dhondlawali Jhok,diacritics-folded
+geonames_PK,Ubhecharwāli Jhok,Ubhecharwali Jhok,diacritics-folded
+geonames_PK,Khoīwāla,Khoiwala,diacritics-folded
+geonames_PK,Maulvi Hāmidwāla,Maulvi Hamidwala,diacritics-folded
+geonames_PK,Kālibīr,Kalibir,diacritics-folded
+geonames_PK,Thatta Kālu Nahra,Thatta Kalu Nahra,diacritics-folded
+geonames_PK,Dāra,Dara,diacritics-folded
+geonames_PK,Lateef Nagar (Moza Dharanga Thakkara),Lateef Nagar,stripped-parenthetical
+geonames_PK,Karāpe Bānda,Karape Banda,diacritics-folded
+geonames_PK,Bānda,Banda,diacritics-folded
+geonames_PK,Topiāla,Topiala,diacritics-folded
+geonames_PK,Pitao Bānda,Pitao Banda,diacritics-folded
+geonames_PK,Bar Amrāi,Bar Amrai,diacritics-folded
+geonames_PK,Bārorai,Barorai,diacritics-folded
+geonames_PK,Bābu Kalal,Babu Kalal,diacritics-folded
+geonames_PK,Mākad,Makad,diacritics-folded
+geonames_PK,Tor Tūt,Tor Tut,diacritics-folded
+geonames_PK,Khwārpalai,Khwarpalai,diacritics-folded
+geonames_PK,Bar Manāsar,Bar Manasar,diacritics-folded
+geonames_PK,Shārat,Sharat,diacritics-folded
+geonames_PK,Gur Bānda,Gur Banda,diacritics-folded
+geonames_PK,Māl Sar Bānda,Mal Sar Banda,diacritics-folded
+geonames_PK,Ashro Sar Bānda,Ashro Sar Banda,diacritics-folded
+geonames_PK,Kuz Gāsar,Kuz Gasar,diacritics-folded
+geonames_PK,Bar Gāosar,Bar Gaosar,diacritics-folded
+geonames_PK,Gadāram,Gadaram,diacritics-folded
+geonames_PK,Mārgat,Margat,diacritics-folded
+geonames_PK,Lāngbār,Langbar,diacritics-folded
+geonames_PK,Rangewāla,Rangewala,diacritics-folded
+geonames_PK,Ganja Kalān,Ganja Kalan,diacritics-folded
+geonames_PK,Ganja Kalān,Ganja Kalan,diacritics-folded
+geonames_PK,Janjal Saīdan,Janjal Saidan,diacritics-folded
+geonames_PK,Hamūwāla,Hamuwala,diacritics-folded
+geonames_PK,Taliwāla,Taliwala,diacritics-folded
+geonames_PK,Malkānawāla,Malkanawala,diacritics-folded
+geonames_PK,Nāīwāla,Naiwala,diacritics-folded
+geonames_PK,Chotawāla,Chotawala,diacritics-folded
+geonames_PK,Miāngān Kili,Miangan Kili,diacritics-folded
+geonames_PK,Faqīrābād,Faqirabad,diacritics-folded
+geonames_PK,karki,Karki,recased
+geonames_PK,Kūz Maidan Kili,Kuz Maidan Kili,diacritics-folded
+geonames_PK,Kili Gul Bārān,Kili Gul Baran,diacritics-folded
+geonames_PK,Gulzār,Gulzar,diacritics-folded
+geonames_PK,Māsūm Khān Kili,Masum Khan Kili,diacritics-folded
+geonames_PK,Marā’ī,Mara'i,punctuation-unicode;diacritics-folded
+geonames_PK,Muhallah Munawwar Bādshāh,Muhallah Munawwar Badshah,diacritics-folded
+geonames_PK,Gharībābād,Gharibabad,diacritics-folded
+geonames_PK,Chand Rāi,Chand Rai,diacritics-folded
+geonames_PK,Bāgriān Dharam Chand,Bagrian Dharam Chand,diacritics-folded
+geonames_PK,Ishāq,Ishaq,diacritics-folded
+geonames_PK,Bānda Inzarwāla,Banda Inzarwala,diacritics-folded
+geonames_PK,Bānda Sabugai,Banda Sabugai,diacritics-folded
+geonames_PK,Shīkārpur,Shikarpur,diacritics-folded
+geonames_PK,Khanitāk,Khanitak,diacritics-folded
+geonames_PK,Kashmīri Mahalia,Kashmiri Mahalia,diacritics-folded
+geonames_PK,Cherāh,Cherah,diacritics-folded
+geonames_PK,Gullu Khāndagh Sar,Gullu Khandagh Sar,diacritics-folded
+geonames_PK,Goth Jahāngir,Goth Jahangir,diacritics-folded
+geonames_PK,Goth Allāh Bakhsh,Goth Allah Bakhsh,diacritics-folded
+geonames_PK,Dhok Tajāl,Dhok Tajal,diacritics-folded
+geonames_PK,Goth Sumarāni,Goth Sumarani,diacritics-folded
+geonames_PK,Dhok Kharmār,Dhok Kharmar,diacritics-folded
+geonames_PK,Mūsa Ashābi,Musa Ashabi,diacritics-folded
+geonames_PK,Tando Yūsuf,Tando Yusuf,diacritics-folded
+geonames_PK,Goth Hāji Jāmshoro,Goth Haji Jamshoro,diacritics-folded
+geonames_PK,Goth Gāngpārā,Goth Gangpara,diacritics-folded
+geonames_PK,Chak Jamāl,Chak Jamal,diacritics-folded
+geonames_PK,Jamalwāli,Jamalwali,diacritics-folded
+geonames_PK,Jalālpur,Jalalpur,diacritics-folded
+geonames_PK,Khui GurāYa,Khui GuraYa,diacritics-folded
+geonames_PK,Pathānān,Pathanan,diacritics-folded
+geonames_PK,Mansuri Bānda,Mansuri Banda,diacritics-folded
+geonames_PK,Basti Bhah(East),Basti Bhah,stripped-parenthetical
+geonames_PK,Bagwāni,Bagwani,diacritics-folded
+geonames_PK,Chāndiāwāla,Chandiawala,diacritics-folded
+geonames_PK,Bhatewāla,Bhatewala,diacritics-folded
+geonames_PK,Chanchalwāla,Chanchalwala,diacritics-folded
+geonames_PK,Basti Pirānwāli,Basti Piranwali,diacritics-folded
+geonames_PK,Goth Hāji Kanbho Baati,Goth Haji Kanbho Baati,diacritics-folded
+geonames_PK,Mannu Māchi,Mannu Machi,diacritics-folded
+geonames_PK,Goth Khālid Ibrāhīm,Goth Khalid Ibrahim,diacritics-folded
+geonames_PK,Goth Ali Shāh,Goth Ali Shah,diacritics-folded
+geonames_PK,Faqīrwāla,Faqirwala,diacritics-folded
+geonames_PK,Chak Miāra,Chak Miara,diacritics-folded
+geonames_PK,Jhamtānwāla,Jhamtanwala,diacritics-folded
+geonames_PK,Gawewāla,Gawewala,diacritics-folded
+geonames_PK,Garānwāla,Garanwala,diacritics-folded
+geonames_PK,Saidānwāli Shamāli,Saidanwali Shamali,diacritics-folded
+geonames_PK,Hayāt Muhammadwāla,Hayat Muhammadwala,diacritics-folded
+geonames_PK,Murādiānwāla,Muradianwala,diacritics-folded
+geonames_PK,Sohhewāla,Sohhewala,diacritics-folded
+geonames_PK,Chādewāla,Chadewala,diacritics-folded
+geonames_PK,Dādwāla,Dadwala,diacritics-folded
+geonames_PK,Masūwāla,Masuwala,diacritics-folded
+geonames_PK,Khatakwāla,Khatakwala,diacritics-folded
+geonames_PK,Basti Mithu Khān,Basti Mithu Khan,diacritics-folded
+geonames_PK,Manzūrābād,Manzurabad,diacritics-folded
+geonames_PK,Bahādurpur,Bahadurpur,diacritics-folded
+geonames_PK,Qāziwāla Khu,Qaziwala Khu,diacritics-folded
+geonames_PK,Mīranwāla Khu,Miranwala Khu,diacritics-folded
+geonames_PK,Mad Jāno,Mad Jano,diacritics-folded
+geonames_PK,Basti Dhora Ahmad Khānwāla,Basti Dhora Ahmad Khanwala,diacritics-folded
+geonames_PK,Wājawāla,Wajawala,diacritics-folded
+geonames_PK,Thāthalwāla Khu,Thathalwala Khu,diacritics-folded
+geonames_PK,Kliānewāla,Klianewala,diacritics-folded
+geonames_PK,Basti Ghulām Hussain Dādpotro,Basti Ghulam Hussain Dadpotro,diacritics-folded
+geonames_PK,Basti Malve Khān,Basti Malve Khan,diacritics-folded
+geonames_PK,Basti Bakhsha Māchhi,Basti Bakhsha Machhi,diacritics-folded
+geonames_PK,Basti Kirāri,Basti Kirari,diacritics-folded
+geonames_PK,Qāsimābād,Qasimabad,diacritics-folded
+geonames_PK,Chāh Samīwāla,Chah Samiwala,diacritics-folded
+geonames_PK,Jāggewāla,Jaggewala,diacritics-folded
+geonames_PK,Khāiwāla,Khaiwala,diacritics-folded
+geonames_PK,Qabūlanwāla,Qabulanwala,diacritics-folded
+geonames_PK,Gopāganka,Gopaganka,diacritics-folded
+geonames_PK,Machhiwāla,Machhiwala,diacritics-folded
+geonames_PK,Basti Muhammad Bashīr,Basti Muhammad Bashir,diacritics-folded
+geonames_PK,Shoriwāla,Shoriwala,diacritics-folded
+geonames_PK,Jahāngīrābād,Jahangirabad,diacritics-folded
+geonames_PK,Ali Muhammad Pitāfi,Ali Muhammad Pitafi,diacritics-folded
+geonames_PK,Basti Shāwāl,Basti Shawal,diacritics-folded
+geonames_PK,Jhungawāla,Jhungawala,diacritics-folded
+geonames_PK,Thatta Jāhād Amiranwāla,Thatta Jahad Amiranwala,diacritics-folded
+geonames_PK,Lālkot,Lalkot,diacritics-folded
+geonames_PK,Watiānwāla Kuna,Watianwala Kuna,diacritics-folded
+geonames_PK,Kiliwāla,Kiliwala,diacritics-folded
+geonames_PK,Jamālwāla Kot,Jamalwala Kot,diacritics-folded
+geonames_PK,Sultānewāla,Sultanewala,diacritics-folded
+geonames_PK,Daifiwāli,Daifiwali,diacritics-folded
+geonames_PK,Pathānwāla,Pathanwala,diacritics-folded
+geonames_PK,Nabuwāla,Nabuwala,diacritics-folded
+geonames_PK,Mad Lāl Khān,Mad Lal Khan,diacritics-folded
+geonames_PK,Basti Mochiān,Basti Mochian,diacritics-folded
+geonames_PK,Nawān Chak,Nawan Chak,diacritics-folded
+geonames_PK,Sameywāla,Sameywala,diacritics-folded
+geonames_PK,Goth Qāsim,Goth Qasim,diacritics-folded
+geonames_PK,Tobewāla Azām Khān Gopāng,Tobewala Azam Khan Gopang,diacritics-folded
+geonames_PK,Mod Gasūra,Mod Gasura,diacritics-folded
+geonames_PK,Dillūwāla,Dilluwala,diacritics-folded
+geonames_PK,Basti Jām Ramzān Mochi,Basti Jam Ramzan Mochi,diacritics-folded
+geonames_PK,Basti Manzūrābād,Basti Manzurabad,diacritics-folded
+geonames_PK,Awānwāla Tubewell,Awanwala Tubewell,diacritics-folded
+geonames_PK,Basti Dādpotre,Basti Dadpotre,diacritics-folded
+geonames_PK,Basti Pīr Musāfar,Basti Pir Musafar,diacritics-folded
+geonames_PK,Chāh Muhammad Hussainwāla,Chah Muhammad Hussainwala,diacritics-folded
+geonames_PK,Mūsāwāla Khu,Musawala Khu,diacritics-folded
+geonames_PK,Basti Bhattiān,Basti Bhattian,diacritics-folded
+geonames_PK,Khair Ābād,Khair Abad,diacritics-folded
+geonames_PK,Goth Jām,Goth Jam,diacritics-folded
+geonames_PK,Qāim Sarki,Qaim Sarki,diacritics-folded
+geonames_PK,Basti Janghi Khān Gopāng,Basti Janghi Khan Gopang,diacritics-folded
+geonames_PK,Basti Hāji Faqir Bakhsh Mahr,Basti Haji Faqir Bakhsh Mahr,diacritics-folded
+geonames_PK,Basti Jām Ahmad Chowhan,Basti Jam Ahmad Chowhan,diacritics-folded
+geonames_PK,Shahīdābād,Shahidabad,diacritics-folded
+geonames_PK,Basti Chāndia,Basti Chandia,diacritics-folded
+geonames_PK,Adbul Qādir Dāhri,Adbul Qadir Dahri,diacritics-folded
+geonames_PK,Sacha Mohān,Sacha Mohan,diacritics-folded
+geonames_PK,Miro Sandrāni Goth,Miro Sandrani Goth,diacritics-folded
+geonames_PK,Goth Bazid Pūr,Goth Bazid Pur,diacritics-folded
+geonames_PK,Goth Mumal Chāhi,Goth Mumal Chahi,diacritics-folded
+geonames_PK,Muhammad Sharif Sindh Pakistan,Muhammad Sharif Sindh,stripped-trailing-country
+geonames_PK,Goth Hūsain Pato,Goth Husain Pato,diacritics-folded
+geonames_PK,Goth Hāji Sādiq Meman,Goth Haji Sadiq Meman,diacritics-folded
+geonames_PK,Goth Dāndal,Goth Dandal,diacritics-folded
+geonames_PK,Goth Soomar Shikāri,Goth Soomar Shikari,diacritics-folded
+geonames_PK,Sathi Khān,Sathi Khan,diacritics-folded
+geonames_PK,Pir Khān Khaskhali,Pir Khan Khaskhali,diacritics-folded
+geonames_PK,Serāi Peyaro Khān,Serai Peyaro Khan,diacritics-folded
+geonames_PK,Goth Balu Khān Chandio,Goth Balu Khan Chandio,diacritics-folded
+geonames_PK,Syed Haji Shāh,Syed Haji Shah,diacritics-folded
+geonames_PK,Goth Syed Akber Khān,Goth Syed Akber Khan,diacritics-folded
+geonames_PK,Wadero Nasir Khān Chakrani,Wadero Nasir Khan Chakrani,diacritics-folded
+geonames_PK,Goth Saiyid Khān Laghāri,Goth Saiyid Khan Laghari,diacritics-folded
+geonames_PK,Goth Bāhu Jhatiāl,Goth Bahu Jhatial,diacritics-folded
+geonames_PK,Goth Nabi Bakhsh Hajāno,Goth Nabi Bakhsh Hajano,diacritics-folded
+geonames_PK,Urs Khāskheli,Urs Khaskheli,diacritics-folded
+geonames_PK,Chāndio Baroch,Chandio Baroch,diacritics-folded
+geonames_PK,Muhammad Hasan Laghāri,Muhammad Hasan Laghari,diacritics-folded
+geonames_PK,Urs Upāra,Urs Upara,diacritics-folded
+geonames_PK,Doctor Lāl Buksh Bhatti,Doctor Lal Buksh Bhatti,diacritics-folded
+geonames_PK,Abu Māllo,Abu Mallo,diacritics-folded
+geonames_PK,Goth Dāhit Malo Jāni,Goth Dahit Malo Jani,diacritics-folded
+geonames_PK,Shalwāni,Shalwani,diacritics-folded
+geonames_PK,Goth Muhammad Hussain Wasān,Goth Muhammad Hussain Wasan,diacritics-folded
+geonames_PK,Yousaf Khāskheli,Yousaf Khaskheli,diacritics-folded
+geonames_PK,Khāirābād,Khairabad,diacritics-folded
+geonames_PK,Kālewāla,Kalewala,diacritics-folded
+geonames_PK,Basti Sākhūwāla,Basti Sakhuwala,diacritics-folded
+geonames_PK,Chamronewāla,Chamronewala,diacritics-folded
+geonames_PK,Basti Lohāri,Basti Lohari,diacritics-folded
+geonames_PK,Lodhrān,Lodhran,diacritics-folded
+geonames_PK,Basti Mooāl,Basti Mooal,diacritics-folded
+geonames_PK,Basti Charrawāli,Basti Charrawali,diacritics-folded
+geonames_PK,Gopīwāla,Gopiwala,diacritics-folded
+geonames_PK,Mahīwāi,Mahiwai,diacritics-folded
+geonames_PK,Basti Siāl,Basti Sial,diacritics-folded
+geonames_PK,Basti Cheliān,Basti Chelian,diacritics-folded
+geonames_PK,Jattalwāla,Jattalwala,diacritics-folded
+geonames_PK,Basti Lāl Khān,Basti Lal Khan,diacritics-folded
+geonames_PK,Moriān di Basti,Morian di Basti,diacritics-folded
+geonames_PK,Basti Lerād,Basti Lerad,diacritics-folded
+geonames_PK,Basti Rasūlpur,Basti Rasulpur,diacritics-folded
+geonames_PK,Chakar Nūrwāla,Chakar Nurwala,diacritics-folded
+geonames_PK,Oddān di Basti,Oddan di Basti,diacritics-folded
+geonames_PK,Basti Zaildār,Basti Zaildar,diacritics-folded
+geonames_PK,Khakhārwāla,Khakharwala,diacritics-folded
+geonames_PK,Mīrānān di Basti,Miranan di Basti,diacritics-folded
+geonames_PK,Chautha Khān di Basti,Chautha Khan di Basti,diacritics-folded
+geonames_PK,Kaurāwāla,Kaurawala,diacritics-folded
+geonames_PK,Jassūwāla,Jassuwala,diacritics-folded
+geonames_PK,Basti Karetewāli,Basti Karetewali,diacritics-folded
+geonames_PK,Chah Kinārewāla,Chah Kinarewala,diacritics-folded
+geonames_PK,Attawāla,Attawala,diacritics-folded
+geonames_PK,Bhāgra,Bhagra,diacritics-folded
+geonames_PK,Basti Kuliārān,Basti Kuliaran,diacritics-folded
+geonames_PK,Basti Gulāb Khān Kauhar,Basti Gulab Khan Kauhar,diacritics-folded
+geonames_PK,Basti Jām Muhammad Yār,Basti Jam Muhammad Yar,diacritics-folded
+geonames_PK,Basti Mustafaābād,Basti Mustafaabad,diacritics-folded
+geonames_PK,Azīzpur,Azizpur,diacritics-folded
+geonames_PK,Thathi Bakhsh Shāh,Thathi Bakhsh Shah,diacritics-folded
+geonames_PK,Mājha Tibba,Majha Tibba,diacritics-folded
+geonames_PK,Siālānwāla,Sialanwala,diacritics-folded
+geonames_PK,Mandewāla,Mandewala,diacritics-folded
+geonames_PK,Goth Karīm Danna Bhanga,Goth Karim Danna Bhanga,diacritics-folded
+geonames_PK,Kilāi,Kilai,diacritics-folded
+geonames_PK,Kāla Khotāi,Kala Khotai,diacritics-folded
+geonames_PK,Sarāi,Sarai,diacritics-folded
+geonames_PK,Rahi Abdul Samad Khān Sinjrāni,Rahi Abdul Samad Khan Sinjrani,diacritics-folded
+geonames_PK,Tājo Nun,Tajo Nun,diacritics-folded
+geonames_PK,Ruddāl,Ruddal,diacritics-folded
+geonames_PK,Nunūn jo Tobo,Nunun jo Tobo,diacritics-folded
+geonames_PK,Khāshkeli Hazūri,Khashkeli Hazuri,diacritics-folded
+geonames_PK,Khundāi jo Tar,Khundai jo Tar,diacritics-folded
+geonames_PK,Phul Tarāi,Phul Tarai,diacritics-folded
+geonames_PK,Chupāni Varsi Pota,Chupani Varsi Pota,diacritics-folded
+geonames_PK,Naurangwāla,Naurangwala,diacritics-folded
+geonames_PK,Basti Hadyāna,Basti Hadyana,diacritics-folded
+geonames_PK,Kothiān,Kothian,diacritics-folded
+geonames_PK,Kili Muhammad Khān,Kili Muhammad Khan,diacritics-folded
+geonames_PK,Kili Sūrgazo,Kili Surgazo,diacritics-folded
+geonames_PK,Khaton Bālīna,Khaton Balina,diacritics-folded
+geonames_PK,Takri Imām Bakh,Takri Imam Bakh,diacritics-folded
+geonames_PK,"Sudhanoti, Pakistan",Sudhanoti,comma-qualifier-stripped
+geonames_PK,Chaukīwāla,Chaukiwala,diacritics-folded
+geonames_PK,Wasaēwāla,Wasaewala,diacritics-folded
+geonames_PK,Barāh,Barah,diacritics-folded
+geonames_PK,Nau Khūh,Nau Khuh,diacritics-folded
+geonames_PK,Kas Samriāla,Kas Samriala,diacritics-folded
+geonames_PK,Wada Khūh,Wada Khuh,diacritics-folded
+geonames_PK,Harār,Harar,diacritics-folded
+geonames_PK,Aminābād,Aminabad,diacritics-folded
+geonames_PK,Nādir Khān Sinjrāni,Nadir Khan Sinjrani,diacritics-folded
+geonames_PK,Mubārak Mengal,Mubarak Mengal,diacritics-folded
+geonames_PK,Muhammad Hāshim Khān Sinjrāni,Muhammad Hashim Khan Sinjrani,diacritics-folded
+geonames_PK,Zīk,Zik,diacritics-folded
+geonames_PK,Sīālwāla,Sialwala,diacritics-folded
+geonames_PK,Goth Siāl,Goth Sial,diacritics-folded
+geonames_PK,Khān Jalālani,Khan Jalalani,diacritics-folded
+geonames_PK,Khakrāni,Khakrani,diacritics-folded
+geonames_PK,Goth Muhammad Rahim Nizāmāni,Goth Muhammad Rahim Nizamani,diacritics-folded
+geonames_PK,Muhammad Shāh Goth,Muhammad Shah Goth,diacritics-folded
+geonames_PK,Dhānā Gul,Dhana Gul,diacritics-folded
+geonames_PK,Basti Mahāne,Basti Mahane,diacritics-folded
+geonames_PK,Pandrāni,Pandrani,diacritics-folded
+geonames_PK,Goth Hāshim Dakhana,Goth Hashim Dakhana,diacritics-folded
+geonames_PK,Basti Tarkhān,Basti Tarkhan,diacritics-folded
+geonames_PK,Muhammadwāla,Muhammadwala,diacritics-folded
+geonames_PK,Goth Īsa Shoro,Goth Isa Shoro,diacritics-folded
+geonames_PK,"Waleed Abad, Butyal",Waleed Abad,comma-qualifier-stripped
+geonames_PK,Goth Miandád Khakhrani,Goth Miandad Khakhrani,diacritics-folded
+geonames_PK,Sultan Sikandar Colony (Old Colony),Sultan Sikandar Colony,stripped-parenthetical
+geonames_PK,MGPCRBC,Mgpcrbc,recased
+geonames_PK,Chak Seventy-three Desert Branch (A),Chak Seventy-three Desert Branch,stripped-parenthetical
+geonames_PK,Khānpur,Khanpur,diacritics-folded
+geonames_PK,Samarbagh (Barwa),Samarbagh,stripped-parenthetical
+postal_areas_csv,Bharing (A.K),Bharing,stripped-parenthetical
+postal_areas_csv,Chitter Pari (Ak),Chitter Pari,stripped-parenthetical
+postal_areas_csv,Mirpur Agency Npo,Mirpur Agency,stripped-post-office-suffix
+postal_areas_csv,Khadimabad (A.K.),Khadimabad,stripped-parenthetical
+postal_areas_csv,Chechian (Ak),Chechian,stripped-parenthetical
+postal_areas_csv,Jatli (Ak),Jatli,stripped-parenthetical
+postal_areas_csv,Mirpur Gpo,Mirpur,stripped-post-office-suffix
+postal_areas_csv,Boha Dhangri (Ak),Boha Dhangri,stripped-parenthetical
+postal_areas_csv,Palak (A.K.),Palak,stripped-parenthetical
+postal_areas_csv,Gulpur (Ak),Gulpur,stripped-parenthetical
+postal_areas_csv,Kotli (A.K.),Kotli,stripped-parenthetical
+postal_areas_csv,Khui Ratta (A.K.),Khui Ratta,stripped-parenthetical
+postal_areas_csv,Kahoota(A.K),Kahoota,stripped-parenthetical
+postal_areas_csv,Rawalakot Gpo,Rawalakot,stripped-post-office-suffix
+postal_areas_csv,Bagh Gpo,Bagh,stripped-post-office-suffix
+postal_areas_csv,Muzaffarabad Gpo,Muzaffarabad,stripped-post-office-suffix
+postal_areas_csv,Chilas (Lsg),Chilas,stripped-parenthetical
+postal_areas_csv,Gultari (Seasonal),Gultari,stripped-parenthetical
+postal_areas_csv,Gilgit Gpo,Gilgit,stripped-post-office-suffix
+postal_areas_csv,Khaplu(Lsg),Khaplu,stripped-parenthetical
+postal_areas_csv,Oveer (Charun),Oveer,stripped-parenthetical
+postal_areas_csv,Saidu Sharif G.P.O.,Saidu Sharif,stripped-post-office-suffix
+postal_areas_csv,Naran (Seasonal),Naran,stripped-parenthetical
+postal_areas_csv,Mansehra G.P.O.,Mansehra,stripped-post-office-suffix
+postal_areas_csv,Mansehra City Npo (Nd),Mansehra City,stripped-parenthetical;stripped-post-office-suffix
+postal_areas_csv,Dab Bazar (Nd),Dab Bazar,stripped-parenthetical
+postal_areas_csv,Abbottabad Gpo,Abbottabad,stripped-post-office-suffix
+postal_areas_csv,Thandiani (Seasonal),Thandiani,stripped-parenthetical
+postal_areas_csv,Kala Bagh (Hazara),Kala Bagh,stripped-parenthetical
+postal_areas_csv,Chhangla Gali (Seasonal),Chhangla Gali,stripped-parenthetical
+postal_areas_csv,Haripur G.P.O.,Haripur,stripped-post-office-suffix
+postal_areas_csv,Khanpur (Hazara),Khanpur,stripped-parenthetical
+postal_areas_csv,Batkhela G.P.O.,Batkhela,stripped-post-office-suffix
+postal_areas_csv,Kupar(Malakand Agency),Kupar,stripped-parenthetical
+postal_areas_csv,Mardan G.P.O.,Mardan,stripped-post-office-suffix
+postal_areas_csv,Sawabi G.P.O.,Sawabi,stripped-post-office-suffix
+postal_areas_csv,Right Bank (Tarbella),Right Bank,stripped-parenthetical
+postal_areas_csv,Nowshera G.P.O.,Nowshera,stripped-post-office-suffix
+postal_areas_csv,Charsadda Npo (Nd),Charsadda,stripped-parenthetical;stripped-post-office-suffix
+postal_areas_csv,Abazai (Nd),Abazai,stripped-parenthetical
+postal_areas_csv,Amir Abad (Nd),Amir Abad,stripped-parenthetical
+postal_areas_csv,Mandani (Nd),Mandani,stripped-parenthetical
+postal_areas_csv,Dhakki (Nd),Dhakki,stripped-parenthetical
+postal_areas_csv,Charsadda G.P.O.,Charsadda,stripped-post-office-suffix
+postal_areas_csv,Sheikhabad (Nd),Sheikhabad,stripped-parenthetical
+postal_areas_csv,Parang So (Nd),Parang So,stripped-parenthetical
+postal_areas_csv,Charsadda Town (Nd),Charsadda Town,stripped-parenthetical
+postal_areas_csv,Prang (Nd),Prang,stripped-parenthetical
+postal_areas_csv,Rajjar Edso (Nd),Rajjar Edso,stripped-parenthetical
+postal_areas_csv,Peshawar Cantt (N.P.O.),Peshawar Cantt,stripped-parenthetical
+postal_areas_csv,Qissa Khawani (Npo),Qissa Khawani,stripped-parenthetical
+postal_areas_csv,Peshawar G.P.O.,Peshawar,stripped-post-office-suffix
+postal_areas_csv,Shah Qabool Aulia N.P.O.,Shah Qabool Aulia,stripped-post-office-suffix
+postal_areas_csv,Peshawar City (N.P.O.),Peshawar City,stripped-parenthetical
+postal_areas_csv,Kohat G.P.O.,Kohat,stripped-post-office-suffix
+postal_areas_csv,Zargeri(E.D.S.O.),Zargeri,stripped-parenthetical
+postal_areas_csv,Fort Lakhart (E.D.S.O.),Fort Lakhart,stripped-parenthetical
+postal_areas_csv,Parachinar G.P.O.,Parachinar,stripped-post-office-suffix
+postal_areas_csv,Karak G.P.O.,Karak,stripped-post-office-suffix
+postal_areas_csv,Bannu G.P.O,Bannu,stripped-post-office-suffix
+postal_areas_csv,Dera Ismail Khan G.P.O.,Dera Ismail Khan,stripped-post-office-suffix
+postal_areas_csv,Dera Ismail Khan N.P.O.,Dera Ismail Khan,stripped-post-office-suffix
+postal_areas_csv,Tank G.P.O,Tank,stripped-post-office-suffix
+postal_areas_csv,Bhakkar G.P.O.,Bhakkar,stripped-post-office-suffix
+postal_areas_csv,Dhandla (Basti Bakhtawar),Dhandla,stripped-parenthetical
+postal_areas_csv,Layyah Mandi N.P.O.,Layyah Mandi,stripped-post-office-suffix
+postal_areas_csv,Karor N.P.O.,Karor,stripped-post-office-suffix
+postal_areas_csv,Layyah G.P.O.,Layyah,stripped-post-office-suffix
+postal_areas_csv,Kheya Ban-I-Sarwar(D),Kheya Ban-I-Sarwar,stripped-parenthetical
+postal_areas_csv,Dera Ghazi Khan N.P.O.(Nd),Dera Ghazi Khan,stripped-parenthetical;stripped-post-office-suffix
+postal_areas_csv,Dera Ghazi Khan G.P.O.,Dera Ghazi Khan,stripped-post-office-suffix
+postal_areas_csv,Dera Ghazi Khan City(Nd),Dera Ghazi Khan City,stripped-parenthetical
+postal_areas_csv,Jalbani(Nd),Jalbani,stripped-parenthetical
+postal_areas_csv,Yaroo Edso Ahmadani(D),Yaroo Edso Ahmadani,stripped-parenthetical
+postal_areas_csv,Jampur N.P.O.(Nd),Jampur,stripped-parenthetical;stripped-post-office-suffix
+postal_areas_csv,Rajan Pur N.P.O.(Nd),Rajan Pur,stripped-parenthetical;stripped-post-office-suffix
+postal_areas_csv,Muzaffargarh G.P.O.,Muzaffargarh,stripped-post-office-suffix
+postal_areas_csv,Jhang G.P.O.,Jhang,stripped-post-office-suffix
+postal_areas_csv,Toba Take Singh G.P.O.,Toba Take Singh,stripped-post-office-suffix
+postal_areas_csv,Chak 159 Gb (Cpol-982),Chak 159 Gb,stripped-parenthetical
+postal_areas_csv,Chak 193 Gb (N),Chak 193 Gb,stripped-parenthetical
+postal_areas_csv,Chak 482 G.B.(Jagranwan),Chak 482 G.B,stripped-parenthetical
+postal_areas_csv,Chak 117 Gb (W),Chak 117 Gb,stripped-parenthetical
+postal_areas_csv,Chak 63 Gb (West),Chak 63 Gb,stripped-parenthetical
+postal_areas_csv,Chak 63 Gb (East),Chak 63 Gb,stripped-parenthetical
+postal_areas_csv,Chak 62 Gb (E),Chak 62 Gb,stripped-parenthetical
+postal_areas_csv,Chak 62 Gb (West),Chak 62 Gb,stripped-parenthetical
+postal_areas_csv,Chak 563/Gb (E),Chak 563/Gb,stripped-parenthetical
+postal_areas_csv,Chak 563 Gb (W),Chak 563 Gb,stripped-parenthetical
+postal_areas_csv,Chak 189 R.B.(Rasulpur),Chak 189 R.B,stripped-parenthetical
+postal_areas_csv,Sahuwala (Chak 132/R.B),Sahuwala,stripped-parenthetical
+postal_areas_csv,Bahawalpur G.P.O.,Bahawalpur,stripped-post-office-suffix
+postal_areas_csv,Bahawalpur Cantt N.P.O.,Bahawalpur Cantt,stripped-post-office-suffix
+postal_areas_csv,Bahawalpur N.P.O.,Bahawalpur,stripped-post-office-suffix
+postal_areas_csv,Rahim Yar Khan Npo,Rahim Yar Khan,stripped-post-office-suffix
+postal_areas_csv,Rahimyar Khan G.P.O.,Rahimyar Khan,stripped-post-office-suffix
+postal_areas_csv,Sadikabad Npo,Sadikabad,stripped-post-office-suffix
+postal_areas_csv,Ghotki Npo (Nd),Ghotki,stripped-parenthetical;stripped-post-office-suffix
+postal_areas_csv,Pano Akil Npo (Nd),Pano Akil,stripped-parenthetical;stripped-post-office-suffix
+postal_areas_csv,Rohri Npo (Nd),Rohri,stripped-parenthetical;stripped-post-office-suffix
+postal_areas_csv,Minara Road Sukkur (Nd),Minara Road Sukkur,stripped-parenthetical
+postal_areas_csv,Mehran Markaz (Nd),Mehran Markaz,stripped-parenthetical
+postal_areas_csv,Nawan Goth (Nd),Nawan Goth,stripped-parenthetical
+postal_areas_csv,New Sabzi Mandi (Nd),New Sabzi Mandi,stripped-parenthetical
+postal_areas_csv,Old Sukkur (Nd),Old Sukkur,stripped-parenthetical
+postal_areas_csv,Bachal Shah Minai (Nd),Bachal Shah Minai,stripped-parenthetical
+postal_areas_csv,Site (Nd) Industrial Area,Site Industrial Area,stripped-parenthetical
+postal_areas_csv,Jamia Mashid Sukkur (Nd),Jamia Mashid Sukkur,stripped-parenthetical
+postal_areas_csv,Sukkur Npo (Nd),Sukkur,stripped-parenthetical;stripped-post-office-suffix
+postal_areas_csv,D.S. Pak Railway (Nd),D.S. Pak Railway,stripped-parenthetical
+postal_areas_csv,Adam Shah (Nd),Adam Shah,stripped-parenthetical
+postal_areas_csv,Mehran Markaz Npo (Nd),Mehran Markaz,stripped-parenthetical;stripped-post-office-suffix
+postal_areas_csv,Sukkur G.P.O.,Sukkur,stripped-post-office-suffix
+postal_areas_csv,Khair Pur N.P.O.,Khair Pur,stripped-post-office-suffix
+postal_areas_csv,Khairpur Mirs G.P.O.,Khairpur Mirs,stripped-post-office-suffix
+postal_areas_csv,Sakrand Npo,Sakrand,stripped-post-office-suffix
+postal_areas_csv,Nawabshah G.P.O.,Nawabshah,stripped-post-office-suffix
+postal_areas_csv,Tando Adam Npo,Tando Adam,stripped-post-office-suffix
+postal_areas_csv,Sanchgar Npo,Sanchgar,stripped-post-office-suffix
+postal_areas_csv,Mirpur Khas G.P.O,Mirpur Khas,stripped-post-office-suffix
+postal_areas_csv,Tando Allahyar Npo,Tando Allahyar,stripped-post-office-suffix
+postal_areas_csv,Tando Allahyar Npo,Tando Allahyar,stripped-post-office-suffix
+postal_areas_csv,Tando Allahyar Npo,Tando Allahyar,stripped-post-office-suffix
+postal_areas_csv,Tando Allahyar Npo,Tando Allahyar,stripped-post-office-suffix
+postal_areas_csv,Tando Allahyar Npo,Tando Allahyar,stripped-post-office-suffix
+postal_areas_csv,Tando Allahyar Npo,Tando Allahyar,stripped-post-office-suffix
+postal_areas_csv,Tando Allahyar Npo,Tando Allahyar,stripped-post-office-suffix
+postal_areas_csv,Tando Allahyar Npo,Tando Allahyar,stripped-post-office-suffix
+postal_areas_csv,Tando Allahyar Npo,Tando Allahyar,stripped-post-office-suffix
+postal_areas_csv,Tando Allahyar Npo,Tando Allahyar,stripped-post-office-suffix
+postal_areas_csv,Tando Allahyar Npo,Tando Allahyar,stripped-post-office-suffix
+postal_areas_csv,Tando Allahyar Npo,Tando Allahyar,stripped-post-office-suffix
+postal_areas_csv,Tando Allahyar Npo,Tando Allahyar,stripped-post-office-suffix
+postal_areas_csv,Tando Allahyar Npo,Tando Allahyar,stripped-post-office-suffix
+postal_areas_csv,Tando Allahyar Npo,Tando Allahyar,stripped-post-office-suffix
+postal_areas_csv,Tando Allahyar Npo,Tando Allahyar,stripped-post-office-suffix
+postal_areas_csv,Tando Allahyar Npo,Tando Allahyar,stripped-post-office-suffix
+postal_areas_csv,Tando Allahyar Npo,Tando Allahyar,stripped-post-office-suffix
+postal_areas_csv,Tando Allahyar Npo,Tando Allahyar,stripped-post-office-suffix
+postal_areas_csv,Tando Allahyar Npo,Tando Allahyar,stripped-post-office-suffix
+postal_areas_csv,Tando Jam N.P.O,Tando Jam,stripped-post-office-suffix
+postal_areas_csv,Tando Mohammad Khan Npo,Tando Mohammad Khan,stripped-post-office-suffix
+postal_areas_csv,Hyderabad G.P.O.,Hyderabad,stripped-post-office-suffix
+postal_areas_csv,Hyderabad N.P.O.,Hyderabad,stripped-post-office-suffix
+postal_areas_csv,Soldier Bazar N.P.O,Soldier Bazar,stripped-post-office-suffix
+postal_areas_csv,Hyderabad Market N.P.O,Hyderabad Market,stripped-post-office-suffix
+postal_areas_csv,Latifabad No.2 Npo,Latifabad No.2,stripped-post-office-suffix
+postal_areas_csv,Latifabad H.O,Latifabad,stripped-post-office-suffix
+postal_areas_csv,Bhitai Nagar (Nd),Bhitai Nagar,stripped-parenthetical
+postal_areas_csv,Badin N.P.O.,Badin,stripped-post-office-suffix
+postal_areas_csv,Chak-5 (Ahmad Abad),Chak-5,stripped-parenthetical
+postal_areas_csv,Deh Katado(Navy Chak-Ii),Deh Katado,stripped-parenthetical
+postal_areas_csv,K.D.A Camp (Haleji),K.D.A Camp,stripped-parenthetical
+postal_areas_csv,Thatta Npo,Thatta,stripped-post-office-suffix
+postal_areas_csv,Kotri N.P.O,Kotri,stripped-post-office-suffix
+postal_areas_csv,Khairpur Nathan Shah Npo,Khairpur Nathan Shah,stripped-post-office-suffix
+postal_areas_csv,Larkana Gpo.,Larkana,stripped-post-office-suffix
+postal_areas_csv,Abbas Colony T.So.,Abbas Colony,stripped-post-office-suffix
+postal_areas_csv,Rato Dero Npo,Rato Dero,stripped-post-office-suffix
+postal_areas_csv,Shikarpur City (Nd),Shikarpur City,stripped-parenthetical
+postal_areas_csv,Shikarpur Npo (Nd),Shikarpur,stripped-parenthetical;stripped-post-office-suffix
+postal_areas_csv,Shikarpur Gpo,Shikarpur,stripped-post-office-suffix
+postal_areas_csv,Shikarpur Saddar (Nd),Shikarpur Saddar,stripped-parenthetical
+postal_areas_csv,Jacobabad Shahi Bazar (Nd),Jacobabad Shahi Bazar,stripped-parenthetical
+postal_areas_csv,Anaj Mandi (Nd),Anaj Mandi,stripped-parenthetical
+postal_areas_csv,Jaffarabad Mohalla (Nd),Jaffarabad Mohalla,stripped-parenthetical
+postal_areas_csv,Jacobabad G.P.O.,Jacobabad,stripped-post-office-suffix
+postal_areas_csv,Jacobabad N.P.O. (Nd),Jacobabad,stripped-parenthetical;stripped-post-office-suffix
+postal_areas_csv,Gharibabad (Nd),Gharibabad,stripped-parenthetical
+postal_areas_csv,Usta Muhammad N.P.O.,Usta Muhammad,stripped-post-office-suffix
+postal_areas_csv,Sibi G.P.O.,Sibi,stripped-post-office-suffix
+postal_areas_csv,Quetta G.P.O.,Quetta,stripped-post-office-suffix
+postal_areas_csv,Staff Collete (Quetta),Staff Collete,stripped-parenthetical
+postal_areas_csv,Khuzdar G.P.O.,Khuzdar,stripped-post-office-suffix
+postal_areas_csv,Turbat G.P.O.,Turbat,stripped-post-office-suffix
+postal_areas_csv,Turbat Npo,Turbat,stripped-post-office-suffix
+osm_overpass_pk,Gwādar,Gwadar,diacritics-folded
+osm_overpass_pk,Karpāsi,Karpasi,diacritics-folded
+osm_overpass_pk,Bulchi Dās,Bulchi Das,diacritics-folded
+osm_overpass_pk,Gīne,Gine,diacritics-folded
+osm_overpass_pk,Chhirowāi,Chhirowai,diacritics-folded
+osm_overpass_pk,Bāsha,Basha,diacritics-folded
+osm_overpass_pk,Shatiāl,Shatial,diacritics-folded
+osm_overpass_pk,Sazīn,Sazin,diacritics-folded
+osm_overpass_pk,Uchār,Uchar,diacritics-folded
+osm_overpass_pk,Kawāi,Kawai,diacritics-folded
+osm_overpass_pk,Sandār,Sandar,diacritics-folded
+osm_overpass_pk,Pandiār,Pandiar,diacritics-folded
+osm_overpass_pk,Khān Banjār,Khan Banjar,diacritics-folded
+osm_overpass_pk,Kund Saiyidān,Kund Saiyidan,diacritics-folded
+osm_overpass_pk,Batkūl kalay,Batkul kalay,diacritics-folded
+osm_overpass_pk,Sarkūl,Sarkul,diacritics-folded
+osm_overpass_pk,Goriār,Goriar,diacritics-folded
+osm_overpass_pk,Māngāno,Mangano,diacritics-folded
+osm_overpass_pk,Zezāri,Zezari,diacritics-folded
+osm_overpass_pk,Māser,Maser,diacritics-folded
+osm_overpass_pk,Kāpitai,Kapitai,diacritics-folded
+osm_overpass_pk,Piānr,Pianr,diacritics-folded
+osm_overpass_pk,Bāndo,Bando,diacritics-folded
+osm_overpass_pk,Kamāch,Kamach,diacritics-folded
+osm_overpass_pk,Bar Kābulgrām,Bar Kabulgram,diacritics-folded
+osm_overpass_pk,Chīr,Chir,diacritics-folded
+osm_overpass_pk,Chūrāna,Churana,diacritics-folded
+osm_overpass_pk,Bihār,Bihar,diacritics-folded
+osm_overpass_pk,Atāullāh,Ataullah,diacritics-folded
+osm_overpass_pk,Bar Jatkūl,Bar Jatkul,diacritics-folded
+osm_overpass_pk,Kūz Jatkūl,Kuz Jatkul,diacritics-folded
+osm_overpass_pk,Diliārai,Diliarai,diacritics-folded
+osm_overpass_pk,Pata Bānda,Pata Banda,diacritics-folded
+osm_overpass_pk,Manjākot,Manjakot,diacritics-folded
+osm_overpass_pk,Itwāra,Itwara,diacritics-folded
+osm_overpass_pk,Nāranj,Naranj,diacritics-folded
+osm_overpass_pk,Kihāra,Kihara,diacritics-folded
+osm_overpass_pk,Paraniāl,Paranial,diacritics-folded
+osm_overpass_pk,Mahābara Utla,Mahabara Utla,diacritics-folded
+osm_overpass_pk,Kāli,Kali,diacritics-folded
+osm_overpass_pk,Dokāni,Dokani,diacritics-folded
+osm_overpass_pk,Kirpaliān,Kirpalian,diacritics-folded
+osm_overpass_pk,Murādpur,Muradpur,diacritics-folded
+osm_overpass_pk,Nadikihāri,Nadikihari,diacritics-folded
+osm_overpass_pk,Chinjaliāla,Chinjaliala,diacritics-folded
+osm_overpass_pk,Darwāza,Darwaza,diacritics-folded
+osm_overpass_pk,Sonmiāni,Sonmiani,diacritics-folded
+osm_overpass_pk,Dāmb,Damb,diacritics-folded
+osm_overpass_pk,Phuāri,Phuari,diacritics-folded
+osm_overpass_pk,Goth Abbās,Goth Abbas,diacritics-folded
+osm_overpass_pk,Mīrpur Sakro,Mirpur Sakro,diacritics-folded
+osm_overpass_pk,Sākro,Sakro,diacritics-folded
+osm_overpass_pk,Ziārat,Ziarat,diacritics-folded
+osm_overpass_pk,Mulungūtti,Mulungutti,diacritics-folded
+osm_overpass_pk,Kut Dūr-i-Dasht,Kut Dur-i-Dasht,diacritics-folded
+osm_overpass_pk,Mir Kalān,Mir Kalan,diacritics-folded
+osm_overpass_pk,Gāru,Garu,diacritics-folded
+osm_overpass_pk,Mazāri Tang Pāyān,Mazari Tang Payan,diacritics-folded
+osm_overpass_pk,Khūi,Khui,diacritics-folded
+osm_overpass_pk,Shādipur,Shadipur,diacritics-folded
+osm_overpass_pk,Bāta,Bata,diacritics-folded
+osm_overpass_pk,Khushhāl Garh,Khushhal Garh,diacritics-folded
+osm_overpass_pk,Billitāng,Billitang,diacritics-folded
+osm_overpass_pk,Togh Bāla,Togh Bala,diacritics-folded
+osm_overpass_pk,Khwāja Khel,Khwaja Khel,diacritics-folded
+osm_overpass_pk,Shah Muhammad Wāli,Shah Muhammad Wali,diacritics-folded
+osm_overpass_pk,Dhok Būte,Dhok Bute,diacritics-folded
+osm_overpass_pk,Trāp,Trap,diacritics-folded
+osm_overpass_pk,Bhāndarbara,Bhandarbara,diacritics-folded
+osm_overpass_pk,Pīr Pihāi,Pir Pihai,diacritics-folded
+osm_overpass_pk,Ahmadabad (Lundkamar),Ahmadabad,stripped-parenthetical
+osm_overpass_pk,Danguri Bānda,Danguri Banda,diacritics-folded
+osm_overpass_pk,Bānda Wanki,Banda Wanki,diacritics-folded
+osm_overpass_pk,Dangar Kāt Bānda,Dangar Kat Banda,diacritics-folded
+osm_overpass_pk,Chāpri,Chapri,diacritics-folded
+osm_overpass_pk,Nasarwāla,Nasarwala,diacritics-folded
+osm_overpass_pk,Māndāu,Mandau,diacritics-folded
+osm_overpass_pk,Adām Khān Waligai,Adam Khan Waligai,diacritics-folded
+osm_overpass_pk,Miānji Khel,Mianji Khel,diacritics-folded
+osm_overpass_pk,Land Bāzār,Land Bazar,diacritics-folded
+osm_overpass_pk,Muhammad Khwāja,Muhammad Khwaja,diacritics-folded
+osm_overpass_pk,Khezu Bānda,Khezu Banda,diacritics-folded
+osm_overpass_pk,Sur Tapū,Sur Tapu,diacritics-folded
+osm_overpass_pk,Tān,Tan,diacritics-folded
+osm_overpass_pk,Khānki Bāzār,Khanki Bazar,diacritics-folded
+osm_overpass_pk,Marai Pāyān,Marai Payan,diacritics-folded
+osm_overpass_pk,Durrān,Durran,diacritics-folded
+osm_overpass_pk,Mānki,Manki,diacritics-folded
+osm_overpass_pk,Hariān,Harian,diacritics-folded
+osm_overpass_pk,Nihālpur,Nihalpur,diacritics-folded
+osm_overpass_pk,Allāhdher,Allahdher,diacritics-folded
+osm_overpass_pk,Khāwari,Khawari,diacritics-folded
+osm_overpass_pk,Māri Kanjur,Mari Kanjur,diacritics-folded
+osm_overpass_pk,Salāl,Salal,diacritics-folded
+osm_overpass_pk,Shāh Sahr,Shah Sahr,diacritics-folded
+osm_overpass_pk,Gariāla,Gariala,diacritics-folded
+osm_overpass_pk,Dhok Hāji Ahmad,Dhok Haji Ahmad,diacritics-folded
+osm_overpass_pk,Gandāb,Gandab,diacritics-folded
+osm_overpass_pk,Shāngarh,Shangarh,diacritics-folded
+osm_overpass_pk,Hāna Dheri,Hana Dheri,diacritics-folded
+osm_overpass_pk,Abū Bakr,Abu Bakr,diacritics-folded
+osm_overpass_pk,Dhok Barmakiān,Dhok Barmakian,diacritics-folded
+osm_overpass_pk,Pind Sultāni,Pind Sultani,diacritics-folded
+osm_overpass_pk,Kāli Dilli,Kali Dilli,diacritics-folded
+osm_overpass_pk,Umar Khāna,Umar Khana,diacritics-folded
+osm_overpass_pk,Ghāra,Ghara,diacritics-folded
+osm_overpass_pk,Dhāk,Dhak,diacritics-folded
+osm_overpass_pk,Dhok Joāyat,Dhok Joayat,diacritics-folded
+osm_overpass_pk,Culiāl Bhāi,Culial Bhai,diacritics-folded
+osm_overpass_pk,Guliāl,Gulial,diacritics-folded
+osm_overpass_pk,Chānda,Chanda,diacritics-folded
+osm_overpass_pk,Sumāri,Sumari,diacritics-folded
+osm_overpass_pk,Sumāri,Sumari,diacritics-folded
+osm_overpass_pk,Bānda Palosai,Banda Palosai,diacritics-folded
+osm_overpass_pk,Lokhāri,Lokhari,diacritics-folded
+osm_overpass_pk,Anār China,Anar China,diacritics-folded
+osm_overpass_pk,Khattak Bānda,Khattak Banda,diacritics-folded
+osm_overpass_pk,Karra Kalūr,Karra Kalur,diacritics-folded
+osm_overpass_pk,Utra Kalān,Utra Kalan,diacritics-folded
+osm_overpass_pk,Muqīmīwāla,Muqimiwala,diacritics-folded
+osm_overpass_pk,Mehr Shāhwāli,Mehr Shahwali,diacritics-folded
+osm_overpass_pk,Alif Khelānwāla,Alif Khelanwala,diacritics-folded
+osm_overpass_pk,Kot Chāndna,Kot Chandna,diacritics-folded
+osm_overpass_pk,Mawazīwāli,Mawaziwali,diacritics-folded
+osm_overpass_pk,Muhammad Gulwāli,Muhammad Gulwali,diacritics-folded
+osm_overpass_pk,Mailwāli,Mailwali,diacritics-folded
+osm_overpass_pk,Ishpralānwāli,Ishpralanwali,diacritics-folded
+osm_overpass_pk,Nūr Khānwāli,Nur Khanwali,diacritics-folded
+osm_overpass_pk,Mamdalanwāli,Mamdalanwali,diacritics-folded
+osm_overpass_pk,Mināndi Sharqi,Minandi Sharqi,diacritics-folded
+osm_overpass_pk,Amīr Khān,Amir Khan,diacritics-folded
+osm_overpass_pk,Madad Khān,Madad Khan,diacritics-folded
+osm_overpass_pk,Jāba,Jaba,diacritics-folded
+osm_overpass_pk,Dher Ummed Ali Shāh,Dher Ummed Ali Shah,diacritics-folded
+osm_overpass_pk,Khās,Khas,diacritics-folded
+osm_overpass_pk,Ramnewāli,Ramnewali,diacritics-folded
+osm_overpass_pk,Nāwan Pīra,Nawan Pira,diacritics-folded
+osm_overpass_pk,Budhowāl,Budhowal,diacritics-folded
+osm_overpass_pk,Rozīwāli,Roziwali,diacritics-folded
+osm_overpass_pk,Khānewāli,Khanewali,diacritics-folded
+osm_overpass_pk,Darhālānwāli,Darhalanwali,diacritics-folded
+osm_overpass_pk,Dalla Mīrwāla,Dalla Mirwala,diacritics-folded
+osm_overpass_pk,Ghāruānwāla,Gharuanwala,diacritics-folded
+osm_overpass_pk,Vanjāri,Vanjari,diacritics-folded
+osm_overpass_pk,Makarwāl Kheji,Makarwal Kheji,diacritics-folded
+osm_overpass_pk,Fateh Khān Bānda,Fateh Khan Banda,diacritics-folded
+osm_overpass_pk,Shāhdev,Shahdev,diacritics-folded
+osm_overpass_pk,Sāleh Khān,Saleh Khan,diacritics-folded
+osm_overpass_pk,Piao Dīn,Piao Din,diacritics-folded
+osm_overpass_pk,Akhondān,Akhondan,diacritics-folded
+osm_overpass_pk,Māma Khel,Mama Khel,diacritics-folded
+osm_overpass_pk,Nāzir Shāh,Nazir Shah,diacritics-folded
+osm_overpass_pk,Nurrār,Nurrar,diacritics-folded
+osm_overpass_pk,Nar Mir Abbās Shāh,Nar Mir Abbas Shah,diacritics-folded
+osm_overpass_pk,Dourān Khān,Douran Khan,diacritics-folded
+osm_overpass_pk,Topan Rām,Topan Ram,diacritics-folded
+osm_overpass_pk,Wazīr,Wazir,diacritics-folded
+osm_overpass_pk,Bānda Painda Khān,Banda Painda Khan,diacritics-folded
+osm_overpass_pk,Jarasi Bānda,Jarasi Banda,diacritics-folded
+osm_overpass_pk,Bānda Abbāsa,Banda Abbasa,diacritics-folded
+osm_overpass_pk,Bandar Khān,Bandar Khan,diacritics-folded
+osm_overpass_pk,Miānāwala,Mianawala,diacritics-folded
+osm_overpass_pk,Kamriānwāla,Kamrianwala,diacritics-folded
+osm_overpass_pk,Sultān Khel,Sultan Khel,diacritics-folded
+osm_overpass_pk,Ghorānwala,Ghoranwala,diacritics-folded
+osm_overpass_pk,Sāndānwāla,Sandanwala,diacritics-folded
+osm_overpass_pk,Halimwāla,Halimwala,diacritics-folded
+osm_overpass_pk,Chāh Khalīwāla,Chah Khaliwala,diacritics-folded
+osm_overpass_pk,Shāhbāz Khel,Shahbaz Khel,diacritics-folded
+osm_overpass_pk,Samandwāla,Samandwala,diacritics-folded
+osm_overpass_pk,Bākīwāla,Bakiwala,diacritics-folded
+osm_overpass_pk,Ghalballīānwāla,Ghalballianwala,diacritics-folded
+osm_overpass_pk,Madi Khelānwāla,Madi Khelanwala,diacritics-folded
+osm_overpass_pk,Birhunwāla,Birhunwala,diacritics-folded
+osm_overpass_pk,Kalwāh,Kalwah,diacritics-folded
+osm_overpass_pk,Bundīwāli,Bundiwali,diacritics-folded
+osm_overpass_pk,Bhir Shāh Niwāz,Bhir Shah Niwaz,diacritics-folded
+osm_overpass_pk,Yār Gul,Yar Gul,diacritics-folded
+osm_overpass_pk,Dhok Miāni,Dhok Miani,diacritics-folded
+osm_overpass_pk,Allāhyār,Allahyar,diacritics-folded
+osm_overpass_pk,Ālam Khānwāla,Alam Khanwala,diacritics-folded
+osm_overpass_pk,Kāluānwāla,Kaluanwala,diacritics-folded
+osm_overpass_pk,Awānānwālā,Awananwala,diacritics-folded
+osm_overpass_pk,Bānda Hakim Khān,Banda Hakim Khan,diacritics-folded
+osm_overpass_pk,Shahāb Khel,Shahab Khel,diacritics-folded
+osm_overpass_pk,Gandi Khān Khel,Gandi Khan Khel,diacritics-folded
+osm_overpass_pk,Mīr,Mir,diacritics-folded
+osm_overpass_pk,Pahār Khel,Pahar Khel,diacritics-folded
+osm_overpass_pk,Mīr Akbar,Mir Akbar,diacritics-folded
+osm_overpass_pk,Ādamzai,Adamzai,diacritics-folded
+osm_overpass_pk,Khān Khel Mandāzai,Khan Khel Mandazai,diacritics-folded
+osm_overpass_pk,Kawāh,Kawah,diacritics-folded
+osm_overpass_pk,Maqām,Maqam,diacritics-folded
+osm_overpass_pk,Sāhib Khan,Sahib Khan,diacritics-folded
+osm_overpass_pk,Mirjāl,Mirjal,diacritics-folded
+osm_overpass_pk,Choha Nūrpur,Choha Nurpur,diacritics-folded
+osm_overpass_pk,Dhok Duriān,Dhok Durian,diacritics-folded
+osm_overpass_pk,Guliiāl,Guliial,diacritics-folded
+osm_overpass_pk,Kot Bāla,Kot Bala,diacritics-folded
+osm_overpass_pk,Kot Salābat,Kot Salabat,diacritics-folded
+osm_overpass_pk,Thanti Nūr Ahmad Shāh,Thanti Nur Ahmad Shah,diacritics-folded
+osm_overpass_pk,Jhangiāwāla,Jhangiawala,diacritics-folded
+osm_overpass_pk,Nawān,Nawan,diacritics-folded
+osm_overpass_pk,Dhok Bānd,Dhok Band,diacritics-folded
+osm_overpass_pk,Bhātiot,Bhatiot,diacritics-folded
+osm_overpass_pk,Gariāle ki Dhok,Gariale ki Dhok,diacritics-folded
+osm_overpass_pk,Sarwāla,Sarwala,diacritics-folded
+osm_overpass_pk,Pandwāl,Pandwal,diacritics-folded
+osm_overpass_pk,Mehdi Shāh,Mehdi Shah,diacritics-folded
+osm_overpass_pk,Bolāri Camp,Bolari Camp,diacritics-folded
+osm_overpass_pk,Goth Dabhūn,Goth Dabhun,diacritics-folded
+osm_overpass_pk,Goth Bolāri,Goth Bolari,diacritics-folded
+osm_overpass_pk,Goth Berāni,Goth Berani,diacritics-folded
+osm_overpass_pk,Shāh Tūt,Shah Tut,diacritics-folded
+osm_overpass_pk,Manāgai,Managai,diacritics-folded
+osm_overpass_pk,Dāro Mehar,Daro Mehar,diacritics-folded
+osm_overpass_pk,Jhok Sharīf,Jhok Sharif,diacritics-folded
+osm_overpass_pk,Nodo Bāran,Nodo Baran,diacritics-folded
+osm_overpass_pk,Dātu Shāh,Datu Shah,diacritics-folded
+osm_overpass_pk,Hāji Ismāīl,Haji Ismail,diacritics-folded
+osm_overpass_pk,Sulaimān Khān Jat,Sulaiman Khan Jat,diacritics-folded
+osm_overpass_pk,Mirza Laghāri,Mirza Laghari,diacritics-folded
+osm_overpass_pk,Haidar Laghāri,Haidar Laghari,diacritics-folded
+osm_overpass_pk,Butiāl,Butial,diacritics-folded
+osm_overpass_pk,Balai Bānda,Balai Banda,diacritics-folded
+osm_overpass_pk,Naogrām,Naogram,diacritics-folded
+osm_overpass_pk,Galibat Bānda,Galibat Banda,diacritics-folded
+osm_overpass_pk,Mūl,Mul,diacritics-folded
+osm_overpass_pk,Chailai Saiyidān,Chailai Saiyidan,diacritics-folded
+osm_overpass_pk,Tāngo,Tango,diacritics-folded
+osm_overpass_pk,Sardārābād,Sardarabad,diacritics-folded
+osm_overpass_pk,Uchwāla,Uchwala,diacritics-folded
+osm_overpass_pk,Shaikhān,Shaikhan,diacritics-folded
+osm_overpass_pk,Pīr Lākhia,Pir Lakhia,diacritics-folded
+osm_overpass_pk,Sāfan Faqīr,Safan Faqir,diacritics-folded
+osm_overpass_pk,Muzaffarābād,Muzaffarabad,diacritics-folded
+osm_overpass_pk,Budhāpur,Budhapur,diacritics-folded
+osm_overpass_pk,Hāsil Khān Jamāli,Hasil Khan Jamali,diacritics-folded
+osm_overpass_pk,Lemo Khān Junejo,Lemo Khan Junejo,diacritics-folded
+osm_overpass_pk,Miān Sāhib,Mian Sahib,diacritics-folded
+osm_overpass_pk,Rahīmābād,Rahimabad,diacritics-folded
+osm_overpass_pk,Māchka,Machka,diacritics-folded
+osm_overpass_pk,Shāhwāli,Shahwali,diacritics-folded
+osm_overpass_pk,Yāqūb Chāchar,Yaqub Chachar,diacritics-folded
+osm_overpass_pk,Wasti Jīwan Shāh,Wasti Jiwan Shah,diacritics-folded
+osm_overpass_pk,Basti Pīr Bakhsh,Basti Pir Bakhsh,diacritics-folded
+osm_overpass_pk,Kamām,Kamam,diacritics-folded
+osm_overpass_pk,Pallu Shāh,Pallu Shah,diacritics-folded
+osm_overpass_pk,Hāji Yūnis,Haji Yunis,diacritics-folded
+osm_overpass_pk,Islāmābād,Islamabad,diacritics-folded
+osm_overpass_pk,Pīr Wali Muhammad Sultān,Pir Wali Muhammad Sultan,diacritics-folded
+osm_overpass_pk,Allāh Bakhsh Jhabil,Allah Bakhsh Jhabil,diacritics-folded
+osm_overpass_pk,Hāmidpur,Hamidpur,diacritics-folded
+osm_overpass_pk,Makaure da Wāhan,Makaure da Wahan,diacritics-folded
+osm_overpass_pk,Jiūnde di Basti,Jiunde di Basti,diacritics-folded
+osm_overpass_pk,Basti Jām Lālu,Basti Jam Lalu,diacritics-folded
+osm_overpass_pk,Hājjipur,Hajjipur,diacritics-folded
+osm_overpass_pk,Ābād Minor,Abad Minor,diacritics-folded
+osm_overpass_pk,Ilāhu,Ilahu,diacritics-folded
+osm_overpass_pk,Dāndu da Hat,Dandu da Hat,diacritics-folded
+osm_overpass_pk,Basti Saiyidān,Basti Saiyidan,diacritics-folded
+osm_overpass_pk,Mad Manthār,Mad Manthar,diacritics-folded
+osm_overpass_pk,Budha Chāchar,Budha Chachar,diacritics-folded
+osm_overpass_pk,Kotla Hidāyat,Kotla Hidayat,diacritics-folded
+osm_overpass_pk,Mīrgarh,Mirgarh,diacritics-folded
+osm_overpass_pk,Basti Khokhrān,Basti Khokhran,diacritics-folded
+osm_overpass_pk,Basti Allāh Wasāya,Basti Allah Wasaya,diacritics-folded
+osm_overpass_pk,Bhāgsar,Bhagsar,diacritics-folded
+osm_overpass_pk,Kotla Ghulām Murtaza Shāh,Kotla Ghulam Murtaza Shah,diacritics-folded
+osm_overpass_pk,Basti Khowājal,Basti Khowajal,diacritics-folded
+osm_overpass_pk,Basti Sultān Balorha,Basti Sultan Balorha,diacritics-folded
+osm_overpass_pk,Basti Jām Ramzān,Basti Jam Ramzan,diacritics-folded
+osm_overpass_pk,Jām Ramzān,Jam Ramzan,diacritics-folded
+osm_overpass_pk,Bet Sāuntra,Bet Sauntra,diacritics-folded
+osm_overpass_pk,Basti Sher Khān Balorho,Basti Sher Khan Balorho,diacritics-folded
+osm_overpass_pk,Yār Muhammad Khoja,Yar Muhammad Khoja,diacritics-folded
+osm_overpass_pk,Basti Kirdriwāla,Basti Kirdriwala,diacritics-folded
+osm_overpass_pk,Hayāt Dangar,Hayat Dangar,diacritics-folded
+osm_overpass_pk,Basti Khojewāla,Basti Khojewala,diacritics-folded
+osm_overpass_pk,Kotla Hazūri,Kotla Hazuri,diacritics-folded
+osm_overpass_pk,Basti Sādiq,Basti Sadiq,diacritics-folded
+osm_overpass_pk,Basti Ghulām Qādir Dangar,Basti Ghulam Qadir Dangar,diacritics-folded
+osm_overpass_pk,Nūrpur,Nurpur,diacritics-folded
+osm_overpass_pk,Basti Hāji Mūsa,Basti Haji Musa,diacritics-folded
+osm_overpass_pk,Basti Nibhāhu Arāin,Basti Nibhahu Arain,diacritics-folded
+osm_overpass_pk,Basti Khuda Bakhsh Barāta,Basti Khuda Bakhsh Barata,diacritics-folded
+osm_overpass_pk,Basti Malik Hātu Arāin,Basti Malik Hatu Arain,diacritics-folded
+osm_overpass_pk,Mad Sarāb,Mad Sarab,diacritics-folded
+osm_overpass_pk,Saiyid Turāb Ali Shāh,Saiyid Turab Ali Shah,diacritics-folded
+osm_overpass_pk,Basti Bērathe,Basti Berathe,diacritics-folded
+osm_overpass_pk,Basti Baqīr Shāh,Basti Baqir Shah,diacritics-folded
+osm_overpass_pk,Basti Jumma Khān,Basti Jumma Khan,diacritics-folded
+osm_overpass_pk,Bakhshewāli,Bakhshewali,diacritics-folded
+osm_overpass_pk,hda employees coop housing society,Hda Employees Coop Housing Society,recased
+osm_overpass_pk,THOBA,Thoba,recased
+osm_overpass_pk,SIRAAL,Siraal,recased
+osm_overpass_pk,MUJAHAD,Mujahad,recased
+osm_overpass_pk,LADIAN,Ladian,recased
+osm_overpass_pk,SADHOKE,Sadhoke,recased
+osm_overpass_pk,kotli shafi hakim,Kotli Shafi Hakim,recased
+osm_overpass_pk,kotli,Kotli,recased
+osm_overpass_pk,baja theli,Baja Theli,recased
+osm_overpass_pk,tibba,Tibba,recased
+osm_overpass_pk,Chūhr Kot,Chuhr Kot,diacritics-folded
+osm_overpass_pk,Kamāl Qāimāni,Kamal Qaimani,diacritics-folded
+osm_overpass_pk,Mīr Hasan,Mir Hasan,diacritics-folded
+osm_overpass_pk,Mīr Khān Muhammad,Mir Khan Muhammad,diacritics-folded
+osm_overpass_pk,Nāhar Kot,Nahar Kot,diacritics-folded
+osm_overpass_pk,Pīrandar,Pirandar,diacritics-folded
+osm_overpass_pk,Shādo Khān,Shado Khan,diacritics-folded
+osm_overpass_pk,Basti Rahīm Bakhsh,Basti Rahim Bakhsh,diacritics-folded
+osm_overpass_pk,Bhābāni,Bhabani,diacritics-folded
+osm_overpass_pk,Hāji Khān,Haji Khan,diacritics-folded
+osm_overpass_pk,Lāsezai,Lasezai,diacritics-folded
+osm_overpass_pk,Manwāli,Manwali,diacritics-folded
+osm_overpass_pk,Nāhar,Nahar,diacritics-folded
+osm_overpass_pk,Shāh Husain Shāh,Shah Husain Shah,diacritics-folded
+osm_overpass_pk,Uriāni,Uriani,diacritics-folded
+osm_overpass_pk,Burkrān Tangi,Burkran Tangi,diacritics-folded
+osm_overpass_pk,Ali Ābād,Ali Abad,diacritics-folded
+osm_overpass_pk,Apsi Bazār,Apsi Bazar,diacritics-folded
+osm_overpass_pk,Kalātuk,Kalatuk,diacritics-folded
+osm_overpass_pk,Kosh Kalāt,Kosh Kalat,diacritics-folded
+osm_overpass_pk,Kotwāli,Kotwali,diacritics-folded
+osm_overpass_pk,Malik Abād,Malik Abad,diacritics-folded
+osm_overpass_pk,Nok Kalāt,Nok Kalat,diacritics-folded
+osm_overpass_pk,Sadābād,Sadabad,diacritics-folded
+osm_overpass_pk,Shāhi Tumb,Shahi Tumb,diacritics-folded
+osm_overpass_pk,Āb-i- Sār,Ab-i- Sar,diacritics-folded
+osm_overpass_pk,Bazdār,Bazdar,diacritics-folded
+osm_overpass_pk,Malār,Malar,diacritics-folded
+osm_overpass_pk,Allāh Rakhia,Allah Rakhia,diacritics-folded
+osm_overpass_pk,Allāhdād Khān,Allahdad Khan,diacritics-folded
+osm_overpass_pk,Aqūbāni,Aqubani,diacritics-folded
+osm_overpass_pk,Baloch Khān Shind,Baloch Khan Shind,diacritics-folded
+osm_overpass_pk,Bharyāla,Bharyala,diacritics-folded
+osm_overpass_pk,Bābli,Babli,diacritics-folded
+osm_overpass_pk,Bāgh Sanjāri,Bagh Sanjari,diacritics-folded
+osm_overpass_pk,Bāhri,Bahri,diacritics-folded
+osm_overpass_pk,Bān Rahim Bakhsh,Ban Rahim Bakhsh,diacritics-folded
+osm_overpass_pk,Bānsar,Bansar,diacritics-folded
+osm_overpass_pk,Chharari Khūant,Chharari Khuant,diacritics-folded
+osm_overpass_pk,Chābar,Chabar,diacritics-folded
+osm_overpass_pk,Chāgai,Chagai,diacritics-folded
+osm_overpass_pk,Chārkhewāra Goth,Charkhewara Goth,diacritics-folded
+osm_overpass_pk,Dardān,Dardan,diacritics-folded
+osm_overpass_pk,Daria Khān,Daria Khan,diacritics-folded
+osm_overpass_pk,Dāru Kūcha,Daru Kucha,diacritics-folded
+osm_overpass_pk,Fatehāni,Fatehani,diacritics-folded
+osm_overpass_pk,Garāhi,Garahi,diacritics-folded
+osm_overpass_pk,Ghulām Muhammad,Ghulam Muhammad,diacritics-folded
+osm_overpass_pk,Goth Abbās,Goth Abbas,diacritics-folded
+osm_overpass_pk,Goth Abdul Rehmān,Goth Abdul Rehman,diacritics-folded
+osm_overpass_pk,Goth Abdullāh,Goth Abdullah,diacritics-folded
+osm_overpass_pk,Goth Abdullāh,Goth Abdullah,diacritics-folded
+osm_overpass_pk,Goth Abdur Rahmān,Goth Abdur Rahman,diacritics-folded
+osm_overpass_pk,Goth Abdur Rahmān,Goth Abdur Rahman,diacritics-folded
+osm_overpass_pk,Goth Ahmad Jāmot,Goth Ahmad Jamot,diacritics-folded
+osm_overpass_pk,Goth Ali Marād,Goth Ali Marad,diacritics-folded
+osm_overpass_pk,Goth Allāh Bochālo,Goth Allah Bochalo,diacritics-folded
+osm_overpass_pk,Goth Ayūb Shikāri,Goth Ayub Shikari,diacritics-folded
+osm_overpass_pk,Goth Bachāio,Goth Bachaio,diacritics-folded
+osm_overpass_pk,Goth Bahādur,Goth Bahadur,diacritics-folded
+osm_overpass_pk,Goth Chātla,Goth Chatla,diacritics-folded
+osm_overpass_pk,Goth Daūd,Goth Daud,diacritics-folded
+osm_overpass_pk,Goth Dūiwesh,Goth Duiwesh,diacritics-folded
+osm_overpass_pk,Goth Faiz Muhammad Sābra,Goth Faiz Muhammad Sabra,diacritics-folded
+osm_overpass_pk,Goth Faqīr Muhammad,Goth Faqir Muhammad,diacritics-folded
+osm_overpass_pk,Goth Gauhar Khān,Goth Gauhar Khan,diacritics-folded
+osm_overpass_pk,Goth Ghulam Qādir,Goth Ghulam Qadir,diacritics-folded
+osm_overpass_pk,Goth Ghulām Husain,Goth Ghulam Husain,diacritics-folded
+osm_overpass_pk,Goth Ghulām Muhammad,Goth Ghulam Muhammad,diacritics-folded
+osm_overpass_pk,Goth Ghulām Shāh,Goth Ghulam Shah,diacritics-folded
+osm_overpass_pk,Goth Hāji Abdullāh,Goth Haji Abdullah,diacritics-folded
+osm_overpass_pk,Goth Hāji Abdullāh,Goth Haji Abdullah,diacritics-folded
+osm_overpass_pk,Goth Hāji Allu,Goth Haji Allu,diacritics-folded
+osm_overpass_pk,Goth Hāji Bachāya,Goth Haji Bachaya,diacritics-folded
+osm_overpass_pk,Goth Hāji Denda,Goth Haji Denda,diacritics-folded
+osm_overpass_pk,Goth Hāji Dosu,Goth Haji Dosu,diacritics-folded
+osm_overpass_pk,Goth Hāji Ghulām Muhammad,Goth Haji Ghulam Muhammad,diacritics-folded
+osm_overpass_pk,Goth Hāji Hārūn,Goth Haji Harun,diacritics-folded
+osm_overpass_pk,Goth Hāji Iqbāl,Goth Haji Iqbal,diacritics-folded
+osm_overpass_pk,Goth Hāji Ismāīl,Goth Haji Ismail,diacritics-folded
+osm_overpass_pk,Goth Hāji Mīro,Goth Haji Miro,diacritics-folded
+osm_overpass_pk,Goth Hāji Mūsa,Goth Haji Musa,diacritics-folded
+osm_overpass_pk,Goth Hāji Sulaimān Rūnjha,Goth Haji Sulaiman Runjha,diacritics-folded
+osm_overpass_pk,Goth Hāji Usman,Goth Haji Usman,diacritics-folded
+osm_overpass_pk,Goth Hājī Miān Wasāya,Goth Haji Mian Wasaya,diacritics-folded
+osm_overpass_pk,Goth Hāmid Ali,Goth Hamid Ali,diacritics-folded
+osm_overpass_pk,Goth Hārof,Goth Harof,diacritics-folded
+osm_overpass_pk,Goth Hārūn,Goth Harun,diacritics-folded
+osm_overpass_pk,Goth Hāshim,Goth Hashim,diacritics-folded
+osm_overpass_pk,Goth Ibrāhīm Wadera,Goth Ibrahim Wadera,diacritics-folded
+osm_overpass_pk,Goth Ibrāhīm,Goth Ibrahim,diacritics-folded
+osm_overpass_pk,Goth Ilyās,Goth Ilyas,diacritics-folded
+osm_overpass_pk,Goth Ismāil,Goth Ismail,diacritics-folded
+osm_overpass_pk,Goth Jāfar,Goth Jafar,diacritics-folded
+osm_overpass_pk,Goth Jān Muhammad,Goth Jan Muhammad,diacritics-folded
+osm_overpass_pk,Goth Kandewāri,Goth Kandewari,diacritics-folded
+osm_overpass_pk,Goth Mullah Ramzān,Goth Mullah Ramzan,diacritics-folded
+osm_overpass_pk,Goth Mullān Hāshim,Goth Mullan Hashim,diacritics-folded
+osm_overpass_pk,Goth Mutkāni,Goth Mutkani,diacritics-folded
+osm_overpass_pk,Goth Māndara,Goth Mandara,diacritics-folded
+osm_overpass_pk,Goth Mīr Muhammad,Goth Mir Muhammad,diacritics-folded
+osm_overpass_pk,Goth Mūsa,Goth Musa,diacritics-folded
+osm_overpass_pk,Goth Mūsa,Goth Musa,diacritics-folded
+osm_overpass_pk,Goth Mūsa,Goth Musa,diacritics-folded
+osm_overpass_pk,Goth Nasīb,Goth Nasib,diacritics-folded
+osm_overpass_pk,Goth Nūh Rūnjha,Goth Nuh Runjha,diacritics-folded
+osm_overpass_pk,Goth Nūr Muhammad,Goth Nur Muhammad,diacritics-folded
+osm_overpass_pk,Goth Pīru,Goth Piru,diacritics-folded
+osm_overpass_pk,Goth Qāsimānj,Goth Qasimanj,diacritics-folded
+osm_overpass_pk,Goth Ramzān,Goth Ramzan,diacritics-folded
+osm_overpass_pk,Goth Safar Khān,Goth Safar Khan,diacritics-folded
+osm_overpass_pk,Goth Saiyid Bahrām Shāh,Goth Saiyid Bahram Shah,diacritics-folded
+osm_overpass_pk,Goth Saiyid Ādam Shāh,Goth Saiyid Adam Shah,diacritics-folded
+osm_overpass_pk,Goth Sayār Wadera,Goth Sayar Wadera,diacritics-folded
+osm_overpass_pk,Goth Shaikh Jamāl,Goth Shaikh Jamal,diacritics-folded
+osm_overpass_pk,Goth Shaikh Māngīa,Goth Shaikh Mangia,diacritics-folded
+osm_overpass_pk,Goth Shukar Khān,Goth Shukar Khan,diacritics-folded
+osm_overpass_pk,Goth Shāhok,Goth Shahok,diacritics-folded
+osm_overpass_pk,Goth Siddīq,Goth Siddiq,diacritics-folded
+osm_overpass_pk,Goth Sālehāni,Goth Salehani,diacritics-folded
+osm_overpass_pk,Goth Sūmār,Goth Sumar,diacritics-folded
+osm_overpass_pk,Goth Sūnwār Wadera,Goth Sunwar Wadera,diacritics-folded
+osm_overpass_pk,Goth Usmān,Goth Usman,diacritics-folded
+osm_overpass_pk,Goth Waryāni,Goth Waryani,diacritics-folded
+osm_overpass_pk,Goth Yaqūb,Goth Yaqub,diacritics-folded
+osm_overpass_pk,Goth Yār Muhammad,Goth Yar Muhammad,diacritics-folded
+osm_overpass_pk,Goth Yūsuf,Goth Yusuf,diacritics-folded
+osm_overpass_pk,Goth Yūsuf,Goth Yusuf,diacritics-folded
+osm_overpass_pk,Goth Yūsul,Goth Yusul,diacritics-folded
+osm_overpass_pk,Goth Ādam,Goth Adam,diacritics-folded
+osm_overpass_pk,Goth Āru,Goth Aru,diacritics-folded
+osm_overpass_pk,Goth Īsa Wadera,Goth Isa Wadera,diacritics-folded
+osm_overpass_pk,Goth Īsa,Goth Isa,diacritics-folded
+osm_overpass_pk,Goth Īsa,Goth Isa,diacritics-folded
+osm_overpass_pk,Goth Īsa,Goth Isa,diacritics-folded
+osm_overpass_pk,Goth Īsa,Goth Isa,diacritics-folded
+osm_overpass_pk,Gozāni,Gozani,diacritics-folded
+osm_overpass_pk,Gullāni,Gullani,diacritics-folded
+osm_overpass_pk,Gwāni Kalāt,Gwani Kalat,diacritics-folded
+osm_overpass_pk,Gāji Bhutti,Gaji Bhutti,diacritics-folded
+osm_overpass_pk,Haji Muhammad Khān Bent,Haji Muhammad Khan Bent,diacritics-folded
+osm_overpass_pk,Hasan Khān,Hasan Khan,diacritics-folded
+osm_overpass_pk,Husaini Chāh,Husaini Chah,diacritics-folded
+osm_overpass_pk,Hussenāni,Hussenani,diacritics-folded
+osm_overpass_pk,Hāji Ibrāhīm Mushāni,Haji Ibrahim Mushani,diacritics-folded
+osm_overpass_pk,Hāji Kech,Haji Kech,diacritics-folded
+osm_overpass_pk,Hālad,Halad,diacritics-folded
+osm_overpass_pk,Hūki,Huki,diacritics-folded
+osm_overpass_pk,Ibrāhīm Sipāhi jo Goth,Ibrahim Sipahi jo Goth,diacritics-folded
+osm_overpass_pk,Ibrāhīm,Ibrahim,diacritics-folded
+osm_overpass_pk,Ismāīlāni,Ismailani,diacritics-folded
+osm_overpass_pk,Jandro Bāgh,Jandro Bagh,diacritics-folded
+osm_overpass_pk,Jawarāji,Jawaraji,diacritics-folded
+osm_overpass_pk,Jhalwāri,Jhalwari,diacritics-folded
+osm_overpass_pk,Jāwarji,Jawarji,diacritics-folded
+osm_overpass_pk,Kabūtar,Kabutar,diacritics-folded
+osm_overpass_pk,Kamācha,Kamacha,diacritics-folded
+osm_overpass_pk,Kandāni,Kandani,diacritics-folded
+osm_overpass_pk,Karam Shāh Zai,Karam Shah Zai,diacritics-folded
+osm_overpass_pk,Karia Pīr,Karia Pir,diacritics-folded
+osm_overpass_pk,Kauru Khān,Kauru Khan,diacritics-folded
+osm_overpass_pk,Khadāi,Khadai,diacritics-folded
+osm_overpass_pk,Khār Kachho,Khar Kachho,diacritics-folded
+osm_overpass_pk,Khūndi,Khundi,diacritics-folded
+osm_overpass_pk,Kishāri Bāgh,Kishari Bagh,diacritics-folded
+osm_overpass_pk,Kishāri,Kishari,diacritics-folded
+osm_overpass_pk,Kīchul,Kichul,diacritics-folded
+osm_overpass_pk,Loilāni,Loilani,diacritics-folded
+osm_overpass_pk,Machuwāra Goth,Machuwara Goth,diacritics-folded
+osm_overpass_pk,Manguli Kalāt,Manguli Kalat,diacritics-folded
+osm_overpass_pk,Matiawāro Goth,Matiawaro Goth,diacritics-folded
+osm_overpass_pk,Mazār,Mazar,diacritics-folded
+osm_overpass_pk,Mazārdān,Mazardan,diacritics-folded
+osm_overpass_pk,Mazārdān,Mazardan,diacritics-folded
+osm_overpass_pk,Miānosāo,Mianosao,diacritics-folded
+osm_overpass_pk,Motiāni,Motiani,diacritics-folded
+osm_overpass_pk,Mubārakāni,Mubarakani,diacritics-folded
+osm_overpass_pk,Muhammad Hayāt,Muhammad Hayat,diacritics-folded
+osm_overpass_pk,Muhammad Umar Khān,Muhammad Umar Khan,diacritics-folded
+osm_overpass_pk,Munir Ābād,Munir Abad,diacritics-folded
+osm_overpass_pk,Murīdāni,Muridani,diacritics-folded
+osm_overpass_pk,Māi Nāthi,Mai Nathi,diacritics-folded
+osm_overpass_pk,Mīr Bahādur Khān,Mir Bahadur Khan,diacritics-folded
+osm_overpass_pk,Mīr Khān Muhammad,Mir Khan Muhammad,diacritics-folded
+osm_overpass_pk,Mīr Rasūl Bakhsh,Mir Rasul Bakhsh,diacritics-folded
+osm_overpass_pk,Mīāni Kalāt,Miani Kalat,diacritics-folded
+osm_overpass_pk,Mūsāni,Musani,diacritics-folded
+osm_overpass_pk,Nasīb Khān,Nasib Khan,diacritics-folded
+osm_overpass_pk,Nasībullāh Khān,Nasibullah Khan,diacritics-folded
+osm_overpass_pk,Nimāni,Nimani,diacritics-folded
+osm_overpass_pk,Notānī,Notani,diacritics-folded
+osm_overpass_pk,Nāka Jau,Naka Jau,diacritics-folded
+osm_overpass_pk,Nūr Muhammad,Nur Muhammad,diacritics-folded
+osm_overpass_pk,Nūr Muhammad,Nur Muhammad,diacritics-folded
+osm_overpass_pk,Obāra,Obara,diacritics-folded
+osm_overpass_pk,Parwār,Parwar,diacritics-folded
+osm_overpass_pk,Pīr Kunāna,Pir Kunana,diacritics-folded
+osm_overpass_pk,Qubba Pīr,Qubba Pir,diacritics-folded
+osm_overpass_pk,Qādirdād,Qadirdad,diacritics-folded
+osm_overpass_pk,Rabbuwāni,Rabbuwani,diacritics-folded
+osm_overpass_pk,Rabāt,Rabat,diacritics-folded
+osm_overpass_pk,Rounjān,Rounjan,diacritics-folded
+osm_overpass_pk,Rounjān,Rounjan,diacritics-folded
+osm_overpass_pk,Rughān Shahr,Rughan Shahr,diacritics-folded
+osm_overpass_pk,Rāwāni,Rawani,diacritics-folded
+osm_overpass_pk,Rāwāni,Rawani,diacritics-folded
+osm_overpass_pk,Rīaj,Riaj,diacritics-folded
+osm_overpass_pk,Sadrāni,Sadrani,diacritics-folded
+osm_overpass_pk,Said Khān Bent,Said Khan Bent,diacritics-folded
+osm_overpass_pk,Shahr Sāko Khān,Shahr Sako Khan,diacritics-folded
+osm_overpass_pk,Sharānwāli,Sharanwali,diacritics-folded
+osm_overpass_pk,Shānk,Shank,diacritics-folded
+osm_overpass_pk,Sistāg,Sistag,diacritics-folded
+osm_overpass_pk,Sulaimān Khān,Sulaiman Khan,diacritics-folded
+osm_overpass_pk,Sānjāri,Sanjari,diacritics-folded
+osm_overpass_pk,Sūmar Bandar,Sumar Bandar,diacritics-folded
+osm_overpass_pk,Sūmrāni,Sumrani,diacritics-folded
+osm_overpass_pk,Sūnrhi,Sunrhi,diacritics-folded
+osm_overpass_pk,Telāri,Telari,diacritics-folded
+osm_overpass_pk,Thappi Thāna,Thappi Thana,diacritics-folded
+osm_overpass_pk,Tharīra,Tharira,diacritics-folded
+osm_overpass_pk,Thāna Welpat,Thana Welpat,diacritics-folded
+osm_overpass_pk,Tiāra Pīr,Tiara Pir,diacritics-folded
+osm_overpass_pk,Tāoko Badi,Taoko Badi,diacritics-folded
+osm_overpass_pk,Tāoko,Taoko,diacritics-folded
+osm_overpass_pk,Tāpko,Tapko,diacritics-folded
+osm_overpass_pk,Usmān Bani,Usman Bani,diacritics-folded
+osm_overpass_pk,Wasandāni,Wasandani,diacritics-folded
+osm_overpass_pk,Wayāro,Wayaro,diacritics-folded
+osm_overpass_pk,Zabād,Zabad,diacritics-folded
+osm_overpass_pk,Zaīnab Saiyid,Zainab Saiyid,diacritics-folded
+osm_overpass_pk,Ziārat Baba Pir Bambol Ghāzi,Ziarat Baba Pir Bambol Ghazi,diacritics-folded
+osm_overpass_pk,Ziārat Pīr Ghulam Shāh,Ziarat Pir Ghulam Shah,diacritics-folded
+osm_overpass_pk,Āchrāni,Achrani,diacritics-folded
+osm_overpass_pk,Āoghani,Aoghani,diacritics-folded
+osm_overpass_pk,Ashāl,Ashal,diacritics-folded
+osm_overpass_pk,Atrāp,Atrap,diacritics-folded
+osm_overpass_pk,Basti Āzam Khān,Basti Azam Khan,diacritics-folded
+osm_overpass_pk,Bālgattar,Balgattar,diacritics-folded
+osm_overpass_pk,Dandār,Dandar,diacritics-folded
+osm_overpass_pk,Dandār,Dandar,diacritics-folded
+osm_overpass_pk,Dandār,Dandar,diacritics-folded
+osm_overpass_pk,Dandār,Dandar,diacritics-folded
+osm_overpass_pk,Dandār,Dandar,diacritics-folded
+osm_overpass_pk,Dāk,Dak,diacritics-folded
+osm_overpass_pk,Dāzan,Dazan,diacritics-folded
+osm_overpass_pk,Ganda Chāh,Ganda Chah,diacritics-folded
+osm_overpass_pk,Garāri,Garari,diacritics-folded
+osm_overpass_pk,Hāji Rasul Bakhsh,Haji Rasul Bakhsh,diacritics-folded
+osm_overpass_pk,Jāt,Jat,diacritics-folded
+osm_overpass_pk,Karīm Jān,Karim Jan,diacritics-folded
+osm_overpass_pk,Kuldān,Kuldan,diacritics-folded
+osm_overpass_pk,Lāl Jān,Lal Jan,diacritics-folded
+osm_overpass_pk,Lāl Jān,Lal Jan,diacritics-folded
+osm_overpass_pk,Malār,Malar,diacritics-folded
+osm_overpass_pk,Mirābād Dagār,Mirabad Dagar,diacritics-folded
+osm_overpass_pk,Mirāni,Mirani,diacritics-folded
+osm_overpass_pk,Mādak Dhor,Madak Dhor,diacritics-folded
+osm_overpass_pk,Mādak,Madak,diacritics-folded
+osm_overpass_pk,Nāg,Nag,diacritics-folded
+osm_overpass_pk,Nāgak,Nagak,diacritics-folded
+osm_overpass_pk,Nūrdīn,Nurdin,diacritics-folded
+osm_overpass_pk,Razāi,Razai,diacritics-folded
+osm_overpass_pk,Rek-i-Chāh,Rek-i-Chah,diacritics-folded
+osm_overpass_pk,Rudkān,Rudkan,diacritics-folded
+osm_overpass_pk,Rudkān,Rudkan,diacritics-folded
+osm_overpass_pk,Rudkān,Rudkan,diacritics-folded
+osm_overpass_pk,Shāh Kalog,Shah Kalog,diacritics-folded
+osm_overpass_pk,Shāhi,Shahi,diacritics-folded
+osm_overpass_pk,Sokāl,Sokal,diacritics-folded
+osm_overpass_pk,Ziārat Ghulām Haider Shāh,Ziarat Ghulam Haider Shah,diacritics-folded
+osm_overpass_pk,Zīk,Zik,diacritics-folded
+osm_overpass_pk,Āshal,Ashal,diacritics-folded
+osm_overpass_pk,Āshal,Ashal,diacritics-folded
+osm_overpass_pk,Alam Khān Shahr,Alam Khan Shahr,diacritics-folded
+osm_overpass_pk,Berūt,Berut,diacritics-folded
+osm_overpass_pk,Husain Khān,Husain Khan,diacritics-folded
+osm_overpass_pk,Hāji Allāhdād,Haji Allahdad,diacritics-folded
+osm_overpass_pk,Hāji Mihrāb,Haji Mihrab,diacritics-folded
+osm_overpass_pk,Hāji Shāh Murād,Haji Shah Murad,diacritics-folded
+osm_overpass_pk,Miān Khān Shahr,Mian Khan Shahr,diacritics-folded
+osm_overpass_pk,Pīr Hasan Ziārat,Pir Hasan Ziarat,diacritics-folded
+osm_overpass_pk,Rustam Khān Shahr,Rustam Khan Shahr,diacritics-folded
+osm_overpass_pk,Āzam Khān Shahr,Azam Khan Shahr,diacritics-folded
+osm_overpass_pk,Belār,Belar,diacritics-folded
+osm_overpass_pk,Būr Dash,Bur Dash,diacritics-folded
+osm_overpass_pk,Drākālo,Drakalo,diacritics-folded
+osm_overpass_pk,Hāji Abād,Haji Abad,diacritics-folded
+osm_overpass_pk,Kharma Chākul,Kharma Chakul,diacritics-folded
+osm_overpass_pk,Khīsūn Dastāri,Khisun Dastari,diacritics-folded
+osm_overpass_pk,Kili Alam Khān,Kili Alam Khan,diacritics-folded
+osm_overpass_pk,Kili Bahādar Khān,Kili Bahadar Khan,diacritics-folded
+osm_overpass_pk,Kili Hāji Dūr Muhammad,Kili Haji Dur Muhammad,diacritics-folded
+osm_overpass_pk,Kili Hāji Shakar Dad Karīm,Kili Haji Shakar Dad Karim,diacritics-folded
+osm_overpass_pk,Kili Hāsham,Kili Hasham,diacritics-folded
+osm_overpass_pk,Kili Jamāl Khān,Kili Jamal Khan,diacritics-folded
+osm_overpass_pk,Kili Khān Muhammad,Kili Khan Muhammad,diacritics-folded
+osm_overpass_pk,Kili Mullāh Nahūd,Kili Mullah Nahud,diacritics-folded
+osm_overpass_pk,Kili Saiyed Gulāb Shah,Kili Saiyed Gulab Shah,diacritics-folded
+osm_overpass_pk,Uchrā,Uchra,diacritics-folded
+osm_overpass_pk,Anjīri,Anjiri,diacritics-folded
+osm_overpass_pk,Asyābi,Asyabi,diacritics-folded
+osm_overpass_pk,Bandāro,Bandaro,diacritics-folded
+osm_overpass_pk,Basti Dīn Muhammad,Basti Din Muhammad,diacritics-folded
+osm_overpass_pk,Bhākejo,Bhakejo,diacritics-folded
+osm_overpass_pk,Bībi Mailānz,Bibi Mailanz,diacritics-folded
+osm_overpass_pk,Bīch Kund,Bich Kund,diacritics-folded
+osm_overpass_pk,Chīli,Chili,diacritics-folded
+osm_overpass_pk,Dāt,Dat,diacritics-folded
+osm_overpass_pk,Faizābād,Faizabad,diacritics-folded
+osm_overpass_pk,Gambodī,Gambodi,diacritics-folded
+osm_overpass_pk,Goth Amīr Bakhsh Jogi,Goth Amir Bakhsh Jogi,diacritics-folded
+osm_overpass_pk,Goth Sāleh Muhammad,Goth Saleh Muhammad,diacritics-folded
+osm_overpass_pk,Gowārāst,Gowarast,diacritics-folded
+osm_overpass_pk,Gurk Dāt Scheme,Gurk Dat Scheme,diacritics-folded
+osm_overpass_pk,Gīso,Giso,diacritics-folded
+osm_overpass_pk,Gīso,Giso,diacritics-folded
+osm_overpass_pk,Gūni,Guni,diacritics-folded
+osm_overpass_pk,Hansūr,Hansur,diacritics-folded
+osm_overpass_pk,Hazārganji,Hazarganji,diacritics-folded
+osm_overpass_pk,Hunāro,Hunaro,diacritics-folded
+osm_overpass_pk,Hāji Ghulam Rasūl,Haji Ghulam Rasul,diacritics-folded
+osm_overpass_pk,Hāji Karam Khān,Haji Karam Khan,diacritics-folded
+osm_overpass_pk,Jarī,Jari,diacritics-folded
+osm_overpass_pk,Jor Nūrā,Jor Nura,diacritics-folded
+osm_overpass_pk,Karīmdād,Karimdad,diacritics-folded
+osm_overpass_pk,Khumrastān,Khumrastan,diacritics-folded
+osm_overpass_pk,Kili Abdul Hakīm,Kili Abdul Hakim,diacritics-folded
+osm_overpass_pk,Kili Abdul Wahāb,Kili Abdul Wahab,diacritics-folded
+osm_overpass_pk,Kili Abdul Wāhīd,Kili Abdul Wahid,diacritics-folded
+osm_overpass_pk,Kili Dānsai Jo,Kili Dansai Jo,diacritics-folded
+osm_overpass_pk,Kili Ghulām Nabi,Kili Ghulam Nabi,diacritics-folded
+osm_overpass_pk,Kili Hāji Atta Muhammad,Kili Haji Atta Muhammad,diacritics-folded
+osm_overpass_pk,Kili Hāji Pīr Muhammad,Kili Haji Pir Muhammad,diacritics-folded
+osm_overpass_pk,Kili Hāji Rahmatullah,Kili Haji Rahmatullah,diacritics-folded
+osm_overpass_pk,Kili Hāji Shafi Muhammad,Kili Haji Shafi Muhammad,diacritics-folded
+osm_overpass_pk,Kili Hārūn,Kili Harun,diacritics-folded
+osm_overpass_pk,Kili Ibrāhīm Zai,Kili Ibrahim Zai,diacritics-folded
+osm_overpass_pk,Kili Ibrāhīm,Kili Ibrahim,diacritics-folded
+osm_overpass_pk,Kili Lashkar Khān,Kili Lashkar Khan,diacritics-folded
+osm_overpass_pk,Kili Mullān Karīm,Kili Mullan Karim,diacritics-folded
+osm_overpass_pk,Kili Murād Khān,Kili Murad Khan,diacritics-folded
+osm_overpass_pk,Kili Nasīr Muhammad,Kili Nasir Muhammad,diacritics-folded
+osm_overpass_pk,Kili Shaikh Dāud,Kili Shaikh Daud,diacritics-folded
+osm_overpass_pk,Kili Sher Dīn,Kili Sher Din,diacritics-folded
+osm_overpass_pk,Kili Shād Bān,Kili Shad Ban,diacritics-folded
+osm_overpass_pk,Kili Siāh Jang Ja,Kili Siah Jang Ja,diacritics-folded
+osm_overpass_pk,Kili Sāleh Muhammad,Kili Saleh Muhammad,diacritics-folded
+osm_overpass_pk,Kili Sāleh Muhammad,Kili Saleh Muhammad,diacritics-folded
+osm_overpass_pk,Kili Yaqūb,Kili Yaqub,diacritics-folded
+osm_overpass_pk,Kili Īd Muhammad,Kili Id Muhammad,diacritics-folded
+osm_overpass_pk,Kākāhīr,Kakahir,diacritics-folded
+osm_overpass_pk,Kākāhīr,Kakahir,diacritics-folded
+osm_overpass_pk,Kākāhīr,Kakahir,diacritics-folded
+osm_overpass_pk,Kārez,Karez,diacritics-folded
+osm_overpass_pk,Kātho Dasht,Katho Dasht,diacritics-folded
+osm_overpass_pk,Lanjār,Lanjar,diacritics-folded
+osm_overpass_pk,Lāka Lehrāni Ziārat,Laka Lehrani Ziarat,diacritics-folded
+osm_overpass_pk,Marki Kārez,Marki Karez,diacritics-folded
+osm_overpass_pk,Mehāndar,Mehandar,diacritics-folded
+osm_overpass_pk,Mehānder,Mehander,diacritics-folded
+osm_overpass_pk,Murād Khān,Murad Khan,diacritics-folded
+osm_overpass_pk,Musa Shāh Ziārat,Musa Shah Ziarat,diacritics-folded
+osm_overpass_pk,Māroi,Maroi,diacritics-folded
+osm_overpass_pk,Māsa Dasht,Masa Dasht,diacritics-folded
+osm_overpass_pk,Mīr Qādir Bakhsh,Mir Qadir Bakhsh,diacritics-folded
+osm_overpass_pk,Mūsa Khān,Musa Khan,diacritics-folded
+osm_overpass_pk,Palli Mās,Palli Mas,diacritics-folded
+osm_overpass_pk,Sardāri Dal,Sardari Dal,diacritics-folded
+osm_overpass_pk,Saru Warānch,Saru Waranch,diacritics-folded
+osm_overpass_pk,Sarāp,Sarap,diacritics-folded
+osm_overpass_pk,Sarāthu,Sarathu,diacritics-folded
+osm_overpass_pk,Sham Brāhim Zai,Sham Brahim Zai,diacritics-folded
+osm_overpass_pk,Shādi Zai,Shadi Zai,diacritics-folded
+osm_overpass_pk,Siāh Sar,Siah Sar,diacritics-folded
+osm_overpass_pk,Sāka Zai,Saka Zai,diacritics-folded
+osm_overpass_pk,Sārah Bidrang,Sarah Bidrang,diacritics-folded
+osm_overpass_pk,Sīhro,Sihro,diacritics-folded
+osm_overpass_pk,Sūr Māgu,Sur Magu,diacritics-folded
+osm_overpass_pk,Sūr Māgu,Sur Magu,diacritics-folded
+osm_overpass_pk,Tawāri,Tawari,diacritics-folded
+osm_overpass_pk,Teghāb,Teghab,diacritics-folded
+osm_overpass_pk,Tīr Kāshi,Tir Kashi,diacritics-folded
+osm_overpass_pk,Tūta Kachho,Tuta Kachho,diacritics-folded
+osm_overpass_pk,Wad Thāna,Wad Thana,diacritics-folded
+osm_overpass_pk,Wār,War,diacritics-folded
+osm_overpass_pk,Ālā Damb,Ala Damb,diacritics-folded
+osm_overpass_pk,Āskani Dasht,Askani Dasht,diacritics-folded
+osm_overpass_pk,Bizhbān Chāh,Bizhban Chah,diacritics-folded
+osm_overpass_pk,Drāb Koh,Drab Koh,diacritics-folded
+osm_overpass_pk,Gārkal,Garkal,diacritics-folded
+osm_overpass_pk,Jamsher Khān Bent,Jamsher Khan Bent,diacritics-folded
+osm_overpass_pk,Khazīni,Khazini,diacritics-folded
+osm_overpass_pk,Kili Abdur Rahīm,Kili Abdur Rahim,diacritics-folded
+osm_overpass_pk,Kili Dīn Muhammad,Kili Din Muhammad,diacritics-folded
+osm_overpass_pk,Kili Hāji Muhammad Ali,Kili Haji Muhammad Ali,diacritics-folded
+osm_overpass_pk,Kili Muhammad Ramzān,Kili Muhammad Ramzan,diacritics-folded
+osm_overpass_pk,Kishāri Bent,Kishari Bent,diacritics-folded
+osm_overpass_pk,Kishāri,Kishari,diacritics-folded
+osm_overpass_pk,Kohna Kalāt,Kohna Kalat,diacritics-folded
+osm_overpass_pk,Korkādal,Korkadal,diacritics-folded
+osm_overpass_pk,Mādherok,Madherok,diacritics-folded
+osm_overpass_pk,Māhri,Mahri,diacritics-folded
+osm_overpass_pk,Pindakwāl,Pindakwal,diacritics-folded
+osm_overpass_pk,Sargwāza Dawsub,Sargwaza Dawsub,diacritics-folded
+osm_overpass_pk,Satbāi Bent,Satbai Bent,diacritics-folded
+osm_overpass_pk,Surtagān Jhoo,Surtagan Jhoo,diacritics-folded
+osm_overpass_pk,Talār Chhib,Talar Chhib,diacritics-folded
+osm_overpass_pk,Thāku,Thaku,diacritics-folded
+osm_overpass_pk,Ujāto,Ujato,diacritics-folded
+osm_overpass_pk,Woshāb,Woshab,diacritics-folded
+osm_overpass_pk,Zīlug,Zilug,diacritics-folded
+osm_overpass_pk,Anjīri,Anjiri,diacritics-folded
+osm_overpass_pk,Biddā Jhal,Bidda Jhal,diacritics-folded
+osm_overpass_pk,Biddā,Bidda,diacritics-folded
+osm_overpass_pk,Faizābād Karya,Faizabad Karya,diacritics-folded
+osm_overpass_pk,Gūld,Guld,diacritics-folded
+osm_overpass_pk,Hazārganji,Hazarganji,diacritics-folded
+osm_overpass_pk,Jhurī,Jhuri,diacritics-folded
+osm_overpass_pk,Kherāwa,Kherawa,diacritics-folded
+osm_overpass_pk,Muhowāl,Muhowal,diacritics-folded
+osm_overpass_pk,Mānrun,Manrun,diacritics-folded
+osm_overpass_pk,Nezwāl,Nezwal,diacritics-folded
+osm_overpass_pk,Pathām,Patham,diacritics-folded
+osm_overpass_pk,Pindrāni,Pindrani,diacritics-folded
+osm_overpass_pk,Shahr Mehrwāl,Shahr Mehrwal,diacritics-folded
+osm_overpass_pk,Shahr Raees Ghulām Muhammad,Shahr Raees Ghulam Muhammad,diacritics-folded
+osm_overpass_pk,Shahr Raees Muhammad Khān,Shahr Raees Muhammad Khan,diacritics-folded
+osm_overpass_pk,Shahr Sardār Yousaf,Shahr Sardar Yousaf,diacritics-folded
+osm_overpass_pk,Thasār,Thasar,diacritics-folded
+osm_overpass_pk,Wāhendri,Wahendri,diacritics-folded
+osm_overpass_pk,103WB,103Wb,recased
+osm_overpass_pk,89WB,89Wb,recased
+osm_overpass_pk,155WB,155Wb,recased
+osm_overpass_pk,"Chowki, Azad Kashmir",Chowki,comma-qualifier-stripped
+osm_overpass_pk,Chak 48  Fateh,Chak 48 Fateh,whitespace
+osm_overpass_pk,panjwan meel,Panjwan Meel,recased
+osm_overpass_pk,samrala gujraan,Samrala Gujraan,recased
+osm_overpass_pk,Khairian ( Khairi),Khairian,stripped-parenthetical
+osm_overpass_pk,Maranian (Marari),Maranian,stripped-parenthetical
+osm_overpass_pk,sohawa village,Sohawa Village,recased
+osm_overpass_pk,sayedwala purana,Sayedwala Purana,recased
+osm_overpass_pk,chulondree,Chulondree,recased
+osm_overpass_pk,sauwal,Sauwal,recased
+osm_overpass_pk,DHOKE SAMI,Dhoke Sami,recased
+osm_overpass_pk,MAYHALL,Mayhall,recased
+osm_overpass_pk,DOKOHALI,Dokohali,recased
+osm_overpass_pk,DHOKE BABA PEHNDA,Dhoke Baba Pehnda,recased
+osm_overpass_pk,KABIL,Kabil,recased
+osm_overpass_pk,MUHRI RAJGAAN,Muhri Rajgaan,recased
+osm_overpass_pk,sadiqabad lalamusa,Sadiqabad Lalamusa,recased
+osm_overpass_pk,verowal,Verowal,recased
+osm_overpass_pk,sirhali khurd,Sirhali Khurd,recased
+osm_overpass_pk,Shāngla,Shangla,diacritics-folded
+osm_overpass_pk,Ban Bānda,Ban Banda,diacritics-folded
+osm_overpass_pk,Dulāi,Dulai,diacritics-folded
+osm_overpass_pk,Kas Bānda,Kas Banda,diacritics-folded
+osm_overpass_pk,Kotkai Khwār,Kotkai Khwar,diacritics-folded
+osm_overpass_pk,Kuz Alpūrai,Kuz Alpurai,diacritics-folded
+osm_overpass_pk,Kūai,Kuai,diacritics-folded
+osm_overpass_pk,Mata Bānda,Mata Banda,diacritics-folded
+osm_overpass_pk,Sar Bānda,Sar Banda,diacritics-folded
+osm_overpass_pk,Shain Khwār,Shain Khwar,diacritics-folded
+osm_overpass_pk,Shīn Bānda,Shin Banda,diacritics-folded
+osm_overpass_pk,kalu chak sharif,Kalu Chak Sharif,recased
+osm_overpass_pk,latoree,Latoree,recased
+osm_overpass_pk,Ashārosar,Asharosar,diacritics-folded
+osm_overpass_pk,Asīnai,Asinai,diacritics-folded
+osm_overpass_pk,Bāi Khānai,Bai Khanai,diacritics-folded
+osm_overpass_pk,Būjakai,Bujakai,diacritics-folded
+osm_overpass_pk,Damghār,Damghar,diacritics-folded
+osm_overpass_pk,Dādī,Dadi,diacritics-folded
+osm_overpass_pk,Gīshār,Gishar,diacritics-folded
+osm_overpass_pk,Gūjar Bānda,Gujar Banda,diacritics-folded
+osm_overpass_pk,Jaba Bānda,Jaba Banda,diacritics-folded
+osm_overpass_pk,Jand Khānal,Jand Khanal,diacritics-folded
+osm_overpass_pk,Kankār,Kankar,diacritics-folded
+osm_overpass_pk,Kuz Mārtung,Kuz Martung,diacritics-folded
+osm_overpass_pk,Kuz Tīrāj,Kuz Tiraj,diacritics-folded
+osm_overpass_pk,Manz Mārtung,Manz Martung,diacritics-folded
+osm_overpass_pk,Manī Khel,Mani Khel,diacritics-folded
+osm_overpass_pk,Polādai,Poladai,diacritics-folded
+osm_overpass_pk,Shiltālān,Shiltalan,diacritics-folded
+osm_overpass_pk,Alīgai,Aligai,diacritics-folded
+osm_overpass_pk,Bar Tīrāj,Bar Tiraj,diacritics-folded
+osm_overpass_pk,Bāzārkot,Bazarkot,diacritics-folded
+osm_overpass_pk,Dandkūl,Dandkul,diacritics-folded
+osm_overpass_pk,Dūrbanai,Durbanai,diacritics-folded
+osm_overpass_pk,Gul Bānda,Gul Banda,diacritics-folded
+osm_overpass_pk,Hāshmī Bānda,Hashmi Banda,diacritics-folded
+osm_overpass_pk,Khūkai,Khukai,diacritics-folded
+osm_overpass_pk,Kotwāl,Kotwal,diacritics-folded
+osm_overpass_pk,Murādu,Muradu,diacritics-folded
+osm_overpass_pk,Mārkhware,Markhware,diacritics-folded
+osm_overpass_pk,Sandāpatai,Sandapatai,diacritics-folded
+osm_overpass_pk,Tītwalān,Titwalan,diacritics-folded
+osm_overpass_pk,Tītwālān,Titwalan,diacritics-folded
+osm_overpass_pk,Kānbela,Kanbela,diacritics-folded
+osm_overpass_pk,Rasūl Bānda,Rasul Banda,diacritics-folded
+osm_overpass_pk,Pīshkand,Pishkand,diacritics-folded
+osm_overpass_pk,Baglelā,Baglela,diacritics-folded
+osm_overpass_pk,Barābarai,Barabarai,diacritics-folded
+osm_overpass_pk,Bunerwāl,Bunerwal,diacritics-folded
+osm_overpass_pk,Dunkācha,Dunkacha,diacritics-folded
+osm_overpass_pk,Gīdarai,Gidarai,diacritics-folded
+osm_overpass_pk,Kandao Bānda,Kandao Banda,diacritics-folded
+osm_overpass_pk,Khwār Bānda,Khwar Banda,diacritics-folded
+osm_overpass_pk,Kulālai,Kulalai,diacritics-folded
+osm_overpass_pk,Kuz Hawārai,Kuz Hawarai,diacritics-folded
+osm_overpass_pk,Kūhai,Kuhai,diacritics-folded
+osm_overpass_pk,Kūhai,Kuhai,diacritics-folded
+osm_overpass_pk,Lawānrai,Lawanrai,diacritics-folded
+osm_overpass_pk,Machai Khwār,Machai Khwar,diacritics-folded
+osm_overpass_pk,Mārtoba,Martoba,diacritics-folded
+osm_overpass_pk,Pūran,Puran,diacritics-folded
+osm_overpass_pk,Tār Serai,Tar Serai,diacritics-folded
+osm_overpass_pk,Bar Māchār,Bar Machar,diacritics-folded
+osm_overpass_pk,Khānpur,Khanpur,diacritics-folded
+osm_overpass_pk,Kānaba,Kanaba,diacritics-folded
+osm_overpass_pk,Kūz Māchār,Kuz Machar,diacritics-folded
+osm_overpass_pk,Mānosar,Manosar,diacritics-folded
+osm_overpass_pk,Shilmānai,Shilmanai,diacritics-folded
+osm_overpass_pk,koorona,Koorona,recased
+osm_overpass_pk,korona,Korona,recased
+osm_overpass_pk,KOROUNA,Korouna,recased
+osm_overpass_pk,KORONA,Korona,recased
+osm_overpass_pk,Duber Bāzār,Duber Bazar,diacritics-folded
+osm_overpass_pk,Dahār,Dahar,diacritics-folded
+osm_overpass_pk,Dān,Dan,diacritics-folded
+osm_overpass_pk,Jhāmbra,Jhambra,diacritics-folded
+osm_overpass_pk,Māria Bānda,Maria Banda,diacritics-folded
+osm_overpass_pk,Rānolia Bar Kalle,Ranolia Bar Kalle,diacritics-folded
+osm_overpass_pk,Rānolia Kūz Kalle,Ranolia Kuz Kalle,diacritics-folded
+osm_overpass_pk,Segān,Segan,diacritics-folded
+osm_overpass_pk,Shitgāl,Shitgal,diacritics-folded
+osm_overpass_pk,Shūngial,Shungial,diacritics-folded
+osm_overpass_pk,Jānchal,Janchal,diacritics-folded
+osm_overpass_pk,winder lasebela,Winder Lasebela,recased
+osm_overpass_pk,NASEER ABAD,Naseer Abad,recased
+osm_overpass_pk,KURI SARFRAZ,Kuri Sarfraz,recased
+osm_overpass_pk,JAND NAJJAR,Jand Najjar,recased
+osm_overpass_pk,DHOKE PEER MOHAMMADIAN,Dhoke Peer Mohammadian,recased
+osm_overpass_pk,MUGHAL CHAWAK,Mughal Chawak,recased
+osm_overpass_pk,KAULLAN,Kaullan,recased
+osm_overpass_pk,DHOKE KASHMIRIAN,Dhoke Kashmirian,recased
+osm_overpass_pk,DHOKE KASWAL,Dhoke Kaswal,recased
+osm_overpass_pk,MOHRA JANYAAL,Mohra Janyaal,recased
+osm_overpass_pk,NARALI MIRZIAN,Narali Mirzian,recased
+osm_overpass_pk,MOZA ARAAZI KORKI,Moza Araazi Korki,recased
+osm_overpass_pk,CHANNI,Channi,recased
+osm_overpass_pk,MOHRA HAFYAL,Mohra Hafyal,recased
+osm_overpass_pk,GURA HAFYAL,Gura Hafyal,recased
+osm_overpass_pk,DHOKE PLAAN,Dhoke Plaan,recased
+osm_overpass_pk,MUHRI WANCE,Muhri Wance,recased
+osm_overpass_pk,DHOKE NAWAB WALI,Dhoke Nawab Wali,recased
+osm_overpass_pk,MOHRA MASHRIAL,Mohra Mashrial,recased
+osm_overpass_pk,JANDI NA MOHRA,Jandi Na Mohra,recased
+osm_overpass_pk,PAARI DHOKE,Paari Dhoke,recased
+osm_overpass_pk,SAYADA NI DHOKE,Sayada Ni Dhoke,recased
+osm_overpass_pk,DHOKE MUHAMMAD HAFYAL,Dhoke Muhammad Hafyal,recased
+osm_overpass_pk,DHOKE MUGHLAN,Dhoke Mughlan,recased
+osm_overpass_pk,JABBER,Jabber,recased
+osm_overpass_pk,DHOKE HAIDRI,Dhoke Haidri,recased
+osm_overpass_pk,lass,Lass,recased
+osm_overpass_pk,Lurhiki (Bangla ),Lurhiki,stripped-parenthetical
+osm_overpass_pk,kalo pind,Kalo Pind,recased
+osm_overpass_pk,GHOT BAGHRAL,Ghot Baghral,recased
+osm_overpass_pk,GHOT,Ghot,recased
+osm_overpass_pk,GHOT,Ghot,recased
+osm_overpass_pk,"Barrian, Azad Kashmir",Barrian,comma-qualifier-stripped
+osm_overpass_pk,kandwalu,Kandwalu,recased
+osm_overpass_pk,lasharian,Lasharian,recased
+osm_overpass_pk,Torkhot (Khot Bala),Torkhot,stripped-parenthetical
+osm_overpass_pk,"Zani, Mulkhow",Zani,comma-qualifier-stripped
+osm_overpass_pk,CHAK NO 98/15-L,Chak No 98/15-L,recased
+osm_overpass_pk,32-35 chak,32-35 Chak,recased
+osm_overpass_pk,Goth Allāh Dino,Goth Allah Dino,diacritics-folded
+osm_overpass_pk,Goth Shāhmir,Goth Shahmir,diacritics-folded
+osm_overpass_pk,Jārka,Jarka,diacritics-folded
+osm_overpass_pk,14 ML,14 Ml,recased
+osm_overpass_pk,42 MB,42 Mb,recased
+osm_overpass_pk,189/TDA,189/Tda,recased
+osm_overpass_pk,Janat Mīr,Janat Mir,diacritics-folded
+osm_overpass_pk,Malik Shāhi,Malik Shahi,diacritics-folded
+osm_overpass_pk,khatana,Khatana,recased
+osm_overpass_pk,Chak Gillān,Chak Gillan,diacritics-folded
+osm_overpass_pk,"Wali Dad Goth, Malir",Wali Dad Goth,comma-qualifier-stripped
+osm_overpass_pk,"Juma Goth,",Juma Goth,comma-qualifier-stripped
+osm_overpass_pk,Chak  47,Chak 47,whitespace
+osm_overpass_pk,PNWHS,Pnwhs,recased
+osm_overpass_pk,KHAJOORI,Khajoori,recased
+osm_overpass_pk,sayad lok,Sayad Lok,recased
+osm_overpass_pk,Tiba  Manak Bosal,Tiba Manak Bosal,whitespace
+osm_overpass_pk,Hastay wala (Kot Hasat Khan),Hastay wala,stripped-parenthetical
+osm_overpass_pk,Ispikān,Ispikan,diacritics-folded
+osm_overpass_pk,terona,Terona,recased
+osm_overpass_pk,dheri,Dheri,recased
+osm_overpass_pk,Khan khel  kaar,Khan khel kaar,whitespace
+osm_overpass_pk,Kotli Īsa,Kotli Isa,diacritics-folded
+osm_overpass_pk,Arghāniān,Arghanian,diacritics-folded
+osm_overpass_pk,Chak 22 (Bhagowal),Chak 22,stripped-parenthetical
+osm_overpass_pk,natt,Natt,recased
+osm_overpass_pk,Marūfābād,Marufabad,diacritics-folded
+osm_overpass_pk,Kuliān Rāīān,Kulian Raian,diacritics-folded
+osm_overpass_pk,"Dak, Ðak",Dak,comma-qualifier-stripped
+osm_overpass_pk,nasarpur,Nasarpur,recased
+osm_overpass_pk,Amir Bux  Kaleri,Amir Bux Kaleri,whitespace
+osm_overpass_pk,Goth Yaqūb Hālīpota,Goth Yaqub Halipota,diacritics-folded
+osm_overpass_pk,goth syed jandullo bad shah and syed imdad shah,Goth Syed Jandullo Bad Shah And Syed Imdad Shah,recased
+osm_overpass_pk,BEEMIANWALA,Beemianwala,recased
+osm_overpass_pk,CHAK 257 EB,Chak 257 Eb,recased
+osm_overpass_pk,logay,Logay,recased
+osm_overpass_pk,Pukkay (Mallian),Pukkay,stripped-parenthetical
+osm_overpass_pk,Chak  367 EB,Chak 367 EB,whitespace
+osm_overpass_pk,SUBHANABAD,Subhanabad,recased
+osm_overpass_pk,"Nankana Sahib, Punjab",Nankana Sahib,comma-qualifier-stripped
+osm_overpass_pk,Lālogali,Lalogali,diacritics-folded
+osm_overpass_pk,IMAM BUX SHAR,Imam Bux Shar,recased
+osm_overpass_pk,Zarai farm Mian Riaz (Hashim ke),Zarai farm Mian Riaz,stripped-parenthetical
+osm_overpass_pk,korkani villages,Korkani Villages,recased
+osm_overpass_pk,"Dera Pakistani, Mekan",Dera Pakistani,comma-qualifier-stripped
+osm_overpass_pk,Zahid  Bajwa House,Zahid Bajwa House,whitespace
+osm_overpass_pk,114sb,114Sb,recased
+osm_overpass_pk,Rattoha  Muhammad Ali,Rattoha Muhammad Ali,whitespace
+osm_overpass_pk,GOTH HAJI SULEMAN MAHAR,Goth Haji Suleman Mahar,recased
+osm_overpass_pk,LODHIABAD,Lodhiabad,recased
+osm_overpass_pk,Jhang Bagiāl,Jhang Bagial,diacritics-folded
+osm_overpass_pk,Chak Ogāh,Chak Ogah,diacritics-folded
+osm_overpass_pk,SAMAN JO WERHO,Saman Jo Werho,recased
+osm_overpass_pk,Farooq  Town Board,Farooq Town Board,whitespace
+osm_overpass_pk,WANDA NIWAZYKHAIL,Wanda Niwazykhail,recased
+osm_overpass_pk,Goth Bolāri,Goth Bolari,diacritics-folded
+osm_overpass_pk,Lengāi Goth,Lengai Goth,diacritics-folded
+osm_overpass_pk,Goth Muhammad Khān Shoro,Goth Muhammad Khan Shoro,diacritics-folded
+osm_overpass_pk,97WB,97Wb,recased
+osm_overpass_pk,chappar,Chappar,recased
+osm_overpass_pk,mumtaz abad,Mumtaz Abad,recased
+osm_overpass_pk,pul gharat,Pul Gharat,recased
+osm_overpass_pk,"Chak 32 ML, Bhakkar",Chak 32 ML,comma-qualifier-stripped
+osm_overpass_pk,kanoor shareef,Kanoor Shareef,recased
+osm_overpass_pk,CHAK 187/7 R,Chak 187/7 R,recased
+osm_overpass_pk,"Chak No 291 JB, Gumtala",Chak No 291 JB,comma-qualifier-stripped
+osm_overpass_pk,83WB,83Wb,recased
+osm_overpass_pk,87WB,87Wb,recased
+osm_overpass_pk,IslamPur (Ganga-Singh),IslamPur,stripped-parenthetical
+osm_overpass_pk,SADAAM,Sadaam,recased
+osm_overpass_pk,kunru,Kunru,recased
+osm_overpass_pk,NAKKA ZIYARAT VILLAGE,Nakka Ziyarat Village,recased
+osm_overpass_pk,CHAK 186/7 R,Chak 186/7 R,recased
+osm_overpass_pk,CHAK 209/9-R,Chak 209/9-R,recased
+osm_overpass_pk,CHAK 189/7-R,Chak 189/7-R,recased
+osm_overpass_pk,"CHAK 208/9 R, JAN MUHAMMAD RAMAY WALA",Chak 208/9 R,comma-qualifier-stripped;recased
+osm_overpass_pk,85WB,85Wb,recased
+osm_overpass_pk,CHOWK SETHAR,Chowk Sethar,recased
+osm_overpass_pk,Rattoha  Muhammad Ali,Rattoha Muhammad Ali,whitespace
+osm_overpass_pk,KOT TAHIR,Kot Tahir,recased
+osm_overpass_pk,rehmanabad,Rehmanabad,recased
+osm_overpass_pk,KHANPUR,Khanpur,recased
+osm_overpass_pk,"Inger Kalay Molagori, Zaim, Tehsil Tangi, District Charsadda, Khyber Pakhtunkhwa, Pakistan",Inger Kalay Molagori,comma-qualifier-stripped
+osm_overpass_pk,khalifa  Town,khalifa Town,whitespace

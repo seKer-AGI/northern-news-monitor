@@ -1,0 +1,637 @@
+[
+  {
+    "city": "Karachi",
+    "pop2026": 21243390,
+    "growthRate": 0.040317322544750844
+  },
+  {
+    "city": "Lahore",
+    "pop2026": 14062745,
+    "growthRate": 0.02643046148750372
+  },
+  {
+    "city": "Faisalabad",
+    "pop2026": 3959398,
+    "growthRate": 0.023581632705820255
+  },
+  {
+    "city": "Rawalpindi",
+    "pop2026": 3900989,
+    "growthRate": 0.05127124410662587
+  },
+  {
+    "city": "Gujranwala",
+    "pop2026": 2793969,
+    "growthRate": 0.03621873136343279
+  },
+  {
+    "city": "Multan",
+    "pop2026": 2409602,
+    "growthRate": 0.02840839251570615
+  },
+  {
+    "city": "Hyderabad",
+    "pop2026": 2022586,
+    "growthRate": 0.01727662108522332
+  },
+  {
+    "city": "Peshawar",
+    "pop2026": 1874831,
+    "growthRate": -0.005477000311910563
+  },
+  {
+    "city": "Quetta",
+    "pop2026": 1818905,
+    "growthRate": 0.05127106986722896
+  },
+  {
+    "city": "Islamabad",
+    "pop2026": 1162454,
+    "growthRate": 0.015854067771726488
+  },
+  {
+    "city": "Sargodha",
+    "pop2026": 1133818,
+    "growthRate": 0.051271138902255986
+  },
+  {
+    "city": "Sialkot",
+    "pop2026": 1059380,
+    "growthRate": 0.05127049936787631
+  },
+  {
+    "city": "Bahawalpur",
+    "pop2026": 983800,
+    "growthRate": 0.028677065666778967
+  },
+  {
+    "city": "Jhang",
+    "pop2026": 704691,
+    "growthRate": 0.051270805268504915
+  },
+  {
+    "city": "Gujrat",
+    "pop2026": 667172,
+    "growthRate": 0.05127215256691664
+  },
+  {
+    "city": "Sheikhupura",
+    "pop2026": 661141,
+    "growthRate": 0.037842564133154566
+  },
+  {
+    "city": "Sahiwal",
+    "pop2026": 625466,
+    "growthRate": 0.05127050130932731
+  },
+  {
+    "city": "Okara",
+    "pop2026": 620063,
+    "growthRate": 0.05127140052422585
+  },
+  {
+    "city": "Sukkur",
+    "pop2026": 598532,
+    "growthRate": 0.020095749231773485
+  },
+  {
+    "city": "Kasur",
+    "pop2026": 593552,
+    "growthRate": 0.051271333536425434
+  },
+  {
+    "city": "Larkana",
+    "pop2026": 586625,
+    "growthRate": 0.02066115702479343
+  },
+  {
+    "city": "Rahimyar Khan",
+    "pop2026": 576709,
+    "growthRate": 0.035596154329611496
+  },
+  {
+    "city": "Dera Ghazi Khan",
+    "pop2026": 551580,
+    "growthRate": 0.03710862583765162
+  },
+  {
+    "city": "Burewala",
+    "pop2026": 420194,
+    "growthRate": 0.05127082494164381
+  },
+  {
+    "city": "Nawabshah",
+    "pop2026": 414040,
+    "growthRate": 0.04469552842861679
+  },
+  {
+    "city": "Wah Cantonment",
+    "pop2026": 411772,
+    "growthRate": 0.009099174384096465
+  },
+  {
+    "city": "Mingora",
+    "pop2026": 376966,
+    "growthRate": 0.014426608899234417
+  },
+  {
+    "city": "Mardan",
+    "pop2026": 373031,
+    "growthRate": 0.004261700157222492
+  },
+  {
+    "city": "Jhelum",
+    "pop2026": 362987,
+    "growthRate": 0.05127083791893061
+  },
+  {
+    "city": "Hafizabad",
+    "pop2026": 362797,
+    "growthRate": 0.044230492473303906
+  },
+  {
+    "city": "Chiniot",
+    "pop2026": 340051,
+    "growthRate": 0.022423803267056064
+  },
+  {
+    "city": "Kamoke",
+    "pop2026": 316365,
+    "growthRate": 0.02704904993945445
+  },
+  {
+    "city": "Turbat",
+    "pop2026": 301082,
+    "growthRate": 0.038754661910167076
+  },
+  {
+    "city": "Khanewal",
+    "pop2026": 299380,
+    "growthRate": 0.020270454483491962
+  },
+  {
+    "city": "Muridke",
+    "pop2026": 295444,
+    "growthRate": 0.0512711939793975
+  },
+  {
+    "city": "Sadiqabad",
+    "pop2026": 294138,
+    "growthRate": 0.023661946342125484
+  },
+  {
+    "city": "Mirpur Khas",
+    "pop2026": 286460,
+    "growthRate": 0.022662363625978177
+  },
+  {
+    "city": "Khanpur",
+    "pop2026": 286183,
+    "growthRate": 0.050066412757120204
+  },
+  {
+    "city": "Bahawalnagar",
+    "pop2026": 281016,
+    "growthRate": 0.051269869178597105
+  },
+  {
+    "city": "Daska",
+    "pop2026": 261008,
+    "growthRate": 0.0451440332513795
+  },
+  {
+    "city": "Chakwal",
+    "pop2026": 253693,
+    "growthRate": 0.05126781341035391
+  },
+  {
+    "city": "Mandi Bahauddin",
+    "pop2026": 251309,
+    "growthRate": 0.026475838040739053
+  },
+  {
+    "city": "Muzaffargarh",
+    "pop2026": 249512,
+    "growthRate": 0.01939411272036451
+  },
+  {
+    "city": "Abbottabad",
+    "pop2026": 248830,
+    "growthRate": 0.020121186280860348
+  },
+  {
+    "city": "Pakpattan",
+    "pop2026": 247635,
+    "growthRate": 0.03822353029960013
+  },
+  {
+    "city": "Vehari",
+    "pop2026": 244320,
+    "growthRate": 0.05127278360097076
+  },
+  {
+    "city": "Kohat",
+    "pop2026": 239630,
+    "growthRate": 0.005273248228616412
+  },
+  {
+    "city": "Khuzdar",
+    "pop2026": 238481,
+    "growthRate": 0.03020445895917301
+  },
+  {
+    "city": "Gojra",
+    "pop2026": 237341,
+    "growthRate": 0.03454874354336024
+  },
+  {
+    "city": "Jacobabad",
+    "pop2026": 234949,
+    "growthRate": 0.023216820980933583
+  },
+  {
+    "city": "Ahmadpur East",
+    "pop2026": 228438,
+    "growthRate": 0.051275679257786644
+  },
+  {
+    "city": "Dera Ismail Khan",
+    "pop2026": 221865,
+    "growthRate": 0.0019464038946142015
+  },
+  {
+    "city": "Chishtian",
+    "pop2026": 218327,
+    "growthRate": 0.043034793783650827
+  },
+  {
+    "city": "Shikarpur",
+    "pop2026": 209474,
+    "growthRate": 0.007323840712475604
+  },
+  {
+    "city": "Hub",
+    "pop2026": 205240,
+    "growthRate": 0.016059723954929828
+  },
+  {
+    "city": "Samundri",
+    "pop2026": 203097,
+    "growthRate": 0.029063492787328782
+  },
+  {
+    "city": "Firozwala",
+    "pop2026": 198585,
+    "growthRate": 0.03863534137386382
+  },
+  {
+    "city": "Dadu",
+    "pop2026": 197438,
+    "growthRate": 0.015888860303576058
+  },
+  {
+    "city": "Hasilpur",
+    "pop2026": 195358,
+    "growthRate": 0.05127266856804602
+  },
+  {
+    "city": "Khairpur",
+    "pop2026": 195134,
+    "growthRate": 0.007086049308168363
+  },
+  {
+    "city": "Attock",
+    "pop2026": 193616,
+    "growthRate": 0.031249167771865594
+  },
+  {
+    "city": "Tando Adam",
+    "pop2026": 186619,
+    "growthRate": 0.023046350354959833
+  },
+  {
+    "city": "Kamalia",
+    "pop2026": 184642,
+    "growthRate": 0.03483217226092461
+  },
+  {
+    "city": "Panjgur",
+    "pop2026": 183213,
+    "growthRate": 0.05126866271130037
+  },
+  {
+    "city": "Arifwala",
+    "pop2026": 182481,
+    "growthRate": 0.05127289277052216
+  },
+  {
+    "city": "Jaranwala",
+    "pop2026": 181950,
+    "growthRate": 0.02116411024868259
+  },
+  {
+    "city": "Jampur",
+    "pop2026": 180367,
+    "growthRate": 0.05127353266888157
+  },
+  {
+    "city": "Jatoi",
+    "pop2026": 180312,
+    "growthRate": 0.05127158665562792
+  },
+  {
+    "city": "Swabi",
+    "pop2026": 176235,
+    "growthRate": 0.04039127945074461
+  },
+  {
+    "city": "Bolhari",
+    "pop2026": 175603,
+    "growthRate": 0.011637084276685972
+  },
+  {
+    "city": "Shujabad",
+    "pop2026": 175571,
+    "growthRate": 0.051272992910519344
+  },
+  {
+    "city": "Tando Allahyar",
+    "pop2026": 175524,
+    "growthRate": 0.008376133190858726
+  },
+  {
+    "city": "Harunabad",
+    "pop2026": 173902,
+    "growthRate": 0.051269185895381986
+  },
+  {
+    "city": "Kot Abdul Malik",
+    "pop2026": 172415,
+    "growthRate": 0.020925977463420953
+  },
+  {
+    "city": "Jalalpur Jattan",
+    "pop2026": 170491,
+    "growthRate": 0.051271458168902884
+  },
+  {
+    "city": "Gujranwala Cantonment",
+    "pop2026": 168005,
+    "growthRate": 0.02299228516279106
+  },
+  {
+    "city": "Wazirabad",
+    "pop2026": 166597,
+    "growthRate": 0.029634985970507177
+  },
+  {
+    "city": "Moro",
+    "pop2026": 165776,
+    "growthRate": 0.0512711568827644
+  },
+  {
+    "city": "Layyah",
+    "pop2026": 165717,
+    "growthRate": 0.030866847065410097
+  },
+  {
+    "city": "Mian Channu",
+    "pop2026": 162787,
+    "growthRate": 0.05126963215540403
+  },
+  {
+    "city": "Lodhran",
+    "pop2026": 160086,
+    "growthRate": 0.034708756689676656
+  },
+  {
+    "city": "Rajanpur",
+    "pop2026": 159814,
+    "growthRate": 0.05126956979344821
+  },
+  {
+    "city": "Khushab",
+    "pop2026": 151426,
+    "growthRate": 0.026728323072333193
+  },
+  {
+    "city": "Umerkot",
+    "pop2026": 150035,
+    "growthRate": 0.01247072955117523
+  },
+  {
+    "city": "Kot Addu",
+    "pop2026": 148742,
+    "growthRate": 0.015199808893287425
+  },
+  {
+    "city": "Shakargarh",
+    "pop2026": 147253,
+    "growthRate": 0.051266491518647594
+  },
+  {
+    "city": "Narowal",
+    "pop2026": 147124,
+    "growthRate": 0.040267554744783496
+  },
+  {
+    "city": "Mailsi",
+    "pop2026": 145730,
+    "growthRate": 0.0512685485092661
+  },
+  {
+    "city": "Taxila",
+    "pop2026": 145011,
+    "growthRate": 0.019366494207625706
+  },
+  {
+    "city": "Alipur",
+    "pop2026": 143175,
+    "growthRate": 0.05127320253759393
+  },
+  {
+    "city": "Toba Tek Singh",
+    "pop2026": 143024,
+    "growthRate": 0.05126829304147762
+  },
+  {
+    "city": "Mansehra",
+    "pop2026": 142364,
+    "growthRate": 0.012200671179113831
+  },
+  {
+    "city": "Bhakkar",
+    "pop2026": 142234,
+    "growthRate": 0.026093480597617846
+  },
+  {
+    "city": "Haveli Lakha",
+    "pop2026": 142196,
+    "growthRate": 0.05127124596151145
+  },
+  {
+    "city": "Kabal",
+    "pop2026": 140499,
+    "growthRate": 0.019608554612945195
+  },
+  {
+    "city": "Lala Musa",
+    "pop2026": 139157,
+    "growthRate": 0.04760076486441722
+  },
+  {
+    "city": "Dipalpur",
+    "pop2026": 136181,
+    "growthRate": 0.03519547551900026
+  },
+  {
+    "city": "Mianwali",
+    "pop2026": 135169,
+    "growthRate": 0.014386275628133216
+  },
+  {
+    "city": "Chaman",
+    "pop2026": 133750,
+    "growthRate": 0.009159775457234343
+  },
+  {
+    "city": "Pattoki",
+    "pop2026": 129479,
+    "growthRate": 0.044160221930114485
+  },
+  {
+    "city": "Bhalwal",
+    "pop2026": 128304,
+    "growthRate": 0.0283488422419389
+  },
+  {
+    "city": "Faruqabad",
+    "pop2026": 127473,
+    "growthRate": 0.051271689648347385
+  },
+  {
+    "city": "Barikot",
+    "pop2026": 127260,
+    "growthRate": 0.034205329497525305
+  },
+  {
+    "city": "Phulnagar",
+    "pop2026": 127206,
+    "growthRate": 0.03560961313012889
+  },
+  {
+    "city": "Taunsa",
+    "pop2026": 126242,
+    "growthRate": 0.029479641514511545
+  },
+  {
+    "city": "Jauharabad",
+    "pop2026": 125988,
+    "growthRate": 0.03635825217162414
+  },
+  {
+    "city": "Pishin",
+    "pop2026": 125067,
+    "growthRate": 0.05127472324257987
+  },
+  {
+    "city": "Sambrial",
+    "pop2026": 124984,
+    "growthRate": 0.014867684912263535
+  },
+  {
+    "city": "Ghotki",
+    "pop2026": 124359,
+    "growthRate": 0.012307992869178719
+  },
+  {
+    "city": "Nowshera",
+    "pop2026": 124314,
+    "growthRate": 0.003673532000096902
+  },
+  {
+    "city": "Charsadda",
+    "pop2026": 123078,
+    "growthRate": 0.00800157246869393
+  },
+  {
+    "city": "Chichawatni",
+    "pop2026": 122092,
+    "growthRate": 0.028593573606968903
+  },
+  {
+    "city": "Shahdadkot",
+    "pop2026": 121573,
+    "growthRate": 0.0024406936187406636
+  },
+  {
+    "city": "Tando Muhammad Khan",
+    "pop2026": 121242,
+    "growthRate": 0.019534304862973917
+  },
+  {
+    "city": "Shahdadpur",
+    "pop2026": 120868,
+    "growthRate": 0.021664342166434203
+  },
+  {
+    "city": "Sangla Hill",
+    "pop2026": 120493,
+    "growthRate": 0.051275563621134834
+  },
+  {
+    "city": "Badin",
+    "pop2026": 120071,
+    "growthRate": 0.007374656017182346
+  },
+  {
+    "city": "Kot Radha Kishan",
+    "pop2026": 118573,
+    "growthRate": 0.05127227591098493
+  },
+  {
+    "city": "Kambar Ali Khan",
+    "pop2026": 118454,
+    "growthRate": 0.017908395634613772
+  },
+  {
+    "city": "Renala Khurd",
+    "pop2026": 116246,
+    "growthRate": 0.051267442596561574
+  },
+  {
+    "city": "Pasrur",
+    "pop2026": 114643,
+    "growthRate": 0.03728669405186302
+  },
+  {
+    "city": "Dera Murad Jamali",
+    "pop2026": 112703,
+    "growthRate": 0.01761593470095346
+  },
+  {
+    "city": "Kharian",
+    "pop2026": 111766,
+    "growthRate": 0.027487681106126427
+  },
+  {
+    "city": "Gujar Khan",
+    "pop2026": 110553,
+    "growthRate": 0.02292852185981964
+  },
+  {
+    "city": "Kotri",
+    "pop2026": 109471,
+    "growthRate": 0.008847029333431733
+  },
+  {
+    "city": "Shabqadar",
+    "pop2026": 108238,
+    "growthRate": 0.01885442650727165
+  },
+  {
+    "city": "Ludhewala Waraich",
+    "pop2026": 104764,
+    "growthRate": 0.014516050936909997
+  }
+]
