@@ -1,0 +1,46 @@
+Pakistan places master - build summary
+============================================================
+Sources inspected: 9   (files/dirs in project inventory; see reports/source_inventory.csv)
+Sources used: 4
+Raw records collected: 179295
+Records after filtering: 179082
+Unique final place names: 130676
+Potential duplicates for review: 6031
+Northern-area validation records: 390 place checks across 45 regions (+4 province rows)
+
+Deduplication ladder:
+  L0 records after filtering: 179082
+  L1 distinct after exact-duplicate removal: 130857
+  L2 distinct after case-insensitive: 130690
+  L3 distinct after whitespace-normalised: 130690
+  L4 distinct after obvious-format (diacritic/quote/dot) normalisation: 130676
+
+Per-source contribution:
+  geonames_PK: considered=145810, kept=145727, unique=112447, new_in_priority_order=112447, exclusive=101573
+  postal_areas_csv: considered=6444, kept=6359, unique=6082, new_in_priority_order=4394, exclusive=3993
+  cities_json_127: considered=127, kept=127, unique=127, new_in_priority_order=9, exclusive=4
+  osm_overpass_pk: considered=26914, kept=26869, unique=24316, new_in_priority_order=13826, exclusive=13826
+
+Excluded records by reason:
+  GeoNames PPLX = section of a populated place (neighbourhood, no independent identity): 3514
+  OSM place=neighbourhood (not a populated settlement type we keep): 2613
+  OSM place=suburb (not a populated settlement type we keep): 1002
+  GeoNames PPLQ = abandoned populated place: 923
+  OSM place=locality (not a populated settlement type we keep): 602
+  no Latin-script name tag: 405
+  GeoNames PPLW = destroyed populated place: 154
+  OSM place=quarter (not a populated settlement type we keep): 129
+  non-settlement-keyword: 93
+  generic-single-word: 36
+  road/bridge/barrage-infrastructure: 32
+  generic-numbered-subunit: 25
+  administrative-unit-name: 19
+  OSM place=isolated_dwelling (not a populated settlement type we keep): 10
+  non-latin-characters: 5
+  blank-after-cleaning: 2
+  GeoNames PPLH = historical populated place: 1
+  too-short: 1
+
+Northern checklist status counts: {'FOUND': 335, 'ALIAS_ONLY_IN_GEONAMES_ALTNAMES': 9, 'MISSING': 30, 'FOUND_VARIANT_SPELLING': 15, 'FOUND_FORMAT_VARIANT': 1}
+Regions flagged LOW/REVIEW: 18 of 45
+All quality checks passed.

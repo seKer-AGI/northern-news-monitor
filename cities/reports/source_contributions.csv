@@ -1,0 +1,5 @@
+source,priority_order,raw_records_considered,excluded_by_filters,records_kept,unique_names_offered,new_unique_names_added_in_priority_order,unique_names_found_only_in_this_source
+geonames_PK,1,145810,83,145727,112447,112447,101573
+postal_areas_csv,2,6444,85,6359,6082,4394,3993
+cities_json_127,3,127,0,127,127,9,4
+osm_overpass_pk,4,26914,45,26869,24316,13826,13826
